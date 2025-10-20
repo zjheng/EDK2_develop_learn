@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = Udp4Dxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = NetworkPkg\Udp4Dxe
 PACKAGE_RELATIVE_DIR = Udp4Dxe
-MODULE_DIR = D:\develop\EDK2\edk2\NetworkPkg\Udp4Dxe
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\6d6963ab-906d-4a65-a7ca-bd40e5d6af2bUdp4Dxe
+MODULE_DIR = D:\develop\Self_develop\edk2\NetworkPkg\Udp4Dxe
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\6d6963ab-906d-4a65-a7ca-bd40e5d6af2bUdp4Dxe
 
 MODULE_ENTRY_POINT = Udp4DriverEntryPoint
 ARCH_ENTRY_POINT = Udp4DriverEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_4 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\cc_resp_4.txt
+cc_resp_4 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\cc_resp_4.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -228,9 +228,9 @@ INC =  \
     /I$(WORKSPACE)\NetworkPkg \
     /I$(WORKSPACE)\NetworkPkg\Include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\static_library_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\ComponentName.obj $(OUTPUT_DIR)\Udp4Driver.obj $(OUTPUT_DIR)\Udp4Main.obj $(OUTPUT_DIR)\Udp4Impl.obj
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\static_library_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\Udp4Impl.obj $(OUTPUT_DIR)\Udp4Driver.obj $(OUTPUT_DIR)\Udp4Main.obj $(OUTPUT_DIR)\ComponentName.obj
 
 
 #
@@ -240,7 +240,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\Udp4Dxe.efi \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\Udp4Dxe.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -337,29 +337,29 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\NetworkPkg\Udp4Dxe\ComponentName.c \
+	$(WORKSPACE)\NetworkPkg\Udp4Dxe\Udp4Impl.c \
 	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\NetworkPkg\Udp4Dxe\ComponentName.c \
 	$(WORKSPACE)\NetworkPkg\Udp4Dxe\Udp4Main.c \
 	$(DEBUG_DIR)\AutoGen.c \
-	$(WORKSPACE)\NetworkPkg\Udp4Dxe\Udp4Impl.c \
 	$(WORKSPACE)\NetworkPkg\Udp4Dxe\Udp4Driver.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_4)
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_4)
 
 $(OUTPUT_DIR)\Udp4Dxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\Udp4Dxe.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\Udp4Dxe.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\Udp4Dxe.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\Udp4Dxe.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\Udp4Dxe.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\Udp4Dxe.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG\Udp4Dxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG\Udp4Dxe.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG\Udp4Dxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG\Udp4Dxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG\Udp4Dxe.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG\Udp4Dxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\Udp4Dxe.efi : $(DEBUG_DIR)\Udp4Dxe.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\Udp4Dxe.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG\Udp4Dxe.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\Udp4Dxe.efi $(DEBUG_DIR)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\Udp4Dxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\Udp4Dxe.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG\Udp4Dxe.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\Udp4Dxe.efi $(DEBUG_DIR)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Udp4Dxe\Udp4Dxe\OUTPUT\Udp4Dxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

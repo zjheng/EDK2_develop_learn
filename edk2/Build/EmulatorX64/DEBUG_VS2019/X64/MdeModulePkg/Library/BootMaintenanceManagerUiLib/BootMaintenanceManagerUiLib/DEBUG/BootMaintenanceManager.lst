@@ -1,8 +1,8 @@
 //
 //  VFR compiler version  2.01 (UEFI 2.4) Developer Build based on Revision: Unknown
 //
-#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
-#line 1 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
+#line 1 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
 
 
 
@@ -177,19 +177,19 @@ extern unsigned char BootMaintenanceManagerUiLibStrings[];
 
 
 
-#line 176 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
+#line 176 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
 
-#line 178 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
-
-
+#line 178 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
 
 
 
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\FormGuid.h"
+
+
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\FormGuid.h"
 
 
 
@@ -393,8 +393,8 @@ typedef struct {
   UINT8      ForceReconnect;
 } BMM_FAKE_NV_DATA;
 
-#line 205 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\FormGuid.h"
-#line 10 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
+#line 205 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\FormGuid.h"
+#line 10 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
 
 formset
 >00000000: 0E A7 C7 37 22 64 D4 35 2D 47 83 65 12 E0 CC F2 7A 22 05 00 07 00 01 F8 09 88 E5 C1 FB E2 48 88 3A A3 0F DC 4B 44 1E 

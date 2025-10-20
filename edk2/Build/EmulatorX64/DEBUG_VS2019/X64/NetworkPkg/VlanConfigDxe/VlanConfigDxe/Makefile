@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = VlanConfigDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = NetworkPkg\VlanConfigDxe
 PACKAGE_RELATIVE_DIR = VlanConfigDxe
-MODULE_DIR = D:\develop\EDK2\edk2\NetworkPkg\VlanConfigDxe
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe
+MODULE_DIR = D:\develop\Self_develop\edk2\NetworkPkg\VlanConfigDxe
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe
 
 MODULE_ENTRY_POINT = VlanConfigDriverEntryPoint
 ARCH_ENTRY_POINT = VlanConfigDriverEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_4 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\cc_resp_4.txt
+cc_resp_4 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\cc_resp_4.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -231,8 +231,8 @@ INC =  \
     /I$(WORKSPACE)\NetworkPkg \
     /I$(WORKSPACE)\NetworkPkg\Include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\static_library_files.lst
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\static_library_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\VlanConfigImpl.obj $(OUTPUT_DIR)\VlanConfigDriver.obj $(OUTPUT_DIR)\VlanConfig.obj $(OUTPUT_DIR)\ComponentName.obj
 
 
@@ -243,7 +243,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\VlanConfigDxe.efi \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\VlanConfigDxe.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -341,29 +341,29 @@ gen_fds:
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
 	$(DEBUG_DIR)\VlanConfig.c \
-	$(DEBUG_DIR)\AutoGen.c \
+	$(WORKSPACE)\NetworkPkg\VlanConfigDxe\VlanConfigImpl.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\VlanConfigDxeStrDefs.h \
-	$(WORKSPACE)\NetworkPkg\VlanConfigDxe\VlanConfigImpl.c \
 	$(WORKSPACE)\NetworkPkg\VlanConfigDxe\ComponentName.c \
-	$(WORKSPACE)\NetworkPkg\VlanConfigDxe\VlanConfigDriver.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_4)
+	$(WORKSPACE)\NetworkPkg\VlanConfigDxe\VlanConfigDriver.c \
+	$(DEBUG_DIR)\AutoGen.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_4)
 
 $(OUTPUT_DIR)\VlanConfigDxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\VlanConfigDxe.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\VlanConfigDxe.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\VlanConfigDxe.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\VlanConfigDxe.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\VlanConfigDxe.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\VlanConfigDxe.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\VlanConfigDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\VlanConfigDxe.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\VlanConfigDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\VlanConfigDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\VlanConfigDxe.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\VlanConfigDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\VlanConfigDxe.efi : $(DEBUG_DIR)\VlanConfigDxe.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\VlanConfigDxe.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\VlanConfigDxe.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\VlanConfigDxe.efi $(DEBUG_DIR)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\VlanConfigDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\VlanConfigDxe.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\VlanConfigDxe.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\VlanConfigDxe.efi $(DEBUG_DIR)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\OUTPUT\VlanConfigDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 
@@ -377,8 +377,8 @@ $(DEBUG_DIR)\VlanConfig.c : $(MAKE_FILE)
 $(DEBUG_DIR)\VlanConfig.c : $(DEBUG_DIR)\AutoGen.h
 $(DEBUG_DIR)\VlanConfig.c : $(DEBUG_DIR)\VlanConfigDxeStrDefs.h
 $(DEBUG_DIR)\VlanConfig.c : $(WORKSPACE)\NetworkPkg\VlanConfigDxe\VlanConfig.vfr
-	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\EDK2\edk2\NetworkPkg\VlanConfigDxe\VlanConfig.vfr > $(OUTPUT_DIR)\VlanConfig.i
-	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\. $(OUTPUT_DIR)\VlanConfig.i
+	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\Self_develop\edk2\NetworkPkg\VlanConfigDxe\VlanConfig.vfr > $(OUTPUT_DIR)\VlanConfig.i
+	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\. $(OUTPUT_DIR)\VlanConfig.i
 
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map : $(OUTPUT_DIR)\VlanConfigDxe.map
 	if exist $(OUTPUT_DIR)\VlanConfigDxe.map $(CP) $(OUTPUT_DIR)\VlanConfigDxe.map $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map
@@ -389,7 +389,7 @@ $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC1.1.dpx : $(OUTPUT_DIR)\VlanConfigDxe.depex
 $(FFS_OUTPUT_DIR)\VlanConfigDxeOffset.raw : $(FFS_OUTPUT_DIR)\VlanConfigDxe.offset
 	if exist $(FFS_OUTPUT_DIR)\VlanConfigDxe.offset GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)\VlanConfigDxeOffset.raw $(FFS_OUTPUT_DIR)\VlanConfigDxe.offset
 $(FFS_OUTPUT_DIR)\VlanConfigDxe.offset : $(DEBUG_DIR)\VlanConfigDxe.efi
-	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\VlanConfigDxe.offset --ModuleName=VlanConfigDxe --DebugDir=D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG 
+	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\VlanConfigDxe.offset --ModuleName=VlanConfigDxe --DebugDir=D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG 
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com : $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy
 	if exist $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy GenSec -s EFI_SECTION_COMPRESSION -c PI_STD -o $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy : $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.1.guided

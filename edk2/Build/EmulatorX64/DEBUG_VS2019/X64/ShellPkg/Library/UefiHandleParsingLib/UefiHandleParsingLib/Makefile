@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = UefiHandleParsingLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = ShellPkg\Library\UefiHandleParsingLib
 PACKAGE_RELATIVE_DIR = Library\UefiHandleParsingLib
-MODULE_DIR = D:\develop\EDK2\edk2\ShellPkg\Library\UefiHandleParsingLib
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\3CDC7177-CC2A-4678-BA8F-1A936A093FA4UefiHandleParsingLib
+MODULE_DIR = D:\develop\Self_develop\edk2\ShellPkg\Library\UefiHandleParsingLib
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\3CDC7177-CC2A-4678-BA8F-1A936A093FA4UefiHandleParsingLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -180,7 +180,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_1 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT\cc_resp_1.txt
+cc_resp_1 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT\cc_resp_1.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -207,7 +207,7 @@ INC =  \
     /I$(WORKSPACE)\ShellPkg\Include \
     /I$(WORKSPACE)\ShellPkg\Test\Mock\Include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT\object_files.lst
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT\object_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\UefiHandleParsingLib.obj $(OUTPUT_DIR)\AutoGen.obj
 
 
@@ -218,7 +218,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT\UefiHandleParsingLib.lib \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT\UefiHandleParsingLib.lib \
               
 
 #
@@ -295,15 +295,15 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib.c \
+	$(DEBUG_DIR)\AutoGen.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\UefiHandleParsingLibStrDefs.h \
-	$(DEBUG_DIR)\AutoGen.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_1)
+	$(WORKSPACE)\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_1)
 
 $(OUTPUT_DIR)\UefiHandleParsingLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\UefiHandleParsingLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT\UefiHandleParsingLib.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib\OUTPUT\UefiHandleParsingLib.lib @$(OBJECT_FILES_LIST)
 
 
 

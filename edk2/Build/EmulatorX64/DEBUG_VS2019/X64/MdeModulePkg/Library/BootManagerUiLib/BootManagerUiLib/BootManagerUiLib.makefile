@@ -1,1 +1,1 @@
-D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\BootManagerUiLib\BootManagerUiLib\Makefile
+D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\BootManagerUiLib\BootManagerUiLib\Makefile

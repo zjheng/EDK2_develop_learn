@@ -1,8 +1,8 @@
-D:\develop\EDK2\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib.inf
-D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib\DEBUG\UefiShellNetwork1CommandsLibStrDefs.h
-D:\develop\EDK2\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib.h
-D:\develop\EDK2\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib.uni
-D:\develop\EDK2\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\Ping.c
-D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib\DEBUG\AutoGen.h
-D:\develop\EDK2\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib.c
-D:\develop\EDK2\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\Ifconfig.c
+D:\develop\Self_develop\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\Ping.c
+D:\develop\Self_develop\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib.h
+D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib\DEBUG\AutoGen.h
+D:\develop\Self_develop\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib.uni
+D:\develop\Self_develop\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\Ifconfig.c
+D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib\DEBUG\UefiShellNetwork1CommandsLibStrDefs.h
+D:\develop\Self_develop\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib.c
+D:\develop\Self_develop\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib.inf

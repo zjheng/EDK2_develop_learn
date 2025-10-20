@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = HiiDatabaseDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Universal\HiiDatabaseDxe
 PACKAGE_RELATIVE_DIR = Universal\HiiDatabaseDxe
-MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Universal\HiiDatabaseDxe
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\348C4D62-BFBD-4882-9ECE-C80BB1C4783BHiiDatabase
+MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Universal\HiiDatabaseDxe
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\348C4D62-BFBD-4882-9ECE-C80BB1C4783BHiiDatabase
 
 MODULE_ENTRY_POINT = InitializeHiiDatabase
 ARCH_ENTRY_POINT = InitializeHiiDatabase
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_8 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\cc_resp_8.txt
+cc_resp_8 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\cc_resp_8.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -231,8 +231,8 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\static_library_files.lst
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\static_library_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\Font.obj $(OUTPUT_DIR)\HiiDatabaseEntry.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\ConfigKeywordHandler.obj $(OUTPUT_DIR)\ConfigRouting.obj $(OUTPUT_DIR)\ImageEx.obj $(OUTPUT_DIR)\String.obj $(OUTPUT_DIR)\Database.obj $(OUTPUT_DIR)\Image.obj
 
 
@@ -243,7 +243,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\HiiDatabase.efi \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\HiiDatabase.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -337,33 +337,33 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\ConfigRouting.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(DEBUG_DIR)\AutoGen.c \
 	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\Image.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\Font.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\ConfigRouting.c \
+	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\Database.c \
+	$(DEBUG_DIR)\AutoGen.c \
 	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseEntry.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\ConfigKeywordHandler.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\ImageEx.c \
 	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\String.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\Database.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_8)
+	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\ConfigKeywordHandler.c \
+	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\Font.c \
+	$(WORKSPACE)\MdeModulePkg\Universal\HiiDatabaseDxe\ImageEx.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_8)
 
 $(OUTPUT_DIR)\HiiDatabase.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\HiiDatabase.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\HiiDatabase.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\HiiDatabase.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\HiiDatabase.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\HiiDatabase.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\HiiDatabase.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG\HiiDatabase.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG\HiiDatabase.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG\HiiDatabase.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG\HiiDatabase.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG\HiiDatabase.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG\HiiDatabase.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\HiiDatabase.efi : $(DEBUG_DIR)\HiiDatabase.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\HiiDatabase.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG\HiiDatabase.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\HiiDatabase.efi $(DEBUG_DIR)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\HiiDatabase.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\HiiDatabase.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG\HiiDatabase.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\HiiDatabase.efi $(DEBUG_DIR)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\OUTPUT\HiiDatabase.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

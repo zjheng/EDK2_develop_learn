@@ -1,15 +1,15 @@
  ScsiBus
 
- Timestamp is 68f5d080 (Mon Oct 20 14:02:40 2025)
+ Timestamp is 68f5fea1 (Mon Oct 20 17:19:29 2025)
 
  Preferred load address is 0000000000010000
 
  Start         Length     Name                   Class
  0001:00000000 00000014H .text                   CODE
  0001:00000014 000066e0H .text$mn                CODE
- 0002:00000000 00000d34H .rdata                  DATA
- 0002:00000d34 00000018H .rdata$voltmd           DATA
- 0002:00000d4c 0000014cH .rdata$zzzdbg           DATA
+ 0002:00000000 00000de4H .rdata                  DATA
+ 0002:00000de4 00000018H .rdata$voltmd           DATA
+ 0002:00000dfc 00000154H .rdata$zzzdbg           DATA
  0003:00000000 00000148H .data                   DATA
  0003:00000148 00000040H .bss                    DATA
  0004:00000000 0000042cH .pdata                  DATA
@@ -38,9 +38,9 @@
  0000:00000000       __guard_fids_table         0000000000000000     <absolute>
  0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
  0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
  0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
  0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
- 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
  0001:00000000       __report_rangecheckfailure 0000000000011000     StackCheckLibNull:StackCheckFunctionsMsvc.obj
  0001:00000001       __GSHandlerCheck           0000000000011001     StackCheckLibNull:StackCheckFunctionsMsvc.obj
  0001:00000002       __security_check_cookie    0000000000011002     StackCheckLibNull:StackCheckFunctionsMsvc.obj
@@ -146,86 +146,86 @@
  0001:000066a0       LShiftU64                  00000000000176a0 f   BaseLib:LShiftU64.obj
  0002:00000000       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 0000000000018000     UefiDriverEntryPoint:DriverEntryPoint.obj
  0002:00000028       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 0000000000018028     UefiDriverEntryPoint:DriverEntryPoint.obj
- 0002:00000060       ??_C@_0EM@JLGHJKPJ@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000018060     UefiDriverEntryPoint:DriverEntryPoint.obj
- 0002:000000ac       _gPcd_FixedAtBuild_PcdComponentName2Disable 00000000000180ac     ScsiBus:AutoGen.obj
- 0002:000000ac       _gDriverUnloadImageCount   00000000000180ac     ScsiBus:AutoGen.obj
- 0002:000000ac       _gPcd_FixedAtBuild_PcdComponentNameDisable 00000000000180ac     ScsiBus:AutoGen.obj
- 0002:000000b0       _gPcd_FixedAtBuild_PcdMaximumDevicePathNodeCount 00000000000180b0     ScsiBus:AutoGen.obj
- 0002:000000b0       _gUefiDriverRevision       00000000000180b0     ScsiBus:AutoGen.obj
- 0002:000000b8       ??_C@_07IFILPIKA@ScsiBus@  00000000000180b8     ScsiBus:AutoGen.obj
- 0002:000000c0       ??_C@_0HE@NPIHKACD@D?3?2develop?2EDK2?2edk2?2Build?2Emul@ 00000000000180c0     ScsiBus:AutoGen.obj
- 0002:00000134       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 0000000000018134     ScsiBus:AutoGen.obj
- 0002:00000138       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0000000000018138     ScsiBus:AutoGen.obj
- 0002:0000013c       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 000000000001813c     ScsiBus:AutoGen.obj
- 0002:00000140       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 0000000000018140     ScsiBus:AutoGen.obj
- 0002:00000144       _gPcd_FixedAtBuild_PcdDebugPropertyMask 0000000000018144     ScsiBus:AutoGen.obj
- 0002:00000150       ??_C@_0EA@PONFIEMP@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000018150     ScsiBus:ScsiBus.obj
- 0002:00000190       ??_C@_0BF@NDBIKIKC@CR?5has?5Bad?5Signature@ 0000000000018190     ScsiBus:ScsiBus.obj
- 0002:000001a8       ??_C@_03LKLGDMJI@eng@      00000000000181a8     ScsiBus:ComponentName.obj
- 0002:000001ac       ??_C@_02LFNMGJAP@en@       00000000000181ac     ScsiBus:ComponentName.obj
- 0002:000001b0       ??_C@_06DALJLGPG@eng?$DLen@ 00000000000181b0     ScsiBus:ComponentName.obj
- 0002:000001b8       ??_C@_1CA@JNFBFCNB@?$AAS?$AAC?$AAS?$AAI?$AA?5?$AAB?$AAu?$AAs?$AA?5?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr@ 00000000000181b8     ScsiBus:ComponentName.obj
- 0002:000001e0       ??_C@_0FH@KLOBJBPP@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 00000000000181e0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000238       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018238     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000250       ??_C@_0BL@JFODOCGB@DevicePath?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018250     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000270       ??_C@_0BN@HMHGLLOO@ExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018270     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000290       ??_C@_0BG@BPIKKLEE@ExtendedDataSize?5?$CB?$DN?50@ 0000000000018290     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000002a8       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000182a8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000002e8       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000182e8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000328       ??_C@_0L@LBCNCHJA@Pages?5?$CB?$DN?50@ 0000000000018328     UefiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:00000340       ??_C@_0FC@FCCEPMJI@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000018340     UefiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:00000398       ??_C@_0CD@GECBLADO@?$CIAlignment?5?$CG?5?$CIAlignment?5?9?51?$CJ?$CJ?5?$DN@ 0000000000018398     UefiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:000003c0       ??_C@_0BC@BDMGDFME@RealPages?5?$DO?5Pages@ 00000000000183c0     UefiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:000003d8       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000183d8     UefiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:000003f0       ??_C@_0DO@GEEICOOO@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFFFF@ 00000000000183f0     UefiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:00000430       ??_C@_0FE@BEFIIBEL@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000018430     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000488       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 0000000000018488     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:000004b8       ??_C@_01OHGJGJJP@?$FL@     00000000000184b8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:000004bc       ??_C@_02PBFOLPKM@?$FN?5@   00000000000184bc     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:000004c0       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 00000000000184c0     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000510       ??_C@_0ED@JLFCAFGL@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000018510     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000558       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000018558     BaseMemoryLib:CopyMemWrapper.obj
- 0002:000005a0       ??_C@_0ED@CPPAGEKM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000185a0     BaseMemoryLib:ZeroMemWrapper.obj
- 0002:000005e8       ??_C@_0DG@EEENIGGL@Length?5?$DM?$DN?5?$CI0xFFFFFFFFFFFFFFFFUL@ 00000000000185e8     BaseMemoryLib:ZeroMemWrapper.obj
- 0002:00000620       ??_C@_0DI@DAGDPLPG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000018620     BaseMemoryLib:SetMemWrapper.obj
- 0002:00000660       ??_C@_0EC@NIFDAJKM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000018660     BaseMemoryLib:SetMemWrapper.obj
- 0002:000006a8       ??_C@_0BF@CBLMFKOC@Node?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000186a8     UefiDevicePathLib:DevicePathUtilities.obj
- 0002:000006c0       ??_C@_0EM@ILCAIIGE@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000186c0     UefiDevicePathLib:DevicePathUtilities.obj
- 0002:0000070c       mUefiDevicePathLibEndDevicePath 000000000001870c     UefiDevicePathLib:DevicePathUtilities.obj
- 0002:00000710       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018710     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000730       ??_C@_0FI@GPPFIFID@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000018730     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000788       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018788     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:000007a0       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000187a0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:000007b8       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000187b8     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:000007d0       ??_C@_0FO@FKLKMJDF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000187d0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:00000830       ??_C@_0CA@KJIFJMH@SenseDataLength?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018830     UefiScsiLib:UefiScsiLib.obj
- 0002:00000850       ??_C@_0DO@EBPNABBG@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000018850     UefiScsiLib:UefiScsiLib.obj
- 0002:00000890       ??_C@_0CC@FKDINHOE@HostAdapterStatus?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 0000000000018890     UefiScsiLib:UefiScsiLib.obj
- 0002:000008b8       ??_C@_0BN@CLPKLLHA@TargetStatus?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000188b8     UefiScsiLib:UefiScsiLib.obj
- 0002:000008d8       ??_C@_0BH@OIBIAGDO@ScsiIo?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000188d8     UefiScsiLib:UefiScsiLib.obj
- 0002:000008f0       ??_C@_0CC@FGDCNIBA@InquiryDataLength?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 00000000000188f0     UefiScsiLib:UefiScsiLib.obj
- 0002:00000918       ??_C@_0BO@MHFMIIAE@DriverBinding?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018918     UefiLib:UefiDriverModel.obj
- 0002:00000938       ??_C@_0DO@INKAGLBH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000018938     UefiLib:UefiDriverModel.obj
- 0002:00000978       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018978     BaseLib:String.obj
- 0002:00000990       ??_C@_0DF@EAHDDLM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000018990     BaseLib:String.obj
- 0002:000009c8       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 00000000000189c8     BaseLib:String.obj
- 0002:00000a00       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ@ 0000000000018a00     BaseLib:String.obj
- 0002:00000a20       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ@ 0000000000018a20     BaseLib:String.obj
- 0002:00000a40       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pc@ 0000000000018a40     BaseLib:String.obj
- 0002:00000a80       ??_C@_0DJ@DNFJNBOO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000018a80     BaseLib:SafeString.obj
- 0002:00000ac0       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000018ac0     BaseLib:SafeString.obj
- 0002:00000ae0       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 0000000000018ae0     BaseLib:SafeString.obj
- 0002:00000b20       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000018b20     BaseLib:SafeString.obj
- 0002:00000b40       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0000000000018b40     BaseLib:SafeString.obj
- 0002:00000b50       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0000000000018b50     BaseLib:SafeString.obj
- 0002:00000b68       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0000000000018b68     BaseLib:SafeString.obj
- 0002:00000bb0       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0000000000018bb0     BaseLib:SafeString.obj
- 0002:00000c10       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 0000000000018c10     BaseLib:SafeString.obj
- 0002:00000c20       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 0000000000018c20     BaseLib:SafeString.obj
- 0002:00000c60       ??_C@_0DI@MBLLHEOH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000018c60     BaseLib:Unaligned.obj
- 0002:00000c98       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 0000000000018c98     BaseLib:LShiftU64.obj
- 0002:00000ca8       ??_C@_0DI@FAGDBCDM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000018ca8     BaseLib:LShiftU64.obj
- 0002:00000d34       __volatile_metadata        0000000000018d34     <linker-defined>
+ 0002:00000060       ??_C@_0FE@KBEJNINE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018060     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:000000b4       _gDriverUnloadImageCount   00000000000180b4     ScsiBus:AutoGen.obj
+ 0002:000000b4       _gPcd_FixedAtBuild_PcdComponentNameDisable 00000000000180b4     ScsiBus:AutoGen.obj
+ 0002:000000b4       _gPcd_FixedAtBuild_PcdComponentName2Disable 00000000000180b4     ScsiBus:AutoGen.obj
+ 0002:000000b8       _gUefiDriverRevision       00000000000180b8     ScsiBus:AutoGen.obj
+ 0002:000000b8       _gPcd_FixedAtBuild_PcdMaximumDevicePathNodeCount 00000000000180b8     ScsiBus:AutoGen.obj
+ 0002:000000c0       ??_C@_07IFILPIKA@ScsiBus@  00000000000180c0     ScsiBus:AutoGen.obj
+ 0002:000000d0       ??_C@_0HM@IHJACAPG@D?3?2develop?2Self_develop?2edk2?2Bu@ 00000000000180d0     ScsiBus:AutoGen.obj
+ 0002:0000014c       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 000000000001814c     ScsiBus:AutoGen.obj
+ 0002:00000150       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0000000000018150     ScsiBus:AutoGen.obj
+ 0002:00000154       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 0000000000018154     ScsiBus:AutoGen.obj
+ 0002:00000158       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 0000000000018158     ScsiBus:AutoGen.obj
+ 0002:0000015c       _gPcd_FixedAtBuild_PcdDebugPropertyMask 000000000001815c     ScsiBus:AutoGen.obj
+ 0002:00000160       ??_C@_0EI@IENMCDGL@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018160     ScsiBus:ScsiBus.obj
+ 0002:000001a8       ??_C@_0BF@NDBIKIKC@CR?5has?5Bad?5Signature@ 00000000000181a8     ScsiBus:ScsiBus.obj
+ 0002:000001c0       ??_C@_03LKLGDMJI@eng@      00000000000181c0     ScsiBus:ComponentName.obj
+ 0002:000001c4       ??_C@_02LFNMGJAP@en@       00000000000181c4     ScsiBus:ComponentName.obj
+ 0002:000001c8       ??_C@_06DALJLGPG@eng?$DLen@ 00000000000181c8     ScsiBus:ComponentName.obj
+ 0002:000001d0       ??_C@_1CA@JNFBFCNB@?$AAS?$AAC?$AAS?$AAI?$AA?5?$AAB?$AAu?$AAs?$AA?5?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr@ 00000000000181d0     ScsiBus:ComponentName.obj
+ 0002:000001f0       ??_C@_0FP@CCJIJCDG@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000181f0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000250       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018250     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000268       ??_C@_0BL@JFODOCGB@DevicePath?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018268     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000288       ??_C@_0BN@HMHGLLOO@ExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018288     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000002a8       ??_C@_0BG@BPIKKLEE@ExtendedDataSize?5?$CB?$DN?50@ 00000000000182a8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000002c0       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000182c0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000300       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018300     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000340       ??_C@_0L@LBCNCHJA@Pages?5?$CB?$DN?50@ 0000000000018340     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000350       ??_C@_0FK@KCDEFJBC@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018350     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000003b0       ??_C@_0CD@GECBLADO@?$CIAlignment?5?$CG?5?$CIAlignment?5?9?51?$CJ?$CJ?5?$DN@ 00000000000183b0     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000003d8       ??_C@_0BC@BDMGDFME@RealPages?5?$DO?5Pages@ 00000000000183d8     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000003f0       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000183f0     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000408       ??_C@_0DO@GEEICOOO@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFFFF@ 0000000000018408     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000450       ??_C@_0FM@HDIIFGPN@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018450     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000004b0       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 00000000000184b0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000004e0       ??_C@_01OHGJGJJP@?$FL@     00000000000184e0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000004e4       ??_C@_02PBFOLPKM@?$FN?5@   00000000000184e4     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000004f0       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 00000000000184f0     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000540       ??_C@_0EL@NNLJGCCH@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018540     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000590       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000018590     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000005d0       ??_C@_0EL@GJBLADOA@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000185d0     BaseMemoryLib:ZeroMemWrapper.obj
+ 0002:00000620       ??_C@_0DG@EEENIGGL@Length?5?$DM?$DN?5?$CI0xFFFFFFFFFFFFFFFFUL@ 0000000000018620     BaseMemoryLib:ZeroMemWrapper.obj
+ 0002:00000658       ??_C@_0DI@DAGDPLPG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000018658     BaseMemoryLib:SetMemWrapper.obj
+ 0002:00000690       ??_C@_0EK@FKIKDMAD@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018690     BaseMemoryLib:SetMemWrapper.obj
+ 0002:000006e0       ??_C@_0BF@CBLMFKOC@Node?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000186e0     UefiDevicePathLib:DevicePathUtilities.obj
+ 0002:00000700       ??_C@_0FE@LBAOMKEJ@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018700     UefiDevicePathLib:DevicePathUtilities.obj
+ 0002:00000754       mUefiDevicePathLibEndDevicePath 0000000000018754     UefiDevicePathLib:DevicePathUtilities.obj
+ 0002:00000758       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018758     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000780       ??_C@_0GA@INMEIGJE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018780     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000007e0       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000187e0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000007f8       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000187f8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000810       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018810     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000830       ??_C@_0GG@OBDIBKMM@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018830     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000898       ??_C@_0CA@KJIFJMH@SenseDataLength?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018898     UefiScsiLib:UefiScsiLib.obj
+ 0002:000008c0       ??_C@_0EG@LKJNFDAL@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000188c0     UefiScsiLib:UefiScsiLib.obj
+ 0002:00000908       ??_C@_0CC@FKDINHOE@HostAdapterStatus?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 0000000000018908     UefiScsiLib:UefiScsiLib.obj
+ 0002:00000930       ??_C@_0BN@CLPKLLHA@TargetStatus?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018930     UefiScsiLib:UefiScsiLib.obj
+ 0002:00000950       ??_C@_0BH@OIBIAGDO@ScsiIo?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018950     UefiScsiLib:UefiScsiLib.obj
+ 0002:00000968       ??_C@_0CC@FGDCNIBA@InquiryDataLength?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 0000000000018968     UefiScsiLib:UefiScsiLib.obj
+ 0002:00000990       ??_C@_0BO@MHFMIIAE@DriverBinding?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000018990     UefiLib:UefiDriverModel.obj
+ 0002:000009b0       ??_C@_0EG@HGMADJAK@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000189b0     UefiLib:UefiDriverModel.obj
+ 0002:000009f8       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000189f8     BaseLib:String.obj
+ 0002:00000a10       ??_C@_0DN@POJBHOAP@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018a10     BaseLib:String.obj
+ 0002:00000a50       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0000000000018a50     BaseLib:String.obj
+ 0002:00000a88       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ@ 0000000000018a88     BaseLib:String.obj
+ 0002:00000aa8       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ@ 0000000000018aa8     BaseLib:String.obj
+ 0002:00000ac8       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pc@ 0000000000018ac8     BaseLib:String.obj
+ 0002:00000b10       ??_C@_0EB@DAKPBIJH@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018b10     BaseLib:SafeString.obj
+ 0002:00000b58       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000018b58     BaseLib:SafeString.obj
+ 0002:00000b80       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 0000000000018b80     BaseLib:SafeString.obj
+ 0002:00000bc0       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000018bc0     BaseLib:SafeString.obj
+ 0002:00000be0       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0000000000018be0     BaseLib:SafeString.obj
+ 0002:00000bf0       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0000000000018bf0     BaseLib:SafeString.obj
+ 0002:00000c08       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0000000000018c08     BaseLib:SafeString.obj
+ 0002:00000c50       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0000000000018c50     BaseLib:SafeString.obj
+ 0002:00000cb0       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 0000000000018cb0     BaseLib:SafeString.obj
+ 0002:00000cc0       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 0000000000018cc0     BaseLib:SafeString.obj
+ 0002:00000d00       ??_C@_0EA@FKBIDDGN@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018d00     BaseLib:Unaligned.obj
+ 0002:00000d40       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 0000000000018d40     BaseLib:LShiftU64.obj
+ 0002:00000d50       ??_C@_0EA@MLMAFFLG@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000018d50     BaseLib:LShiftU64.obj
+ 0002:00000de4       __volatile_metadata        0000000000018de4     <linker-defined>
  0003:00000000       gEfiLoadedImageProtocolGuid 0000000000019000     ScsiBus:AutoGen.obj
  0003:00000010       gEfiStatusCodeSpecificDataGuid 0000000000019010     ScsiBus:AutoGen.obj
  0003:00000020       gEfiStatusCodeRuntimeProtocolGuid 0000000000019020     ScsiBus:AutoGen.obj

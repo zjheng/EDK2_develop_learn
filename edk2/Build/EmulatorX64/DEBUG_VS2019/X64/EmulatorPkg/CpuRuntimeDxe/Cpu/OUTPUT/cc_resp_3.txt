@@ -1,1 +1,1 @@
-  D:\develop\EDK2\edk2\EmulatorPkg\CpuRuntimeDxe\CpuIo.c D:\develop\EDK2\edk2\EmulatorPkg\CpuRuntimeDxe\Cpu.c D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\CpuRuntimeDxe\Cpu\DEBUG\AutoGen.c D:\develop\EDK2\edk2\EmulatorPkg\CpuRuntimeDxe\MpService.c
+  D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\CpuRuntimeDxe\Cpu\DEBUG\AutoGen.c D:\develop\Self_develop\edk2\EmulatorPkg\CpuRuntimeDxe\CpuIo.c D:\develop\Self_develop\edk2\EmulatorPkg\CpuRuntimeDxe\MpService.c D:\develop\Self_develop\edk2\EmulatorPkg\CpuRuntimeDxe\Cpu.c

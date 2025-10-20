@@ -1,5 +1,5 @@
-#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Application\\UiApp\\FrontPageVfr.Vfr"
-#line 1 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Application\\UiApp\\UiApp\\DEBUG\\UiAppStrDefs.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Application\\UiApp\\FrontPageVfr.Vfr"
+#line 1 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Application\\UiApp\\UiApp\\DEBUG\\UiAppStrDefs.h"
 
 
 
@@ -94,10 +94,10 @@ extern unsigned char UiAppStrings[];
 
 
 
-#line 96 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Application\\UiApp\\UiApp\\DEBUG\\UiAppStrDefs.h"
+#line 96 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Application\\UiApp\\UiApp\\DEBUG\\UiAppStrDefs.h"
 
-#line 98 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Application\\UiApp\\UiApp\\DEBUG\\UiAppStrDefs.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Application\\UiApp\\FrontPageVfr.Vfr"
+#line 98 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Application\\UiApp\\UiApp\\DEBUG\\UiAppStrDefs.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Application\\UiApp\\FrontPageVfr.Vfr"
 
 
 

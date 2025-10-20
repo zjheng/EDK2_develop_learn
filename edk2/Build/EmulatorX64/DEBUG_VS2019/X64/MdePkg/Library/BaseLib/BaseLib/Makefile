@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = BaseLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdePkg\Library\BaseLib
 PACKAGE_RELATIVE_DIR = Library\BaseLib
-MODULE_DIR = D:\develop\EDK2\edk2\MdePkg\Library\BaseLib
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\27d67720-ea68-48ae-93da-a3a074c90e30BaseLib
+MODULE_DIR = D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\27d67720-ea68-48ae-93da-a3a074c90e30BaseLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,8 +181,8 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_44 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\cc_resp_44.txt
-cc_resp_60 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\cc_resp_60.txt
+cc_resp_47 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\cc_resp_47.txt
+cc_resp_60 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\cc_resp_60.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -361,9 +361,9 @@ NASM_INC =  \
     -I$(WORKSPACE)\MdePkg\Library\MipiSysTLib\mipisyst\library\include\ \
     -I$(WORKSPACE)\MdePkg\Include\X64^\
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\object_files.lst
-INC_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\inc.lst
-OBJLIST_0 = $(OUTPUT_DIR)\DivU64x32.obj $(OUTPUT_DIR)\LinkedList.obj $(OUTPUT_DIR)\MultU64x64.obj $(OUTPUT_DIR)\ModU64x32.obj $(OUTPUT_DIR)\LShiftU64.obj $(OUTPUT_DIR)\SwapBytes16.obj $(OUTPUT_DIR)\X86WriteGdtr.obj $(OUTPUT_DIR)\X86GetInterruptState.obj $(OUTPUT_DIR)\X86MemoryFence.obj $(OUTPUT_DIR)\DivU64x64Remainder.obj $(OUTPUT_DIR)\RShiftU64.obj $(OUTPUT_DIR)\QuickSort.obj $(OUTPUT_DIR)\BitField.obj $(OUTPUT_DIR)\X86PatchInstruction.obj $(OUTPUT_DIR)\X86Thunk.obj $(OUTPUT_DIR)\HighBitSet32.obj $(OUTPUT_DIR)\Cpu.obj $(OUTPUT_DIR)\X86DisablePaging32.obj $(OUTPUT_DIR)\X86FxSave.obj $(OUTPUT_DIR)\SwitchStack.obj $(OUTPUT_DIR)\RRotU32.obj $(OUTPUT_DIR)\X86RdRand.obj $(OUTPUT_DIR)\LowBitSet32.obj $(OUTPUT_DIR)\DivU64x32Remainder.obj $(OUTPUT_DIR)\DivS64x64Remainder.obj $(OUTPUT_DIR)\LRotU64.obj $(OUTPUT_DIR)\X86WriteIdtr.obj $(OUTPUT_DIR)\ConvertGuidUuid.obj $(OUTPUT_DIR)\GetPowerOfTwo32.obj $(OUTPUT_DIR)\RRotU64.obj $(OUTPUT_DIR)\X86FxRestore.obj $(OUTPUT_DIR)\X86Msr.obj $(OUTPUT_DIR)\Math64.obj $(OUTPUT_DIR)\GetPowerOfTwo64.obj $(OUTPUT_DIR)\CpuDeadLoop.obj $(OUTPUT_DIR)\MultS64x64.obj $(OUTPUT_DIR)\SwapBytes64.obj $(OUTPUT_DIR)\X86EnablePaging32.obj $(OUTPUT_DIR)\X86ReadGdtr.obj $(OUTPUT_DIR)\X86SpeculationBarrier.obj $(OUTPUT_DIR)\FilePaths.obj $(OUTPUT_DIR)\LongJump.obj $(OUTPUT_DIR)\LowBitSet64.obj $(OUTPUT_DIR)\SwapBytes32.obj $(OUTPUT_DIR)\Unaligned.obj $(OUTPUT_DIR)\ARShiftU64.obj $(OUTPUT_DIR)\X86EnablePaging64.obj $(OUTPUT_DIR)\CheckSum.obj $(OUTPUT_DIR)\SetJump.obj $(OUTPUT_DIR)\X86ReadIdtr.obj $(OUTPUT_DIR)\String.obj $(OUTPUT_DIR)\HighBitSet64.obj $(OUTPUT_DIR)\LRotU32.obj $(OUTPUT_DIR)\X86DisablePaging64.obj $(OUTPUT_DIR)\SafeString.obj $(OUTPUT_DIR)\MultU64x32.obj
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\object_files.lst
+INC_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\inc.lst
+OBJLIST_0 = $(OUTPUT_DIR)\DivU64x32.obj $(OUTPUT_DIR)\LinkedList.obj $(OUTPUT_DIR)\MultU64x64.obj $(OUTPUT_DIR)\ModU64x32.obj $(OUTPUT_DIR)\LShiftU64.obj $(OUTPUT_DIR)\SwapBytes16.obj $(OUTPUT_DIR)\X86WriteGdtr.obj $(OUTPUT_DIR)\X86GetInterruptState.obj $(OUTPUT_DIR)\X86MemoryFence.obj $(OUTPUT_DIR)\DivU64x64Remainder.obj $(OUTPUT_DIR)\RShiftU64.obj $(OUTPUT_DIR)\QuickSort.obj $(OUTPUT_DIR)\BitField.obj $(OUTPUT_DIR)\X86Thunk.obj $(OUTPUT_DIR)\X86PatchInstruction.obj $(OUTPUT_DIR)\HighBitSet32.obj $(OUTPUT_DIR)\Cpu.obj $(OUTPUT_DIR)\X86FxSave.obj $(OUTPUT_DIR)\X86DisablePaging32.obj $(OUTPUT_DIR)\SwitchStack.obj $(OUTPUT_DIR)\RRotU32.obj $(OUTPUT_DIR)\X86RdRand.obj $(OUTPUT_DIR)\LowBitSet32.obj $(OUTPUT_DIR)\DivU64x32Remainder.obj $(OUTPUT_DIR)\DivS64x64Remainder.obj $(OUTPUT_DIR)\LRotU64.obj $(OUTPUT_DIR)\X86WriteIdtr.obj $(OUTPUT_DIR)\ConvertGuidUuid.obj $(OUTPUT_DIR)\GetPowerOfTwo32.obj $(OUTPUT_DIR)\RRotU64.obj $(OUTPUT_DIR)\X86FxRestore.obj $(OUTPUT_DIR)\X86Msr.obj $(OUTPUT_DIR)\Math64.obj $(OUTPUT_DIR)\CpuDeadLoop.obj $(OUTPUT_DIR)\GetPowerOfTwo64.obj $(OUTPUT_DIR)\X86EnablePaging32.obj $(OUTPUT_DIR)\MultS64x64.obj $(OUTPUT_DIR)\SwapBytes64.obj $(OUTPUT_DIR)\X86ReadGdtr.obj $(OUTPUT_DIR)\X86SpeculationBarrier.obj $(OUTPUT_DIR)\FilePaths.obj $(OUTPUT_DIR)\LongJump.obj $(OUTPUT_DIR)\LowBitSet64.obj $(OUTPUT_DIR)\SwapBytes32.obj $(OUTPUT_DIR)\X86EnablePaging64.obj $(OUTPUT_DIR)\ARShiftU64.obj $(OUTPUT_DIR)\Unaligned.obj $(OUTPUT_DIR)\CheckSum.obj $(OUTPUT_DIR)\SetJump.obj $(OUTPUT_DIR)\X86ReadIdtr.obj $(OUTPUT_DIR)\String.obj $(OUTPUT_DIR)\HighBitSet64.obj $(OUTPUT_DIR)\X86DisablePaging64.obj $(OUTPUT_DIR)\LRotU32.obj $(OUTPUT_DIR)\SafeString.obj $(OUTPUT_DIR)\MultU64x32.obj
 OBJLIST_1 = $(OUTPUT_DIR)\X64\TdProbe.obj $(OUTPUT_DIR)\X64\Non-existing.obj $(OUTPUT_DIR)\X64\ReadMsr64.obj $(OUTPUT_DIR)\X64\WriteMsr64.obj $(OUTPUT_DIR)\X64\CpuBreakpoint.obj
 
 
@@ -374,7 +374,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\BaseLib.lib \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\BaseLib.lib \
               
 
 #
@@ -451,774 +451,774 @@ gen_fds:
 #
 $(OBJLIST_1):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X64\CpuBreakpoint.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X64\Non-existing.c \
 	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMsr64.c \
 	$(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMsr64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMsr64.c \
 	$(WORKSPACE)\MdePkg\Library\BaseLib\X64\TdProbe.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X64\Non-existing.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_44)
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X64\CpuBreakpoint.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_47)
 
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\ARShiftU64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86Thunk.c \
 	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86DisablePaging32.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86PatchInstruction.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\GetPowerOfTwo32.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86MemoryFence.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86ReadIdtr.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86FxSave.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\CheckSum.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\Math64.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\SwapBytes16.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\SetJump.c \
 	$(WORKSPACE)\MdePkg\Library\BaseLib\RRotU64.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\ModU64x32.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86FxSave.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\GetPowerOfTwo32.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\DivU64x64Remainder.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\SwapBytes16.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86EnablePaging32.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86SpeculationBarrier.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86FxRestore.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\CpuDeadLoop.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\LRotU64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\SetJump.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86WriteIdtr.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86EnablePaging64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86DisablePaging64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86ReadIdtr.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86RdRand.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\DivU64x32.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\LRotU32.c \
 	$(WORKSPACE)\MdePkg\Library\BaseLib\LowBitSet64.c \
 	$(WORKSPACE)\MdePkg\Library\BaseLib\LinkedList.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\SwapBytes32.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\SafeString.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86FxRestore.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\LRotU64.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\LShiftU64.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\HighBitSet64.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86Thunk.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\Unaligned.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\SwapBytes64.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\DivU64x32Remainder.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\ConvertGuidUuid.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86WriteGdtr.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86WriteIdtr.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\RRotU32.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86SpeculationBarrier.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\FilePaths.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\LongJump.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86GetInterruptState.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\DivU64x32.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\GetPowerOfTwo64.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\Cpu.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\RShiftU64.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\MultS64x64.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\MultU64x32.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\String.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\LRotU32.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86Msr.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86RdRand.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86EnablePaging64.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\MultU64x64.c \
 	$(WORKSPACE)\MdePkg\Library\BaseLib\SwitchStack.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\QuickSort.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\LowBitSet32.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86ReadGdtr.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86EnablePaging32.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\X86DisablePaging64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86MemoryFence.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\HighBitSet64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\CheckSum.c \
 	$(WORKSPACE)\MdePkg\Library\BaseLib\HighBitSet32.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\CpuDeadLoop.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\RRotU32.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\ConvertGuidUuid.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\ARShiftU64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\Unaligned.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86Msr.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\SwapBytes32.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\LShiftU64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\BitField.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\ModU64x32.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\Math64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\MultU64x64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\MultS64x64.c \
 	$(WORKSPACE)\MdePkg\Library\BaseLib\DivS64x64Remainder.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\DivU64x64Remainder.c \
-	$(WORKSPACE)\MdePkg\Library\BaseLib\BitField.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_60)
+	$(WORKSPACE)\MdePkg\Library\BaseLib\RShiftU64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\GetPowerOfTwo64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\LowBitSet32.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\DivU64x32Remainder.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86WriteGdtr.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86DisablePaging32.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86PatchInstruction.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\FilePaths.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\QuickSort.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\MultU64x32.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\LongJump.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86ReadGdtr.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\X86GetInterruptState.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\SafeString.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\String.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\SwapBytes64.c \
+	$(WORKSPACE)\MdePkg\Library\BaseLib\Cpu.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_60)
 
 $(OUTPUT_DIR)\BaseLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\BaseLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\BaseLib.lib @$(OBJECT_FILES_LIST)
-
-$(OUTPUT_DIR)\X64\RdRand.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\RdRand.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\RdRand.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\RdRand.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\RdRand.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\RdRand.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.iii
-
-$(OUTPUT_DIR)\X64\XGetBv.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\XGetBv.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\XGetBv.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\XGetBv.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\XGetBv.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\XGetBv.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.iii
-
-$(OUTPUT_DIR)\X64\SetJump.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\SetJump.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\SetJump.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\SetJump.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\SetJump.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\SetJump.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.iii
-
-$(OUTPUT_DIR)\X64\DisableCache.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\DisableCache.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\DisableCache.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\DisableCache.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\DisableCache.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\DisableCache.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.iii
-
-$(OUTPUT_DIR)\X64\ReadDr6.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadDr6.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadDr6.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr6.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr6.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr6.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.iii
-
-$(OUTPUT_DIR)\X64\ReadIdtr.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadIdtr.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadIdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadIdtr.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadIdtr.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadIdtr.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.iii
-
-$(OUTPUT_DIR)\X64\ReadLdtr.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadLdtr.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadLdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadLdtr.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadLdtr.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadLdtr.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.iii
-
-$(OUTPUT_DIR)\X64\Monitor.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\Monitor.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\Monitor.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Monitor.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Monitor.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Monitor.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.iii
-
-$(OUTPUT_DIR)\X64\EnableCache.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\EnableCache.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\EnableCache.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\EnableCache.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\EnableCache.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\EnableCache.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.iii
-
-$(OUTPUT_DIR)\X64\WriteDr3.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteDr3.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteDr3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr3.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr3.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr3.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.iii
-
-$(OUTPUT_DIR)\X64\ReadTr.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadTr.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadTr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadTr.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadTr.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadTr.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.iii
-
-$(OUTPUT_DIR)\X64\ReadMm0.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadMm0.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadMm0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm0.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm0.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm0.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.iii
-
-$(OUTPUT_DIR)\X64\ReadDr7.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadDr7.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadDr7.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr7.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr7.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr7.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.iii
-
-$(OUTPUT_DIR)\X64\WriteMm7.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteMm7.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteMm7.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm7.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm7.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm7.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.iii
-
-$(OUTPUT_DIR)\X64\WriteDr5.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteDr5.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteDr5.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr5.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr5.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr5.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.iii
-
-$(OUTPUT_DIR)\X64\WriteCr3.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteCr3.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteCr3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteCr3.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteCr3.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteCr3.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.iii
-
-$(OUTPUT_DIR)\X64\ReadDr0.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadDr0.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadDr0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr0.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr0.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr0.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.iii
-
-$(OUTPUT_DIR)\X64\FxRestore.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\FxRestore.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\FxRestore.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\FxRestore.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\FxRestore.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\FxRestore.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.iii
-
-$(OUTPUT_DIR)\X64\Lfence.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\Lfence.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\Lfence.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Lfence.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Lfence.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Lfence.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.iii
-
-$(OUTPUT_DIR)\X64\WriteCr0.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteCr0.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteCr0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteCr0.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteCr0.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteCr0.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.iii
-
-$(OUTPUT_DIR)\X64\CpuPause.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\CpuPause.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\CpuPause.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\CpuPause.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\CpuPause.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\CpuPause.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.iii
-
-$(OUTPUT_DIR)\X64\ReadMm5.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadMm5.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadMm5.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm5.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm5.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm5.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.iii
-
-$(OUTPUT_DIR)\X64\TdVmcall.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\TdVmcall.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\TdVmcall.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\TdVmcall.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\TdVmcall.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\TdVmcall.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.iii
-
-$(OUTPUT_DIR)\X64\ReadPmc.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadPmc.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadPmc.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadPmc.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadPmc.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadPmc.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.iii
-
-$(OUTPUT_DIR)\X64\WriteLdtr.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteLdtr.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteLdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteLdtr.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteLdtr.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteLdtr.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.iii
-
-$(OUTPUT_DIR)\X64\WriteMm1.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteMm1.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteMm1.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm1.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm1.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm1.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.iii
-
-$(OUTPUT_DIR)\X64\ReadFs.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadFs.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadFs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadFs.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadFs.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadFs.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.iii
-
-$(OUTPUT_DIR)\X64\WriteMm6.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteMm6.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteMm6.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm6.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm6.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm6.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.iii
-
-$(OUTPUT_DIR)\X64\ReadDs.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadDs.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadDs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDs.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDs.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDs.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.iii
-
-$(OUTPUT_DIR)\X64\WriteDr4.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteDr4.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteDr4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr4.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr4.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr4.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.iii
-
-$(OUTPUT_DIR)\X64\ReadDr2.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadDr2.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadDr2.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr2.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr2.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr2.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.iii
-
-$(OUTPUT_DIR)\X64\ReadMm3.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadMm3.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadMm3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm3.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm3.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm3.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.iii
-
-$(OUTPUT_DIR)\X64\FlushCacheLine.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\FlushCacheLine.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\FlushCacheLine.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\FlushCacheLine.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\FlushCacheLine.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\FlushCacheLine.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.iii
-
-$(OUTPUT_DIR)\X64\ReadDr4.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadDr4.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadDr4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr4.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr4.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr4.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.iii
-
-$(OUTPUT_DIR)\X64\WriteDr0.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteDr0.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteDr0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr0.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr0.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr0.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.iii
-
-$(OUTPUT_DIR)\X64\EnableDisableInterrupts.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\EnableDisableInterrupts.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\EnableDisableInterrupts.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\EnableDisableInterrupts.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\EnableDisableInterrupts.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\EnableDisableInterrupts.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.iii
-
-$(OUTPUT_DIR)\X64\DisableInterrupts.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\DisableInterrupts.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\DisableInterrupts.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\DisableInterrupts.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\DisableInterrupts.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\DisableInterrupts.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.iii
-
-$(OUTPUT_DIR)\X64\WriteTr.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteTr.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteTr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteTr.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteTr.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteTr.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.iii
-
-$(OUTPUT_DIR)\X64\VmgExit.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\VmgExit.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\VmgExit.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\VmgExit.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\VmgExit.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\VmgExit.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.iii
-
-$(OUTPUT_DIR)\X64\VmgExitSvsm.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\VmgExitSvsm.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\VmgExitSvsm.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\VmgExitSvsm.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\VmgExitSvsm.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\VmgExitSvsm.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.iii
-
-$(OUTPUT_DIR)\X64\WriteDr6.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteDr6.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteDr6.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr6.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr6.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr6.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.iii
-
-$(OUTPUT_DIR)\X64\CpuId.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\CpuId.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\CpuId.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\CpuId.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\CpuId.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\CpuId.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.iii
-
-$(OUTPUT_DIR)\X64\WriteMm5.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteMm5.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteMm5.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm5.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm5.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm5.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.iii
-
-$(OUTPUT_DIR)\X64\ReadMm7.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadMm7.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadMm7.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm7.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm7.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm7.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.iii
-
-$(OUTPUT_DIR)\X64\ReadGs.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadGs.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadGs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadGs.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadGs.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadGs.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.iii
-
-$(OUTPUT_DIR)\X64\WriteCr4.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteCr4.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteCr4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteCr4.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteCr4.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteCr4.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.iii
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\BaseLib.lib @$(OBJECT_FILES_LIST)
 
 $(OUTPUT_DIR)\X64\WriteMm2.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)\X64\WriteMm2.obj : $(DEBUG_DIR)\AutoGen.h
 $(OUTPUT_DIR)\X64\WriteMm2.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm2.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm2.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm2.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.iii
-
-$(OUTPUT_DIR)\X64\ReadGdtr.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadGdtr.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadGdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadGdtr.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadGdtr.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadGdtr.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.iii
-
-$(OUTPUT_DIR)\X64\WriteMm0.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteMm0.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteMm0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm0.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm0.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm0.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.iii
-
-$(OUTPUT_DIR)\X64\ReadDr3.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadDr3.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadDr3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr3.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr3.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr3.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.iii
-
-$(OUTPUT_DIR)\X64\ReadDr5.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadDr5.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadDr5.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr5.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr5.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr5.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.iii
-
-$(OUTPUT_DIR)\X64\LongJump.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\LongJump.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\LongJump.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\LongJump.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\LongJump.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\LongJump.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.iii
-
-$(OUTPUT_DIR)\X64\Thunk16.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\Thunk16.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\Thunk16.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Thunk16.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Thunk16.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Thunk16.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.iii
-
-$(OUTPUT_DIR)\X64\ReadCr3.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadCr3.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadCr3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadCr3.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadCr3.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadCr3.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.iii
-
-$(OUTPUT_DIR)\X64\WriteMm3.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteMm3.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteMm3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm3.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm3.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm3.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.iii
-
-$(OUTPUT_DIR)\X64\ReadCr4.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadCr4.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadCr4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadCr4.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadCr4.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadCr4.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.iii
-
-$(OUTPUT_DIR)\X64\WriteDr2.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteDr2.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteDr2.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr2.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr2.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr2.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.iii
-
-$(OUTPUT_DIR)\X64\Mwait.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\Mwait.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\Mwait.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Mwait.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Mwait.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Mwait.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.iii
-
-$(OUTPUT_DIR)\X64\RmpAdjust.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\RmpAdjust.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\RmpAdjust.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\RmpAdjust.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\RmpAdjust.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\RmpAdjust.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.iii
-
-$(OUTPUT_DIR)\X64\ReadCr0.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadCr0.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadCr0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadCr0.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadCr0.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadCr0.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.iii
-
-$(OUTPUT_DIR)\X64\WriteDr1.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteDr1.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteDr1.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr1.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr1.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr1.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.iii
-
-$(OUTPUT_DIR)\X64\WriteIdtr.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteIdtr.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteIdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteIdtr.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteIdtr.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteIdtr.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.iii
-
-$(OUTPUT_DIR)\X64\Wbinvd.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\Wbinvd.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\Wbinvd.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Wbinvd.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Wbinvd.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Wbinvd.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.iii
-
-$(OUTPUT_DIR)\X64\WriteMm4.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteMm4.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteMm4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm4.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm4.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteMm4.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.iii
-
-$(OUTPUT_DIR)\X64\ReadCs.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadCs.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadCs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadCs.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadCs.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadCs.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.iii
-
-$(OUTPUT_DIR)\X64\XSetBv.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\XSetBv.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\XSetBv.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\XSetBv.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\XSetBv.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\XSetBv.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.iii
-
-$(OUTPUT_DIR)\X64\ReadMm2.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadMm2.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadMm2.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm2.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm2.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm2.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.iii
-
-$(OUTPUT_DIR)\X64\ReadDr1.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadDr1.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadDr1.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr1.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr1.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadDr1.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.iii
-
-$(OUTPUT_DIR)\X64\SwitchStack.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\SwitchStack.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\SwitchStack.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\SwitchStack.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\SwitchStack.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\SwitchStack.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.iii
-
-$(OUTPUT_DIR)\X64\TdCall.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\TdCall.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\TdCall.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\TdCall.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\TdCall.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\TdCall.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.iii
-
-$(OUTPUT_DIR)\X64\WriteDr7.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteDr7.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteDr7.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr7.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr7.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteDr7.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.iii
-
-$(OUTPUT_DIR)\X64\ReadTsc.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadTsc.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadTsc.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadTsc.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadTsc.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadTsc.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.iii
-
-$(OUTPUT_DIR)\X64\WriteGdtr.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteGdtr.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteGdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteGdtr.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteGdtr.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteGdtr.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.iii
-
-$(OUTPUT_DIR)\X64\ReadEflags.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadEflags.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadEflags.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadEflags.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadEflags.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadEflags.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.iii
-
-$(OUTPUT_DIR)\X64\ReadSs.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadSs.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadSs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadSs.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadSs.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadSs.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.iii
-
-$(OUTPUT_DIR)\X64\ReadCr2.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadCr2.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadCr2.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadCr2.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadCr2.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadCr2.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.iii
-
-$(OUTPUT_DIR)\X64\Pvalidate.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\Pvalidate.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\Pvalidate.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Pvalidate.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Pvalidate.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Pvalidate.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.iii
-
-$(OUTPUT_DIR)\X64\WriteCr2.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\WriteCr2.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\WriteCr2.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteCr2.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteCr2.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\WriteCr2.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.iii
-
-$(OUTPUT_DIR)\X64\ReadMm6.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadMm6.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadMm6.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm6.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm6.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm6.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.iii
-
-$(OUTPUT_DIR)\X64\EnableInterrupts.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\EnableInterrupts.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\EnableInterrupts.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\EnableInterrupts.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\EnableInterrupts.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\EnableInterrupts.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.iii
-
-$(OUTPUT_DIR)\X64\ReadMm4.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadMm4.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadMm4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm4.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm4.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm4.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.iii
-
-$(OUTPUT_DIR)\X64\DisablePaging64.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\DisablePaging64.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\DisablePaging64.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\DisablePaging64.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\DisablePaging64.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\DisablePaging64.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.iii
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm2.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm2.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm2.iii
 
 $(OUTPUT_DIR)\X64\Invd.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)\X64\Invd.obj : $(DEBUG_DIR)\AutoGen.h
 $(OUTPUT_DIR)\X64\Invd.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Invd.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Invd.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\Invd.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.iii
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Invd.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Invd.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Invd.iii
 
-$(OUTPUT_DIR)\X64\CpuIdEx.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\CpuIdEx.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\CpuIdEx.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\CpuIdEx.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\CpuIdEx.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\CpuIdEx.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.iii
+$(OUTPUT_DIR)\X64\ReadCs.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadCs.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadCs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadCs.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadCs.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadCs.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCs.iii
+
+$(OUTPUT_DIR)\X64\WriteIdtr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteIdtr.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteIdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteIdtr.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteIdtr.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteIdtr.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteIdtr.iii
+
+$(OUTPUT_DIR)\X64\XSetBv.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\XSetBv.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\XSetBv.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\XSetBv.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\XSetBv.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\XSetBv.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XSetBv.iii
+
+$(OUTPUT_DIR)\X64\SwitchStack.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\SwitchStack.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\SwitchStack.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\SwitchStack.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\SwitchStack.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\SwitchStack.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SwitchStack.iii
+
+$(OUTPUT_DIR)\X64\WriteMm5.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteMm5.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteMm5.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm5.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm5.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm5.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm5.iii
+
+$(OUTPUT_DIR)\X64\WriteMm6.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteMm6.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteMm6.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm6.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm6.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm6.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm6.iii
+
+$(OUTPUT_DIR)\X64\WriteDr7.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteDr7.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteDr7.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr7.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr7.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr7.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr7.iii
+
+$(OUTPUT_DIR)\X64\Wbinvd.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\Wbinvd.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\Wbinvd.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Wbinvd.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Wbinvd.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Wbinvd.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Wbinvd.iii
 
 $(OUTPUT_DIR)\X64\FxSave.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)\X64\FxSave.obj : $(DEBUG_DIR)\AutoGen.h
 $(OUTPUT_DIR)\X64\FxSave.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\FxSave.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\FxSave.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\FxSave.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.iii
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\FxSave.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\FxSave.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxSave.iii
 
-$(OUTPUT_DIR)\X64\ReadEs.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)\X64\ReadEs.obj : $(DEBUG_DIR)\AutoGen.h
-$(OUTPUT_DIR)\X64\ReadEs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadEs.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadEs.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadEs.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.iii
+$(OUTPUT_DIR)\X64\WriteDr2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteDr2.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteDr2.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr2.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr2.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr2.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr2.iii
+
+$(OUTPUT_DIR)\X64\WriteLdtr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteLdtr.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteLdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteLdtr.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteLdtr.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteLdtr.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteLdtr.iii
+
+$(OUTPUT_DIR)\X64\ReadIdtr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadIdtr.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadIdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadIdtr.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadIdtr.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadIdtr.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadIdtr.iii
+
+$(OUTPUT_DIR)\X64\ReadMm5.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadMm5.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadMm5.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm5.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm5.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm5.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm5.iii
+
+$(OUTPUT_DIR)\X64\ReadDr3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadDr3.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadDr3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr3.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr3.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr3.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr3.iii
+
+$(OUTPUT_DIR)\X64\ReadDr2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadDr2.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadDr2.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr2.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr2.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr2.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr2.iii
+
+$(OUTPUT_DIR)\X64\VmgExitSvsm.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\VmgExitSvsm.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\VmgExitSvsm.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\VmgExitSvsm.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\VmgExitSvsm.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\VmgExitSvsm.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExitSvsm.iii
+
+$(OUTPUT_DIR)\X64\DisableCache.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\DisableCache.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\DisableCache.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\DisableCache.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\DisableCache.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\DisableCache.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableCache.iii
+
+$(OUTPUT_DIR)\X64\Pvalidate.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\Pvalidate.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\Pvalidate.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Pvalidate.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Pvalidate.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Pvalidate.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.iii
+
+$(OUTPUT_DIR)\X64\WriteDr4.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteDr4.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteDr4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr4.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr4.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr4.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr4.iii
+
+$(OUTPUT_DIR)\X64\ReadDr1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadDr1.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadDr1.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr1.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr1.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr1.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr1.iii
+
+$(OUTPUT_DIR)\X64\ReadLdtr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadLdtr.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadLdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadLdtr.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadLdtr.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadLdtr.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadLdtr.iii
+
+$(OUTPUT_DIR)\X64\ReadSs.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadSs.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadSs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadSs.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadSs.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadSs.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadSs.iii
+
+$(OUTPUT_DIR)\X64\WriteMm3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteMm3.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteMm3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm3.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm3.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm3.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm3.iii
+
+$(OUTPUT_DIR)\X64\ReadCr3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadCr3.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadCr3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadCr3.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadCr3.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadCr3.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr3.iii
+
+$(OUTPUT_DIR)\X64\FlushCacheLine.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\FlushCacheLine.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\FlushCacheLine.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\FlushCacheLine.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\FlushCacheLine.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\FlushCacheLine.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FlushCacheLine.iii
+
+$(OUTPUT_DIR)\X64\ReadDs.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadDs.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadDs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDs.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDs.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDs.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDs.iii
+
+$(OUTPUT_DIR)\X64\WriteDr5.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteDr5.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteDr5.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr5.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr5.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr5.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr5.iii
+
+$(OUTPUT_DIR)\X64\FxRestore.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\FxRestore.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\FxRestore.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\FxRestore.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\FxRestore.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\FxRestore.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\FxRestore.iii
+
+$(OUTPUT_DIR)\X64\CpuId.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\CpuId.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\CpuId.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\CpuId.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\CpuId.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\CpuId.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuId.iii
+
+$(OUTPUT_DIR)\X64\Mwait.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\Mwait.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\Mwait.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Mwait.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Mwait.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Mwait.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Mwait.iii
+
+$(OUTPUT_DIR)\X64\XGetBv.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\XGetBv.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\XGetBv.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\XGetBv.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\XGetBv.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\XGetBv.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\XGetBv.iii
+
+$(OUTPUT_DIR)\X64\SetJump.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\SetJump.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\SetJump.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\SetJump.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\SetJump.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\SetJump.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.iii
+
+$(OUTPUT_DIR)\X64\EnableInterrupts.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\EnableInterrupts.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\EnableInterrupts.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\EnableInterrupts.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\EnableInterrupts.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\EnableInterrupts.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableInterrupts.iii
+
+$(OUTPUT_DIR)\X64\ReadMm6.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadMm6.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadMm6.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm6.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm6.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm6.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm6.iii
+
+$(OUTPUT_DIR)\X64\ReadMm4.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadMm4.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadMm4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm4.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm4.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm4.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm4.iii
 
 $(OUTPUT_DIR)\X64\ReadMm1.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)\X64\ReadMm1.obj : $(DEBUG_DIR)\AutoGen.h
 $(OUTPUT_DIR)\X64\ReadMm1.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm1.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm1.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ReadMm1.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.iii
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm1.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm1.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm1.iii
+
+$(OUTPUT_DIR)\X64\TdVmcall.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\TdVmcall.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\TdVmcall.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\TdVmcall.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\TdVmcall.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\TdVmcall.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdVmcall.iii
+
+$(OUTPUT_DIR)\X64\ReadDr6.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadDr6.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadDr6.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr6.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr6.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr6.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr6.iii
+
+$(OUTPUT_DIR)\X64\VmgExit.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\VmgExit.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\VmgExit.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\VmgExit.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\VmgExit.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\VmgExit.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\VmgExit.iii
+
+$(OUTPUT_DIR)\X64\WriteDr6.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteDr6.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteDr6.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr6.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr6.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr6.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr6.iii
+
+$(OUTPUT_DIR)\X64\RmpAdjust.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\RmpAdjust.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\RmpAdjust.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\RmpAdjust.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\RmpAdjust.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\RmpAdjust.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.iii
+
+$(OUTPUT_DIR)\X64\CpuIdEx.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\CpuIdEx.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\CpuIdEx.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\CpuIdEx.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\CpuIdEx.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\CpuIdEx.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuIdEx.iii
+
+$(OUTPUT_DIR)\X64\EnableCache.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\EnableCache.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\EnableCache.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\EnableCache.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\EnableCache.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\EnableCache.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableCache.iii
+
+$(OUTPUT_DIR)\X64\TdCall.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\TdCall.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\TdCall.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\TdCall.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\TdCall.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\TdCall.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\TdCall.iii
+
+$(OUTPUT_DIR)\X64\ReadDr0.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadDr0.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadDr0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr0.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr0.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr0.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr0.iii
+
+$(OUTPUT_DIR)\X64\ReadMm0.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadMm0.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadMm0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm0.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm0.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm0.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm0.iii
+
+$(OUTPUT_DIR)\X64\ReadMm2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadMm2.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadMm2.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm2.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm2.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm2.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm2.iii
+
+$(OUTPUT_DIR)\X64\WriteDr0.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteDr0.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteDr0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr0.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr0.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr0.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr0.iii
+
+$(OUTPUT_DIR)\X64\EnableDisableInterrupts.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\EnableDisableInterrupts.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\EnableDisableInterrupts.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\EnableDisableInterrupts.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\EnableDisableInterrupts.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\EnableDisableInterrupts.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\EnableDisableInterrupts.iii
+
+$(OUTPUT_DIR)\X64\WriteCr3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteCr3.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteCr3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteCr3.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteCr3.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteCr3.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr3.iii
+
+$(OUTPUT_DIR)\X64\ReadFs.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadFs.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadFs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadFs.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadFs.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadFs.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadFs.iii
+
+$(OUTPUT_DIR)\X64\WriteMm7.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteMm7.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteMm7.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm7.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm7.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm7.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm7.iii
+
+$(OUTPUT_DIR)\X64\WriteCr2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteCr2.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteCr2.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteCr2.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteCr2.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteCr2.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr2.iii
+
+$(OUTPUT_DIR)\X64\ReadDr5.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadDr5.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadDr5.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr5.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr5.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr5.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr5.iii
+
+$(OUTPUT_DIR)\X64\WriteTr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteTr.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteTr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteTr.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteTr.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteTr.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteTr.iii
+
+$(OUTPUT_DIR)\X64\WriteGdtr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteGdtr.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteGdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteGdtr.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteGdtr.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteGdtr.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteGdtr.iii
+
+$(OUTPUT_DIR)\X64\WriteCr0.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteCr0.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteCr0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteCr0.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteCr0.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteCr0.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr0.iii
+
+$(OUTPUT_DIR)\X64\ReadCr2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadCr2.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadCr2.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadCr2.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadCr2.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadCr2.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr2.iii
+
+$(OUTPUT_DIR)\X64\ReadMm7.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadMm7.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadMm7.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm7.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm7.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm7.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm7.iii
+
+$(OUTPUT_DIR)\X64\ReadDr4.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadDr4.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadDr4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr4.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr4.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr4.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr4.iii
+
+$(OUTPUT_DIR)\X64\ReadTr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadTr.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadTr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadTr.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadTr.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadTr.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTr.iii
+
+$(OUTPUT_DIR)\X64\WriteMm4.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteMm4.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteMm4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm4.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm4.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm4.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm4.iii
+
+$(OUTPUT_DIR)\X64\ReadEs.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadEs.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadEs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadEs.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadEs.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadEs.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEs.iii
+
+$(OUTPUT_DIR)\X64\ReadEflags.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadEflags.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadEflags.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadEflags.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadEflags.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadEflags.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadEflags.iii
+
+$(OUTPUT_DIR)\X64\LongJump.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\LongJump.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\LongJump.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\LongJump.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\LongJump.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\LongJump.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.iii
+
+$(OUTPUT_DIR)\X64\Monitor.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\Monitor.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\Monitor.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Monitor.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Monitor.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Monitor.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Monitor.iii
+
+$(OUTPUT_DIR)\X64\ReadGdtr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadGdtr.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadGdtr.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadGdtr.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadGdtr.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadGdtr.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGdtr.iii
+
+$(OUTPUT_DIR)\X64\ReadGs.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadGs.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadGs.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadGs.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadGs.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadGs.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadGs.iii
+
+$(OUTPUT_DIR)\X64\ReadTsc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadTsc.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadTsc.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadTsc.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadTsc.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadTsc.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadTsc.iii
+
+$(OUTPUT_DIR)\X64\CpuPause.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\CpuPause.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\CpuPause.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\CpuPause.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\CpuPause.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\CpuPause.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\CpuPause.iii
+
+$(OUTPUT_DIR)\X64\WriteDr1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteDr1.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteDr1.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr1.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr1.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr1.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr1.iii
+
+$(OUTPUT_DIR)\X64\WriteDr3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteDr3.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteDr3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteDr3.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr3.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteDr3.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteDr3.iii
+
+$(OUTPUT_DIR)\X64\WriteMm0.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteMm0.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteMm0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm0.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm0.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm0.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm0.iii
+
+$(OUTPUT_DIR)\X64\ReadDr7.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadDr7.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadDr7.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadDr7.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr7.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadDr7.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadDr7.iii
+
+$(OUTPUT_DIR)\X64\ReadCr4.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadCr4.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadCr4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadCr4.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadCr4.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadCr4.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr4.iii
+
+$(OUTPUT_DIR)\X64\WriteCr4.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteCr4.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteCr4.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteCr4.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteCr4.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteCr4.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteCr4.iii
+
+$(OUTPUT_DIR)\X64\DisableInterrupts.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\DisableInterrupts.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\DisableInterrupts.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\DisableInterrupts.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\DisableInterrupts.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\DisableInterrupts.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisableInterrupts.iii
+
+$(OUTPUT_DIR)\X64\ReadMm3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadMm3.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadMm3.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadMm3.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm3.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadMm3.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadMm3.iii
+
+$(OUTPUT_DIR)\X64\Thunk16.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\Thunk16.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\Thunk16.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Thunk16.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Thunk16.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Thunk16.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Thunk16.iii
+
+$(OUTPUT_DIR)\X64\DisablePaging64.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\DisablePaging64.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\DisablePaging64.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\DisablePaging64.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\DisablePaging64.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\DisablePaging64.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\DisablePaging64.iii
+
+$(OUTPUT_DIR)\X64\Lfence.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\Lfence.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\Lfence.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\Lfence.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Lfence.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\Lfence.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Lfence.iii
+
+$(OUTPUT_DIR)\X64\ReadCr0.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadCr0.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadCr0.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadCr0.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadCr0.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadCr0.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadCr0.iii
+
+$(OUTPUT_DIR)\X64\ReadPmc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\ReadPmc.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\ReadPmc.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\ReadPmc.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadPmc.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ReadPmc.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\ReadPmc.iii
+
+$(OUTPUT_DIR)\X64\WriteMm1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\WriteMm1.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\WriteMm1.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\WriteMm1.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm1.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\WriteMm1.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\WriteMm1.iii
+
+$(OUTPUT_DIR)\X64\RdRand.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)\X64\RdRand.obj : $(DEBUG_DIR)\AutoGen.h
+$(OUTPUT_DIR)\X64\RdRand.obj : $(WORKSPACE)\MdePkg\Library\BaseLib\X64\RdRand.nasm
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\RdRand.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\RdRand.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\BaseLib\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RdRand.iii
 
 
 

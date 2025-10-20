@@ -1,15 +1,15 @@
  EbcDxe.dll
 
- Timestamp is 68f5d082 (Mon Oct 20 14:02:42 2025)
+ Timestamp is 68f5fea2 (Mon Oct 20 17:19:30 2025)
 
  Preferred load address is 0000000000010000
 
  Start         Length     Name                   Class
  0001:00000000 00000ba4H .text                   CODE
  0001:00000ba4 0000aa73H .text$mn                CODE
- 0002:00000000 00001300H .rdata                  DATA
- 0002:00001300 00000018H .rdata$voltmd           DATA
- 0002:00001318 00000148H .rdata$zzzdbg           DATA
+ 0002:00000000 000013e8H .rdata                  DATA
+ 0002:000013e8 00000018H .rdata$voltmd           DATA
+ 0002:00001400 00000150H .rdata$zzzdbg           DATA
  0003:00000000 00000120H .data                   DATA
  0003:00000120 00000140H .bss                    DATA
  0004:00000000 00000648H .pdata                  DATA
@@ -18,23 +18,23 @@
   Address         Publics by Value              Rva+Base               Lib:Object
 
  0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
- 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
  0000:00000000       __guard_iat_table          0000000000000000     <absolute>
- 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
  0000:00000000       __guard_iat_count          0000000000000000     <absolute>
  0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
- 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
  0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
- 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
  0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
  0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
- 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
- 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
  0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
  0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
- 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
  0000:00000000       __guard_fids_table         0000000000000000     <absolute>
- 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
  0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
  0000:00000000       __enclave_config           0000000000000000     <absolute>
  0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
@@ -225,12 +225,12 @@
  0001:00006740       VmWriteMem64               0000000000017740 f   EbcDxe:EbcExecute.obj
  0001:00006800       VmWriteMemN                0000000000017800 f   EbcDxe:EbcExecute.obj
  0001:000068bc       VmReadImmed8               00000000000178bc f   EbcDxe:EbcExecute.obj
- 0001:000068d8       VmReadImmed16              00000000000178d8 f   EbcDxe:EbcExecute.obj
  0001:000068d8       VmReadCode16               00000000000178d8 f   EbcDxe:EbcExecute.obj
- 0001:00006958       VmReadImmed32              0000000000017958 f   EbcDxe:EbcExecute.obj
+ 0001:000068d8       VmReadImmed16              00000000000178d8 f   EbcDxe:EbcExecute.obj
  0001:00006958       VmReadCode32               0000000000017958 f   EbcDxe:EbcExecute.obj
- 0001:000069d8       VmReadImmed64              00000000000179d8 f   EbcDxe:EbcExecute.obj
+ 0001:00006958       VmReadImmed32              0000000000017958 f   EbcDxe:EbcExecute.obj
  0001:000069d8       VmReadCode64               00000000000179d8 f   EbcDxe:EbcExecute.obj
+ 0001:000069d8       VmReadImmed64              00000000000179d8 f   EbcDxe:EbcExecute.obj
  0001:00006a78       VmReadMem8                 0000000000017a78 f   EbcDxe:EbcExecute.obj
  0001:00006aa8       VmReadMem16                0000000000017aa8 f   EbcDxe:EbcExecute.obj
  0001:00006b00       VmReadMem32                0000000000017b00 f   EbcDxe:EbcExecute.obj
@@ -238,21 +238,21 @@
  0001:00006c10       ConvertStackAddr           0000000000017c10 f   EbcDxe:EbcExecute.obj
  0001:00006c74       VmReadMemN                 0000000000017c74 f   EbcDxe:EbcExecute.obj
  0001:00006d20       GetVmVersion               0000000000017d20 f   EbcDxe:EbcExecute.obj
- 0001:00006d28       EbcDebuggerHookJMP8Start   0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
- 0001:00006d28       EbcDebuggerHookEbcUnloadImage 0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
- 0001:00006d28       EbcDebuggerHookCALLEXStart 0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
- 0001:00006d28       EbcDebuggerHookExecuteEnd  0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
- 0001:00006d28       EbcDebuggerHookRETEnd      0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
- 0001:00006d28       EbcDebuggerHookJMPEnd      0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
  0001:00006d28       EbcDebuggerHookCALLEnd     0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
- 0001:00006d28       EbcDebuggerHookExecuteEbcImageEntryPoint 0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
- 0001:00006d28       EbcDebuggerHookJMPStart    0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
- 0001:00006d28       EbcDebuggerHookCALLStart   0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
- 0001:00006d28       EbcDebuggerHookRETStart    0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
- 0001:00006d28       EbcDebuggerHookCALLEXEnd   0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
+ 0001:00006d28       EbcDebuggerHookRETEnd      0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
  0001:00006d28       EbcDebuggerHookEbcInterpret 0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
+ 0001:00006d28       EbcDebuggerHookExecuteEnd  0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
+ 0001:00006d28       EbcDebuggerHookCALLEXEnd   0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
  0001:00006d28       EbcDebuggerHookExecuteStart 0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
+ 0001:00006d28       EbcDebuggerHookJMP8Start   0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
+ 0001:00006d28       EbcDebuggerHookCALLStart   0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
+ 0001:00006d28       EbcDebuggerHookCALLEXStart 0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
+ 0001:00006d28       EbcDebuggerHookExecuteEbcImageEntryPoint 0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
+ 0001:00006d28       EbcDebuggerHookJMPEnd      0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
+ 0001:00006d28       EbcDebuggerHookRETStart    0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
  0001:00006d28       EbcDebuggerHookJMP8End     0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
+ 0001:00006d28       EbcDebuggerHookEbcUnloadImage 0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
+ 0001:00006d28       EbcDebuggerHookJMPStart    0000000000017d28 f   EbcDxe:EbcDebuggerHook.obj
  0001:00006d30       GetDebugPrintErrorLevel    0000000000017d30 f   BaseDebugPrintErrorLevelLib:BaseDebugPrintErrorLevelLib.obj
  0001:00006d38       InternalGetReportStatusCode 0000000000017d38 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
  0001:00006da8       InternalReportStatusCode   0000000000017da8 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
@@ -326,98 +326,98 @@
  0002:00000000       ??_C@_06LJBALAPD@EbcDxe@   000000000001d000     EbcDxe:AutoGen.obj
  0002:00000008       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 000000000001d008     EbcDxe:AutoGen.obj
  0002:00000030       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 000000000001d030     EbcDxe:AutoGen.obj
- 0002:00000070       ??_C@_0GN@HCNKPNLF@D?3?2develop?2EDK2?2edk2?2Build?2Emul@ 000000000001d070     EbcDxe:AutoGen.obj
- 0002:000000dd       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 000000000001d0dd     EbcDxe:AutoGen.obj
- 0002:000000e0       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 000000000001d0e0     EbcDxe:AutoGen.obj
- 0002:000000e4       _gDriverUnloadImageCount   000000000001d0e4     EbcDxe:AutoGen.obj
- 0002:000000e8       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 000000000001d0e8     EbcDxe:AutoGen.obj
- 0002:000000ec       _gUefiDriverRevision       000000000001d0ec     EbcDxe:AutoGen.obj
- 0002:000000f0       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 000000000001d0f0     EbcDxe:AutoGen.obj
- 0002:000000f4       _gPcd_FixedAtBuild_PcdDebugPropertyMask 000000000001d0f4     EbcDxe:AutoGen.obj
- 0002:000000f8       _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask 000000000001d0f8     EbcDxe:AutoGen.obj
- 0002:00000100       ??_C@_0BP@KEODEEPI@ImageContext?4Machine?5?$DN?$DN?50x0EBC@ 000000000001d100     EbcDxe:EbcInt.obj
- 0002:00000120       ??_C@_0DM@JOHPIPAF@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001d120     EbcDxe:EbcInt.obj
- 0002:00000160       ??_C@_0DN@MGCOAGFN@ImageContext?4ImageType?5?$DN?$DN?510?5?$HM?$HM@ 000000000001d160     EbcDxe:EbcInt.obj
- 0002:000001a0       ??_C@_0CO@BNFLLIFC@?$CIExceptionType?5?$DO?$DN?50?$CJ?5?$CG?$CG?5?$CIExcept@ 000000000001d1a0     EbcDxe:EbcInt.obj
- 0002:000001d0       ??_C@_0CE@LIMPJOFF@EBC?5Interrupter?5Version?5?9?50x?$CF01@ 000000000001d1d0     EbcDxe:EbcInt.obj
- 0002:000001f8       ??_C@_0BL@OHDEIPDD@Exception?5Type?5?9?50x?$CF016lx?6@ 000000000001d1f8     EbcDxe:EbcInt.obj
- 0002:00000218       ??_C@_0CA@BLFOCDMN@?5?5R0?5?9?50x?$CF016lx?0?5R1?5?9?50x?$CF016lx?6@ 000000000001d218     EbcDxe:EbcInt.obj
- 0002:00000238       ??_C@_0CA@DMDPFFCI@?5?5R2?5?9?50x?$CF016lx?0?5R3?5?9?50x?$CF016lx?6@ 000000000001d238     EbcDxe:EbcInt.obj
- 0002:00000258       ??_C@_0CA@FFJMMOAH@?5?5R4?5?9?50x?$CF016lx?0?5R5?5?9?50x?$CF016lx?6@ 000000000001d258     EbcDxe:EbcInt.obj
- 0002:00000278       ??_C@_0CA@HCPNLIOC@?5?5R6?5?9?50x?$CF016lx?0?5R7?5?9?50x?$CF016lx?6@ 000000000001d278     EbcDxe:EbcInt.obj
- 0002:00000298       ??_C@_0BE@PPPNEFPA@?5?5Flags?5?9?50x?$CF016lx?6@ 000000000001d298     EbcDxe:EbcInt.obj
- 0002:000002b0       ??_C@_0BL@BJMFFDAI@?5?5ControlFlags?5?9?50x?$CF016lx?6@ 000000000001d2b0     EbcDxe:EbcInt.obj
- 0002:000002d0       ??_C@_0BC@GGAGDPIP@?5?5Ip?5?9?50x?$CF016lx?6?6@ 000000000001d2d0     EbcDxe:EbcInt.obj
- 0002:000002e4       ??_C@_01GBGANLPD@0@        000000000001d2e4     EbcDxe:EbcExecute.obj
- 0002:000002f0       ??_C@_0EA@JLKKHKLK@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001d2f0     EbcDxe:EbcExecute.obj
- 0002:00000330       ??_C@_0EB@IDPDAIHJ@?$CI?$CIAddr?5?$DM?5VmPtr?9?$DOLowStackTop?$CJ?5?$HM?$HM@ 000000000001d330     EbcDxe:EbcExecute.obj
- 0002:00000380       mVmOpcodeTable             000000000001d380     EbcDxe:EbcExecute.obj
- 0002:00000580       mJMPLen                    000000000001d580     EbcDxe:EbcExecute.obj
- 0002:00000590       mDataManipDispatchTable    000000000001d590     EbcDxe:EbcExecute.obj
- 0002:00000628       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d628     BasePrintLib:PrintLibInternal.obj
- 0002:00000640       ??_C@_0FH@KLOBJBPP@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001d640     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000698       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d698     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000006b0       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d6b0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000006f0       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d6f0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000730       ??_C@_0DI@MBLLHEOH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d730     BaseLib:Unaligned.obj
- 0002:00000768       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d768     BaseLib:String.obj
- 0002:00000780       ??_C@_0DF@EAHDDLM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d780     BaseLib:String.obj
- 0002:000007b8       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 000000000001d7b8     BaseLib:String.obj
- 0002:000007f0       ??_C@_0DJ@DNFJNBOO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d7f0     BaseLib:SafeString.obj
- 0002:00000830       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000000000001d830     BaseLib:SafeString.obj
- 0002:00000850       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 000000000001d850     BaseLib:SafeString.obj
- 0002:00000890       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000000000001d890     BaseLib:SafeString.obj
- 0002:000008b0       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 000000000001d8b0     BaseLib:SafeString.obj
- 0002:000008c0       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 000000000001d8c0     BaseLib:SafeString.obj
- 0002:000008d8       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 000000000001d8d8     BaseLib:SafeString.obj
- 0002:00000920       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 000000000001d920     BaseLib:SafeString.obj
- 0002:00000980       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 000000000001d980     BaseLib:SafeString.obj
- 0002:00000990       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 000000000001d990     BaseLib:SafeString.obj
- 0002:000009d0       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 000000000001d9d0     BaseLib:ARShiftU64.obj
- 0002:000009e0       ??_C@_0DJ@GCEEOANF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d9e0     BaseLib:ARShiftU64.obj
- 0002:00000a20       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50@ 000000000001da20     BaseLib:DivS64x64Remainder.obj
- 0002:00000a30       ??_C@_0EB@PDDAFNHC@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001da30     BaseLib:DivS64x64Remainder.obj
- 0002:00000a80       ??_C@_0EB@PNEMOBPH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001da80     BaseLib:DivU64x64Remainder.obj
- 0002:00000ac8       ??_C@_0DI@FAGDBCDM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001dac8     BaseLib:LShiftU64.obj
- 0002:00000b00       ??_C@_0DI@LFEKCMNO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001db00     BaseLib:RShiftU64.obj
- 0002:00000b38       ??_C@_0BL@CPGKAMND@JumpBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001db38     BaseLib:SetJump.obj
- 0002:00000b58       ??_C@_0DG@HPLDDALP@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001db58     BaseLib:SetJump.obj
- 0002:00000b90       ??_C@_0CD@OEHNCIHG@?$CI?$CIUINTN?$CJJumpBuffer?5?$CG?5?$CI8?5?9?51?$CJ?$CJ?5?$DN@ 000000000001db90     BaseLib:SetJump.obj
- 0002:00000bc0       ??_C@_0FE@BEFIIBEL@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001dbc0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000c18       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 000000000001dc18     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000c48       ??_C@_01OHGJGJJP@?$FL@     000000000001dc48     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000c4c       ??_C@_02PBFOLPKM@?$FN?5@   000000000001dc4c     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000c50       ??_C@_0DG@EEENIGGL@Length?5?$DM?$DN?5?$CI0xFFFFFFFFFFFFFFFFUL@ 000000000001dc50     BaseMemoryLib:MemLibGuid.obj
- 0002:00000c90       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001dc90     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000ce0       ??_C@_0ED@JLFCAFGL@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001dce0     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000d28       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001dd28     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000d68       ??_C@_0CC@JOEHDGKB@DestinationBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 000000000001dd68     BaseMemoryLib:CompareMemWrapper.obj
- 0002:00000d90       ??_C@_0EG@DEJIAPDF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001dd90     BaseMemoryLib:CompareMemWrapper.obj
- 0002:00000dd8       ??_C@_0BN@MDMCNBCC@SourceBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001ddd8     BaseMemoryLib:CompareMemWrapper.obj
- 0002:00000e00       ??_C@_0ED@CPPAGEKM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001de00     BaseMemoryLib:ZeroMemWrapper.obj
- 0002:00000e50       ??_C@_0FC@FCCEPMJI@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001de50     UefiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:00000ea8       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001dea8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000ed0       ??_C@_0FI@GPPFIFID@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001ded0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000f28       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001df28     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000f40       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001df40     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000f58       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001df58     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:00000f70       ??_C@_0FO@FKLKMJDF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001df70     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:00000fd0       ??_C@_0BK@PPOBBAMB@TableGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001dfd0     UefiLib:UefiLib.obj
- 0002:00000ff0       ??_C@_0DG@PLINABMB@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001dff0     UefiLib:UefiLib.obj
- 0002:00001028       ??_C@_0BG@JDKEGFNB@Table?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e028     UefiLib:UefiLib.obj
- 0002:00001040       ??_C@_0DH@ENOHAOEJ@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001e040     DxeHobLib:HobLib.obj
- 0002:00001078       ??_C@_0BJ@OBFMLLDO@mHobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e078     DxeHobLib:HobLib.obj
- 0002:00001098       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e098     DxeHobLib:HobLib.obj
- 0002:000010b8       ??_C@_0BI@EDOKPJOP@GuidHob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e0b8     DxeEmuPeCoffExtraActionLib:DxeEmuPeCoffExtraActionLib.obj
- 0002:000010d0       ??_C@_0GB@EMJDNAEA@D?3?2develop?2EDK2?2edk2?2EmulatorPk@ 000000000001e0d0     DxeEmuPeCoffExtraActionLib:DxeEmuPeCoffExtraActionLib.obj
- 0002:00001138       ??_C@_0BH@DKHHOJK@mThunk?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e138     DxeEmuPeCoffExtraActionLib:DxeEmuPeCoffExtraActionLib.obj
- 0002:00001150       ??_C@_0DJ@EPHLDLOO@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001e150     BaseCacheMaintenanceLib:X86Cache.obj
- 0002:00001190       ??_C@_0EH@DJMGGLKE@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001e190     BaseCacheMaintenanceLib:X86Cache.obj
- 0002:000011d8       ??_C@_0DP@HKGELOA@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001e1d8     BasePeCoffLib:BasePeCoff.obj
- 0002:00001218       ??_C@_0BJ@KIAHAFBF@ReadSize?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e218     BasePeCoffLib:BasePeCoff.obj
- 0002:00001238       ??_C@_0BL@INAOLIJI@FileHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e238     BasePeCoffLib:BasePeCoff.obj
- 0002:00001260       ??_C@_0EM@JLGHJKPJ@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001e260     UefiDriverEntryPoint:DriverEntryPoint.obj
- 0002:00001300       __volatile_metadata        000000000001e300     <linker-defined>
+ 0002:00000070       ??_C@_0HF@FBCAKMNP@D?3?2develop?2Self_develop?2edk2?2Bu@ 000000000001d070     EbcDxe:AutoGen.obj
+ 0002:000000e5       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 000000000001d0e5     EbcDxe:AutoGen.obj
+ 0002:000000e8       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 000000000001d0e8     EbcDxe:AutoGen.obj
+ 0002:000000ec       _gDriverUnloadImageCount   000000000001d0ec     EbcDxe:AutoGen.obj
+ 0002:000000f0       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 000000000001d0f0     EbcDxe:AutoGen.obj
+ 0002:000000f4       _gUefiDriverRevision       000000000001d0f4     EbcDxe:AutoGen.obj
+ 0002:000000f8       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 000000000001d0f8     EbcDxe:AutoGen.obj
+ 0002:000000fc       _gPcd_FixedAtBuild_PcdDebugPropertyMask 000000000001d0fc     EbcDxe:AutoGen.obj
+ 0002:00000100       _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask 000000000001d100     EbcDxe:AutoGen.obj
+ 0002:00000108       ??_C@_0BP@KEODEEPI@ImageContext?4Machine?5?$DN?$DN?50x0EBC@ 000000000001d108     EbcDxe:EbcInt.obj
+ 0002:00000130       ??_C@_0EE@ILLJOHPJ@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d130     EbcDxe:EbcInt.obj
+ 0002:00000178       ??_C@_0DN@MGCOAGFN@ImageContext?4ImageType?5?$DN?$DN?510?5?$HM?$HM@ 000000000001d178     EbcDxe:EbcInt.obj
+ 0002:000001b8       ??_C@_0CO@BNFLLIFC@?$CIExceptionType?5?$DO?$DN?50?$CJ?5?$CG?$CG?5?$CIExcept@ 000000000001d1b8     EbcDxe:EbcInt.obj
+ 0002:000001e8       ??_C@_0CE@LIMPJOFF@EBC?5Interrupter?5Version?5?9?50x?$CF01@ 000000000001d1e8     EbcDxe:EbcInt.obj
+ 0002:00000210       ??_C@_0BL@OHDEIPDD@Exception?5Type?5?9?50x?$CF016lx?6@ 000000000001d210     EbcDxe:EbcInt.obj
+ 0002:00000230       ??_C@_0CA@BLFOCDMN@?5?5R0?5?9?50x?$CF016lx?0?5R1?5?9?50x?$CF016lx?6@ 000000000001d230     EbcDxe:EbcInt.obj
+ 0002:00000250       ??_C@_0CA@DMDPFFCI@?5?5R2?5?9?50x?$CF016lx?0?5R3?5?9?50x?$CF016lx?6@ 000000000001d250     EbcDxe:EbcInt.obj
+ 0002:00000270       ??_C@_0CA@FFJMMOAH@?5?5R4?5?9?50x?$CF016lx?0?5R5?5?9?50x?$CF016lx?6@ 000000000001d270     EbcDxe:EbcInt.obj
+ 0002:00000290       ??_C@_0CA@HCPNLIOC@?5?5R6?5?9?50x?$CF016lx?0?5R7?5?9?50x?$CF016lx?6@ 000000000001d290     EbcDxe:EbcInt.obj
+ 0002:000002b0       ??_C@_0BE@PPPNEFPA@?5?5Flags?5?9?50x?$CF016lx?6@ 000000000001d2b0     EbcDxe:EbcInt.obj
+ 0002:000002c8       ??_C@_0BL@BJMFFDAI@?5?5ControlFlags?5?9?50x?$CF016lx?6@ 000000000001d2c8     EbcDxe:EbcInt.obj
+ 0002:000002e8       ??_C@_0BC@GGAGDPIP@?5?5Ip?5?9?50x?$CF016lx?6?6@ 000000000001d2e8     EbcDxe:EbcInt.obj
+ 0002:000002fc       ??_C@_01GBGANLPD@0@        000000000001d2fc     EbcDxe:EbcExecute.obj
+ 0002:00000300       ??_C@_0EI@OBKDNNBO@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d300     EbcDxe:EbcExecute.obj
+ 0002:00000350       ??_C@_0EB@IDPDAIHJ@?$CI?$CIAddr?5?$DM?5VmPtr?9?$DOLowStackTop?$CJ?5?$HM?$HM@ 000000000001d350     EbcDxe:EbcExecute.obj
+ 0002:000003a0       mVmOpcodeTable             000000000001d3a0     EbcDxe:EbcExecute.obj
+ 0002:000005a0       mJMPLen                    000000000001d5a0     EbcDxe:EbcExecute.obj
+ 0002:000005b0       mDataManipDispatchTable    000000000001d5b0     EbcDxe:EbcExecute.obj
+ 0002:00000648       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d648     BasePrintLib:PrintLibInternal.obj
+ 0002:00000660       ??_C@_0FP@CCJIJCDG@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d660     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000006c0       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d6c0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000006d8       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d6d8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000718       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d718     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000760       ??_C@_0EA@FKBIDDGN@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d760     BaseLib:Unaligned.obj
+ 0002:000007a0       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d7a0     BaseLib:String.obj
+ 0002:000007b8       ??_C@_0DN@POJBHOAP@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d7b8     BaseLib:String.obj
+ 0002:000007f8       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 000000000001d7f8     BaseLib:String.obj
+ 0002:00000830       ??_C@_0EB@DAKPBIJH@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d830     BaseLib:SafeString.obj
+ 0002:00000878       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000000000001d878     BaseLib:SafeString.obj
+ 0002:000008a0       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 000000000001d8a0     BaseLib:SafeString.obj
+ 0002:000008e0       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000000000001d8e0     BaseLib:SafeString.obj
+ 0002:00000900       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 000000000001d900     BaseLib:SafeString.obj
+ 0002:00000910       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 000000000001d910     BaseLib:SafeString.obj
+ 0002:00000928       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 000000000001d928     BaseLib:SafeString.obj
+ 0002:00000970       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 000000000001d970     BaseLib:SafeString.obj
+ 0002:000009d0       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 000000000001d9d0     BaseLib:SafeString.obj
+ 0002:000009e0       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 000000000001d9e0     BaseLib:SafeString.obj
+ 0002:00000a20       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 000000000001da20     BaseLib:ARShiftU64.obj
+ 0002:00000a30       ??_C@_0EB@GPLCCJKM@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001da30     BaseLib:ARShiftU64.obj
+ 0002:00000a78       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50@ 000000000001da78     BaseLib:DivS64x64Remainder.obj
+ 0002:00000a90       ??_C@_0EJ@CCPBDDCE@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001da90     BaseLib:DivS64x64Remainder.obj
+ 0002:00000ae0       ??_C@_0EJ@CMINIPKB@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001dae0     BaseLib:DivU64x64Remainder.obj
+ 0002:00000b30       ??_C@_0EA@MLMAFFLG@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001db30     BaseLib:LShiftU64.obj
+ 0002:00000b70       ??_C@_0EA@COOJGLFE@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001db70     BaseLib:RShiftU64.obj
+ 0002:00000bb0       ??_C@_0BL@CPGKAMND@JumpBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001dbb0     BaseLib:SetJump.obj
+ 0002:00000bd0       ??_C@_0DO@CNCBEEME@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001dbd0     BaseLib:SetJump.obj
+ 0002:00000c10       ??_C@_0CD@OEHNCIHG@?$CI?$CIUINTN?$CJJumpBuffer?5?$CG?5?$CI8?5?9?51?$CJ?$CJ?5?$DN@ 000000000001dc10     BaseLib:SetJump.obj
+ 0002:00000c40       ??_C@_0FM@HDIIFGPN@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001dc40     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000ca0       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 000000000001dca0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000cd0       ??_C@_01OHGJGJJP@?$FL@     000000000001dcd0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000cd4       ??_C@_02PBFOLPKM@?$FN?5@   000000000001dcd4     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000cd8       ??_C@_0DG@EEENIGGL@Length?5?$DM?$DN?5?$CI0xFFFFFFFFFFFFFFFFUL@ 000000000001dcd8     BaseMemoryLib:MemLibGuid.obj
+ 0002:00000d10       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001dd10     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000d60       ??_C@_0EL@NNLJGCCH@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001dd60     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000db0       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001ddb0     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000df0       ??_C@_0CC@JOEHDGKB@DestinationBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 000000000001ddf0     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:00000e20       ??_C@_0EO@FAHMLNEH@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001de20     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:00000e70       ??_C@_0BN@MDMCNBCC@SourceBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001de70     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:00000e90       ??_C@_0EL@GJBLADOA@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001de90     BaseMemoryLib:ZeroMemWrapper.obj
+ 0002:00000ee0       ??_C@_0FK@KCDEFJBC@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001dee0     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000f40       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001df40     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000f60       ??_C@_0GA@INMEIGJE@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001df60     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000fc0       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001dfc0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000fd8       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001dfd8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000ff0       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001dff0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00001010       ??_C@_0GG@OBDIBKMM@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001e010     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00001078       ??_C@_0BK@PPOBBAMB@TableGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e078     UefiLib:UefiLib.obj
+ 0002:00001098       ??_C@_0DO@KJBPHFLK@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001e098     UefiLib:UefiLib.obj
+ 0002:000010d8       ??_C@_0BG@JDKEGFNB@Table?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e0d8     UefiLib:UefiLib.obj
+ 0002:000010f0       ??_C@_0DP@IKGCDEIJ@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001e0f0     DxeHobLib:HobLib.obj
+ 0002:00001130       ??_C@_0BJ@OBFMLLDO@mHobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e130     DxeHobLib:HobLib.obj
+ 0002:00001150       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e150     DxeHobLib:HobLib.obj
+ 0002:00001170       ??_C@_0BI@EDOKPJOP@GuidHob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e170     DxeEmuPeCoffExtraActionLib:DxeEmuPeCoffExtraActionLib.obj
+ 0002:00001190       ??_C@_0GJ@FPCFOMHE@D?3?2develop?2Self_develop?2edk2?2Em@ 000000000001e190     DxeEmuPeCoffExtraActionLib:DxeEmuPeCoffExtraActionLib.obj
+ 0002:00001200       ??_C@_0BH@DKHHOJK@mThunk?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e200     DxeEmuPeCoffExtraActionLib:DxeEmuPeCoffExtraActionLib.obj
+ 0002:00001218       ??_C@_0DJ@EPHLDLOO@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001e218     BaseCacheMaintenanceLib:X86Cache.obj
+ 0002:00001260       ??_C@_0EP@IHKJJPAG@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001e260     BaseCacheMaintenanceLib:X86Cache.obj
+ 0002:000012b0       ??_C@_0EH@GEFLEHGL@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001e2b0     BasePeCoffLib:BasePeCoff.obj
+ 0002:000012f8       ??_C@_0BJ@KIAHAFBF@ReadSize?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e2f8     BasePeCoffLib:BasePeCoff.obj
+ 0002:00001318       ??_C@_0BL@INAOLIJI@FileHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001e318     BasePeCoffLib:BasePeCoff.obj
+ 0002:00001340       ??_C@_0FE@KBEJNINE@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001e340     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:000013e8       __volatile_metadata        000000000001e3e8     <linker-defined>
  0003:00000000       m16Size                    000000000001f000     BaseLib:Thunk16.obj
  0003:00000002       mThunk16Attr               000000000001f002     BaseLib:Thunk16.obj
  0003:00000004       m16Gdt                     000000000001f004     BaseLib:Thunk16.obj

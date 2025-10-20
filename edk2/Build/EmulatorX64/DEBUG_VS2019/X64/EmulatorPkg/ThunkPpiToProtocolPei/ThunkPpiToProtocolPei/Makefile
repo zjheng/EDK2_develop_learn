@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = ThunkPpiToProtocolPei
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = EmulatorPkg\ThunkPpiToProtocolPei
 PACKAGE_RELATIVE_DIR = ThunkPpiToProtocolPei
-MODULE_DIR = D:\develop\EDK2\edk2\EmulatorPkg\ThunkPpiToProtocolPei
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\C32A66D5-D8B7-2640-B768-082C8F083C37ThunkPpiToProtocolPei
+MODULE_DIR = D:\develop\Self_develop\edk2\EmulatorPkg\ThunkPpiToProtocolPei
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\C32A66D5-D8B7-2640-B768-082C8F083C37ThunkPpiToProtocolPei
 
 MODULE_ENTRY_POINT = PeiInitialzeThunkPpiToProtocolPei
 ARCH_ENTRY_POINT = PeiInitialzeThunkPpiToProtocolPei
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -180,7 +180,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_1 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\cc_resp_1.txt
+cc_resp_1 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\cc_resp_1.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -220,8 +220,8 @@ INC =  \
     /I$(WORKSPACE)\EmulatorPkg \
     /I$(WORKSPACE)\EmulatorPkg\Include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\static_library_files.lst
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\static_library_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\ThunkPpiToProtocolPei.obj $(OUTPUT_DIR)\AutoGen.obj
 
 
@@ -232,7 +232,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\ThunkPpiToProtocolPei.efi \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\ThunkPpiToProtocolPei.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -328,23 +328,23 @@ $(OBJLIST_0):  \
 	$(DEBUG_DIR)\AutoGen.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(WORKSPACE)\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_1)
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_1)
 
 $(OUTPUT_DIR)\ThunkPpiToProtocolPei.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\ThunkPpiToProtocolPei.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\ThunkPpiToProtocolPei.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\ThunkPpiToProtocolPei.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\ThunkPpiToProtocolPei.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\ThunkPpiToProtocolPei.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\ThunkPpiToProtocolPei.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG\ThunkPpiToProtocolPei.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG\ThunkPpiToProtocolPei.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG\ThunkPpiToProtocolPei.dll $(DLINK_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG\ThunkPpiToProtocolPei.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG\ThunkPpiToProtocolPei.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG\ThunkPpiToProtocolPei.dll $(DLINK_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\ThunkPpiToProtocolPei.efi : $(DEBUG_DIR)\ThunkPpiToProtocolPei.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\ThunkPpiToProtocolPei.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG\ThunkPpiToProtocolPei.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\ThunkPpiToProtocolPei.efi $(DEBUG_DIR)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\ThunkPpiToProtocolPei.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\ThunkPpiToProtocolPei.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG\ThunkPpiToProtocolPei.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\ThunkPpiToProtocolPei.efi $(DEBUG_DIR)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\ThunkPpiToProtocolPei.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

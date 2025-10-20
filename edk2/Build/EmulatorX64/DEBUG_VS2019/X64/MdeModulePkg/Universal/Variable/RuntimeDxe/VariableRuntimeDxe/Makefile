@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = VariableRuntimeDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Universal\Variable\RuntimeDxe
 PACKAGE_RELATIVE_DIR = Universal\Variable\RuntimeDxe
-MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Universal\Variable\RuntimeDxe
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\CBD2E4D5-7068-4FF5-B462-9822B4AD8D60VariableRuntimeDxe
+MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Universal\Variable\RuntimeDxe
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\CBD2E4D5-7068-4FF5-B462-9822B4AD8D60VariableRuntimeDxe
 
 MODULE_ENTRY_POINT = VariableServiceInitialize
 ARCH_ENTRY_POINT = VariableServiceInitialize
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_12 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\cc_resp_12.txt
+cc_resp_12 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\cc_resp_12.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -249,9 +249,9 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\static_library_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\VariableParsing.obj $(OUTPUT_DIR)\Measurement.obj $(OUTPUT_DIR)\TcgMorLockDxe.obj $(OUTPUT_DIR)\SpeculationBarrierDxe.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\Reclaim.obj $(OUTPUT_DIR)\VariableExLib.obj $(OUTPUT_DIR)\VariableLockRequestToLock.obj $(OUTPUT_DIR)\Variable.obj $(OUTPUT_DIR)\VariableDxe.obj $(OUTPUT_DIR)\VarCheck.obj $(OUTPUT_DIR)\VariableNonVolatile.obj $(OUTPUT_DIR)\VariableRuntimeCache.obj
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\static_library_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\VariableParsing.obj $(OUTPUT_DIR)\Measurement.obj $(OUTPUT_DIR)\TcgMorLockDxe.obj $(OUTPUT_DIR)\SpeculationBarrierDxe.obj $(OUTPUT_DIR)\VariableExLib.obj $(OUTPUT_DIR)\Reclaim.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\VariableLockRequestToLock.obj $(OUTPUT_DIR)\Variable.obj $(OUTPUT_DIR)\VariableDxe.obj $(OUTPUT_DIR)\VarCheck.obj $(OUTPUT_DIR)\VariableNonVolatile.obj $(OUTPUT_DIR)\VariableRuntimeCache.obj
 
 
 #
@@ -261,7 +261,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\VariableRuntimeDxe.efi \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\VariableRuntimeDxe.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -369,37 +369,37 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\SpeculationBarrierDxe.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\VarCheck.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeCache.c \
-	$(DEBUG_DIR)\AutoGen.c \
 	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\Reclaim.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableNonVolatile.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\TcgMorLockDxe.c \
 	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableExLib.c \
 	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableLockRequestToLock.c \
+	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeCache.c \
 	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableDxe.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableParsing.c \
+	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\VarCheck.c \
 	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\Measurement.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\TcgMorLockDxe.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\Variable.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_12)
+	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\SpeculationBarrierDxe.c \
+	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\Variable.c \
+	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableParsing.c \
+	$(WORKSPACE)\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableNonVolatile.c \
+	$(DEBUG_DIR)\AutoGen.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_12)
 
 $(OUTPUT_DIR)\VariableRuntimeDxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\VariableRuntimeDxe.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\VariableRuntimeDxe.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\VariableRuntimeDxe.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\VariableRuntimeDxe.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\VariableRuntimeDxe.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\VariableRuntimeDxe.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG\VariableRuntimeDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG\VariableRuntimeDxe.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG\VariableRuntimeDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG\VariableRuntimeDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG\VariableRuntimeDxe.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG\VariableRuntimeDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\VariableRuntimeDxe.efi : $(DEBUG_DIR)\VariableRuntimeDxe.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\VariableRuntimeDxe.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG\VariableRuntimeDxe.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\VariableRuntimeDxe.efi $(DEBUG_DIR)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\VariableRuntimeDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\VariableRuntimeDxe.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG\VariableRuntimeDxe.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\VariableRuntimeDxe.efi $(DEBUG_DIR)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\OUTPUT\VariableRuntimeDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

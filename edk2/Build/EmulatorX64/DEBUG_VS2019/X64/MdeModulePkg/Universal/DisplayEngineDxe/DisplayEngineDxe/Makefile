@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = DisplayEngineDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Universal\DisplayEngineDxe
 PACKAGE_RELATIVE_DIR = Universal\DisplayEngineDxe
-MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Universal\DisplayEngineDxe
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine
+MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Universal\DisplayEngineDxe
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine
 
 MODULE_ENTRY_POINT = InitializeDisplayEngine
 ARCH_ENTRY_POINT = InitializeDisplayEngine
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_4 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\cc_resp_4.txt
+cc_resp_4 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\cc_resp_4.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -230,8 +230,8 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\static_library_files.lst
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\static_library_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\ProcessOptions.obj $(OUTPUT_DIR)\InputHandler.obj $(OUTPUT_DIR)\FormDisplay.obj $(OUTPUT_DIR)\Popup.obj
 
 
@@ -242,7 +242,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\DisplayEngine.efi \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\DisplayEngine.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -339,30 +339,30 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Universal\DisplayEngineDxe\FormDisplay.c \
+	$(WORKSPACE)\MdeModulePkg\Universal\DisplayEngineDxe\InputHandler.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\DisplayEngineStrDefs.h \
-	$(WORKSPACE)\MdeModulePkg\Universal\DisplayEngineDxe\InputHandler.c \
-	$(DEBUG_DIR)\AutoGen.c \
+	$(WORKSPACE)\MdeModulePkg\Universal\DisplayEngineDxe\FormDisplay.c \
+	$(WORKSPACE)\MdeModulePkg\Universal\DisplayEngineDxe\ProcessOptions.c \
 	$(WORKSPACE)\MdeModulePkg\Universal\DisplayEngineDxe\Popup.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\DisplayEngineDxe\ProcessOptions.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_4)
+	$(DEBUG_DIR)\AutoGen.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_4)
 
 $(OUTPUT_DIR)\DisplayEngine.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\DisplayEngine.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\DisplayEngine.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\DisplayEngine.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\DisplayEngine.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\DisplayEngine.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\DisplayEngine.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG\DisplayEngine.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG\DisplayEngine.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG\DisplayEngine.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG\DisplayEngine.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG\DisplayEngine.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG\DisplayEngine.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\DisplayEngine.efi : $(DEBUG_DIR)\DisplayEngine.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\DisplayEngine.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG\DisplayEngine.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\DisplayEngine.efi $(DEBUG_DIR)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\DisplayEngine.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\DisplayEngine.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG\DisplayEngine.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\DisplayEngine.efi $(DEBUG_DIR)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\OUTPUT\DisplayEngine.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 
@@ -381,7 +381,7 @@ $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC1.1.dpx : $(OUTPUT_DIR)\DisplayEngine.depex
 $(FFS_OUTPUT_DIR)\DisplayEngineOffset.raw : $(FFS_OUTPUT_DIR)\DisplayEngine.offset
 	if exist $(FFS_OUTPUT_DIR)\DisplayEngine.offset GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)\DisplayEngineOffset.raw $(FFS_OUTPUT_DIR)\DisplayEngine.offset
 $(FFS_OUTPUT_DIR)\DisplayEngine.offset : $(DEBUG_DIR)\DisplayEngine.efi
-	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\DisplayEngine.offset --ModuleName=DisplayEngine --DebugDir=D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG 
+	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\DisplayEngine.offset --ModuleName=DisplayEngine --DebugDir=D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG 
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com : $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy
 	if exist $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy GenSec -s EFI_SECTION_COMPRESSION -c PI_STD -o $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy : $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.1.guided
