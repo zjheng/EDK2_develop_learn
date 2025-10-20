@@ -1,0 +1,5 @@
+D:\develop\EDK2\edk2\MdePkg\Library\StackCheckLibNull\X64\StackCheckFunctionsMsvc.nasm
+D:\develop\EDK2\edk2\MdePkg\Library\StackCheckLibNull\StackCheckLibNullMsvc.c
+D:\develop\EDK2\edk2\MdePkg\Library\StackCheckLibNull\StackCheckLibNullGcc.c
+D:\develop\EDK2\edk2\MdePkg\Library\StackCheckLibNull\StackCheckLibNull.inf
+D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\DEBUG\AutoGen.h

@@ -1,0 +1,220 @@
+## @file
+# PeiMain module is core module in PEI phase.
+#
+# It takes responsibilities of:
+# 1) Initialize memory, PPI, image services etc, to establish PEIM runtime environment.
+# 2) Dispatch PEIM from discovered FV.
+# 3) Handoff control to DxeIpl to load DXE core and enter DXE phase.
+#
+# Copyright (c) 2006 - 2024, Intel Corporation. All rights reserved.<BR>
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+#
+##
+
+# DO NOT EDIT
+# FILE auto-generated
+
+[Defines]
+  INF_VERSION                = 0x00010017
+  BASE_NAME                  = PeiCore
+  FILE_GUID                  = 52C05B14-0B98-496c-BC3B-04B50211D680
+  MODULE_TYPE                = PEI_CORE
+  VERSION_STRING             = 1.0
+  ENTRY_POINT                = PeiCore
+  MODULE_UNI_FILE            = PeiCore.uni
+
+[Packages.IA32]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  EmulatorPkg/EmulatorPkg.dec
+
+[Binaries.IA32]
+  PE32|PeiCore.efi
+
+[PatchPcd.IA32]
+
+[Protocols.IA32]
+
+[Ppis.IA32]
+  ## SOMETIMES_CONSUMES # PeiReportStatusService is not ready if this PPI doesn't exist
+  gEfiPeiStatusCodePpiGuid
+
+  ## SOMETIMES_CONSUMES # PeiResetService is not ready if this PPI doesn't exist
+  gEfiPeiResetPpiGuid
+
+  ## CONSUMES
+  gEfiDxeIplPpiGuid
+
+  ## PRODUCES
+  gEfiPeiMemoryDiscoveredPpiGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiPeiDecompressPpiGuid
+
+  ## SOMETIMES_PRODUCES
+  ## NOTIFY
+  ## SOMETIMES_PRODUCES # Produce FvInfoPpi if the encapsulated FvImage is found
+  gEfiPeiFirmwareVolumeInfoPpiGuid
+
+  ## SOMETIMES_PRODUCES
+  ## NOTIFY
+  ## SOMETIMES_PRODUCES # Produce FvInfoPpi2 if the encapsulated FvImage is found
+  gEfiPeiFirmwareVolumeInfo2PpiGuid
+
+  ## PRODUCES
+  ## CONSUMES
+  gEfiPeiLoadFilePpiGuid
+
+  ## NOTIFY
+  gEfiPeiSecurity2PpiGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiTemporaryRamSupportPpiGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiTemporaryRamDonePpiGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiPeiReset2PpiGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiSecHobDataPpiGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiPeiCoreFvLocationPpiGuid
+
+  ## PRODUCES
+  gEdkiiPeiMigrateTempRamPpiGuid
+
+  ## PRODUCES
+  gEfiPeiDelayedDispatchPpiGuid
+
+  ## CONSUMES
+  gEfiEndOfPeiSignalPpiGuid
+
+  # PPI ALWAYS_CONSUMED
+  # PPI ALWAYS_CONSUMED
+  gEmuThunkPpiGuid
+
+
+[Guids.IA32]
+  ## SOMETIMES_CONSUMES   ## File
+  gPeiAprioriFileNameGuid
+
+  ## SOMETIMES_PRODUCES ## GUID # FV File System Guid.
+  ## PRODUCES   ## UNDEFINED # Install PPI
+  ## CONSUMES   ## UNDEFINED # Locate PPI
+  gEfiFirmwareFileSystem2Guid
+
+  ## PRODUCES   ## UNDEFINED # Install PPI
+  ## CONSUMES   ## UNDEFINED # Locate PPI
+  ## CONSUMES   ## GUID      # Used to compare with FV's file system GUID and get the FV's file system format
+  gEfiFirmwareFileSystem3Guid
+
+  gStatusCodeCallbackGuid
+
+  ## SOMETIMES_PRODUCES     ## HOB
+  gEdkiiMigratedFvInfoGuid
+
+  ## SOMETIMES_CONSUMES     ## HOB
+  gEdkiiMigrationInfoGuid
+
+  ## SOMETIMES_PRODUCES     ## HOB
+  gEfiDelayedDispatchTableGuid
+
+  ## SOMETIMES_CONSUMES ## GUID
+  ## SOMETIMES_CONSUMES   ## UNDEFINED
+  gEfiStatusCodeDataTypeDebugGuid
+
+  ## SOMETIMES_PRODUCES ## HOB # MemoryAllocation StackHob
+  gEfiHobMemoryAllocStackGuid
+
+  ## SOMETIMES_PRODUCES ## HOB # MemoryAllocation BspStoreHob
+  gEfiHobMemoryAllocBspStoreGuid
+
+  ## SOMETIMES_PRODUCES ## HOB # MemoryAllocation ModuleHob
+  gEfiHobMemoryAllocModuleGuid
+
+  ## SOMETIMES_CONSUMES   ## UNDEFINED
+  gEfiStatusCodeSpecificDataGuid
+
+
+[PcdEx.IA32]
+
+[LibraryClasses.IA32]
+## @LIB_INSTANCES
+#  MdeModulePkg/Library/OemHookStatusCodeLibNull/OemHookStatusCodeLibNull.inf
+#  MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull.inf
+#  MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib.inf
+#  MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf
+#  EmulatorPkg/Library/PeiServicesTablePointerLibMagicPage/PeiServicesTablePointerLibMagicPage.inf
+#  MdePkg/Library/PeiMemoryAllocationLib/PeiMemoryAllocationLib.inf
+#  MdeModulePkg/Library/PeiDxeDebugLibReportStatusCode/PeiDxeDebugLibReportStatusCode.inf
+#  MdePkg/Library/BaseLib/BaseLib.inf
+#  MdePkg/Library/PeiHobLib/PeiHobLib.inf
+#  MdePkg/Library/PeiServicesLib/PeiServicesLib.inf
+#  MdeModulePkg/Library/PeiReportStatusCodeLib/PeiReportStatusCodeLib.inf
+#  MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf
+#  MdePkg/Library/StackCheckLibNull/StackCheckLibNull.inf
+#  EmulatorPkg/Library/PeiEmuPeCoffExtraActionLib/PeiEmuPeCoffExtraActionLib.inf
+#  MdePkg/Library/BaseSafeIntLib/BaseSafeIntLib.inf
+#  EmulatorPkg/Library/PeiEmuPeCoffGetEntryPointLib/PeiEmuPeCoffGetEntryPointLib.inf
+#  MdePkg/Library/BasePerformanceLibNull/BasePerformanceLibNull.inf
+#  MdePkg/Library/PeiCoreEntryPoint/PeiCoreEntryPoint.inf
+#  MdePkg/Library/BaseCacheMaintenanceLib/BaseCacheMaintenanceLib.inf
+#  MdePkg/Library/BasePeCoffLib/BasePeCoffLib.inf
+#  EmulatorPkg/Library/PeiTimerLib/PeiTimerLib.inf
+
+[Depex.IA32]
+
+
+[UserExtensions.TianoCore."ExtraFiles"]
+PeiCoreExtra.uni
+
+
+
+#
+# The following information is for reference only and not required by the build tools.
+#
+#  VALID_ARCHITECTURES           = IA32 X64 EBC (EBC is for build only)
+#
+# [BootMode]
+# S3_RESUME             ## SOMETIMES_CONSUMES
+# [Hob]
+# PHIT                  ## PRODUCES
+# RESOURCE_DESCRIPTOR   ## SOMETIMES_PRODUCES
+# RESOURCE_DESCRIPTOR   ## SOMETIMES_CONSUMES
+# MEMORY_ALLOCATION     ## SOMETIMES_CONSUMES
+# FIRMWARE_VOLUME       ## SOMETIMES_PRODUCES
+# FIRMWARE_VOLUME       ## SOMETIMES_CONSUMES
+# MEMORY_ALLOCATION     ## SOMETIMES_PRODUCES
+# MEMORY_ALLOCATION     ## PRODUCES # MEMORY_ALLOCATION_STACK
+# UNDEFINED             ## PRODUCES # MEMORY_POOL
+
+[BuildOptions.IA32]
+## @AsBuilt
+##   MSFT:DEBUG_VS2022_IA32_ASLPP_FLAGS = /nologo /E /C /FIAutoGen.h
+##   MSFT:DEBUG_VS2022_IA32_ASLDLINK_FLAGS = /NODEFAULTLIB /ENTRY:ReferenceAcpiTable /SUBSYSTEM:CONSOLE
+##   MSFT:DEBUG_VS2022_IA32_GENFW_FLAGS = 
+##   MSFT:DEBUG_VS2022_IA32_SLINK_FLAGS = /NOLOGO /LTCG
+##   MSFT:DEBUG_VS2022_IA32_OBJCOPY_FLAGS = objcopy not needed for
+##   MSFT:DEBUG_VS2022_IA32_DEPS_FLAGS = /showIncludes
+##   MSFT:DEBUG_VS2022_IA32_ASM_FLAGS = /nologo /c /WX /W3 /Cx /coff /Zd /Zi
+##   MSFT:DEBUG_VS2022_IA32_CC_FLAGS = /nologo /arch:IA32 /c /WX /GS /W4 /Gs32768 /D UNICODE /O1b2 /GL /FIAutoGen.h /EHs-c- /GR- /GF /Gy /Z7 /Gw -D DISABLE_NEW_DEPRECATED_INTERFACES /Od /Oy-
+##   MSFT:DEBUG_VS2022_IA32_ASMLINK_FLAGS = /nologo /tiny
+##   MSFT:DEBUG_VS2022_IA32_VFR_FLAGS = -l -n
+##   MSFT:DEBUG_VS2022_IA32_ASLCC_FLAGS = /nologo /c /FIAutoGen.h /TC /Dmain=ReferenceAcpiTable
+##   MSFT:DEBUG_VS2022_IA32_APP_FLAGS = /nologo /E /TC
+##   MSFT:DEBUG_VS2022_IA32_NASM_FLAGS = -Ox -f win32 -g
+##   MSFT:DEBUG_VS2022_IA32_OPTROM_FLAGS = -e
+##   MSFT:DEBUG_VS2022_IA32_DTC_FLAGS = -H epapr
+##   MSFT:DEBUG_VS2022_IA32_MAKE_FLAGS = /nologo
+##   MSFT:DEBUG_VS2022_IA32_SYMRENAME_FLAGS = Symbol renaming not needed for
+##   MSFT:DEBUG_VS2022_IA32_PP_FLAGS = /nologo /E /TC /FIAutoGen.h
+##   MSFT:DEBUG_VS2022_IA32_VFRPP_FLAGS = /nologo /E /TC /DVFRCOMPILE /FI$(MODULE_NAME)StrDefs.h
+##   MSFT:DEBUG_VS2022_IA32_DLINK_FLAGS = /NOLOGO /NODEFAULTLIB /IGNORE:4001 /OPT:REF /OPT:ICF=10 /MAP /ALIGN:32 /SECTION:.xdata,D /SECTION:.pdata,D /MACHINE:X86 /LTCG /DLL /ENTRY:$(IMAGE_ENTRY_POINT) /SUBSYSTEM:EFI_BOOT_SERVICE_DRIVER /SAFESEH:NO /BASE:0 /DRIVER /DEBUG /WX /IGNORE:4210 /ALIGN:4096 /FILEALIGN:4096 /BASE:0x10000
+##   MSFT:DEBUG_VS2022_IA32_ASL_FLAGS = 
+##   MSFT:DEBUG_VS2022_IA32_NASMB_FLAGS = -f bin
+##   MSFT:DEBUG_VS2022_IA32_DLINK2_FLAGS = /WHOLEARCHIVE

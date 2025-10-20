@@ -1,0 +1,117 @@
+## @file
+# Entry Point of Win Emulator
+#
+# Main executable file of Win Emulator that loads Sec core after initialization finished.
+# Copyright (c) 2008 - 2022, Intel Corporation. All rights reserved.<BR>
+# Portions copyright (c) 2008 - 2011, Apple Inc. All rights reserved.<BR>
+# (C) Copyright 2020 Hewlett Packard Enterprise Development LP<BR>
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+#
+##
+
+# DO NOT EDIT
+# FILE auto-generated
+
+[Defines]
+  INF_VERSION                = 0x00010017
+  BASE_NAME                  = WinHost
+  FILE_GUID                  = 62E8F833-2B0A-4C19-A966-63C180588BE7
+  MODULE_TYPE                = USER_DEFINED
+  VERSION_STRING             = 1.0
+
+[Packages.X64]
+  MdePkg/MdePkg.dec
+  EmulatorPkg/EmulatorPkg.dec
+
+[Binaries.X64]
+  BIN|WinHost
+
+[PatchPcd.X64]
+
+[Protocols.X64]
+  gEmuIoThunkProtocolGuid
+
+  gEmuGraphicsWindowProtocolGuid
+
+  gEmuBlockIoProtocolGuid
+
+  gEfiSimpleFileSystemProtocolGuid
+
+  gEmuSnpProtocolGuid
+
+
+[Ppis.X64]
+  gEmuThunkPpiGuid
+
+  gEfiPeiReset2PpiGuid
+
+
+[Guids.X64]
+  # SOMETIMES_CONSUMED
+  gEfiFileSystemVolumeLabelInfoIdGuid
+
+  # SOMETIMES_CONSUMED
+  gEfiFileInfoGuid
+
+  # SOMETIMES_CONSUMED
+  gEfiFileSystemInfoGuid
+
+
+[PcdEx.X64]
+
+[LibraryClasses.X64]
+## @LIB_INSTANCES
+#  MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull.inf
+#  MdePkg/Library/BaseLib/BaseLib.inf
+#  MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf
+#  MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf
+#  MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
+#  MdePkg/Library/BaseSafeIntLib/BaseSafeIntLib.inf
+#  MdePkg/Library/BasePeCoffExtraActionLibNull/BasePeCoffExtraActionLibNull.inf
+#  EmulatorPkg/Library/SecPpiListLib/SecPpiListLib.inf
+#  MdePkg/Library/BasePrintLib/BasePrintLib.inf
+#  MdePkg/Library/BasePeCoffLib/BasePeCoffLib.inf
+#  EmulatorPkg/Library/ThunkPpiList/ThunkPpiList.inf
+#  EmulatorPkg/Library/ThunkProtocolList/ThunkProtocolList.inf
+#  EmulatorPkg/Library/SecPeiServicesLib/SecPeiServicesLib.inf
+#  MdeModulePkg/Library/FrameBufferBltLib/FrameBufferBltLib.inf
+#  MdePkg/Library/StackCheckLibNull/StackCheckLibNull.inf
+
+[Depex.X64]
+
+
+
+
+#
+# The following information is for reference only and not required by the build tools.
+#
+#  VALID_ARCHITECTURES           = IA32 X64
+#
+
+[BuildOptions.X64]
+## @AsBuilt
+##   MSFT:DEBUG_VS2019_X64_ASLPP_FLAGS = /nologo /E /C /FIAutoGen.h
+##   MSFT:DEBUG_VS2019_X64_ASLDLINK_FLAGS = /NODEFAULTLIB /ENTRY:ReferenceAcpiTable /SUBSYSTEM:CONSOLE
+##   MSFT:DEBUG_VS2019_X64_GENFW_FLAGS = 
+##   MSFT:DEBUG_VS2019_X64_SLINK_FLAGS = /NOLOGO /LTCG
+##   MSFT:DEBUG_VS2019_X64_OBJCOPY_FLAGS = objcopy not needed for
+##   MSFT:DEBUG_VS2019_X64_DEPS_FLAGS = /showIncludes
+##   MSFT:DEBUG_VS2019_X64_ASM_FLAGS = /nologo /W3 /WX /c /Cx /Zd /W0 /Zi
+##   MSFT:DEBUG_VS2019_X64_CC_FLAGS = /nologo /c /WX /GS /W4 /Gs32768 /D UNICODE /O1b2s /GL /Gy /FIAutoGen.h /EHs-c- /GR- /GF /Z7 /Gw /volatileMetadata- /nologo /W4 /WX /Gy /c /D UNICODE /Od /Oy- /FIAutoGen.h /EHs-c- /GF /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE -D DISABLE_NEW_DEPRECATED_INTERFACES /Od /Oy-
+##   MSFT:DEBUG_VS2019_X64_ASMLINK_FLAGS = /link /nologo
+##   MSFT:DEBUG_VS2019_X64_VFR_FLAGS = -l -n
+##   MSFT:DEBUG_VS2019_X64_ASLCC_FLAGS = /nologo /c /FIAutoGen.h /TC /Dmain=ReferenceAcpiTable
+##   MSFT:DEBUG_VS2019_X64_APP_FLAGS = /nologo /E /TC
+##   MSFT:DEBUG_VS2019_X64_NASM_FLAGS = -Ox -f win64 -g
+##   MSFT:DEBUG_VS2019_X64_OPTROM_FLAGS = -e
+##   MSFT:DEBUG_VS2019_X64_DTC_FLAGS = -H epapr
+##   MSFT:DEBUG_VS2019_X64_MAKE_FLAGS = /nologo
+##   MSFT:DEBUG_VS2019_X64_SYMRENAME_FLAGS = Symbol renaming not needed for
+##   MSFT:DEBUG_VS2019_X64_PP_FLAGS = /nologo /E /TC /FIAutoGen.h
+##   MSFT:DEBUG_VS2019_X64_VFRPP_FLAGS = /nologo /E /TC /DVFRCOMPILE /FI$(MODULE_NAME)StrDefs.h
+##   MSFT:DEBUG_VS2019_X64_DLINK_FLAGS = /out:"$(BIN_DIR)\$(BASE_NAME).exe" /base:0x10000000 /pdb:"$(BIN_DIR)\$(BASE_NAME).pdb" /EXPORT:InitializeDriver=$(IMAGE_ENTRY_POINT) /LIBPATH:"%VCToolsInstallDir%lib\x64" /LIBPATH:"%UniversalCRTSdkDir%lib\%UCRTVersion%\ucrt\x64" /LIBPATH:"%WindowsSdkDir%lib\%WindowsSDKLibVersion%\um\x64" /NOLOGO /SUBSYSTEM:CONSOLE /NODEFAULTLIB /IGNORE:4086 /MAP /OPT:REF /DEBUG /MACHINE:AMD64 /LTCG Kernel32.lib MSVCRTD.lib vcruntimed.lib ucrtd.lib Gdi32.lib User32.lib Winmm.lib Advapi32.lib /ALIGN:4096 /FILEALIGN:4096 /BASE:0x10000
+##   MSFT:DEBUG_VS2019_X64_ASL_FLAGS = 
+##   MSFT:DEBUG_VS2019_X64_NASMB_FLAGS = -f bin
+##   MSFT:DEBUG_VS2019_X64_DLINK2_FLAGS = /WHOLEARCHIVE

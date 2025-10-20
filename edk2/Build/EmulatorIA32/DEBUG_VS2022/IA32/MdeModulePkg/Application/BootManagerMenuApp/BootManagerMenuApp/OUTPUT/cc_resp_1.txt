@@ -1,0 +1,1 @@
+  D:\develop\EDK2\edk2\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenu.c D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG\AutoGen.c

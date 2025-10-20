@@ -1,0 +1,1 @@
+  D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\FwVol\Ffs.c D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\FwVol\FwVol.c D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\FwVol\FwVolRead.c D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\FwVol\FwVolAttrib.c D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\FwVol\FwVolWrite.c

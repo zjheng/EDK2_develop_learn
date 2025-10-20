@@ -1,0 +1,13 @@
+/ID:\develop\EDK2\edk2\MdeModulePkg\Universal\EbcDxe\Ia32
+/ID:\develop\EDK2\edk2\MdeModulePkg\Universal\EbcDxe
+/ID:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG
+/ID:\develop\EDK2\edk2\MdePkg
+/ID:\develop\EDK2\edk2\MdePkg\Include
+/ID:\develop\EDK2\edk2\MdePkg\Test\UnitTest\Include
+/ID:\develop\EDK2\edk2\MdePkg\Test\Mock\Include
+/ID:\develop\EDK2\edk2\MdePkg\Library\MipiSysTLib\mipisyst\library\include
+/ID:\develop\EDK2\edk2\MdePkg\Include\Ia32
+/ID:\develop\EDK2\edk2\MdeModulePkg
+/ID:\develop\EDK2\edk2\MdeModulePkg\Include
+/ID:\develop\EDK2\edk2\MdeModulePkg\Test\Mock\Include
+/ID:\develop\EDK2\edk2\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include

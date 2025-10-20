@@ -1,0 +1,1 @@
+  D:\develop\EDK2\edk2\CryptoPkg\Library\BaseCryptLib\SysCall\CrtWrapper.c D:\develop\EDK2\edk2\CryptoPkg\Library\BaseCryptLib\SysCall\BaseMemAllocation.c D:\develop\EDK2\edk2\CryptoPkg\Library\BaseCryptLib\SysCall\TimerWrapper.c
