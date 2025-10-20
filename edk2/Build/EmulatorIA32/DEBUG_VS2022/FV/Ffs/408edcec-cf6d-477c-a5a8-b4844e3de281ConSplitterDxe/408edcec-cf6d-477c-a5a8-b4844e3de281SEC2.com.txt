@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_COMPRESSION -c PI_STD -o D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\FV\Ffs\408edcec-cf6d-477c-a5a8-b4844e3de281ConSplitterDxe\408edcec-cf6d-477c-a5a8-b4844e3de281SEC2.com D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\FV\Ffs\408edcec-cf6d-477c-a5a8-b4844e3de281ConSplitterDxe\408edcec-cf6d-477c-a5a8-b4844e3de281SEC2.com.dummy

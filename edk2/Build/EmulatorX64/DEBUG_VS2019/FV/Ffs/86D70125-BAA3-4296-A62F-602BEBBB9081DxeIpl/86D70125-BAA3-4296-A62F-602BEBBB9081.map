@@ -1,0 +1,456 @@
+ DxeIpl
+
+ Timestamp is 68f5d080 (Mon Oct 20 14:02:40 2025)
+
+ Preferred load address is 0000000000010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000d4H .text                   CODE
+ 0001:000000d4 0000868aH .text$mn                CODE
+ 0002:00000000 000015b4H .rdata                  DATA
+ 0002:000015b4 00000018H .rdata$voltmd           DATA
+ 0002:000015cc 00000144H .rdata$zzzdbg           DATA
+ 0003:00000000 00000128H .data                   DATA
+ 0003:00000128 00000018H .bss                    DATA
+ 0004:00000000 00000504H .pdata                  DATA
+ 0005:00000000 00000170H .xdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0001:00000000       AsmWriteCr3                0000000000011000     BaseLib:WriteCr3.obj
+ 0001:00000010       AsmReadCr0                 0000000000011010     BaseLib:ReadCr0.obj
+ 0001:00000020       AsmWriteCr0                0000000000011020     BaseLib:WriteCr0.obj
+ 0001:00000030       AsmCpuidEx                 0000000000011030     BaseLib:CpuIdEx.obj
+ 0001:00000060       AsmCpuid                   0000000000011060     BaseLib:CpuId.obj
+ 0001:00000090       AsmWriteCr4                0000000000011090     BaseLib:WriteCr4.obj
+ 0001:000000a0       AsmReadCr4                 00000000000110a0     BaseLib:ReadCr4.obj
+ 0001:000000b0       CpuPause                   00000000000110b0     BaseLib:CpuPause.obj
+ 0001:000000c0       InternalSwitchStack        00000000000110c0     BaseLib:SwitchStack.obj
+ 0001:000000d0       __report_rangecheckfailure 00000000000110d0     StackCheckLibNull:StackCheckFunctionsMsvc.obj
+ 0001:000000d1       __GSHandlerCheck           00000000000110d1     StackCheckLibNull:StackCheckFunctionsMsvc.obj
+ 0001:000000d2       __security_check_cookie    00000000000110d2     StackCheckLibNull:StackCheckFunctionsMsvc.obj
+ 0001:000000d4       _ModuleEntryPoint          00000000000110d4 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:0000014c       ProcessLibraryConstructorList 000000000001114c f   DxeIpl:AutoGen.obj
+ 0001:00000158       ProcessModuleEntryPointList 0000000000011158 f   DxeIpl:AutoGen.obj
+ 0001:0000017c       PeimInitializeDxeIpl       000000000001117c f   DxeIpl:DxeLoad.obj
+ 0001:0000045c       InstallIplPermanentMemoryPpis 000000000001145c f   DxeIpl:DxeLoad.obj
+ 0001:00000664       ValidateMemoryTypeInfoVariable 0000000000011664 f   DxeIpl:DxeLoad.obj
+ 0001:000006fc       DxeLoadCore                00000000000116fc f   DxeIpl:DxeLoad.obj
+ 0001:0000124c       DxeIplFindDxeCore          000000000001224c f   DxeIpl:DxeLoad.obj
+ 0001:000013fc       CustomGuidedSectionExtract 00000000000123fc f   DxeIpl:DxeLoad.obj
+ 0001:00001670       Decompress                 0000000000012670 f   DxeIpl:DxeLoad.obj
+ 0001:00001ac8       UpdateStackHob             0000000000012ac8 f   DxeIpl:DxeLoad.obj
+ 0001:00001b78       HandOffToDxeCore           0000000000012b78 f   DxeIpl:DxeLoadFunc.obj
+ 0001:00001e40       IsNullDetectionEnabled     0000000000012e40 f   DxeIpl:VirtualMemory.obj
+ 0001:00001e6c       IsExecuteDisableBitAvailable 0000000000012e6c f   DxeIpl:VirtualMemory.obj
+ 0001:00001ed4       IsEnableNonExecNeeded      0000000000012ed4 f   DxeIpl:VirtualMemory.obj
+ 0001:00001f24       EnableExecuteDisableBit    0000000000012f24 f   DxeIpl:VirtualMemory.obj
+ 0001:00001f6c       ToSplitPageTable           0000000000012f6c f   DxeIpl:VirtualMemory.obj
+ 0001:00002050       InitializePageTablePool    0000000000013050 f   DxeIpl:VirtualMemory.obj
+ 0001:00002160       AllocatePageTableMemory    0000000000013160 f   DxeIpl:VirtualMemory.obj
+ 0001:00002210       Split2MPageTo4K            0000000000013210 f   DxeIpl:VirtualMemory.obj
+ 0001:00002420       Split1GPageTo2M            0000000000013420 f   DxeIpl:VirtualMemory.obj
+ 0001:000025d4       SetPageTablePoolReadOnly   00000000000135d4 f   DxeIpl:VirtualMemory.obj
+ 0001:00002aa0       EnablePageTableProtection  0000000000013aa0 f   DxeIpl:VirtualMemory.obj
+ 0001:00002b68       CreateIdentityMappingPageTables 0000000000013b68 f   DxeIpl:VirtualMemory.obj
+ 0001:0000358c       DebugPrint                 000000000001458c f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000035d0       DebugPrintMarker           00000000000145d0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00003d78       DebugVPrint                0000000000014d78 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00003da8       DebugAssert                0000000000014da8 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00004144       DebugAssertEnabled         0000000000015144 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00004168       DebugPrintEnabled          0000000000015168 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:0000418c       DebugPrintLevelEnabled     000000000001518c f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000041c0       CpuDeadLoop                00000000000151c0 f   BaseLib:CpuDeadLoop.obj
+ 0001:000041f0       SwitchStack                00000000000151f0 f   BaseLib:SwitchStack.obj
+ 0001:00004310       AsmWriteMsr64              0000000000015310 f   BaseLib:WriteMsr64.obj
+ 0001:00004364       LShiftU64                  0000000000015364 f   BaseLib:LShiftU64.obj
+ 0001:000043b8       AsmReadMsr64               00000000000153b8 f   BaseLib:ReadMsr64.obj
+ 0001:00004408       RShiftU64                  0000000000015408 f   BaseLib:RShiftU64.obj
+ 0001:0000445c       AsciiStrLen                000000000001545c f   BaseLib:String.obj
+ 0001:00004514       AsciiStrSize               0000000000015514 f   BaseLib:String.obj
+ 0001:00004530       InternalSafeStringIsOverlap 0000000000015530 f   BaseLib:SafeString.obj
+ 0001:00004594       InternalSafeStringNoAsciiStrOverlap 0000000000015594 f   BaseLib:SafeString.obj
+ 0001:000045e8       AsciiStrnLenS              00000000000155e8 f   BaseLib:SafeString.obj
+ 0001:00004654       AsciiStrnCpyS              0000000000015654 f   BaseLib:SafeString.obj
+ 0001:00004b44       CpuBreakpoint              0000000000015b44 f   BaseLib:CpuBreakpoint.obj
+ 0001:00004b48       InternalMathLShiftU64      0000000000015b48 f   BaseLib:Math64.obj
+ 0001:00004b64       InternalMathRShiftU64      0000000000015b64 f   BaseLib:Math64.obj
+ 0001:00004b80       GetHobList                 0000000000015b80 f   PeiHobLib:HobLib.obj
+ 0001:00004c4c       GetNextHob                 0000000000015c4c f   PeiHobLib:HobLib.obj
+ 0001:00004ce0       GetFirstHob                0000000000015ce0 f   PeiHobLib:HobLib.obj
+ 0001:00004d08       GetNextGuidHob             0000000000015d08 f   PeiHobLib:HobLib.obj
+ 0001:00004d80       GetFirstGuidHob            0000000000015d80 f   PeiHobLib:HobLib.obj
+ 0001:00004da8       GetBootModeHob             0000000000015da8 f   PeiHobLib:HobLib.obj
+ 0001:00004e40       InternalPeiCreateHob       0000000000015e40 f   PeiHobLib:HobLib.obj
+ 0001:00004ec0       BuildModuleHob             0000000000015ec0 f   PeiHobLib:HobLib.obj
+ 0001:00004fc0       BuildGuidHob               0000000000015fc0 f   PeiHobLib:HobLib.obj
+ 0001:00005084       BuildGuidDataHob           0000000000016084 f   PeiHobLib:HobLib.obj
+ 0001:00005110       BuildMemoryAllocationHob   0000000000016110 f   PeiHobLib:HobLib.obj
+ 0001:000051e4       PeiServicesInstallPpi      00000000000161e4 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00005214       PeiServicesLocatePpi       0000000000016214 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00005264       PeiServicesNotifyPpi       0000000000016264 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00005294       PeiServicesGetBootMode     0000000000016294 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:000052c4       PeiServicesGetHobList      00000000000162c4 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:000052f4       PeiServicesCreateHob       00000000000162f4 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00005338       PeiServicesFfsFindNextVolume 0000000000016338 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00005370       PeiServicesFfsFindNextFile 0000000000016370 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:000053b0       PeiServicesAllocatePages   00000000000163b0 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:000053f0       PeiServicesFreePages       00000000000163f0 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:0000542c       PeiServicesAllocatePool    000000000001642c f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00005468       PeiServicesRegisterForShadow 0000000000016468 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:0000548c       PeiServicesFfsGetFileInfo  000000000001648c f   PeiServicesLib:PeiServicesLib.obj
+ 0001:000054b8       InternalReportStatusCode   00000000000164b8 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:000055d0       ReportStatusCode           00000000000165d0 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00005604       ReportStatusCodeEx         0000000000016604 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:000057ec       ReportProgressCodeEnabled  00000000000167ec f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00005810       ReportErrorCodeEnabled     0000000000016810 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00005834       ReportDebugCodeEnabled     0000000000016834 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00005858       CopyMem                    0000000000016858 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00005930       CopyGuid                   0000000000016930 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00005984       CompareGuid                0000000000016984 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00005a0c       ZeroMem                    0000000000016a0c f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00005ab4       SetMem                     0000000000016ab4 f   BaseMemoryLib:SetMemWrapper.obj
+ 0001:00005b34       InternalMemCopyMem         0000000000016b34 f   BaseMemoryLib:CopyMem.obj
+ 0001:00006110       InternalMemSetMem16        0000000000017110 f   BaseMemoryLib:MemLibGeneric.obj
+ 0001:00006154       InternalMemZeroMem         0000000000017154 f   BaseMemoryLib:MemLibGeneric.obj
+ 0001:0000617c       InternalMemSetMem          000000000001717c f   BaseMemoryLib:SetMem.obj
+ 0001:00006310       InternalAllocatePages      0000000000017310 f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00006360       AllocatePages              0000000000017360 f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00006380       FreePages                  0000000000017380 f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00006454       InternalAllocateAlignedPages 0000000000017454 f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000067a4       AllocateAlignedPages       00000000000177a4 f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000067cc       AllocatePool               00000000000177cc f   PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00006810       GetPcdPpiPointer           0000000000017810 f   PeiPcdLib:PeiPcdLib.obj
+ 0001:000068b4       LibPcdGet64                00000000000178b4 f   PeiPcdLib:PeiPcdLib.obj
+ 0001:000068d0       PeiGetExtractGuidedSectionHandlerInfo 00000000000178d0 f   PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0001:00006a94       ExtractGuidedSectionGetGuidList 0000000000017a94 f   PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0001:00006b50       ExtractGuidedSectionGetInfo 0000000000017b50 f   PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0001:00006d7c       ExtractGuidedSectionDecode 0000000000017d7c f   PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0001:00006f74       FillBuf                    0000000000017f74 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:000070bc       GetBits                    00000000000180bc f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:0000710c       MakeTable                  000000000001810c f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00007784       DecodeP                    0000000000018784 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00007888       ReadPTLen                  0000000000018888 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00007af0       ReadCLen                   0000000000018af0 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00007d78       DecodeC                    0000000000018d78 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00007ef0       Decode                     0000000000018ef0 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00008078       UefiDecompressGetInfo      0000000000019078 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00008198       UefiTianoDecompress        0000000000019198 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00008450       UefiDecompress             0000000000019450 f   BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0001:00008484       OemHookStatusCodeInitialize 0000000000019484 f   OemHookStatusCodeLibNull:OemHookStatusCodeLibNull.obj
+ 0001:00008488       OemHookStatusCodeReport    0000000000019488 f   OemHookStatusCodeLibNull:OemHookStatusCodeLibNull.obj
+ 0001:000084a0       FilterBeforeMsrWrite       00000000000194a0 f   FilterLibNull:RegisterFilterLibNull.obj
+ 0001:000084a0       FilterBeforeMsrRead        00000000000194a0 f   FilterLibNull:RegisterFilterLibNull.obj
+ 0001:000084ac       FilterAfterMsrWrite        00000000000194ac f   FilterLibNull:RegisterFilterLibNull.obj
+ 0001:000084ac       FilterAfterMsrRead         00000000000194ac f   FilterLibNull:RegisterFilterLibNull.obj
+ 0001:000084b8       GetDebugPrintErrorLevel    00000000000194b8 f   BaseDebugPrintErrorLevelLib:BaseDebugPrintErrorLevelLib.obj
+ 0001:000084c0       GetPeiServicesTablePointer 00000000000194c0 f   EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0001:00008544       ReadUnaligned32            0000000000019544 f   BaseLib:Unaligned.obj
+ 0001:0000858c       ReadUnaligned64            000000000001958c f   BaseLib:Unaligned.obj
+ 0001:000085d4       WriteUnaligned64           00000000000195d4 f   BaseLib:Unaligned.obj
+ 0001:0000862c       SetMem16                   000000000001962c f   BaseMemoryLib:SetMem16Wrapper.obj
+ 0002:00000000       ??_C@_0CP@KCAHKNFK@?$CI?$CKPeiServices?$CJ?9?$DOHdr?4Revision?5?$DO?$DN@ 000000000001a000     PeimEntryPoint:PeimEntryPoint.obj
+ 0002:00000030       ??_C@_0EE@JMAAPGDI@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001a030     PeimEntryPoint:PeimEntryPoint.obj
+ 0002:00000074       _gPcd_FixedAtBuild_PcdImageProtectionPolicy 000000000001a074     DxeIpl:AutoGen.obj
+ 0002:00000074       _gPeimRevision             000000000001a074     DxeIpl:AutoGen.obj
+ 0002:00000078       ??_C@_06BPNBFNDG@DxeIpl@   000000000001a078     DxeIpl:AutoGen.obj
+ 0002:00000080       _gPcd_FixedAtBuild_PcdMaximumGuidedExtractHandler 000000000001a080     DxeIpl:AutoGen.obj
+ 0002:00000084       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 000000000001a084     DxeIpl:AutoGen.obj
+ 0002:00000085       _gPcd_FixedAtBuild_PcdNullPointerDetectionPropertyMask 000000000001a085     DxeIpl:AutoGen.obj
+ 0002:00000085       _gPcd_FixedAtBuild_PcdDxeIplBuildPageTables 000000000001a085     DxeIpl:AutoGen.obj
+ 0002:00000085       _gPcd_FixedAtBuild_PcdUse1GPageTable 000000000001a085     DxeIpl:AutoGen.obj
+ 0002:00000085       _gPcd_FixedAtBuild_PcdSetNxForStack 000000000001a085     DxeIpl:AutoGen.obj
+ 0002:00000085       _gPcd_FixedAtBuild_PcdUse5LevelPageTable 000000000001a085     DxeIpl:AutoGen.obj
+ 0002:00000085       _gPcd_FixedAtBuild_PcdCpuStackGuard 000000000001a085     DxeIpl:AutoGen.obj
+ 0002:00000088       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 000000000001a088     DxeIpl:AutoGen.obj
+ 0002:00000090       _gPcd_FixedAtBuild_PcdPeiServicesTablePage 000000000001a090     DxeIpl:AutoGen.obj
+ 0002:00000098       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 000000000001a098     DxeIpl:AutoGen.obj
+ 0002:000000a0       _gPcd_FixedAtBuild_PcdDxeNxMemoryProtectionPolicy 000000000001a0a0     DxeIpl:AutoGen.obj
+ 0002:000000a0       _gPcd_FixedAtBuild_PcdPteMemoryEncryptionAddressOrMask 000000000001a0a0     DxeIpl:AutoGen.obj
+ 0002:000000a8       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 000000000001a0a8     DxeIpl:AutoGen.obj
+ 0002:000000ac       _gPcd_FixedAtBuild_PcdDebugPropertyMask 000000000001a0ac     DxeIpl:AutoGen.obj
+ 0002:000000ad       _gPcd_FixedAtBuild_PcdDxeIplSupportUefiDecompress 000000000001a0ad     DxeIpl:AutoGen.obj
+ 0002:000000b0       ??_C@_0DK@NNPIMKMP@Status?5?$DN?$DN?5?$CI?$CIRETURN_STATUS?$CJ?$CI0x80@ 000000000001a0b0     DxeIpl:DxeLoad.obj
+ 0002:000000f0       ??_C@_0DM@OOHKBLHF@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001a0f0     DxeIpl:DxeLoad.obj
+ 0002:00000130       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 000000000001a130     DxeIpl:DxeLoad.obj
+ 0002:00000158       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 000000000001a158     DxeIpl:DxeLoad.obj
+ 0002:00000190       ??_C@_0BI@JDPNFKNC@GuidPpi?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001a190     DxeIpl:DxeLoad.obj
+ 0002:000001a8       ??_C@_0CK@EFEKDDOO@Locate?5Recovery?5PPI?5Failed?4?$CISta@ 000000000001a1a8     DxeIpl:DxeLoad.obj
+ 0002:000001d8       ??_C@_0CM@DCPPBCOL@Load?5Recovery?5Capsule?5Failed?4?$CIS@ 000000000001a1d8     DxeIpl:DxeLoad.obj
+ 0002:00000208       ??_C@_1CM@OLBNONPD@?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AAT?$AAy?$AAp?$AAe?$AAI?$AAn?$AAf?$AAo?$AAr@ 000000000001a208     DxeIpl:DxeLoad.obj
+ 0002:00000238       ??_C@_0CO@ENDALLCO@Loading?5DXE?5CORE?5at?50x?$CF11p?5Entr@ 000000000001a238     DxeIpl:DxeLoad.obj
+ 0002:00000268       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ@ 000000000001a268     DxeIpl:DxeLoad.obj
+ 0002:00000280       ??_C@_0CJ@LEPGFEOI@GetInfo?5from?5guided?5section?5Fai@ 000000000001a280     DxeIpl:DxeLoad.obj
+ 0002:000002b0       ??_C@_0EM@OGMGOMMK@Customized?5Guided?5section?5Memor@ 000000000001a2b0     DxeIpl:DxeLoad.obj
+ 0002:00000300       ??_C@_0CE@CGCKLIFH@Extract?5guided?5section?5Failed?5?9@ 000000000001a300     DxeIpl:DxeLoad.obj
+ 0002:00000328       ??_C@_0CA@GDDPIJLN@Decompress?5GetInfo?5Failed?5?9?5?$CFr?6@ 000000000001a328     DxeIpl:DxeLoad.obj
+ 0002:00000348       ??_C@_0BI@NOEGGLIA@Decompress?5Failed?5?9?5?$CFr?6@ 000000000001a348     DxeIpl:DxeLoad.obj
+ 0002:00000360       mCustomGuidedSectionExtractionPpi 000000000001a360     DxeIpl:DxeLoad.obj
+ 0002:00000368       mDecompressPpi             000000000001a368     DxeIpl:DxeLoad.obj
+ 0002:00000370       mDecompressPpiList         000000000001a370     DxeIpl:DxeLoad.obj
+ 0002:00000388       mDxeIplPpi                 000000000001a388     DxeIpl:DxeLoad.obj
+ 0002:00000390       mMemoryDiscoveredNotifyList 000000000001a390     DxeIpl:DxeLoad.obj
+ 0002:000003a8       gEndOfPeiSignalPpi         000000000001a3a8     DxeIpl:DxeLoad.obj
+ 0002:000003c0       mDxeIplPpiList             000000000001a3c0     DxeIpl:DxeLoad.obj
+ 0002:000003d8       ??_C@_0DM@HMFNNILI@Vector?5Hand?9off?5Info?5PPI?5is?5got@ 000000000001a3d8     DxeIpl:DxeLoadFunc.obj
+ 0002:00000418       ??_C@_0BM@JKDJGCDE@BaseOfStack?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001a418     DxeIpl:DxeLoadFunc.obj
+ 0002:00000440       ??_C@_0EE@JIKPDHNE@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001a440     DxeIpl:DxeLoadFunc.obj
+ 0002:00000488       ??_C@_0DJ@CGJCDKFA@_gPcd_FixedAtBuild_PcdSetNxForS@ 000000000001a488     DxeIpl:DxeLoadFunc.obj
+ 0002:000004c8       ??_C@_0DJ@BEHBFHCL@_gPcd_FixedAtBuild_PcdCpuStackG@ 000000000001a4c8     DxeIpl:DxeLoadFunc.obj
+ 0002:00000508       ??_C@_0BO@CDABGLIP@ERROR?3?5Out?5of?5aligned?5pages?$AN?6@ 000000000001a508     DxeIpl:VirtualMemory.obj
+ 0002:00000528       ??_C@_0BP@OKEOING@PageTableEntry?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001a528     DxeIpl:VirtualMemory.obj
+ 0002:00000550       ??_C@_0EG@GMIKDMMJ@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001a550     DxeIpl:VirtualMemory.obj
+ 0002:00000598       ??_C@_0CD@KMCGCGEO@PageDirectoryEntry?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ@ 000000000001a598     DxeIpl:VirtualMemory.obj
+ 0002:000005c0       ??_C@_0BD@CAEJJLJJ@PageTableBase?5?$CB?$DN?50@ 000000000001a5c0     DxeIpl:VirtualMemory.obj
+ 0002:000005d8       ??_C@_0CD@FNMLGMNP@Index?5?$DM?50x00001000?1sizeof?5?$CIUINT@ 000000000001a5d8     DxeIpl:VirtualMemory.obj
+ 0002:00000600       ??_C@_09GNKFGBPM@Level?5?$DO?51@ 000000000001a600     DxeIpl:VirtualMemory.obj
+ 0002:00000610       ??_C@_0BN@CIONDDJ@NewPageTable?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001a610     DxeIpl:VirtualMemory.obj
+ 0002:00000630       ??_C@_0CJ@NGBMMDPE@_gPcd_FixedAtBuild_PcdUse5Level@ 000000000001a630     DxeIpl:VirtualMemory.obj
+ 0002:00000660       ??_C@_0CL@MMCAGHDM@AddressBits?$DN?$CFu?5LevelOfPaging?$DN?$CFu@ 000000000001a660     DxeIpl:VirtualMemory.obj
+ 0002:00000690       ??_C@_0BK@EENFIALI@PhysicalAddressBits?5?$DM?$DN?552@ 000000000001a690     DxeIpl:VirtualMemory.obj
+ 0002:000006b0       ??_C@_0BJ@KCNOKPKC@PhysicalAddressBits?5?$DO?530@ 000000000001a6b0     DxeIpl:VirtualMemory.obj
+ 0002:000006d0       ??_C@_0CG@EEAMGLDN@Pml5?$DN?$CFu?5Pml4?$DN?$CFu?5Pdp?$DN?$CFu?5TotalPag@ 000000000001a6d0     DxeIpl:VirtualMemory.obj
+ 0002:000006f8       ??_C@_0BE@BOFLFIJK@BigPageAddress?5?$CB?$DN?50@ 000000000001a6f8     DxeIpl:VirtualMemory.obj
+ 0002:00000710       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001a710     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000730       ??_C@_0FE@BEFIIBEL@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001a730     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000788       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 000000000001a788     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000007b8       ??_C@_01OHGJGJJP@?$FL@     000000000001a7b8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000007bc       ??_C@_02PBFOLPKM@?$FN?5@   000000000001a7bc     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000007c0       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001a7c0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000007d8       ??_C@_0BL@OOFMKHJH@EntryPoint?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001a7d8     BaseLib:SwitchStack.obj
+ 0002:000007f8       ??_C@_0DK@MBNNFNKF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001a7f8     BaseLib:SwitchStack.obj
+ 0002:00000838       ??_C@_0BJ@DIHHCIKP@NewStack?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001a838     BaseLib:SwitchStack.obj
+ 0002:00000858       ??_C@_0CC@MPFKDGJI@?$CI?$CIUINTN?$CJNewStack?5?$CG?5?$CI16?5?9?51?$CJ?$CJ?5?$DN?$DN@ 000000000001a858     BaseLib:SwitchStack.obj
+ 0002:00000880       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 000000000001a880     BaseLib:LShiftU64.obj
+ 0002:00000890       ??_C@_0DI@FAGDBCDM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001a890     BaseLib:LShiftU64.obj
+ 0002:000008c8       ??_C@_0DI@LFEKCMNO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001a8c8     BaseLib:RShiftU64.obj
+ 0002:00000900       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001a900     BaseLib:String.obj
+ 0002:00000918       ??_C@_0DF@EAHDDLM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001a918     BaseLib:String.obj
+ 0002:00000950       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 000000000001a950     BaseLib:String.obj
+ 0002:00000988       ??_C@_0BM@NLNKOJGD@Destination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001a988     BaseLib:String.obj
+ 0002:000009a8       ??_C@_0DJ@DNFJNBOO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001a9a8     BaseLib:SafeString.obj
+ 0002:000009e8       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000000000001a9e8     BaseLib:SafeString.obj
+ 0002:00000a10       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 000000000001aa10     BaseLib:SafeString.obj
+ 0002:00000a50       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000000000001aa50     BaseLib:SafeString.obj
+ 0002:00000a70       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 000000000001aa70     BaseLib:SafeString.obj
+ 0002:00000a80       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 000000000001aa80     BaseLib:SafeString.obj
+ 0002:00000a98       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 000000000001aa98     BaseLib:SafeString.obj
+ 0002:00000ae0       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 000000000001aae0     BaseLib:SafeString.obj
+ 0002:00000b40       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 000000000001ab40     BaseLib:SafeString.obj
+ 0002:00000b50       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 000000000001ab50     BaseLib:SafeString.obj
+ 0002:00000b90       ??_C@_0DH@PPNNMDAD@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001ab90     PeiHobLib:HobLib.obj
+ 0002:00000bc8       ??_C@_0BI@NCGMODPG@HobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001abc8     PeiHobLib:HobLib.obj
+ 0002:00000be0       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001abe0     PeiHobLib:HobLib.obj
+ 0002:00000c00       ??_C@_0BE@PICCCCHF@Hob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001ac00     PeiHobLib:HobLib.obj
+ 0002:00000c20       ??_C@_0FP@FBBLJPLM@?$CI?$CIMemoryAllocationModule?5?$CG?5?$CI0x0@ 000000000001ac20     PeiHobLib:HobLib.obj
+ 0002:00000c80       ??_C@_0BF@PEDOPNMP@Guid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001ac80     PeiHobLib:HobLib.obj
+ 0002:00000c98       ??_C@_0DE@JLBHCAID@DataLength?5?$DM?$DN?5?$CI0xFFF8?5?9?5sizeof?5@ 000000000001ac98     PeiHobLib:HobLib.obj
+ 0002:00000cd0       ??_C@_0CI@HNHCKIFE@Data?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$HM?$HM?5DataLen@ 000000000001acd0     PeiHobLib:HobLib.obj
+ 0002:00000d00       ??_C@_0EO@IHLJIHKG@?$CI?$CIBaseAddress?5?$CG?5?$CI0x00001000?5?9?51@ 000000000001ad00     PeiHobLib:HobLib.obj
+ 0002:00000d50       ??_C@_0FH@CEHMGJKM@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001ad50     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000da8       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001ada8     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000de8       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001ade8     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000e28       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5to@ 000000000001ae28     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000e60       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001ae60     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000eb0       ??_C@_0ED@JLFCAFGL@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001aeb0     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000ef8       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001aef8     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000f38       ??_C@_0DG@EEENIGGL@Length?5?$DM?$DN?5?$CI0xFFFFFFFFFFFFFFFFUL@ 000000000001af38     BaseMemoryLib:MemLibGuid.obj
+ 0002:00000f70       ??_C@_0ED@CPPAGEKM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001af70     BaseMemoryLib:ZeroMemWrapper.obj
+ 0002:00000fb8       ??_C@_0DI@DAGDPLPG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001afb8     BaseMemoryLib:SetMemWrapper.obj
+ 0002:00000ff0       ??_C@_0EC@NIFDAJKM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001aff0     BaseMemoryLib:SetMemWrapper.obj
+ 0002:00001038       ??_C@_0L@LBCNCHJA@Pages?5?$CB?$DN?50@ 000000000001b038     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00001050       ??_C@_0FB@DKIEPKCC@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001b050     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000010a8       ??_C@_0CD@GECBLADO@?$CIAlignment?5?$CG?5?$CIAlignment?5?9?51?$CJ?$CJ?5?$DN@ 000000000001b0a8     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000010d0       ??_C@_0BC@BDMGDFME@RealPages?5?$DO?5Pages@ 000000000001b0d0     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000010e8       ??_C@_0DK@PBMCAGNP@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001b0e8     PeiPcdLib:PeiPcdLib.obj
+ 0002:00001128       ??_C@_0CI@PDIBKMLG@ExtractHandlerGuidTable?5?$CB?$DN?5?$CI?$CIvo@ 000000000001b128     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0002:00001150       ??_C@_0FM@EIPAJPPM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001b150     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0002:000011b0       ??_C@_0BM@HBFOKNPD@HandlerInfo?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001b1b0     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0002:000011d0       ??_C@_0BN@GPAPAMAC@InputSection?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001b1d0     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0002:000011f0       ??_C@_0CB@BHALCANF@OutputBufferSize?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 000000000001b1f0     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0002:00001218       ??_C@_0CC@LILIPBNH@ScratchBufferSize?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 000000000001b218     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0002:00001240       ??_C@_0CB@PMMMMPJH@SectionAttribute?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 000000000001b240     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0002:00001268       ??_C@_0BN@BPGHDJKK@OutputBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001b268     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0002:00001288       ??_C@_0CF@CJGHKEF@AuthenticationStatus?5?$CB?$DN?5?$CI?$CIvoid?5@ 000000000001b288     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0002:000012b0       ??_C@_0BA@HIJHCFNE@TableBits?5?$DM?$DN?516@ 000000000001b2b0     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0002:000012c0       ??_C@_0FC@NGJAAJMF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001b2c0     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0002:00001318       ??_C@_0BG@KMAGFGFD@nn?5?$DM?$DN?5?$CI?$CI1U?5?$DM?$DM?55?$CJ?5?9?51?$CJ@ 000000000001b318     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0002:00001330       ??_C@_0BH@GAGHCOEK@Source?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001b330     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0002:00001348       ??_C@_0CA@FMKFGCDF@DestinationSize?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001b348     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0002:00001368       ??_C@_0BM@MHGBFJCP@ScratchSize?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001b368     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0002:00001388       ??_C@_0BI@MGJALJLC@Scratch?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001b388     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0002:000013a0       ??_C@_0BN@MPKADMOP@Version?5?$DN?$DN?51?5?$HM?$HM?5Version?5?$DN?$DN?52@ 000000000001b3a0     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0002:000013c0       ??_C@_0CI@MDPGFIOC@PeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIvo@ 000000000001b3c0     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:000013f0       ??_C@_0GH@FIBBPKGC@D?3?2develop?2EDK2?2edk2?2EmulatorPk@ 000000000001b3f0     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:00001458       ??_C@_0CJ@NHFDCOMG@?$CKPeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIv@ 000000000001b458     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:00001488       ??_C@_0DI@MBLLHEOH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001b488     BaseLib:Unaligned.obj
+ 0002:000014c0       ??_C@_0EE@OCDBMDJF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001b4c0     BaseMemoryLib:SetMem16Wrapper.obj
+ 0002:00001508       ??_C@_0CO@LECKNDNC@?$CI?$CI?$CIUINTN?$CJBuffer?$CJ?5?$CG?5?$CIsizeof?5?$CIVal@ 000000000001b508     BaseMemoryLib:SetMem16Wrapper.obj
+ 0002:00001538       ??_C@_0CF@LEICOABD@?$CILength?5?$CG?5?$CIsizeof?5?$CIValue?$CJ?5?9?51?$CJ?$CJ@ 000000000001b538     BaseMemoryLib:SetMem16Wrapper.obj
+ 0002:000015b4       __volatile_metadata        000000000001b5b4     <linker-defined>
+ 0003:00000000       gEfiStatusCodeSpecificDataGuid 000000000001c000     DxeIpl:AutoGen.obj
+ 0003:00000010       gEfiMemoryTypeInformationGuid 000000000001c010     DxeIpl:AutoGen.obj
+ 0003:00000020       gEfiHobMemoryAllocStackGuid 000000000001c020     DxeIpl:AutoGen.obj
+ 0003:00000030       gEfiPeiReadOnlyVariable2PpiGuid 000000000001c030     DxeIpl:AutoGen.obj
+ 0003:00000040       gEfiPeiDecompressPpiGuid   000000000001c040     DxeIpl:AutoGen.obj
+ 0003:00000050       gEfiHobMemoryAllocModuleGuid 000000000001c050     DxeIpl:AutoGen.obj
+ 0003:00000060       gEfiVectorHandoffInfoPpiGuid 000000000001c060     DxeIpl:AutoGen.obj
+ 0003:00000070       gEfiCallerBaseName         000000000001c070     DxeIpl:AutoGen.obj
+ 0003:00000078       gEfiDxeIplPpiGuid          000000000001c078     DxeIpl:AutoGen.obj
+ 0003:00000088       gEfiStatusCodeDataTypeDebugGuid 000000000001c088     DxeIpl:AutoGen.obj
+ 0003:00000098       gEfiPeiRecoveryModulePpiGuid 000000000001c098     DxeIpl:AutoGen.obj
+ 0003:000000a8       gEfiPeiMemoryDiscoveredPpiGuid 000000000001c0a8     DxeIpl:AutoGen.obj
+ 0003:000000b8       gEfiEndOfPeiSignalPpiGuid  000000000001c0b8     DxeIpl:AutoGen.obj
+ 0003:000000c8       gEfiPeiLoadFilePpiGuid     000000000001c0c8     DxeIpl:AutoGen.obj
+ 0003:000000d8       gEfiPeiS3Resume2PpiGuid    000000000001c0d8     DxeIpl:AutoGen.obj
+ 0003:000000e8       gEdkiiPeiBootInCapsuleOnDiskModePpiGuid 000000000001c0e8     DxeIpl:AutoGen.obj
+ 0003:000000f8       gEfiCallerIdGuid           000000000001c0f8     DxeIpl:AutoGen.obj
+ 0003:00000108       gEdkiiPeiCapsuleOnDiskPpiGuid 000000000001c108     DxeIpl:AutoGen.obj
+ 0003:00000118       gPcdPpiGuid                000000000001c118     DxeIpl:AutoGen.obj
+ 0003:00000128       mPageTablePool             000000000001c128     DxeIpl:VirtualMemory.obj
+ 0003:00000138       __security_cookie          000000000001c138     StackCheckLibNull:StackCheckLibNullMsvc.obj
+
+ entry point at        0001:000000d4
+
+ Static symbols
+
+ 0001:00000045       AsmCpuidEx.0               0000000000011045     BaseLib:CpuIdEx.obj
+ 0001:0000004c       AsmCpuidEx.1               000000000001104c     BaseLib:CpuIdEx.obj
+ 0001:00000053       AsmCpuidEx.2               0000000000011053     BaseLib:CpuIdEx.obj
+ 0001:0000005c       AsmCpuidEx.3               000000000001105c     BaseLib:CpuIdEx.obj
+ 0001:0000006f       AsmCpuid.0                 000000000001106f     BaseLib:CpuId.obj
+ 0001:00000074       AsmCpuid.1                 0000000000011074     BaseLib:CpuId.obj
+ 0001:0000007b       AsmCpuid.2                 000000000001107b     BaseLib:CpuId.obj
+ 0001:00000084       AsmCpuid.3                 0000000000011084     BaseLib:CpuId.obj
+ 0003:00000130       mDeadLoopComparator        000000000001c130     BaseLib:CpuDeadLoop.obj
+ 0005:00000000       $unwind$ProcessModuleEntryPointList 000000000001e000     DxeIpl:AutoGen.obj
+ 0005:00000000       $unwind$LShiftU64          000000000001e000     BaseLib:LShiftU64.obj
+ 0005:00000000       $unwind$RShiftU64          000000000001e000     BaseLib:RShiftU64.obj
+ 0005:00000000       $unwind$WriteUnaligned64   000000000001e000     BaseLib:Unaligned.obj
+ 0005:00000000       $unwind$InternalMemZeroMem 000000000001e000     BaseMemoryLib:MemLibGeneric.obj
+ 0005:00000000       $unwind$CopyGuid           000000000001e000     BaseMemoryLib:MemLibGuid.obj
+ 0005:00000000       $unwind$ZeroMem            000000000001e000     BaseMemoryLib:ZeroMemWrapper.obj
+ 0005:00000000       $unwind$AllocateAlignedPages 000000000001e000     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0005:00000000       $unwind$PeiServicesFfsGetFileInfo 000000000001e000     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000000       $unwind$_ModuleEntryPoint  000000000001e000     PeimEntryPoint:PeimEntryPoint.obj
+ 0005:00000008       $unwind$PeimInitializeDxeIpl 000000000001e008     DxeIpl:DxeLoad.obj
+ 0005:00000010       $unwind$InstallIplPermanentMemoryPpis 000000000001e010     DxeIpl:DxeLoad.obj
+ 0005:00000010       $unwind$InternalMemSetMem  000000000001e010     BaseMemoryLib:SetMem.obj
+ 0005:00000018       $unwind$ValidateMemoryTypeInfoVariable 000000000001e018     DxeIpl:DxeLoad.obj
+ 0005:00000018       $unwind$AsciiStrnLenS      000000000001e018     BaseLib:SafeString.obj
+ 0005:00000020       $unwind$DxeLoadCore        000000000001e020     DxeIpl:DxeLoad.obj
+ 0005:00000030       $unwind$DxeIplFindDxeCore  000000000001e030     DxeIpl:DxeLoad.obj
+ 0005:00000038       $unwind$CustomGuidedSectionExtract 000000000001e038     DxeIpl:DxeLoad.obj
+ 0005:00000038       $unwind$Split1GPageTo2M    000000000001e038     DxeIpl:VirtualMemory.obj
+ 0005:00000038       $unwind$AsciiStrnCpyS      000000000001e038     BaseLib:SafeString.obj
+ 0005:00000038       $unwind$UefiTianoDecompress 000000000001e038     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0005:00000038       $unwind$ExtractGuidedSectionDecode 000000000001e038     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0005:00000038       $unwind$ExtractGuidedSectionGetInfo 000000000001e038     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0005:00000040       $unwind$Decompress         000000000001e040     DxeIpl:DxeLoad.obj
+ 0005:00000048       $unwind$UpdateStackHob     000000000001e048     DxeIpl:DxeLoad.obj
+ 0005:00000048       $unwind$FillBuf            000000000001e048     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0005:00000048       $unwind$GetBits            000000000001e048     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0005:00000048       $unwind$BuildGuidHob       000000000001e048     PeiHobLib:HobLib.obj
+ 0005:00000048       $unwind$GetNextGuidHob     000000000001e048     PeiHobLib:HobLib.obj
+ 0005:00000048       $unwind$GetNextHob         000000000001e048     PeiHobLib:HobLib.obj
+ 0005:00000048       $unwind$InternalPeiCreateHob 000000000001e048     PeiHobLib:HobLib.obj
+ 0005:00000048       $unwind$FreePages          000000000001e048     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0005:00000048       $unwind$PeiServicesAllocatePool 000000000001e048     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000048       $unwind$PeiServicesFfsFindNextVolume 000000000001e048     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000048       $unwind$PeiServicesFreePages 000000000001e048     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000050       $unwind$HandOffToDxeCore   000000000001e050     DxeIpl:DxeLoadFunc.obj
+ 0005:00000058       $unwind$IsNullDetectionEnabled 000000000001e058     DxeIpl:VirtualMemory.obj
+ 0005:00000058       $unwind$DebugAssertEnabled 000000000001e058     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:00000058       $unwind$DebugPrintEnabled  000000000001e058     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:00000058       $unwind$ReportDebugCodeEnabled 000000000001e058     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0005:00000058       $unwind$ReportErrorCodeEnabled 000000000001e058     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0005:00000058       $unwind$ReportProgressCodeEnabled 000000000001e058     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0005:00000060       $unwind$IsExecuteDisableBitAvailable 000000000001e060     DxeIpl:VirtualMemory.obj
+ 0005:00000068       $unwind$GetPeiServicesTablePointer 000000000001e068     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0005:00000068       $unwind$EnableExecuteDisableBit 000000000001e068     DxeIpl:VirtualMemory.obj
+ 0005:00000068       $unwind$IsEnableNonExecNeeded 000000000001e068     DxeIpl:VirtualMemory.obj
+ 0005:00000068       $unwind$CpuDeadLoop        000000000001e068     BaseLib:CpuDeadLoop.obj
+ 0005:00000068       $unwind$GetBootModeHob     000000000001e068     PeiHobLib:HobLib.obj
+ 0005:00000068       $unwind$GetHobList         000000000001e068     PeiHobLib:HobLib.obj
+ 0005:00000068       $unwind$GetPcdPpiPointer   000000000001e068     PeiPcdLib:PeiPcdLib.obj
+ 0005:00000070       $unwind$ToSplitPageTable   000000000001e070     DxeIpl:VirtualMemory.obj
+ 0005:00000078       $unwind$AllocatePageTableMemory 000000000001e078     DxeIpl:VirtualMemory.obj
+ 0005:00000078       $unwind$InitializePageTablePool 000000000001e078     DxeIpl:VirtualMemory.obj
+ 0005:00000078       $unwind$AsciiStrLen        000000000001e078     BaseLib:String.obj
+ 0005:00000078       $unwind$Decode             000000000001e078     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0005:00000078       $unwind$DecodeC            000000000001e078     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0005:00000078       $unwind$ExtractGuidedSectionGetGuidList 000000000001e078     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0005:00000078       $unwind$PeiGetExtractGuidedSectionHandlerInfo 000000000001e078     PeiExtractGuidedSectionLib:PeiExtractGuidedSectionLib.obj
+ 0005:00000078       $unwind$GetFirstGuidHob    000000000001e078     PeiHobLib:HobLib.obj
+ 0005:00000078       $unwind$GetFirstHob        000000000001e078     PeiHobLib:HobLib.obj
+ 0005:00000078       $unwind$AllocatePool       000000000001e078     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0005:00000078       $unwind$PeiServicesGetBootMode 000000000001e078     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000078       $unwind$PeiServicesGetHobList 000000000001e078     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000078       $unwind$PeiServicesInstallPpi 000000000001e078     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000078       $unwind$PeiServicesNotifyPpi 000000000001e078     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000080       $unwind$Split2MPageTo4K    000000000001e080     DxeIpl:VirtualMemory.obj
+ 0005:00000080       $unwind$SwitchStack        000000000001e080     BaseLib:SwitchStack.obj
+ 0005:00000080       $unwind$PeiServicesLocatePpi 000000000001e080     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000088       $unwind$SetPageTablePoolReadOnly 000000000001e088     DxeIpl:VirtualMemory.obj
+ 0005:00000098       $unwind$EnablePageTableProtection 000000000001e098     DxeIpl:VirtualMemory.obj
+ 0005:000000a0       $unwind$CreateIdentityMappingPageTables 000000000001e0a0     DxeIpl:VirtualMemory.obj
+ 0005:000000a8       $unwind$DebugPrint         000000000001e0a8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:000000a8       $unwind$InternalSafeStringNoAsciiStrOverlap 000000000001e0a8     BaseLib:SafeString.obj
+ 0005:000000a8       $unwind$BuildModuleHob     000000000001e0a8     PeiHobLib:HobLib.obj
+ 0005:000000b0       $unwind$DebugPrintMarker   000000000001e0b0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:000000c0       $unwind$DebugVPrint        000000000001e0c0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:000000c0       $unwind$CopyMem            000000000001e0c0     BaseMemoryLib:CopyMemWrapper.obj
+ 0005:000000c0       $unwind$SetMem             000000000001e0c0     BaseMemoryLib:SetMemWrapper.obj
+ 0005:000000c0       $unwind$UefiDecompress     000000000001e0c0     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0005:000000c8       $unwind$DebugAssert        000000000001e0c8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:000000d8       $unwind$DebugPrintLevelEnabled 000000000001e0d8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:000000e0       $unwind$AsmWriteMsr64      000000000001e0e0     BaseLib:WriteMsr64.obj
+ 0005:000000e0       $unwind$InternalAllocatePages 000000000001e0e0     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0005:000000e8       $unwind$AsmReadMsr64       000000000001e0e8     BaseLib:ReadMsr64.obj
+ 0005:000000f0       $unwind$AsciiStrSize       000000000001e0f0     BaseLib:String.obj
+ 0005:000000f0       $unwind$ReadUnaligned32    000000000001e0f0     BaseLib:Unaligned.obj
+ 0005:000000f0       $unwind$ReadUnaligned64    000000000001e0f0     BaseLib:Unaligned.obj
+ 0005:000000f0       $unwind$AllocatePages      000000000001e0f0     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0005:000000f0       $unwind$LibPcdGet64        000000000001e0f0     PeiPcdLib:PeiPcdLib.obj
+ 0005:000000f0       $unwind$PeiServicesRegisterForShadow 000000000001e0f0     PeiServicesLib:PeiServicesLib.obj
+ 0005:000000f8       $unwind$BuildGuidDataHob   000000000001e0f8     PeiHobLib:HobLib.obj
+ 0005:000000f8       $unwind$BuildMemoryAllocationHob 000000000001e0f8     PeiHobLib:HobLib.obj
+ 0005:000000f8       $unwind$PeiServicesCreateHob 000000000001e0f8     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000100       $unwind$PeiServicesAllocatePages 000000000001e100     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000100       $unwind$PeiServicesFfsFindNextFile 000000000001e100     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000108       $unwind$InternalReportStatusCode 000000000001e108     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0005:00000110       $unwind$ReportStatusCode   000000000001e110     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0005:00000118       $unwind$ReportStatusCodeEx 000000000001e118     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0005:00000128       $unwind$CompareGuid        000000000001e128     BaseMemoryLib:MemLibGuid.obj
+ 0005:00000130       $unwind$InternalMemCopyMem 000000000001e130     BaseMemoryLib:CopyMem.obj
+ 0005:00000138       $unwind$InternalAllocateAlignedPages 000000000001e138     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0005:00000140       $unwind$MakeTable          000000000001e140     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0005:00000150       $unwind$DecodeP            000000000001e150     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0005:00000150       $unwind$ReadCLen           000000000001e150     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0005:00000158       $unwind$ReadPTLen          000000000001e158     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0005:00000160       $unwind$UefiDecompressGetInfo 000000000001e160     BaseUefiDecompressLib:BaseUefiDecompressLib.obj
+ 0005:00000168       $unwind$SetMem16           000000000001e168     BaseMemoryLib:SetMem16Wrapper.obj

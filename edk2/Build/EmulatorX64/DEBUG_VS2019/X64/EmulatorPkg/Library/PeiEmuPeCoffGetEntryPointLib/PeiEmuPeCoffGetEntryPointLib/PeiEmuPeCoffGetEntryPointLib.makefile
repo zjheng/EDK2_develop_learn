@@ -1,0 +1,1 @@
+D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Library\PeiEmuPeCoffGetEntryPointLib\PeiEmuPeCoffGetEntryPointLib\Makefile

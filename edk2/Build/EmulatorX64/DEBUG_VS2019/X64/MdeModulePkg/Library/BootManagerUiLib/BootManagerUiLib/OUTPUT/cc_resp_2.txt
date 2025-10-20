@@ -1,0 +1,1 @@
+  D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\BootManagerUiLib\BootManagerUiLib\DEBUG\AutoGen.c D:\develop\EDK2\edk2\MdeModulePkg\Library\BootManagerUiLib\BootManager.c D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\BootManagerUiLib\BootManagerUiLib\DEBUG\BootManagerVfr.c

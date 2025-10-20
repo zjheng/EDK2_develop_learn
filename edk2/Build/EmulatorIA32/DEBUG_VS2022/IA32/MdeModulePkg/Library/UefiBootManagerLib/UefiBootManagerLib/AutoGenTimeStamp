@@ -1,0 +1,11 @@
+D:\develop\EDK2\edk2\MdeModulePkg\Library\UefiBootManagerLib\BmBoot.c
+D:\develop\EDK2\edk2\MdeModulePkg\Library\UefiBootManagerLib\BmConsole.c
+D:\develop\EDK2\edk2\MdeModulePkg\Library\UefiBootManagerLib\BmHotkey.c
+D:\develop\EDK2\edk2\MdeModulePkg\Library\UefiBootManagerLib\BmConnect.c
+D:\develop\EDK2\edk2\MdeModulePkg\Library\UefiBootManagerLib\BmBootDescription.c
+D:\develop\EDK2\edk2\MdeModulePkg\Library\UefiBootManagerLib\BmDriverHealth.c
+D:\develop\EDK2\edk2\MdeModulePkg\Library\UefiBootManagerLib\BmLoadOption.c
+D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Library\UefiBootManagerLib\UefiBootManagerLib\DEBUG\AutoGen.h
+D:\develop\EDK2\edk2\MdeModulePkg\Library\UefiBootManagerLib\InternalBm.h
+D:\develop\EDK2\edk2\MdeModulePkg\Library\UefiBootManagerLib\UefiBootManagerLib.inf
+D:\develop\EDK2\edk2\MdeModulePkg\Library\UefiBootManagerLib\BmMisc.c

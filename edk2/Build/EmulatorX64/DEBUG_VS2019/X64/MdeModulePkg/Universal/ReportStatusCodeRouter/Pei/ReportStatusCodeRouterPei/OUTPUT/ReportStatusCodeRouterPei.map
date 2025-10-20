@@ -1,0 +1,208 @@
+ ReportStatusCodeRouterPei
+
+ Timestamp is 68f5d002 (Mon Oct 20 14:00:34 2025)
+
+ Preferred load address is 0000000000010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000014H .text                   CODE
+ 0001:00000014 00002a17H .text$mn                CODE
+ 0002:00000000 000008e4H .rdata                  DATA
+ 0002:000008e4 00000018H .rdata$voltmd           DATA
+ 0002:000008fc 0000017cH .rdata$zzzdbg           DATA
+ 0003:00000000 000000b0H .data                   DATA
+ 0003:000000b0 00000010H .bss                    DATA
+ 0004:00000000 00000204H .pdata                  DATA
+ 0005:00000000 000000d0H .xdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0001:00000000       __report_rangecheckfailure 0000000000011000     StackCheckLibNull:StackCheckFunctionsMsvc.obj
+ 0001:00000001       __GSHandlerCheck           0000000000011001     StackCheckLibNull:StackCheckFunctionsMsvc.obj
+ 0001:00000002       __security_check_cookie    0000000000011002     StackCheckLibNull:StackCheckFunctionsMsvc.obj
+ 0001:00000010       CpuPause                   0000000000011010     BaseLib:CpuPause.obj
+ 0001:00000014       _ModuleEntryPoint          0000000000011014 f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:0000008c       ProcessLibraryConstructorList 000000000001108c f   ReportStatusCodeRouterPei:AutoGen.obj
+ 0001:00000098       ProcessModuleEntryPointList 0000000000011098 f   ReportStatusCodeRouterPei:AutoGen.obj
+ 0001:000000bc       CreateRscHandlerCallbackPacket 00000000000110bc f   ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0001:00000120       Register                   0000000000011120 f   ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0001:000002c0       Unregister                 00000000000112c0 f   ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0001:000003b0       ReportDispatcher           00000000000113b0 f   ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0001:000004b0       GenericStatusCodePeiEntry  00000000000114b0 f   ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0001:00000628       GetHobList                 0000000000011628 f   PeiHobLib:HobLib.obj
+ 0001:000006f4       GetNextHob                 00000000000116f4 f   PeiHobLib:HobLib.obj
+ 0001:00000788       GetNextGuidHob             0000000000011788 f   PeiHobLib:HobLib.obj
+ 0001:00000800       GetFirstGuidHob            0000000000011800 f   PeiHobLib:HobLib.obj
+ 0001:00000828       InternalPeiCreateHob       0000000000011828 f   PeiHobLib:HobLib.obj
+ 0001:000008a8       BuildGuidHob               00000000000118a8 f   PeiHobLib:HobLib.obj
+ 0001:0000096c       DebugPrint                 000000000001196c f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000009b0       DebugPrintMarker           00000000000119b0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00001158       DebugVPrint                0000000000012158 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00001188       DebugAssert                0000000000012188 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00001524       DebugAssertEnabled         0000000000012524 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00001548       DebugPrintEnabled          0000000000012548 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:0000156c       DebugPrintLevelEnabled     000000000001256c f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000015a0       PeiServicesInstallPpi      00000000000125a0 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:000015d0       PeiServicesReInstallPpi    00000000000125d0 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00001608       PeiServicesLocatePpi       0000000000012608 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00001658       PeiServicesGetHobList      0000000000012658 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:00001688       PeiServicesCreateHob       0000000000012688 f   PeiServicesLib:PeiServicesLib.obj
+ 0001:000016cc       GetPeiServicesTablePointer 00000000000126cc f   EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0001:00001750       GetDebugPrintErrorLevel    0000000000012750 f   BaseDebugPrintErrorLevelLib:BaseDebugPrintErrorLevelLib.obj
+ 0001:00001758       InternalReportStatusCode   0000000000012758 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00001870       ReportStatusCodeEx         0000000000012870 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00001a58       ReportProgressCodeEnabled  0000000000012a58 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00001a7c       ReportErrorCodeEnabled     0000000000012a7c f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00001aa0       ReportDebugCodeEnabled     0000000000012aa0 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00001ac4       AsciiStrLen                0000000000012ac4 f   BaseLib:String.obj
+ 0001:00001b7c       AsciiStrSize               0000000000012b7c f   BaseLib:String.obj
+ 0001:00001b98       InternalSafeStringIsOverlap 0000000000012b98 f   BaseLib:SafeString.obj
+ 0001:00001bfc       InternalSafeStringNoAsciiStrOverlap 0000000000012bfc f   BaseLib:SafeString.obj
+ 0001:00001c50       AsciiStrnLenS              0000000000012c50 f   BaseLib:SafeString.obj
+ 0001:00001cbc       AsciiStrnCpyS              0000000000012cbc f   BaseLib:SafeString.obj
+ 0001:000021ac       CpuBreakpoint              00000000000131ac f   BaseLib:CpuBreakpoint.obj
+ 0001:000021b0       CpuDeadLoop                00000000000131b0 f   BaseLib:CpuDeadLoop.obj
+ 0001:000021e0       CopyGuid                   00000000000131e0 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00002234       CompareGuid                0000000000013234 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:000022bc       CopyMem                    00000000000132bc f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00002394       InternalMemCopyMem         0000000000013394 f   BaseMemoryLib:CopyMem.obj
+ 0001:00002970       OemHookStatusCodeInitialize 0000000000013970 f   OemHookStatusCodeLibNull:OemHookStatusCodeLibNull.obj
+ 0001:00002974       OemHookStatusCodeReport    0000000000013974 f   OemHookStatusCodeLibNull:OemHookStatusCodeLibNull.obj
+ 0001:0000298c       ReadUnaligned64            000000000001398c f   BaseLib:Unaligned.obj
+ 0001:000029d4       WriteUnaligned64           00000000000139d4 f   BaseLib:Unaligned.obj
+ 0002:00000000       ??_C@_0CP@KCAHKNFK@?$CI?$CKPeiServices?$CJ?9?$DOHdr?4Revision?5?$DO?$DN@ 0000000000014000     PeimEntryPoint:PeimEntryPoint.obj
+ 0002:00000030       ??_C@_0EE@JMAAPGDI@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014030     PeimEntryPoint:PeimEntryPoint.obj
+ 0002:00000074       _gPeimRevision             0000000000014074     ReportStatusCodeRouterPei:AutoGen.obj
+ 0002:00000078       ??_C@_0BK@CHMHFLPL@ReportStatusCodeRouterPei@ 0000000000014078     ReportStatusCodeRouterPei:AutoGen.obj
+ 0002:00000092       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 0000000000014092     ReportStatusCodeRouterPei:AutoGen.obj
+ 0002:00000094       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0000000000014094     ReportStatusCodeRouterPei:AutoGen.obj
+ 0002:00000098       _gPcd_FixedAtBuild_PcdPeiServicesTablePage 0000000000014098     ReportStatusCodeRouterPei:AutoGen.obj
+ 0002:000000a0       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 00000000000140a0     ReportStatusCodeRouterPei:AutoGen.obj
+ 0002:000000a4       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 00000000000140a4     ReportStatusCodeRouterPei:AutoGen.obj
+ 0002:000000a8       _gPcd_FixedAtBuild_PcdDebugPropertyMask 00000000000140a8     ReportStatusCodeRouterPei:AutoGen.obj
+ 0002:000000b0       ??_C@_0CA@PMLNFAND@NumberOfEntries?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000140b0     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0002:000000d0       ??_C@_0GD@FPCGKFLJ@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 00000000000140d0     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0002:00000138       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 0000000000014138     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0002:00000160       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 0000000000014160     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0002:00000198       ??_C@_0DH@PPNNMDAD@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014198     PeiHobLib:HobLib.obj
+ 0002:000001d0       ??_C@_0BI@NCGMODPG@HobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000141d0     PeiHobLib:HobLib.obj
+ 0002:000001e8       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000141e8     PeiHobLib:HobLib.obj
+ 0002:00000208       ??_C@_0BE@PICCCCHF@Hob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014208     PeiHobLib:HobLib.obj
+ 0002:00000220       ??_C@_0BF@PEDOPNMP@Guid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014220     PeiHobLib:HobLib.obj
+ 0002:00000238       ??_C@_0DE@JLBHCAID@DataLength?5?$DM?$DN?5?$CI0xFFF8?5?9?5sizeof?5@ 0000000000014238     PeiHobLib:HobLib.obj
+ 0002:00000270       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014270     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000290       ??_C@_0FE@BEFIIBEL@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000014290     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000002e8       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 00000000000142e8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000318       ??_C@_01OHGJGJJP@?$FL@     0000000000014318     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:0000031c       ??_C@_02PBFOLPKM@?$FN?5@   000000000001431c     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000320       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014320     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000338       ??_C@_0CI@MDPGFIOC@PeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIvo@ 0000000000014338     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:00000360       ??_C@_0GH@FIBBPKGC@D?3?2develop?2EDK2?2edk2?2EmulatorPk@ 0000000000014360     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:000003c8       ??_C@_0CJ@NHFDCOMG@?$CKPeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIv@ 00000000000143c8     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:00000400       ??_C@_0FH@CEHMGJKM@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000014400     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000458       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014458     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000498       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014498     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000004d8       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5to@ 00000000000144d8     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000510       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014510     BaseLib:String.obj
+ 0002:00000528       ??_C@_0DF@EAHDDLM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014528     BaseLib:String.obj
+ 0002:00000560       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0000000000014560     BaseLib:String.obj
+ 0002:00000598       ??_C@_0DJ@DNFJNBOO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014598     BaseLib:SafeString.obj
+ 0002:000005d8       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00000000000145d8     BaseLib:SafeString.obj
+ 0002:00000600       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 0000000000014600     BaseLib:SafeString.obj
+ 0002:00000640       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000014640     BaseLib:SafeString.obj
+ 0002:00000660       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0000000000014660     BaseLib:SafeString.obj
+ 0002:00000670       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0000000000014670     BaseLib:SafeString.obj
+ 0002:00000688       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0000000000014688     BaseLib:SafeString.obj
+ 0002:000006d0       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 00000000000146d0     BaseLib:SafeString.obj
+ 0002:00000730       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 0000000000014730     BaseLib:SafeString.obj
+ 0002:00000740       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 0000000000014740     BaseLib:SafeString.obj
+ 0002:00000780       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000014780     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000007d0       ??_C@_0ED@JLFCAFGL@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000147d0     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000818       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000014818     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000858       ??_C@_0DI@MBLLHEOH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014858     BaseLib:Unaligned.obj
+ 0002:000008e4       __volatile_metadata        00000000000148e4     <linker-defined>
+ 0003:00000000       gEfiStatusCodeSpecificDataGuid 0000000000015000     ReportStatusCodeRouterPei:AutoGen.obj
+ 0003:00000010       gEfiPeiRscHandlerPpiGuid   0000000000015010     ReportStatusCodeRouterPei:AutoGen.obj
+ 0003:00000020       gEfiPeiStatusCodePpiGuid   0000000000015020     ReportStatusCodeRouterPei:AutoGen.obj
+ 0003:00000030       gEfiCallerBaseName         0000000000015030     ReportStatusCodeRouterPei:AutoGen.obj
+ 0003:00000038       gEfiStatusCodeDataTypeDebugGuid 0000000000015038     ReportStatusCodeRouterPei:AutoGen.obj
+ 0003:00000048       gStatusCodeCallbackGuid    0000000000015048     ReportStatusCodeRouterPei:AutoGen.obj
+ 0003:00000058       gEfiCallerIdGuid           0000000000015058     ReportStatusCodeRouterPei:AutoGen.obj
+ 0003:00000068       mRscHandlerPpi             0000000000015068     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0003:00000078       mStatusCodePpi             0000000000015078     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0003:00000080       mRscHandlerPpiList         0000000000015080     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0003:00000098       mStatusCodePpiList         0000000000015098     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0003:000000b8       __security_cookie          00000000000150b8     StackCheckLibNull:StackCheckLibNullMsvc.obj
+
+ entry point at        0001:00000014
+
+ Static symbols
+
+ 0003:000000b0       mDeadLoopComparator        00000000000150b0     BaseLib:CpuDeadLoop.obj
+ 0005:00000000       $unwind$ProcessModuleEntryPointList 0000000000017000     ReportStatusCodeRouterPei:AutoGen.obj
+ 0005:00000000       $unwind$WriteUnaligned64   0000000000017000     BaseLib:Unaligned.obj
+ 0005:00000000       $unwind$CopyGuid           0000000000017000     BaseMemoryLib:MemLibGuid.obj
+ 0005:00000000       $unwind$_ModuleEntryPoint  0000000000017000     PeimEntryPoint:PeimEntryPoint.obj
+ 0005:00000008       $unwind$GetPeiServicesTablePointer 0000000000017008     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0005:00000008       $unwind$CreateRscHandlerCallbackPacket 0000000000017008     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0005:00000008       $unwind$CpuDeadLoop        0000000000017008     BaseLib:CpuDeadLoop.obj
+ 0005:00000008       $unwind$GetHobList         0000000000017008     PeiHobLib:HobLib.obj
+ 0005:00000010       $unwind$Register           0000000000017010     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0005:00000018       $unwind$Unregister         0000000000017018     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0005:00000020       $unwind$ReportDispatcher   0000000000017020     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0005:00000028       $unwind$GenericStatusCodePeiEntry 0000000000017028     ReportStatusCodeRouterPei:ReportStatusCodeRouterPei.obj
+ 0005:00000030       $unwind$BuildGuidHob       0000000000017030     PeiHobLib:HobLib.obj
+ 0005:00000030       $unwind$GetNextGuidHob     0000000000017030     PeiHobLib:HobLib.obj
+ 0005:00000030       $unwind$GetNextHob         0000000000017030     PeiHobLib:HobLib.obj
+ 0005:00000030       $unwind$InternalPeiCreateHob 0000000000017030     PeiHobLib:HobLib.obj
+ 0005:00000030       $unwind$PeiServicesReInstallPpi 0000000000017030     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000038       $unwind$AsciiStrLen        0000000000017038     BaseLib:String.obj
+ 0005:00000038       $unwind$GetFirstGuidHob    0000000000017038     PeiHobLib:HobLib.obj
+ 0005:00000038       $unwind$PeiServicesGetHobList 0000000000017038     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000038       $unwind$PeiServicesInstallPpi 0000000000017038     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000040       $unwind$DebugPrint         0000000000017040     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:00000040       $unwind$InternalSafeStringNoAsciiStrOverlap 0000000000017040     BaseLib:SafeString.obj
+ 0005:00000048       $unwind$DebugPrintMarker   0000000000017048     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:00000058       $unwind$DebugVPrint        0000000000017058     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:00000058       $unwind$CopyMem            0000000000017058     BaseMemoryLib:CopyMemWrapper.obj
+ 0005:00000060       $unwind$DebugAssert        0000000000017060     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:00000070       $unwind$DebugAssertEnabled 0000000000017070     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:00000070       $unwind$DebugPrintEnabled  0000000000017070     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:00000070       $unwind$ReportDebugCodeEnabled 0000000000017070     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0005:00000070       $unwind$ReportErrorCodeEnabled 0000000000017070     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0005:00000070       $unwind$ReportProgressCodeEnabled 0000000000017070     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0005:00000078       $unwind$DebugPrintLevelEnabled 0000000000017078     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0005:00000080       $unwind$PeiServicesLocatePpi 0000000000017080     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000088       $unwind$PeiServicesCreateHob 0000000000017088     PeiServicesLib:PeiServicesLib.obj
+ 0005:00000090       $unwind$InternalReportStatusCode 0000000000017090     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0005:00000098       $unwind$ReportStatusCodeEx 0000000000017098     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0005:000000a8       $unwind$AsciiStrSize       00000000000170a8     BaseLib:String.obj
+ 0005:000000a8       $unwind$ReadUnaligned64    00000000000170a8     BaseLib:Unaligned.obj
+ 0005:000000b0       $unwind$AsciiStrnLenS      00000000000170b0     BaseLib:SafeString.obj
+ 0005:000000b8       $unwind$AsciiStrnCpyS      00000000000170b8     BaseLib:SafeString.obj
+ 0005:000000c0       $unwind$CompareGuid        00000000000170c0     BaseMemoryLib:MemLibGuid.obj
+ 0005:000000c8       $unwind$InternalMemCopyMem 00000000000170c8     BaseMemoryLib:CopyMem.obj

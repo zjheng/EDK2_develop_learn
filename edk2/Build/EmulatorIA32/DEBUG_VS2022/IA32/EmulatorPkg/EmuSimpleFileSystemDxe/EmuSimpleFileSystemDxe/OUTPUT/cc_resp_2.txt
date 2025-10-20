@@ -1,0 +1,1 @@
+  D:\develop\EDK2\edk2\EmulatorPkg\EmuSimpleFileSystemDxe\EmuSimpleFileSystem.c D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\EmuSimpleFileSystemDxe\EmuSimpleFileSystemDxe\DEBUG\AutoGen.c D:\develop\EDK2\edk2\EmulatorPkg\EmuSimpleFileSystemDxe\ComponentName.c

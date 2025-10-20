@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\6DB075DE-449E-2644-96D0-CC5A1B4C3B2AFirmwareVolumePei\6DB075DE-449E-2644-96D0-CC5A1B4C3B2ASEC2.1.pe32 D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\FirmwareVolumePei.efi
