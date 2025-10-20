@@ -7,6 +7,6 @@ cd ..
 copy /Y target.txt edk2\Conf
 cd edk2
 call edksetup.bat rebuild
-build
+call build
 
 cd ..
