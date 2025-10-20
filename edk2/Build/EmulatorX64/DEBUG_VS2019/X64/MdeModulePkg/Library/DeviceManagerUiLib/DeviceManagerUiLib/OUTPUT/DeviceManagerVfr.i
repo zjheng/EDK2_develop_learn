@@ -1,5 +1,5 @@
-#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\DeviceManagerUiLib\\DeviceManagerVfr.Vfr"
-#line 1 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\DeviceManagerUiLib\\DeviceManagerUiLib\\DEBUG\\DeviceManagerUiLibStrDefs.h"
+#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\DeviceManagerUiLib\\DeviceManagerVfr.Vfr"
+#line 1 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\DeviceManagerUiLib\\DeviceManagerUiLib\\DEBUG\\DeviceManagerUiLibStrDefs.h"
 
 
 
@@ -48,10 +48,10 @@ extern unsigned char DeviceManagerUiLibStrings[];
 
 
 
-#line 50 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\DeviceManagerUiLib\\DeviceManagerUiLib\\DEBUG\\DeviceManagerUiLibStrDefs.h"
+#line 50 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\DeviceManagerUiLib\\DeviceManagerUiLib\\DEBUG\\DeviceManagerUiLibStrDefs.h"
 
-#line 52 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\DeviceManagerUiLib\\DeviceManagerUiLib\\DEBUG\\DeviceManagerUiLibStrDefs.h"
-#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\DeviceManagerUiLib\\DeviceManagerVfr.Vfr"
+#line 52 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\DeviceManagerUiLib\\DeviceManagerUiLib\\DEBUG\\DeviceManagerUiLibStrDefs.h"
+#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\DeviceManagerUiLib\\DeviceManagerVfr.Vfr"
 
 
 

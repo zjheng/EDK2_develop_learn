@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = DxeIpIoLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = NetworkPkg\Library\DxeIpIoLib
 PACKAGE_RELATIVE_DIR = Library\DxeIpIoLib
-MODULE_DIR = D:\develop\Self_develop\edk2\NetworkPkg\Library\DxeIpIoLib
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\A302F877-8625-425c-B1EC-7487B62C4FDADxeIpIoLib
+MODULE_DIR = D:\develop\EDK2\edk2\NetworkPkg\Library\DxeIpIoLib
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\A302F877-8625-425c-B1EC-7487B62C4FDADxeIpIoLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -202,7 +202,7 @@ INC =  \
     /I$(WORKSPACE)\NetworkPkg \
     /I$(WORKSPACE)\NetworkPkg\Include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\OUTPUT\object_files.lst
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\OUTPUT\object_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\DxeIpIoLib.obj
 
 
@@ -213,7 +213,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\OUTPUT\DxeIpIoLib.lib \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\OUTPUT\DxeIpIoLib.lib \
               
 
 #
@@ -292,11 +292,11 @@ $(OBJLIST_0):  \
 	$(MAKE_FILE) \
 	$(WORKSPACE)\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib.c
 
 $(OUTPUT_DIR)\DxeIpIoLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\DxeIpIoLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\OUTPUT\DxeIpIoLib.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Library\DxeIpIoLib\DxeIpIoLib\OUTPUT\DxeIpIoLib.lib @$(OBJECT_FILES_LIST)
 
 
 

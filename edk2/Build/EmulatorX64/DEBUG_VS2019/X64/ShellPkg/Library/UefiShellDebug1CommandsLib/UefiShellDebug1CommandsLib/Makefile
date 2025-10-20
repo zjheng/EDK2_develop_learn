@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = UefiShellDebug1CommandsLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = ShellPkg\Library\UefiShellDebug1CommandsLib
 PACKAGE_RELATIVE_DIR = Library\UefiShellDebug1CommandsLib
-MODULE_DIR = D:\develop\Self_develop\edk2\ShellPkg\Library\UefiShellDebug1CommandsLib
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\90330D51-A99B-4cc8-A2EB-AE22542A3F45UefiShellDebug1CommandsLib
+MODULE_DIR = D:\develop\EDK2\edk2\ShellPkg\Library\UefiShellDebug1CommandsLib
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\90330D51-A99B-4cc8-A2EB-AE22542A3F45UefiShellDebug1CommandsLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -180,10 +180,10 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_27 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\cc_resp_27.txt
-cc_resp_30 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\cc_resp_30.txt
-cc_resp_36 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\cc_resp_36.txt
-cc_resp_37 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\cc_resp_37.txt
+cc_resp_28 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\cc_resp_28.txt
+cc_resp_30 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\cc_resp_30.txt
+cc_resp_36 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\cc_resp_36.txt
+cc_resp_37 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\cc_resp_37.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -249,11 +249,11 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\object_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\EditStatusBar.obj $(OUTPUT_DIR)\Compress.obj $(OUTPUT_DIR)\EditTitleBar.obj $(OUTPUT_DIR)\SetSize.obj $(OUTPUT_DIR)\Mode.obj $(OUTPUT_DIR)\Dmem.obj $(OUTPUT_DIR)\EfiCompress.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\Dblk.obj $(OUTPUT_DIR)\SetVar.obj $(OUTPUT_DIR)\Pci.obj $(OUTPUT_DIR)\SerMode.obj $(OUTPUT_DIR)\MemMap.obj $(OUTPUT_DIR)\DmpStore.obj $(OUTPUT_DIR)\UefiShellDebug1CommandsLib.obj $(OUTPUT_DIR)\EditInputBar.obj $(OUTPUT_DIR)\Mm.obj $(OUTPUT_DIR)\LoadPciRom.obj $(OUTPUT_DIR)\EditMenuBar.obj $(OUTPUT_DIR)\EfiDecompress.obj $(OUTPUT_DIR)\Comp.obj
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\object_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\SmbiosView\LibSmbiosView.obj $(OUTPUT_DIR)\SmbiosView\PrintInfo.obj $(OUTPUT_DIR)\SmbiosView\SmbiosView.obj $(OUTPUT_DIR)\SmbiosView\QueryTable.obj $(OUTPUT_DIR)\SmbiosView\EventLogInfo.obj
 OBJLIST_1 = $(OUTPUT_DIR)\HexEdit\MainHexEditor.obj $(OUTPUT_DIR)\HexEdit\Misc.obj $(OUTPUT_DIR)\HexEdit\HexEdit.obj $(OUTPUT_DIR)\HexEdit\MemImage.obj $(OUTPUT_DIR)\HexEdit\FileImage.obj $(OUTPUT_DIR)\HexEdit\Clipboard.obj $(OUTPUT_DIR)\HexEdit\DiskImage.obj $(OUTPUT_DIR)\HexEdit\BufferImage.obj
-OBJLIST_2 = $(OUTPUT_DIR)\Edit\FileBuffer.obj $(OUTPUT_DIR)\Edit\Misc.obj $(OUTPUT_DIR)\Edit\MainTextEditor.obj $(OUTPUT_DIR)\Edit\Edit.obj
-OBJLIST_3 = $(OUTPUT_DIR)\SmbiosView\LibSmbiosView.obj $(OUTPUT_DIR)\SmbiosView\PrintInfo.obj $(OUTPUT_DIR)\SmbiosView\SmbiosView.obj $(OUTPUT_DIR)\SmbiosView\QueryTable.obj $(OUTPUT_DIR)\SmbiosView\EventLogInfo.obj
+OBJLIST_2 = $(OUTPUT_DIR)\EditStatusBar.obj $(OUTPUT_DIR)\Compress.obj $(OUTPUT_DIR)\EditTitleBar.obj $(OUTPUT_DIR)\SetSize.obj $(OUTPUT_DIR)\Mode.obj $(OUTPUT_DIR)\Dmem.obj $(OUTPUT_DIR)\EfiCompress.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\Dblk.obj $(OUTPUT_DIR)\SetVar.obj $(OUTPUT_DIR)\Pci.obj $(OUTPUT_DIR)\SerMode.obj $(OUTPUT_DIR)\MemMap.obj $(OUTPUT_DIR)\DmpStore.obj $(OUTPUT_DIR)\UefiShellDebug1CommandsLib.obj $(OUTPUT_DIR)\EditInputBar.obj $(OUTPUT_DIR)\Mm.obj $(OUTPUT_DIR)\LoadPciRom.obj $(OUTPUT_DIR)\EditMenuBar.obj $(OUTPUT_DIR)\EfiDecompress.obj $(OUTPUT_DIR)\Comp.obj
+OBJLIST_3 = $(OUTPUT_DIR)\Edit\FileBuffer.obj $(OUTPUT_DIR)\Edit\Misc.obj $(OUTPUT_DIR)\Edit\MainTextEditor.obj $(OUTPUT_DIR)\Edit\Edit.obj
 
 
 #
@@ -263,7 +263,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\UefiShellDebug1CommandsLib.lib \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\UefiShellDebug1CommandsLib.lib \
               
 
 #
@@ -340,69 +340,69 @@ gen_fds:
 #
 $(OBJLIST_1):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\HexEdit.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(DEBUG_DIR)\UefiShellDebug1CommandsLibStrDefs.h \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\MainHexEditor.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\Clipboard.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\BufferImage.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\MemImage.c \
 	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\DiskImage.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\FileImage.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\Misc.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\HexEdit\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_27)
-
-$(OBJLIST_2):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Edit\FileBuffer.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\UefiShellDebug1CommandsLibStrDefs.h \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Edit\Misc.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Edit\MainTextEditor.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Edit\Edit.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\Edit\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_30)
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\BufferImage.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\Misc.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\MemImage.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\HexEdit.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\MainHexEditor.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\FileImage.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\HexEdit\Clipboard.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\HexEdit\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_28)
 
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SetSize.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SmbiosView\PrintInfo.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\UefiShellDebug1CommandsLibStrDefs.h \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\DmpStore.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\EditTitleBar.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SmbiosView\SmbiosView.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SmbiosView\QueryTable.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SmbiosView\LibSmbiosView.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SmbiosView\EventLogInfo.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\SmbiosView\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_30)
+
+$(OBJLIST_2):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Compress.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(DEBUG_DIR)\UefiShellDebug1CommandsLibStrDefs.h \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\MemMap.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SetSize.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\EfiCompress.c \
 	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Mm.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\LoadPciRom.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\EfiDecompress.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Dblk.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\EditStatusBar.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Dmem.c \
 	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\EditMenuBar.c \
 	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Mode.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Dmem.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\MemMap.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\EfiCompress.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Pci.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\EditInputBar.c \
+	$(DEBUG_DIR)\AutoGen.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\EditTitleBar.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\EfiDecompress.c \
 	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SetVar.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Comp.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Dblk.c \
 	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SerMode.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Compress.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\EditStatusBar.c \
-	$(DEBUG_DIR)\AutoGen.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_36)
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Pci.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\DmpStore.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\EditInputBar.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Mm.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Comp.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\LoadPciRom.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_36)
 
 $(OBJLIST_3):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SmbiosView\SmbiosView.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Edit\Misc.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\UefiShellDebug1CommandsLibStrDefs.h \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SmbiosView\PrintInfo.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SmbiosView\LibSmbiosView.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SmbiosView\EventLogInfo.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\SmbiosView\QueryTable.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\SmbiosView\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_37)
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Edit\Edit.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Edit\MainTextEditor.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDebug1CommandsLib\Edit\FileBuffer.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\Edit\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_37)
 
 $(OUTPUT_DIR)\UefiShellDebug1CommandsLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\UefiShellDebug1CommandsLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\UefiShellDebug1CommandsLib.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib\OUTPUT\UefiShellDebug1CommandsLib.lib @$(OBJECT_FILES_LIST)
 
 
 

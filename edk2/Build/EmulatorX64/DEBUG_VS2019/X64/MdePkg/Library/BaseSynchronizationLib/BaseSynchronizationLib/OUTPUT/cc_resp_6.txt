@@ -1,1 +1,1 @@
-  D:\develop\Self_develop\edk2\MdePkg\Library\BaseSynchronizationLib\X64\InterlockedCompareExchange64.c D:\develop\Self_develop\edk2\MdePkg\Library\BaseSynchronizationLib\X64\InterlockedCompareExchange32.c D:\develop\Self_develop\edk2\MdePkg\Library\BaseSynchronizationLib\X64\InterlockedCompareExchange16.c
+  D:\develop\EDK2\edk2\MdePkg\Library\BaseSynchronizationLib\InterlockedIncrementMsc.c D:\develop\EDK2\edk2\MdePkg\Library\BaseSynchronizationLib\InterlockedDecrementMsc.c D:\develop\EDK2\edk2\MdePkg\Library\BaseSynchronizationLib\SynchronizationMsc.c

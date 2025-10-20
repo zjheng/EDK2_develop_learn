@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = TcpDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = NetworkPkg\TcpDxe
 PACKAGE_RELATIVE_DIR = TcpDxe
-MODULE_DIR = D:\develop\Self_develop\edk2\NetworkPkg\TcpDxe
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\1A7E4468-2F55-4a56-903C-01265EB7622BTcpDxe
+MODULE_DIR = D:\develop\EDK2\edk2\NetworkPkg\TcpDxe
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\1A7E4468-2F55-4a56-903C-01265EB7622BTcpDxe
 
 MODULE_ENTRY_POINT = TcpDriverEntryPoint
 ARCH_ENTRY_POINT = TcpDriverEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_12 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\cc_resp_12.txt
+cc_resp_12 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\cc_resp_12.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -236,9 +236,9 @@ INC =  \
     /I$(WORKSPACE)\NetworkPkg \
     /I$(WORKSPACE)\NetworkPkg\Include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\static_library_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\SockInterface.obj $(OUTPUT_DIR)\TcpDispatcher.obj $(OUTPUT_DIR)\SockImpl.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\TcpIo.obj $(OUTPUT_DIR)\TcpMain.obj $(OUTPUT_DIR)\TcpTimer.obj $(OUTPUT_DIR)\TcpOption.obj $(OUTPUT_DIR)\TcpInput.obj $(OUTPUT_DIR)\TcpOutput.obj $(OUTPUT_DIR)\TcpMisc.obj $(OUTPUT_DIR)\ComponentName.obj $(OUTPUT_DIR)\TcpDriver.obj
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\static_library_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\SockInterface.obj $(OUTPUT_DIR)\TcpDispatcher.obj $(OUTPUT_DIR)\SockImpl.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\TcpMain.obj $(OUTPUT_DIR)\TcpDriver.obj $(OUTPUT_DIR)\TcpTimer.obj $(OUTPUT_DIR)\TcpOutput.obj $(OUTPUT_DIR)\TcpInput.obj $(OUTPUT_DIR)\TcpOption.obj $(OUTPUT_DIR)\TcpMisc.obj $(OUTPUT_DIR)\ComponentName.obj $(OUTPUT_DIR)\TcpIo.obj
 
 
 #
@@ -248,7 +248,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\TcpDxe.efi \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\TcpDxe.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -345,37 +345,37 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpOption.c \
-	$(DEBUG_DIR)\AutoGen.h \
 	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpMisc.c \
-	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpInput.c \
-	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpDriver.c \
-	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpMain.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\NetworkPkg\TcpDxe\SockImpl.c \
 	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpIo.c \
+	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpDispatcher.c \
+	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpMain.c \
+	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpDriver.c \
+	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpOutput.c \
+	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpTimer.c \
 	$(WORKSPACE)\NetworkPkg\TcpDxe\ComponentName.c \
 	$(DEBUG_DIR)\AutoGen.c \
-	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpTimer.c \
-	$(WORKSPACE)\NetworkPkg\TcpDxe\SockImpl.c \
+	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpInput.c \
 	$(WORKSPACE)\NetworkPkg\TcpDxe\SockInterface.c \
-	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpOutput.c \
-	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpDispatcher.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_12)
+	$(WORKSPACE)\NetworkPkg\TcpDxe\TcpOption.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_12)
 
 $(OUTPUT_DIR)\TcpDxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\TcpDxe.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\TcpDxe.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\TcpDxe.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\TcpDxe.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\TcpDxe.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\TcpDxe.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\DEBUG\TcpDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\DEBUG\TcpDxe.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\DEBUG\TcpDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\DEBUG\TcpDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\DEBUG\TcpDxe.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\DEBUG\TcpDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\TcpDxe.efi : $(DEBUG_DIR)\TcpDxe.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\TcpDxe.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\DEBUG\TcpDxe.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\TcpDxe.efi $(DEBUG_DIR)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\TcpDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\TcpDxe.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\DEBUG\TcpDxe.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\TcpDxe.efi $(DEBUG_DIR)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\TcpDxe\TcpDxe\OUTPUT\TcpDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

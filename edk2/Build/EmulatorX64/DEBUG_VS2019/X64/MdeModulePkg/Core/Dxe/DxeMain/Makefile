@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = DxeMain
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Core\Dxe
 PACKAGE_RELATIVE_DIR = Core\Dxe
-MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Core\Dxe
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\D6A2CB7F-6A18-4e2f-B43B-9920A733700ADxeCore
+MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\D6A2CB7F-6A18-4e2f-B43B-9920A733700ADxeCore
 
 MODULE_ENTRY_POINT = DxeMain
 ARCH_ENTRY_POINT = DxeMain
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,13 +181,13 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_11 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_11.txt
-cc_resp_13 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_13.txt
-cc_resp_19 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_19.txt
-cc_resp_26 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_26.txt
-cc_resp_28 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_28.txt
-cc_resp_29 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_29.txt
-cc_resp_32 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_32.txt
+cc_resp_19 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_19.txt
+cc_resp_25 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_25.txt
+cc_resp_26 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_26.txt
+cc_resp_29 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_29.txt
+cc_resp_30 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_30.txt
+cc_resp_31 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_31.txt
+cc_resp_32 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\cc_resp_32.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -291,21 +291,21 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\static_library_files.lst
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\static_library_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\Mem\MemoryProfileRecord.obj $(OUTPUT_DIR)\Mem\Page.obj $(OUTPUT_DIR)\Mem\MemData.obj $(OUTPUT_DIR)\Mem\Pool.obj $(OUTPUT_DIR)\Mem\HeapGuard.obj
-OBJLIST_1 = $(OUTPUT_DIR)\FwVol\Ffs.obj $(OUTPUT_DIR)\FwVol\FwVol.obj $(OUTPUT_DIR)\FwVol\FwVolWrite.obj $(OUTPUT_DIR)\FwVol\FwVolRead.obj $(OUTPUT_DIR)\FwVol\FwVolAttrib.obj
-OBJLIST_2 = $(OUTPUT_DIR)\Misc\SetWatchdogTimer.obj $(OUTPUT_DIR)\Misc\InstallConfigurationTable.obj $(OUTPUT_DIR)\Misc\MemoryAttributesTable.obj $(OUTPUT_DIR)\Misc\Stall.obj $(OUTPUT_DIR)\Misc\DebugImageInfo.obj $(OUTPUT_DIR)\Misc\MemoryProtection.obj
-OBJLIST_3 = $(OUTPUT_DIR)\DxeMain\DxeMain.obj $(OUTPUT_DIR)\DxeMain\DxeProtocolNotify.obj
+OBJLIST_1 = $(OUTPUT_DIR)\Gcd\Gcd.obj
+OBJLIST_2 = $(OUTPUT_DIR)\FwVolBlock\FwVolBlock.obj
+OBJLIST_3 = $(OUTPUT_DIR)\FwVol\Ffs.obj $(OUTPUT_DIR)\FwVol\FwVol.obj $(OUTPUT_DIR)\FwVol\FwVolWrite.obj $(OUTPUT_DIR)\FwVol\FwVolRead.obj $(OUTPUT_DIR)\FwVol\FwVolAttrib.obj
 OBJLIST_4 = $(OUTPUT_DIR)\Event\Event.obj $(OUTPUT_DIR)\Event\Tpl.obj $(OUTPUT_DIR)\Event\Timer.obj
-OBJLIST_5 = $(OUTPUT_DIR)\Image\Image.obj
-OBJLIST_6 = $(OUTPUT_DIR)\AutoGen.obj
-OBJLIST_7 = $(OUTPUT_DIR)\Library\Library.obj
+OBJLIST_5 = $(OUTPUT_DIR)\Misc\SetWatchdogTimer.obj $(OUTPUT_DIR)\Misc\InstallConfigurationTable.obj $(OUTPUT_DIR)\Misc\MemoryAttributesTable.obj $(OUTPUT_DIR)\Misc\Stall.obj $(OUTPUT_DIR)\Misc\DebugImageInfo.obj $(OUTPUT_DIR)\Misc\MemoryProtection.obj
+OBJLIST_6 = $(OUTPUT_DIR)\Image\Image.obj
+OBJLIST_7 = $(OUTPUT_DIR)\Dispatcher\Dependency.obj $(OUTPUT_DIR)\Dispatcher\Dispatcher.obj
 OBJLIST_8 = $(OUTPUT_DIR)\Hand\DriverSupport.obj $(OUTPUT_DIR)\Hand\Notify.obj $(OUTPUT_DIR)\Hand\Handle.obj $(OUTPUT_DIR)\Hand\Locate.obj
-OBJLIST_9 = $(OUTPUT_DIR)\Dispatcher\Dependency.obj $(OUTPUT_DIR)\Dispatcher\Dispatcher.obj
-OBJLIST_10 = $(OUTPUT_DIR)\SectionExtraction\CoreSectionExtraction.obj
-OBJLIST_11 = $(OUTPUT_DIR)\Gcd\Gcd.obj
-OBJLIST_12 = $(OUTPUT_DIR)\FwVolBlock\FwVolBlock.obj
+OBJLIST_9 = $(OUTPUT_DIR)\Library\Library.obj
+OBJLIST_10 = $(OUTPUT_DIR)\AutoGen.obj
+OBJLIST_11 = $(OUTPUT_DIR)\DxeMain\DxeMain.obj $(OUTPUT_DIR)\DxeMain\DxeProtocolNotify.obj
+OBJLIST_12 = $(OUTPUT_DIR)\SectionExtraction\CoreSectionExtraction.obj
 
 
 #
@@ -315,7 +315,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeCore.efi \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeCore.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -425,119 +425,119 @@ gen_fds:
 #
 # Individual Object Build Targets
 #
-$(OBJLIST_5):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Image\Image.c \
-	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Image\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Dxe\Image\Image.c
-
-$(OBJLIST_6):  \
-	$(MAKE_FILE) \
-	$(DEBUG_DIR)\AutoGen.c \
-	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\AutoGen.c
-
-$(OBJLIST_3):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\DxeMain\DxeProtocolNotify.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\DxeMain\DxeMain.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeMain\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_11)
-
-$(OBJLIST_7):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Library\Library.c \
-	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Library\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Dxe\Library\Library.c
-
-$(OBJLIST_0):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Mem\Page.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Mem\Pool.c \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Mem\HeapGuard.c \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Mem\MemData.c \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Mem\MemoryProfileRecord.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Mem\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_13)
-
-$(OBJLIST_9):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Dispatcher\Dispatcher.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Dispatcher\Dependency.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Dispatcher\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_19)
-
-$(OBJLIST_8):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Hand\Handle.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Hand\DriverSupport.c \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Hand\Locate.c \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Hand\Notify.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Hand\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_26)
-
-$(OBJLIST_10):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\SectionExtraction\CoreSectionExtraction.c \
-	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\SectionExtraction\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Dxe\SectionExtraction\CoreSectionExtraction.c
-
 $(OBJLIST_1):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVol\FwVolAttrib.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVol\FwVol.c \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVol\Ffs.c \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVol\FwVolWrite.c \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVol\FwVolRead.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\FwVol\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_28)
-
-$(OBJLIST_4):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Event\Event.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Event\Timer.c \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Event\Tpl.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Event\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_29)
-
-$(OBJLIST_11):  \
 	$(MAKE_FILE) \
 	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Gcd\Gcd.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Gcd\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Dxe\Gcd\Gcd.c
-
-$(OBJLIST_12):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVolBlock\FwVolBlock.c \
-	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\FwVolBlock\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Dxe\FwVolBlock\FwVolBlock.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Gcd\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\Gcd\Gcd.c
 
 $(OBJLIST_2):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Misc\MemoryAttributesTable.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVolBlock\FwVolBlock.c \
+	$(DEBUG_DIR)\AutoGen.h
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\FwVolBlock\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\FwVolBlock\FwVolBlock.c
+
+$(OBJLIST_6):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Image\Image.c \
+	$(DEBUG_DIR)\AutoGen.h
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Image\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\Image\Image.c
+
+$(OBJLIST_9):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Library\Library.c \
+	$(DEBUG_DIR)\AutoGen.h
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Library\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\Library\Library.c
+
+$(OBJLIST_7):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Dispatcher\Dependency.c \
 	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Misc\SetWatchdogTimer.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Dispatcher\Dispatcher.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Dispatcher\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_19)
+
+$(OBJLIST_10):  \
+	$(MAKE_FILE) \
+	$(DEBUG_DIR)\AutoGen.c \
+	$(DEBUG_DIR)\AutoGen.h
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\AutoGen.c
+
+$(OBJLIST_8):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Hand\Notify.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Hand\DriverSupport.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Hand\Handle.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Hand\Locate.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Hand\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_25)
+
+$(OBJLIST_4):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Event\Tpl.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Event\Event.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Event\Timer.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Event\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_26)
+
+$(OBJLIST_12):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\SectionExtraction\CoreSectionExtraction.c \
+	$(DEBUG_DIR)\AutoGen.h
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\SectionExtraction\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\SectionExtraction\CoreSectionExtraction.c
+
+$(OBJLIST_0):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Mem\Pool.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Mem\MemoryProfileRecord.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Mem\HeapGuard.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Mem\Page.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Mem\MemData.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Mem\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_29)
+
+$(OBJLIST_5):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Misc\DebugImageInfo.c \
+	$(DEBUG_DIR)\AutoGen.h \
 	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Misc\InstallConfigurationTable.c \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Misc\MemoryProtection.c \
 	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Misc\Stall.c \
-	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Misc\DebugImageInfo.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Misc\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_32)
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Misc\MemoryAttributesTable.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Misc\SetWatchdogTimer.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\Misc\MemoryProtection.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\Misc\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_30)
+
+$(OBJLIST_3):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVol\Ffs.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVol\FwVol.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVol\FwVolRead.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVol\FwVolAttrib.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\FwVol\FwVolWrite.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\FwVol\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_31)
+
+$(OBJLIST_11):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\DxeMain\DxeMain.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\MdeModulePkg\Core\Dxe\DxeMain\DxeProtocolNotify.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeMain\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_32)
 
 $(OUTPUT_DIR)\DxeCore.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\DxeCore.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeCore.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeCore.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\DxeCore.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\DxeCore.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\DxeCore.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\DxeCore.efi : $(DEBUG_DIR)\DxeCore.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeCore.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeCore.efi $(DEBUG_DIR)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeCore.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeCore.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeCore.efi $(DEBUG_DIR)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Dxe\DxeMain\OUTPUT\DxeCore.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

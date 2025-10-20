@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = MnpDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = NetworkPkg\MnpDxe
 PACKAGE_RELATIVE_DIR = MnpDxe
-MODULE_DIR = D:\develop\Self_develop\edk2\NetworkPkg\MnpDxe
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\025BBFC7-E6A9-4b8b-82AD-6815A1AEAF4AMnpDxe
+MODULE_DIR = D:\develop\EDK2\edk2\NetworkPkg\MnpDxe
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\025BBFC7-E6A9-4b8b-82AD-6815A1AEAF4AMnpDxe
 
 MODULE_ENTRY_POINT = MnpDriverEntryPoint
 ARCH_ENTRY_POINT = MnpDriverEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_6 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\cc_resp_6.txt
+cc_resp_6 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\cc_resp_6.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -229,9 +229,9 @@ INC =  \
     /I$(WORKSPACE)\NetworkPkg \
     /I$(WORKSPACE)\NetworkPkg\Include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\static_library_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\MnpMain.obj $(OUTPUT_DIR)\MnpConfig.obj $(OUTPUT_DIR)\MnpIo.obj $(OUTPUT_DIR)\MnpVlan.obj $(OUTPUT_DIR)\MnpDriver.obj $(OUTPUT_DIR)\ComponentName.obj
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\static_library_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\MnpMain.obj $(OUTPUT_DIR)\MnpConfig.obj $(OUTPUT_DIR)\ComponentName.obj $(OUTPUT_DIR)\MnpVlan.obj $(OUTPUT_DIR)\MnpDriver.obj $(OUTPUT_DIR)\MnpIo.obj
 
 
 #
@@ -241,7 +241,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\MnpDxe.efi \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\MnpDxe.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -337,31 +337,31 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\NetworkPkg\MnpDxe\MnpMain.c \
-	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\AutoGen.c \
-	$(WORKSPACE)\NetworkPkg\MnpDxe\MnpConfig.c \
-	$(WORKSPACE)\NetworkPkg\MnpDxe\ComponentName.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\NetworkPkg\MnpDxe\MnpIo.c \
 	$(WORKSPACE)\NetworkPkg\MnpDxe\MnpDriver.c \
-	$(WORKSPACE)\NetworkPkg\MnpDxe\MnpVlan.c \
-	$(WORKSPACE)\NetworkPkg\MnpDxe\MnpIo.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_6)
+	$(WORKSPACE)\NetworkPkg\MnpDxe\MnpConfig.c \
+	$(WORKSPACE)\NetworkPkg\MnpDxe\MnpMain.c \
+	$(WORKSPACE)\NetworkPkg\MnpDxe\ComponentName.c \
+	$(WORKSPACE)\NetworkPkg\MnpDxe\MnpVlan.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_6)
 
 $(OUTPUT_DIR)\MnpDxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\MnpDxe.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\MnpDxe.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\MnpDxe.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\MnpDxe.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\MnpDxe.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\MnpDxe.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\DEBUG\MnpDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\DEBUG\MnpDxe.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\DEBUG\MnpDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\DEBUG\MnpDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\DEBUG\MnpDxe.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\DEBUG\MnpDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\MnpDxe.efi : $(DEBUG_DIR)\MnpDxe.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\MnpDxe.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\DEBUG\MnpDxe.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\MnpDxe.efi $(DEBUG_DIR)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\MnpDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\MnpDxe.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\DEBUG\MnpDxe.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\MnpDxe.efi $(DEBUG_DIR)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\MnpDxe\MnpDxe\OUTPUT\MnpDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

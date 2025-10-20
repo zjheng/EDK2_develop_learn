@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = UefiShellLevel1CommandsLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = ShellPkg\Library\UefiShellLevel1CommandsLib
 PACKAGE_RELATIVE_DIR = Library\UefiShellLevel1CommandsLib
-MODULE_DIR = D:\develop\Self_develop\edk2\ShellPkg\Library\UefiShellLevel1CommandsLib
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\50cb6037-1102-47af-b2dd-9944b6eb1abeUefiShellLevel1CommandsLib
+MODULE_DIR = D:\develop\EDK2\edk2\ShellPkg\Library\UefiShellLevel1CommandsLib
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\50cb6037-1102-47af-b2dd-9944b6eb1abeUefiShellLevel1CommandsLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -180,7 +180,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_7 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT\cc_resp_7.txt
+cc_resp_7 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT\cc_resp_7.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -213,8 +213,8 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT\object_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\If.obj $(OUTPUT_DIR)\Exit.obj $(OUTPUT_DIR)\Shift.obj $(OUTPUT_DIR)\UefiShellLevel1CommandsLib.obj $(OUTPUT_DIR)\Stall.obj $(OUTPUT_DIR)\Goto.obj $(OUTPUT_DIR)\For.obj
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT\object_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\Stall.obj $(OUTPUT_DIR)\Exit.obj $(OUTPUT_DIR)\Shift.obj $(OUTPUT_DIR)\UefiShellLevel1CommandsLib.obj $(OUTPUT_DIR)\If.obj $(OUTPUT_DIR)\Goto.obj $(OUTPUT_DIR)\For.obj
 
 
 #
@@ -224,7 +224,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT\UefiShellLevel1CommandsLib.lib \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT\UefiShellLevel1CommandsLib.lib \
               
 
 #
@@ -301,21 +301,21 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\Goto.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\Exit.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\UefiShellLevel1CommandsLibStrDefs.h \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\If.c \
 	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\Shift.c \
 	$(DEBUG_DIR)\AutoGen.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\Exit.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\Stall.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\Goto.c \
 	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\For.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\If.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_7)
+	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\Shift.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellLevel1CommandsLib\Stall.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_7)
 
 $(OUTPUT_DIR)\UefiShellLevel1CommandsLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\UefiShellLevel1CommandsLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT\UefiShellLevel1CommandsLib.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib\OUTPUT\UefiShellLevel1CommandsLib.lib @$(OBJECT_FILES_LIST)
 
 
 

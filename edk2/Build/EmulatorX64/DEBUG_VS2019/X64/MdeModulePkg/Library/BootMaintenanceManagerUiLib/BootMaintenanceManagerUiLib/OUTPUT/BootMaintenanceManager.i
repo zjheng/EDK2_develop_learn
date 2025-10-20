@@ -1,5 +1,5 @@
-#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
-#line 1 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
+#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
+#line 1 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
 
 
 
@@ -174,19 +174,19 @@ extern unsigned char BootMaintenanceManagerUiLibStrings[];
 
 
 
-#line 176 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
+#line 176 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
 
-#line 178 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
-#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
-
-
+#line 178 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManagerUiLib\\DEBUG\\BootMaintenanceManagerUiLibStrDefs.h"
+#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
 
 
 
 
 
 
-#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\FormGuid.h"
+
+
+#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\FormGuid.h"
 
 
 
@@ -390,8 +390,8 @@ typedef struct {
   UINT8      ForceReconnect;
 } BMM_FAKE_NV_DATA;
 
-#line 205 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\FormGuid.h"
-#line 10 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
+#line 205 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\FormGuid.h"
+#line 10 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\BootMaintenanceManagerUiLib\\BootMaintenanceManager.vfr"
 
 formset
   guid = { 0x642237c7, 0x35d4, 0x472d, {0x83, 0x65, 0x12, 0xe0, 0xcc, 0xf2, 0x7a, 0x22} },

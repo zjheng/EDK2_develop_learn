@@ -1,1 +1,1 @@
-  D:\develop\Self_develop\edk2\MdePkg\Library\BasePrintLib\PrintLib.c D:\develop\Self_develop\edk2\MdePkg\Library\BasePrintLib\PrintLibInternal.c
+  D:\develop\EDK2\edk2\MdePkg\Library\BasePrintLib\PrintLibInternal.c D:\develop\EDK2\edk2\MdePkg\Library\BasePrintLib\PrintLib.c

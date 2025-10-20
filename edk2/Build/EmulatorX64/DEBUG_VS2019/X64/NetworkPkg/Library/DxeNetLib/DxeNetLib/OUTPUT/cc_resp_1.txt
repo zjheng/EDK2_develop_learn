@@ -1,1 +1,1 @@
-  D:\develop\Self_develop\edk2\NetworkPkg\Library\DxeNetLib\DxeNetLib.c D:\develop\Self_develop\edk2\NetworkPkg\Library\DxeNetLib\NetBuffer.c
+  D:\develop\EDK2\edk2\NetworkPkg\Library\DxeNetLib\DxeNetLib.c D:\develop\EDK2\edk2\NetworkPkg\Library\DxeNetLib\NetBuffer.c
