@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = WinHost
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = EmulatorPkg\Win\Host
 PACKAGE_RELATIVE_DIR = Win\Host
-MODULE_DIR = D:\develop\EDK2\edk2\EmulatorPkg\Win\Host
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\62E8F833-2B0A-4C19-A966-63C180588BE7WinHost
+MODULE_DIR = D:\develop\Self_develop\edk2\EmulatorPkg\Win\Host
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\62E8F833-2B0A-4C19-A966-63C180588BE7WinHost
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -180,7 +180,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_8 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT\cc_resp_8.txt
+cc_resp_8 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT\cc_resp_8.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -233,8 +233,8 @@ INC =  \
     /I$(WORKSPACE)\EmulatorPkg \
     /I$(WORKSPACE)\EmulatorPkg\Include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT\static_library_files.lst
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT\static_library_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\WinPacketFilter.obj $(OUTPUT_DIR)\WinGopInput.obj $(OUTPUT_DIR)\WinBlockIo.obj $(OUTPUT_DIR)\WinHost.obj $(OUTPUT_DIR)\WinMemoryAllocationLib.obj $(OUTPUT_DIR)\WinGopScreen.obj $(OUTPUT_DIR)\WinFileSystem.obj $(OUTPUT_DIR)\WinThunk.obj
 
 
@@ -245,7 +245,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\DEBUG\WinHost \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\DEBUG\WinHost \
               
 
 #
@@ -339,19 +339,19 @@ $(OBJLIST_0):  \
 	$(MAKE_FILE) \
 	$(DEBUG_DIR)\AutoGen.c \
 	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\EmulatorPkg\Win\Host\WinFileSystem.c \
-	$(WORKSPACE)\EmulatorPkg\Win\Host\WinBlockIo.c \
-	$(WORKSPACE)\EmulatorPkg\Win\Host\WinGopInput.c \
 	$(WORKSPACE)\EmulatorPkg\Win\Host\WinGopScreen.c \
+	$(WORKSPACE)\EmulatorPkg\Win\Host\WinGopInput.c \
 	$(WORKSPACE)\EmulatorPkg\Win\Host\WinHost.c \
+	$(WORKSPACE)\EmulatorPkg\Win\Host\WinMemoryAllocationLib.c \
 	$(WORKSPACE)\EmulatorPkg\Win\Host\WinPacketFilter.c \
 	$(WORKSPACE)\EmulatorPkg\Win\Host\WinThunk.c \
-	$(WORKSPACE)\EmulatorPkg\Win\Host\WinMemoryAllocationLib.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_8)
+	$(WORKSPACE)\EmulatorPkg\Win\Host\WinFileSystem.c \
+	$(WORKSPACE)\EmulatorPkg\Win\Host\WinBlockIo.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_8)
 
 $(OUTPUT_DIR)\WinHost.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\WinHost.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT\WinHost.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\Win\Host\WinHost\OUTPUT\WinHost.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\WinHost : $(MAKE_FILE)
 $(DEBUG_DIR)\WinHost : $(STATIC_LIBRARY_FILES)

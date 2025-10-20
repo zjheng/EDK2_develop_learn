@@ -1,1 +1,1 @@
-  D:\develop\EDK2\edk2\MdeModulePkg\Library\DxeCoreMemoryAllocationLib\MemoryAllocationLib.c D:\develop\EDK2\edk2\MdeModulePkg\Library\DxeCoreMemoryAllocationLib\DxeCoreMemoryProfileLibNull.c
+  D:\develop\Self_develop\edk2\MdeModulePkg\Library\DxeCoreMemoryAllocationLib\MemoryAllocationLib.c D:\develop\Self_develop\edk2\MdeModulePkg\Library\DxeCoreMemoryAllocationLib\DxeCoreMemoryProfileLibNull.c

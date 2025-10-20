@@ -1,5 +1,5 @@
-#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\Vfr.vfr"
-#line 1 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Universal\\DriverSampleDxe\\DriverSampleDxe\\DEBUG\\DriverSampleStrDefs.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\Vfr.vfr"
+#line 1 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Universal\\DriverSampleDxe\\DriverSampleDxe\\DEBUG\\DriverSampleStrDefs.h"
 
 
 
@@ -271,10 +271,10 @@ extern unsigned char DriverSampleStrings[];
 
 
 
-#line 273 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Universal\\DriverSampleDxe\\DriverSampleDxe\\DEBUG\\DriverSampleStrDefs.h"
+#line 273 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Universal\\DriverSampleDxe\\DriverSampleDxe\\DEBUG\\DriverSampleStrDefs.h"
 
-#line 275 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Universal\\DriverSampleDxe\\DriverSampleDxe\\DEBUG\\DriverSampleStrDefs.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\Vfr.vfr"
+#line 275 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Universal\\DriverSampleDxe\\DriverSampleDxe\\DEBUG\\DriverSampleStrDefs.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\Vfr.vfr"
 
 
 
@@ -286,7 +286,7 @@ extern unsigned char DriverSampleStrings[];
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
 
 
 
@@ -535,9 +535,9 @@ extern unsigned char DriverSampleStrings[];
 
 
 
-#line 250 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
-#line 13 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\Vfr.vfr"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
+#line 250 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
+#line 13 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\Vfr.vfr"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
 
 
 
@@ -560,7 +560,7 @@ extern unsigned char DriverSampleStrings[];
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Guid/HiiPlatformSetupFormset.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Guid/HiiPlatformSetupFormset.h"
 
 
 
@@ -593,9 +593,9 @@ extern EFI_GUID  gEfiHiiDriverHealthFormsetGuid;
 extern EFI_GUID  gEfiHiiUserCredentialFormsetGuid;
 extern EFI_GUID  gEfiHiiRestStyleFormsetGuid;
 
-#line 34 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Guid/HiiPlatformSetupFormset.h"
-#line 24 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Guid/HiiFormMapMethodGuid.h"
+#line 34 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Guid/HiiPlatformSetupFormset.h"
+#line 24 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Guid/HiiFormMapMethodGuid.h"
 
 
 
@@ -614,9 +614,9 @@ extern EFI_GUID  gEfiHiiRestStyleFormsetGuid;
 
 extern EFI_GUID  gEfiHiiStandardFormGuid;
 
-#line 20 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Guid/HiiFormMapMethodGuid.h"
-#line 25 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Include\\Guid/DriverSampleHii.h"
+#line 20 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Guid/HiiFormMapMethodGuid.h"
+#line 25 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Include\\Guid/DriverSampleHii.h"
 
 
 
@@ -647,9 +647,9 @@ extern EFI_GUID  { 0xA04A27f4, 0xDF00, 0x4D42, { 0xB5, 0x52, 0x39, 0x51, 0x13, 0
 extern EFI_GUID  { 0xb3f56470, 0x6141, 0x4621, { 0x8f, 0x19, 0x70, 0x4e, 0x57, 0x7a, 0xa9, 0xe8 }};
 extern EFI_GUID  { 0xF5E655D9, 0x02A6, 0x46f2, { 0x9E, 0x76, 0xB8, 0xBE, 0x8E, 0x60, 0xAB, 0x22 }};
 
-#line 32 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Include\\Guid/DriverSampleHii.h"
-#line 26 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Include\\Guid/ZeroGuid.h"
+#line 32 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Include\\Guid/DriverSampleHii.h"
+#line 26 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Include\\Guid/ZeroGuid.h"
 
 
 
@@ -668,8 +668,8 @@ extern EFI_GUID  { 0xF5E655D9, 0x02A6, 0x46f2, { 0x9E, 0x76, 0xB8, 0xBE, 0x8E, 0
 
 extern EFI_GUID  gZeroGuid;
 
-#line 20 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Include\\Guid/ZeroGuid.h"
-#line 27 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
+#line 20 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Include\\Guid/ZeroGuid.h"
+#line 27 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
 
 
 
@@ -776,8 +776,8 @@ typedef struct {
 
 #pragma pack()
 
-#line 134 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
-#line 14 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\Vfr.vfr"
+#line 134 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\NVDataStruc.h"
+#line 14 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Universal\\DriverSampleDxe\\Vfr.vfr"
 
 
 

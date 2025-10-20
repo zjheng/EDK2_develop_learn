@@ -1,5 +1,5 @@
-#line 1 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4Config2.vfr"
-#line 1 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\Ip4Dxe\\Ip4Dxe\\DEBUG\\Ip4DxeStrDefs.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4Config2.vfr"
+#line 1 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\Ip4Dxe\\Ip4Dxe\\DEBUG\\Ip4DxeStrDefs.h"
 
 
 
@@ -82,20 +82,18 @@ extern unsigned char Ip4DxeStrings[];
 
 
 
-#line 84 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\Ip4Dxe\\Ip4Dxe\\DEBUG\\Ip4DxeStrDefs.h"
+#line 84 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\Ip4Dxe\\Ip4Dxe\\DEBUG\\Ip4DxeStrDefs.h"
 
-#line 86 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\Ip4Dxe\\Ip4Dxe\\DEBUG\\Ip4DxeStrDefs.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4Config2.vfr"
-
-
+#line 86 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\Ip4Dxe\\Ip4Dxe\\DEBUG\\Ip4DxeStrDefs.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4Config2.vfr"
 
 
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4NvData.h"
 
 
+#line 1 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4NvData.h"
 
 
 
@@ -105,7 +103,9 @@ extern unsigned char Ip4DxeStrings[];
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\Include\\Guid/Ip4Config2Hii.h"
+
+
+#line 1 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\Include\\Guid/Ip4Config2Hii.h"
 
 
 
@@ -124,8 +124,8 @@ extern unsigned char Ip4DxeStrings[];
 
 extern EFI_GUID  { 0x9b942747, 0x154e, 0x4d29, { 0xa4, 0x36, 0xbf, 0x71, 0x0, 0xc8, 0xb5, 0x3b }};
 
-#line 20 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\Include\\Guid/Ip4Config2Hii.h"
-#line 13 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4NvData.h"
+#line 20 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\Include\\Guid/Ip4Config2Hii.h"
+#line 13 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4NvData.h"
 
 
 
@@ -157,8 +157,8 @@ typedef struct {
   CHAR16    DnsAddress[255];        
 } IP4_CONFIG2_IFR_NVDATA;
 
-#line 45 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4NvData.h"
-#line 9 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4Config2.vfr"
+#line 45 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4NvData.h"
+#line 9 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\Ip4Dxe\\Ip4Config2.vfr"
 
 
 

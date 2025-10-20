@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = UefiHiiLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Library\UefiHiiLib
 PACKAGE_RELATIVE_DIR = Library\UefiHiiLib
-MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Library\UefiHiiLib
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\3143687A-7C80-404e-B5FE-2D88980E1B1CUefiHiiLib
+MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Library\UefiHiiLib
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\3143687A-7C80-404e-B5FE-2D88980E1B1CUefiHiiLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_2 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT\cc_resp_2.txt
+cc_resp_2 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT\cc_resp_2.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -207,8 +207,8 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT\object_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\HiiLanguage.obj $(OUTPUT_DIR)\HiiString.obj $(OUTPUT_DIR)\HiiLib.obj
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT\object_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\HiiLanguage.obj $(OUTPUT_DIR)\HiiLib.obj $(OUTPUT_DIR)\HiiString.obj
 
 
 #
@@ -218,7 +218,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT\UefiHiiLib.lib \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT\UefiHiiLib.lib \
               
 
 #
@@ -295,15 +295,15 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Library\UefiHiiLib\HiiLanguage.c \
+	$(WORKSPACE)\MdeModulePkg\Library\UefiHiiLib\HiiLib.c \
 	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdeModulePkg\Library\UefiHiiLib\HiiString.c \
-	$(WORKSPACE)\MdeModulePkg\Library\UefiHiiLib\HiiLib.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_2)
+	$(WORKSPACE)\MdeModulePkg\Library\UefiHiiLib\HiiLanguage.c \
+	$(WORKSPACE)\MdeModulePkg\Library\UefiHiiLib\HiiString.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_2)
 
 $(OUTPUT_DIR)\UefiHiiLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\UefiHiiLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT\UefiHiiLib.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib\OUTPUT\UefiHiiLib.lib @$(OBJECT_FILES_LIST)
 
 
 

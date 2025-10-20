@@ -1,5 +1,5 @@
-#line 1 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfig.vfr"
-#line 1 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\VlanConfigDxe\\VlanConfigDxe\\DEBUG\\VlanConfigDxeStrDefs.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfig.vfr"
+#line 1 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\VlanConfigDxe\\VlanConfigDxe\\DEBUG\\VlanConfigDxeStrDefs.h"
 
 
 
@@ -75,21 +75,19 @@ extern unsigned char VlanConfigDxeStrings[];
 
 
 
-#line 77 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\VlanConfigDxe\\VlanConfigDxe\\DEBUG\\VlanConfigDxeStrDefs.h"
+#line 77 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\VlanConfigDxe\\VlanConfigDxe\\DEBUG\\VlanConfigDxeStrDefs.h"
 
-#line 79 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\VlanConfigDxe\\VlanConfigDxe\\DEBUG\\VlanConfigDxeStrDefs.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfig.vfr"
-
-
+#line 79 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\NetworkPkg\\VlanConfigDxe\\VlanConfigDxe\\DEBUG\\VlanConfigDxeStrDefs.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfig.vfr"
 
 
 
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfigNvData.h"
 
 
+#line 1 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfigNvData.h"
 
 
 
@@ -99,7 +97,9 @@ extern unsigned char VlanConfigDxeStrings[];
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Guid/HiiPlatformSetupFormset.h"
+
+
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Guid/HiiPlatformSetupFormset.h"
 
 
 
@@ -132,9 +132,9 @@ extern EFI_GUID  gEfiHiiDriverHealthFormsetGuid;
 extern EFI_GUID  gEfiHiiUserCredentialFormsetGuid;
 extern EFI_GUID  gEfiHiiRestStyleFormsetGuid;
 
-#line 34 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Guid/HiiPlatformSetupFormset.h"
-#line 13 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfigNvData.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\Include\\Guid/VlanConfigHii.h"
+#line 34 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Guid/HiiPlatformSetupFormset.h"
+#line 13 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfigNvData.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\Include\\Guid/VlanConfigHii.h"
 
 
 
@@ -153,8 +153,8 @@ extern EFI_GUID  gEfiHiiRestStyleFormsetGuid;
 
 extern EFI_GUID  { 0xd79df6b0, 0xef44, 0x43bd, { 0x97, 0x97, 0x43, 0xe9, 0x3b, 0xcf, 0x5f, 0xa8 }};
 
-#line 20 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\Include\\Guid/VlanConfigHii.h"
-#line 14 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfigNvData.h"
+#line 20 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\Include\\Guid/VlanConfigHii.h"
+#line 14 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfigNvData.h"
 
 
 
@@ -181,8 +181,8 @@ typedef struct {
   UINT8     VlanList[100];
 } VLAN_CONFIGURATION;
 
-#line 41 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfigNvData.h"
-#line 10 "D:\\develop\\EDK2\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfig.vfr"
+#line 41 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfigNvData.h"
+#line 10 "D:\\develop\\Self_develop\\edk2\\NetworkPkg\\VlanConfigDxe\\VlanConfig.vfr"
 
 formset
   guid      = { 0xd79df6b0, 0xef44, 0x43bd, {0x97, 0x97, 0x43, 0xe9, 0x3b, 0xcf, 0x5f, 0xa8 } },

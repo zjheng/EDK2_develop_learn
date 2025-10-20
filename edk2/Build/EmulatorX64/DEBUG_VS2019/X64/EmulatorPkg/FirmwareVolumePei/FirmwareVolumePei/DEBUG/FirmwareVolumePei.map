@@ -1,15 +1,15 @@
  FirmwareVolumePei
 
- Timestamp is 68f5d002 (Mon Oct 20 14:00:34 2025)
+ Timestamp is 68f5fe99 (Mon Oct 20 17:19:21 2025)
 
  Preferred load address is 0000000000010000
 
  Start         Length     Name                   Class
  0001:00000000 00000014H .text                   CODE
  0001:00000014 000027afH .text$mn                CODE
- 0002:00000000 0000097cH .rdata                  DATA
- 0002:0000097c 00000018H .rdata$voltmd           DATA
- 0002:00000994 00000158H .rdata$zzzdbg           DATA
+ 0002:00000000 000009f4H .rdata                  DATA
+ 0002:000009f4 00000018H .rdata$voltmd           DATA
+ 0002:00000a0c 00000160H .rdata$zzzdbg           DATA
  0003:00000000 00000048H .data                   DATA
  0003:00000048 00000010H .bss                    DATA
  0004:00000000 000001bcH .pdata                  DATA
@@ -21,26 +21,26 @@
  0000:00000000       __guard_iat_table          0000000000000000     <absolute>
  0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
  0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
- 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
  0000:00000000       __guard_iat_count          0000000000000000     <absolute>
  0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
  0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
- 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
  0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
- 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
  0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
- 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
- 0000:00000000       __enclave_config           0000000000000000     <absolute>
- 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
- 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
  0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
  0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
  0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
  0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
  0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
- 0000:00000000       __guard_flags              0000000000000000     <absolute>
- 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
  0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
  0001:00000000       __report_rangecheckfailure 0000000000011000     StackCheckLibNull:StackCheckFunctionsMsvc.obj
  0001:00000001       __GSHandlerCheck           0000000000011001     StackCheckLibNull:StackCheckFunctionsMsvc.obj
  0001:00000002       __security_check_cookie    0000000000011002     StackCheckLibNull:StackCheckFunctionsMsvc.obj
@@ -90,63 +90,63 @@
  0001:00002724       ReadUnaligned64            0000000000013724 f   BaseLib:Unaligned.obj
  0001:0000276c       WriteUnaligned64           000000000001376c f   BaseLib:Unaligned.obj
  0002:00000000       ??_C@_0CP@KCAHKNFK@?$CI?$CKPeiServices?$CJ?9?$DOHdr?4Revision?5?$DO?$DN@ 0000000000014000     PeimEntryPoint:PeimEntryPoint.obj
- 0002:00000030       ??_C@_0EE@JMAAPGDI@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014030     PeimEntryPoint:PeimEntryPoint.obj
- 0002:00000074       _gPeimRevision             0000000000014074     FirmwareVolumePei:AutoGen.obj
- 0002:00000078       ??_C@_0BC@LHNHHBGC@FirmwareVolumePei@ 0000000000014078     FirmwareVolumePei:AutoGen.obj
- 0002:0000008a       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 000000000001408a     FirmwareVolumePei:AutoGen.obj
- 0002:0000008c       _gPcd_FixedAtBuild_PcdFlashNvStorageFtwSpareSize 000000000001408c     FirmwareVolumePei:AutoGen.obj
- 0002:00000090       _gPcd_FixedAtBuild_PcdEmuFlashNvStorageVariableBase 0000000000014090     FirmwareVolumePei:AutoGen.obj
- 0002:00000098       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0000000000014098     FirmwareVolumePei:AutoGen.obj
- 0002:0000009c       _gPcd_FixedAtBuild_PcdFlashNvStorageVariableSize 000000000001409c     FirmwareVolumePei:AutoGen.obj
- 0002:000000a0       _gPcd_FixedAtBuild_PcdPeiServicesTablePage 00000000000140a0     FirmwareVolumePei:AutoGen.obj
- 0002:000000a8       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 00000000000140a8     FirmwareVolumePei:AutoGen.obj
- 0002:000000ac       _gPcd_FixedAtBuild_PcdFlashNvStorageFtwWorkingSize 00000000000140ac     FirmwareVolumePei:AutoGen.obj
- 0002:000000ac       _gPcd_FixedAtBuild_PcdEmuFlashNvStorageEventLogSize 00000000000140ac     FirmwareVolumePei:AutoGen.obj
- 0002:000000b0       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 00000000000140b0     FirmwareVolumePei:AutoGen.obj
- 0002:000000b4       _gPcd_FixedAtBuild_PcdDebugPropertyMask 00000000000140b4     FirmwareVolumePei:AutoGen.obj
- 0002:000000b8       ??_C@_0CC@NEDKNBHN@Unix?5Firmware?5Volume?5PEIM?5Loade@ 00000000000140b8     FirmwareVolumePei:FirmwareVolumePei.obj
- 0002:000000e0       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 00000000000140e0     FirmwareVolumePei:FirmwareVolumePei.obj
- 0002:00000108       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 0000000000014108     FirmwareVolumePei:FirmwareVolumePei.obj
- 0002:00000140       ??_C@_0EH@GJFFDCHO@D?3?2develop?2EDK2?2edk2?2EmulatorPk@ 0000000000014140     FirmwareVolumePei:FirmwareVolumePei.obj
- 0002:00000188       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014188     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:000001a0       ??_C@_0FE@BEFIIBEL@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 00000000000141a0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:000001f8       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 00000000000141f8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000228       ??_C@_01OHGJGJJP@?$FL@     0000000000014228     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:0000022c       ??_C@_02PBFOLPKM@?$FN?5@   000000000001422c     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000230       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014230     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000248       ??_C@_0DH@PPNNMDAD@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014248     PeiHobLib:HobLib.obj
- 0002:00000280       ??_C@_0BE@PICCCCHF@Hob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014280     PeiHobLib:HobLib.obj
- 0002:000002a0       ??_C@_0EI@EOAGIEHL@Unaligned?5FvImage?5found?5at?50x?$CFl@ 00000000000142a0     PeiHobLib:HobLib.obj
- 0002:000002e8       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ@ 00000000000142e8     PeiHobLib:HobLib.obj
- 0002:00000300       ??_C@_0CI@MDPGFIOC@PeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIvo@ 0000000000014300     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
- 0002:00000330       ??_C@_0GH@FIBBPKGC@D?3?2develop?2EDK2?2edk2?2EmulatorPk@ 0000000000014330     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
- 0002:00000398       ??_C@_0CJ@NHFDCOMG@?$CKPeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIv@ 0000000000014398     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
- 0002:000003c8       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000143c8     BaseLib:String.obj
- 0002:000003e0       ??_C@_0DF@EAHDDLM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000143e0     BaseLib:String.obj
- 0002:00000418       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0000000000014418     BaseLib:String.obj
- 0002:00000450       ??_C@_0DJ@DNFJNBOO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014450     BaseLib:SafeString.obj
- 0002:00000490       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000014490     BaseLib:SafeString.obj
- 0002:000004b0       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 00000000000144b0     BaseLib:SafeString.obj
- 0002:000004f0       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00000000000144f0     BaseLib:SafeString.obj
- 0002:00000510       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0000000000014510     BaseLib:SafeString.obj
- 0002:00000520       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0000000000014520     BaseLib:SafeString.obj
- 0002:00000538       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0000000000014538     BaseLib:SafeString.obj
- 0002:00000580       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0000000000014580     BaseLib:SafeString.obj
- 0002:000005e0       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 00000000000145e0     BaseLib:SafeString.obj
- 0002:000005f0       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 00000000000145f0     BaseLib:SafeString.obj
- 0002:00000630       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 0000000000014630     BaseLib:LShiftU64.obj
- 0002:00000640       ??_C@_0DI@FAGDBCDM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014640     BaseLib:LShiftU64.obj
- 0002:00000680       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000014680     BaseMemoryLib:CopyMemWrapper.obj
- 0002:000006d0       ??_C@_0ED@JLFCAFGL@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000146d0     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000718       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000014718     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000758       ??_C@_0DG@EEENIGGL@Length?5?$DM?$DN?5?$CI0xFFFFFFFFFFFFFFFFUL@ 0000000000014758     BaseMemoryLib:MemLibGuid.obj
- 0002:00000790       ??_C@_0ED@CPPAGEKM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014790     BaseMemoryLib:ZeroMemWrapper.obj
- 0002:000007e0       ??_C@_0FH@CEHMGJKM@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 00000000000147e0     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000838       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014838     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000878       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014878     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000008b8       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5to@ 00000000000148b8     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000008f0       ??_C@_0DI@MBLLHEOH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000148f0     BaseLib:Unaligned.obj
- 0002:0000097c       __volatile_metadata        000000000001497c     <linker-defined>
+ 0002:00000030       ??_C@_0EM@ODCMBAOE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014030     PeimEntryPoint:PeimEntryPoint.obj
+ 0002:0000007c       _gPeimRevision             000000000001407c     FirmwareVolumePei:AutoGen.obj
+ 0002:00000080       ??_C@_0BC@LHNHHBGC@FirmwareVolumePei@ 0000000000014080     FirmwareVolumePei:AutoGen.obj
+ 0002:00000092       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 0000000000014092     FirmwareVolumePei:AutoGen.obj
+ 0002:00000094       _gPcd_FixedAtBuild_PcdFlashNvStorageFtwSpareSize 0000000000014094     FirmwareVolumePei:AutoGen.obj
+ 0002:00000098       _gPcd_FixedAtBuild_PcdEmuFlashNvStorageVariableBase 0000000000014098     FirmwareVolumePei:AutoGen.obj
+ 0002:000000a0       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 00000000000140a0     FirmwareVolumePei:AutoGen.obj
+ 0002:000000a4       _gPcd_FixedAtBuild_PcdFlashNvStorageVariableSize 00000000000140a4     FirmwareVolumePei:AutoGen.obj
+ 0002:000000a8       _gPcd_FixedAtBuild_PcdPeiServicesTablePage 00000000000140a8     FirmwareVolumePei:AutoGen.obj
+ 0002:000000b0       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 00000000000140b0     FirmwareVolumePei:AutoGen.obj
+ 0002:000000b4       _gPcd_FixedAtBuild_PcdFlashNvStorageFtwWorkingSize 00000000000140b4     FirmwareVolumePei:AutoGen.obj
+ 0002:000000b4       _gPcd_FixedAtBuild_PcdEmuFlashNvStorageEventLogSize 00000000000140b4     FirmwareVolumePei:AutoGen.obj
+ 0002:000000b8       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 00000000000140b8     FirmwareVolumePei:AutoGen.obj
+ 0002:000000bc       _gPcd_FixedAtBuild_PcdDebugPropertyMask 00000000000140bc     FirmwareVolumePei:AutoGen.obj
+ 0002:000000c0       ??_C@_0CC@NEDKNBHN@Unix?5Firmware?5Volume?5PEIM?5Loade@ 00000000000140c0     FirmwareVolumePei:FirmwareVolumePei.obj
+ 0002:000000e8       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 00000000000140e8     FirmwareVolumePei:FirmwareVolumePei.obj
+ 0002:00000110       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 0000000000014110     FirmwareVolumePei:FirmwareVolumePei.obj
+ 0002:00000150       ??_C@_0EP@NHDKMGNM@D?3?2develop?2Self_develop?2edk2?2Em@ 0000000000014150     FirmwareVolumePei:FirmwareVolumePei.obj
+ 0002:000001a0       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000141a0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000001c0       ??_C@_0FM@HDIIFGPN@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000141c0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000220       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 0000000000014220     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000250       ??_C@_01OHGJGJJP@?$FL@     0000000000014250     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000254       ??_C@_02PBFOLPKM@?$FN?5@   0000000000014254     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000258       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014258     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000270       ??_C@_0DP@DIFIPJMD@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014270     PeiHobLib:HobLib.obj
+ 0002:000002b0       ??_C@_0BE@PICCCCHF@Hob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000142b0     PeiHobLib:HobLib.obj
+ 0002:000002d0       ??_C@_0EI@EOAGIEHL@Unaligned?5FvImage?5found?5at?50x?$CFl@ 00000000000142d0     PeiHobLib:HobLib.obj
+ 0002:00000318       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ@ 0000000000014318     PeiHobLib:HobLib.obj
+ 0002:00000330       ??_C@_0CI@MDPGFIOC@PeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIvo@ 0000000000014330     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:00000360       ??_C@_0GP@IFFCOGDB@D?3?2develop?2Self_develop?2edk2?2Em@ 0000000000014360     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:000003d0       ??_C@_0CJ@NHFDCOMG@?$CKPeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIv@ 00000000000143d0     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:00000400       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014400     BaseLib:String.obj
+ 0002:00000418       ??_C@_0DN@POJBHOAP@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014418     BaseLib:String.obj
+ 0002:00000458       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0000000000014458     BaseLib:String.obj
+ 0002:00000490       ??_C@_0EB@DAKPBIJH@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014490     BaseLib:SafeString.obj
+ 0002:000004d8       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00000000000144d8     BaseLib:SafeString.obj
+ 0002:00000500       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 0000000000014500     BaseLib:SafeString.obj
+ 0002:00000540       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000014540     BaseLib:SafeString.obj
+ 0002:00000560       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0000000000014560     BaseLib:SafeString.obj
+ 0002:00000570       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0000000000014570     BaseLib:SafeString.obj
+ 0002:00000588       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0000000000014588     BaseLib:SafeString.obj
+ 0002:000005d0       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 00000000000145d0     BaseLib:SafeString.obj
+ 0002:00000630       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 0000000000014630     BaseLib:SafeString.obj
+ 0002:00000640       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 0000000000014640     BaseLib:SafeString.obj
+ 0002:00000680       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 0000000000014680     BaseLib:LShiftU64.obj
+ 0002:00000690       ??_C@_0EA@MLMAFFLG@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014690     BaseLib:LShiftU64.obj
+ 0002:000006d0       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 00000000000146d0     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000720       ??_C@_0EL@NNLJGCCH@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014720     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000770       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000014770     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000007b0       ??_C@_0DG@EEENIGGL@Length?5?$DM?$DN?5?$CI0xFFFFFFFFFFFFFFFFUL@ 00000000000147b0     BaseMemoryLib:MemLibGuid.obj
+ 0002:000007f0       ??_C@_0EL@GJBLADOA@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000147f0     BaseMemoryLib:ZeroMemWrapper.obj
+ 0002:00000840       ??_C@_0FP@KNAFGKGF@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014840     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000008a0       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000148a0     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000008e0       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000148e0     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000920       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5to@ 0000000000014920     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000960       ??_C@_0EA@FKBIDDGN@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014960     BaseLib:Unaligned.obj
+ 0002:000009f4       __volatile_metadata        00000000000149f4     <linker-defined>
  0003:00000000       gEfiStatusCodeSpecificDataGuid 0000000000015000     FirmwareVolumePei:AutoGen.obj
  0003:00000010       gEfiCallerBaseName         0000000000015010     FirmwareVolumePei:AutoGen.obj
  0003:00000018       gEfiStatusCodeDataTypeDebugGuid 0000000000015018     FirmwareVolumePei:AutoGen.obj

@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = EbcDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Universal\EbcDxe
 PACKAGE_RELATIVE_DIR = Universal\EbcDxe
-MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Universal\EbcDxe
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\13AC6DD0-73D0-11D4-B06B-00AA00BD6DE7EbcDxe
+MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Universal\EbcDxe
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\13AC6DD0-73D0-11D4-B06B-00AA00BD6DE7EbcDxe
 
 MODULE_ENTRY_POINT = InitializeEbcDriver
 ARCH_ENTRY_POINT = InitializeEbcDriver
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_4 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\cc_resp_4.txt
+cc_resp_4 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\cc_resp_4.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -249,11 +249,11 @@ NASM_INC =  \
     -I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include\ \
     -I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include^\
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\static_library_files.lst
-INC_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\inc.lst
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\static_library_files.lst
+INC_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\inc.lst
 OBJLIST_0 = $(OUTPUT_DIR)\X64\EbcSupport.obj
-OBJLIST_1 = $(OUTPUT_DIR)\EbcExecute.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\EbcDebuggerHook.obj $(OUTPUT_DIR)\EbcInt.obj
+OBJLIST_1 = $(OUTPUT_DIR)\EbcInt.obj $(OUTPUT_DIR)\EbcExecute.obj $(OUTPUT_DIR)\EbcDebuggerHook.obj $(OUTPUT_DIR)\AutoGen.obj
 
 
 #
@@ -263,7 +263,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\EbcDxe.efi \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\EbcDxe.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -364,32 +364,32 @@ $(OBJLIST_0):  \
 	$(MAKE_FILE) \
 	$(WORKSPACE)\MdeModulePkg\Universal\EbcDxe\X64\EbcSupport.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Universal\EbcDxe\X64\EbcSupport.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Universal\EbcDxe\X64\EbcSupport.c
 
 $(OBJLIST_1):  \
 	$(MAKE_FILE) \
 	$(WORKSPACE)\MdeModulePkg\Universal\EbcDxe\EbcDebuggerHook.c \
 	$(DEBUG_DIR)\AutoGen.h \
+	$(DEBUG_DIR)\AutoGen.c \
 	$(WORKSPACE)\MdeModulePkg\Universal\EbcDxe\EbcInt.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\EbcDxe\EbcExecute.c \
-	$(DEBUG_DIR)\AutoGen.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_4)
+	$(WORKSPACE)\MdeModulePkg\Universal\EbcDxe\EbcExecute.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_4)
 
 $(OUTPUT_DIR)\EbcDxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\EbcDxe.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\EbcDxe.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\EbcDxe.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\EbcDxe.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\EbcDxe.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\EbcDxe.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG\EbcDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG\EbcDxe.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG\EbcDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG\EbcDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG\EbcDxe.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG\EbcDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\EbcDxe.efi : $(DEBUG_DIR)\EbcDxe.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\EbcDxe.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG\EbcDxe.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\EbcDxe.efi $(DEBUG_DIR)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\EbcDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\EbcDxe.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG\EbcDxe.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\EbcDxe.efi $(DEBUG_DIR)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\EbcDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 
@@ -402,10 +402,10 @@ $(DEBUG_DIR)\EbcDxe.efi : $(OUTPUT_DIR)\EbcDxe.efi
 $(OUTPUT_DIR)\X64\EbcLowLevel.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)\X64\EbcLowLevel.obj : $(DEBUG_DIR)\AutoGen.h
 $(OUTPUT_DIR)\X64\EbcLowLevel.obj : $(WORKSPACE)\MdeModulePkg\Universal\EbcDxe\X64\EbcLowLevel.nasm
-	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdeModulePkg\Universal\EbcDxe\X64\EbcLowLevel.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Universal\EbcDxe\X64\EbcLowLevel.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.ii
-	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.ii
-	"$(NASM)" -ID:\develop\EDK2\edk2\MdeModulePkg\Universal\EbcDxe\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.iii
+	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdeModulePkg\Universal\EbcDxe\X64\EbcLowLevel.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Universal\EbcDxe\X64\EbcLowLevel.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.ii
+	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.ii
+	"$(NASM)" -ID:\develop\Self_develop\edk2\MdeModulePkg\Universal\EbcDxe\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\OUTPUT\X64\EbcLowLevel.iii
 
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map : $(OUTPUT_DIR)\EbcDxe.map
 	if exist $(OUTPUT_DIR)\EbcDxe.map $(CP) $(OUTPUT_DIR)\EbcDxe.map $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map

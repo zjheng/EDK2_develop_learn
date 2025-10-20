@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = PciBusDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Bus\Pci\PciBusDxe
 PACKAGE_RELATIVE_DIR = Bus\Pci\PciBusDxe
-MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Bus\Pci\PciBusDxe
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\93B80004-9FB3-11d4-9A3A-0090273FC14DPciBusDxe
+MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Bus\Pci\PciBusDxe
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\93B80004-9FB3-11d4-9A3A-0090273FC14DPciBusDxe
 
 MODULE_ENTRY_POINT = PciBusEntryPoint
 ARCH_ENTRY_POINT = PciBusEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_14 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\cc_resp_14.txt
+cc_resp_14 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\cc_resp_14.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -237,9 +237,9 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\static_library_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\PciRomTable.obj $(OUTPUT_DIR)\PciDeviceSupport.obj $(OUTPUT_DIR)\PciEnumerator.obj $(OUTPUT_DIR)\PciHotPlugSupport.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\PciBus.obj $(OUTPUT_DIR)\PciCommand.obj $(OUTPUT_DIR)\PciLib.obj $(OUTPUT_DIR)\PciEnumeratorSupport.obj $(OUTPUT_DIR)\PciPowerManagement.obj $(OUTPUT_DIR)\PciIo.obj $(OUTPUT_DIR)\PciResourceSupport.obj $(OUTPUT_DIR)\PciOptionRomSupport.obj $(OUTPUT_DIR)\PciDriverOverride.obj $(OUTPUT_DIR)\ComponentName.obj
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\static_library_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\PciRomTable.obj $(OUTPUT_DIR)\PciDeviceSupport.obj $(OUTPUT_DIR)\PciHotPlugSupport.obj $(OUTPUT_DIR)\PciEnumerator.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\PciBus.obj $(OUTPUT_DIR)\PciCommand.obj $(OUTPUT_DIR)\PciLib.obj $(OUTPUT_DIR)\PciEnumeratorSupport.obj $(OUTPUT_DIR)\PciPowerManagement.obj $(OUTPUT_DIR)\PciIo.obj $(OUTPUT_DIR)\PciResourceSupport.obj $(OUTPUT_DIR)\PciOptionRomSupport.obj $(OUTPUT_DIR)\PciDriverOverride.obj $(OUTPUT_DIR)\ComponentName.obj
 
 
 #
@@ -249,7 +249,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\PciBusDxe.efi \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\PciBusDxe.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -343,39 +343,39 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciIo.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciEnumerator.c \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciLib.c \
 	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciBus.c \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciOptionRomSupport.c \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciResourceSupport.c \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciHotPlugSupport.c \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciRomTable.c \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\ComponentName.c \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciEnumeratorSupport.c \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciPowerManagement.c \
-	$(DEBUG_DIR)\AutoGen.c \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciDeviceSupport.c \
+	$(DEBUG_DIR)\AutoGen.h \
 	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciDriverOverride.c \
-	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciCommand.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_14)
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciLib.c \
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciRomTable.c \
+	$(DEBUG_DIR)\AutoGen.c \
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciEnumeratorSupport.c \
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciHotPlugSupport.c \
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciPowerManagement.c \
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\ComponentName.c \
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciIo.c \
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciEnumerator.c \
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciResourceSupport.c \
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciCommand.c \
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciDeviceSupport.c \
+	$(WORKSPACE)\MdeModulePkg\Bus\Pci\PciBusDxe\PciOptionRomSupport.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_14)
 
 $(OUTPUT_DIR)\PciBusDxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\PciBusDxe.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\PciBusDxe.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\PciBusDxe.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\PciBusDxe.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\PciBusDxe.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\PciBusDxe.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG\PciBusDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG\PciBusDxe.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG\PciBusDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG\PciBusDxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG\PciBusDxe.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG\PciBusDxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\PciBusDxe.efi : $(DEBUG_DIR)\PciBusDxe.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\PciBusDxe.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG\PciBusDxe.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\PciBusDxe.efi $(DEBUG_DIR)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\PciBusDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\PciBusDxe.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG\PciBusDxe.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\PciBusDxe.efi $(DEBUG_DIR)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\OUTPUT\PciBusDxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

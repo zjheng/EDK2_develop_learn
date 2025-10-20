@@ -1,6 +1,6 @@
 EFI_FV_TOTAL_SIZE = 0x580000
-EFI_FV_TAKEN_SIZE = 0x2b6a68
-EFI_FV_SPACE_SIZE = 0x2c9598
+EFI_FV_TAKEN_SIZE = 0x2b6da8
+EFI_FV_SPACE_SIZE = 0x2c9258
 
 EmuSec (Fixed Flash Address, BaseAddress=0x0102002000, EntryPoint=0x0102003020, Type=PE)
 (GUID=BCAF98C9-22B0-3B4F-9CBD-C8A6B4DBCEE9 .textbaseaddress=0x0102003000 .databaseaddress=0x0102008000)
@@ -151,27 +151,27 @@ PeiCore (Fixed Flash Address, BaseAddress=0x010200e000, EntryPoint=0x010200f088,
   0x010201d710    ProcessNotify
   0x010201d910    ProcessPpiListFromSec
   0x010201db84    ConvertPeiCorePpiPointers
-  0x010201deb0    PeiDefaultPciCfg2Modify
-  0x010201deb0    PeiDefaultMemRead
   0x010201deb0    PeiDefaultMemWrite
+  0x010201deb0    PeiDefaultIoWrite
+  0x010201deb0    PeiDefaultMemRead
+  0x010201deb0    PeiDefaultPciCfg2Read
   0x010201deb0    PeiDefaultIoRead
   0x010201deb0    PeiDefaultPciCfg2Write
-  0x010201deb0    PeiDefaultPciCfg2Read
-  0x010201deb0    PeiDefaultIoWrite
+  0x010201deb0    PeiDefaultPciCfg2Modify
   0x010201ded0    PeiDefaultMemRead8
   0x010201ded0    PeiDefaultIoRead8
-  0x010201dee4    PeiDefaultMemRead32
   0x010201dee4    PeiDefaultMemRead16
-  0x010201dee4    PeiDefaultIoRead16
+  0x010201dee4    PeiDefaultMemRead32
   0x010201dee4    PeiDefaultIoRead32
-  0x010201dee4    PeiDefaultIoRead64
   0x010201dee4    PeiDefaultMemRead64
-  0x010201def8    PeiDefaultMemWrite8
+  0x010201dee4    PeiDefaultIoRead64
+  0x010201dee4    PeiDefaultIoRead16
   0x010201def8    PeiDefaultIoWrite8
+  0x010201def8    PeiDefaultMemWrite8
   0x010201df10    PeiDefaultMemWrite16
   0x010201df10    PeiDefaultIoWrite16
-  0x010201df28    PeiDefaultMemWrite32
   0x010201df28    PeiDefaultIoWrite32
+  0x010201df28    PeiDefaultMemWrite32
   0x010201df40    PeiDefaultMemWrite64
   0x010201df40    PeiDefaultIoWrite64
   0x010201df58    PeiResetSystem
@@ -324,8 +324,8 @@ PcdPeim (Fixed Flash Address, BaseAddress=0x0102032000, EntryPoint=0x0102033014,
   0x0102033ef0    PeiGetPcdInfoGetInfoEx
   0x0102033f1c    PeiGetPcdInfoGetSku
   0x0102033f30    PeiPcdSetSku
-  0x0102034480    PeiPcdGetBool
   0x0102034480    PeiPcdGet8
+  0x0102034480    PeiPcdGetBool
   0x01020344a0    PeiPcdGet16
   0x01020344c8    PeiPcdGet32
   0x01020344f0    PeiPcdGet64
@@ -344,8 +344,8 @@ PcdPeim (Fixed Flash Address, BaseAddress=0x0102032000, EntryPoint=0x0102033014,
   0x0102034754    PeiPcdSet32
   0x010203477c    PeiPcdSet64
   0x01020347a4    PeiPcdSetPtr
-  0x01020347d4    PeiPcdSet8Ex
   0x01020347d4    PeiPcdSetBoolEx
+  0x01020347d4    PeiPcdSet8Ex
   0x0102034808    PeiPcdSet16Ex
   0x010203483c    PeiPcdSet32Ex
   0x0102034870    PeiPcdSet64Ex
@@ -526,8 +526,8 @@ StatusCodeHandlerPei (Fixed Flash Address, BaseAddress=0x010204d000, EntryPoint=
   0x010204ff30    PeiServicesLocatePpi
   0x010204ff80    PeiServicesGetHobList
   0x010204ffb0    PeiServicesCreateHob
-  0x010204fff4    SerialPortInitialize
   0x010204fff4    OemHookStatusCodeInitialize
+  0x010204fff4    SerialPortInitialize
   0x010204fff8    SerialPortWrite
   0x010205005c    AsciiVSPrint
   0x01020500a4    AsciiBSPrint
@@ -1045,8 +1045,8 @@ DxeIpl (Fixed Flash Address, BaseAddress=0x01020ae000, EntryPoint=0x01020af0d4, 
   0x01020b7450    UefiDecompress
   0x01020b7484    OemHookStatusCodeInitialize
   0x01020b7488    OemHookStatusCodeReport
-  0x01020b74a0    FilterBeforeMsrWrite
   0x01020b74a0    FilterBeforeMsrRead
+  0x01020b74a0    FilterBeforeMsrWrite
   0x01020b74ac    FilterAfterMsrWrite
   0x01020b74ac    FilterAfterMsrRead
   0x01020b74b8    GetDebugPrintErrorLevel

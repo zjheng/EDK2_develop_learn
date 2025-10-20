@@ -1,19 +1,19 @@
 
 
-!IF EXIST(D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.nasm.trim.deps)
-!INCLUDE D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.nasm.trim.deps
+!IF EXIST(D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.nasm.trim.deps)
+!INCLUDE D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\LongJump.nasm.trim.deps
 !ENDIF
 
-!IF EXIST(D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.nasm.trim.deps)
-!INCLUDE D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.nasm.trim.deps
+!IF EXIST(D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.nasm.trim.deps)
+!INCLUDE D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\Pvalidate.nasm.trim.deps
 !ENDIF
 
-!IF EXIST(D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.nasm.trim.deps)
-!INCLUDE D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.nasm.trim.deps
+!IF EXIST(D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.nasm.trim.deps)
+!INCLUDE D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\RmpAdjust.nasm.trim.deps
 !ENDIF
 
-!IF EXIST(D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.nasm.trim.deps)
-!INCLUDE D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.nasm.trim.deps
+!IF EXIST(D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.nasm.trim.deps)
+!INCLUDE D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseLib\BaseLib\OUTPUT\X64\SetJump.nasm.trim.deps
 !ENDIF
 
                

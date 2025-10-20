@@ -1,5 +1,5 @@
-#line 1 "D:\\develop\\EDK2\\edk2\\EmulatorPkg\\Sec\\X64\\SwitchRam.asm"
-#line 1 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\EmulatorPkg\\Sec\\Sec\\DEBUG\\AutoGen.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\EmulatorPkg\\Sec\\X64\\SwitchRam.asm"
+#line 1 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\EmulatorPkg\\Sec\\Sec\\DEBUG\\AutoGen.h"
 
 
 
@@ -15,7 +15,7 @@
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\PiPei.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\PiPei.h"
 
 
 
@@ -32,7 +32,7 @@
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
 
 
 
@@ -48,7 +48,7 @@
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -69,7 +69,7 @@
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -91,7 +91,7 @@
 
 
   #pragma pack()
-#line 23 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 23 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -118,7 +118,7 @@
 
 
 
-#line 50 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 50 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -172,9 +172,9 @@
 
     #pragma warning ( disable : 4703 )
 
-  #line 104 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+  #line 104 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
-#line 106 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 106 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -274,7 +274,7 @@ typedef signed char INT8;
 
 
 
-#line 206 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 206 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -362,7 +362,7 @@ typedef INT64 INTN;
 
 
 
-#line 294 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 294 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -370,7 +370,7 @@ typedef INT64 INTN;
 
 
 
-#line 302 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 302 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -386,17 +386,17 @@ typedef INT64 INTN;
 
 
 
-#line 318 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 318 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
-#line 320 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
-#line 22 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 320 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 22 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
 
 
   #pragma warning ( disable : 4200 )
-#line 29 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 29 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -410,45 +410,14 @@ typedef INT64 INTN;
 
 
 
-#line 43 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 43 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
 
 
 
-#line 50 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-#line 71 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
-  
-
-
-
-
-
-  #line 79 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 80 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
+#line 50 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -462,7 +431,24 @@ typedef INT64 INTN;
 
 
 
-#line 95 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+
+
+
+
+
+
+
+#line 71 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+
+  
+
+
+
+
+
+  #line 79 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 80 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+
 
 
 
@@ -476,8 +462,7 @@ typedef INT64 INTN;
 
 
 
-#line 109 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 110 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 95 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -491,19 +476,8 @@ typedef INT64 INTN;
 
 
 
-
-
-
-  
-
-
-
-
-
-  #line 133 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 134 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
-
+#line 109 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 110 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -526,8 +500,10 @@ typedef INT64 INTN;
 
 
 
-  #line 159 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 160 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+  #line 133 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 134 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+
+
 
 
 
@@ -540,30 +516,38 @@ typedef INT64 INTN;
 
 
 
-#line 173 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+
+
+
+
+  
 
 
 
 
 
-  #line 179 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 180 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
-
-
-
-
-
-
-
-
-
+  #line 159 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 160 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
 
 
 
+  
+
+
+
+
+
+#line 173 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+
+
+
+
+
+  #line 179 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 180 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -573,7 +557,23 @@ typedef INT64 INTN;
 
 
 
-#line 206 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 206 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -686,9 +686,9 @@ struct _LIST_ENTRY {
 
 
 
-#line 319 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 319 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
-#line 321 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 321 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -961,7 +961,7 @@ struct _LIST_ENTRY {
 
 
 
-#line 594 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 594 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1006,7 +1006,7 @@ struct _LIST_ENTRY {
 
 
 
-#line 639 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 639 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1074,7 +1074,7 @@ typedef CHAR8 *VA_LIST;
 
 
 
-#line 707 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 707 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1123,15 +1123,11 @@ typedef UINTN *BASE_LIST;
 
 
 
-#line 756 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 756 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
-#line 760 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
-
-
-
+#line 760 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1141,11 +1137,11 @@ typedef UINTN *BASE_LIST;
 
 
 
-#line 774 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
 
+#line 774 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1161,7 +1157,11 @@ typedef UINTN *BASE_LIST;
 
 
 
-#line 794 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+
+
+
+
+#line 794 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1173,11 +1173,11 @@ typedef UINTN *BASE_LIST;
 
 
 
-#line 806 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 806 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
-#line 808 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 808 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
-#line 810 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 810 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1748,7 +1748,7 @@ _ReturnAddress (
 
 
 
-#line 1381 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 1381 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1763,8 +1763,8 @@ _ReturnAddress (
 
 
 
-#line 1396 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 17 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
+#line 1396 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 17 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
 
 
 
@@ -2009,7 +2009,7 @@ typedef union {
 
 
 
-#line 262 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
+#line 262 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
 
 
 
@@ -2048,7 +2048,7 @@ typedef union {
 
 
 
-#line 301 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
+#line 301 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
 
 
 
@@ -2060,26 +2060,11 @@ typedef union {
 
 
 
-#line 313 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
+#line 313 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
 
-#line 315 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
-#line 18 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\PiPei.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
+#line 315 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiBaseType.h"
+#line 18 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\PiPei.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
 
 
 
@@ -2092,6 +2077,9 @@ typedef union {
 
 
 
+
+
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
 
 
 
@@ -2113,7 +2101,19 @@ typedef union {
 
 
 
-  #line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Guid/WinCertificate.h"
+
+
+
+
+
+
+
+
+
+
+
+
+  #line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Guid/WinCertificate.h"
 
 
 
@@ -2233,8 +2233,8 @@ typedef struct {
 
 extern EFI_GUID  gEfiCertTypeRsa2048Sha256Guid;
 
-#line 121 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Guid/WinCertificate.h"
-#line 35 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
+#line 121 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Guid/WinCertificate.h"
+#line 35 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
 
 
 
@@ -2447,13 +2447,11 @@ typedef struct {
   
   WIN_CERTIFICATE_UEFI_GUID    AuthInfo;
 } EFI_VARIABLE_AUTHENTICATION_2;
-#line 248 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
+#line 248 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
 
-#line 250 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
-#line 16 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
-
-
+#line 250 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Uefi/UefiMultiPhase.h"
+#line 16 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
 
 
 
@@ -2466,7 +2464,9 @@ typedef struct {
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiFirmwareVolume.h"
+
+
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiFirmwareVolume.h"
 
 
 
@@ -2713,9 +2713,9 @@ typedef struct {
   UINT32                           UsedSize;
 } EFI_FIRMWARE_VOLUME_EXT_ENTRY_USED_SIZE_TYPE;
 
-#line 248 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiFirmwareVolume.h"
-#line 16 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiFirmwareFile.h"
+#line 248 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiFirmwareVolume.h"
+#line 16 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiFirmwareFile.h"
 
 
 
@@ -3221,9 +3221,9 @@ typedef struct {
 
 #pragma pack()
 
-#line 507 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiFirmwareFile.h"
-#line 17 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiBootMode.h"
+#line 507 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiFirmwareFile.h"
+#line 17 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiBootMode.h"
 
 
 
@@ -3259,9 +3259,9 @@ typedef UINT32 EFI_BOOT_MODE;
 
 
 
-#line 37 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiBootMode.h"
-#line 18 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiHob.h"
+#line 37 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiBootMode.h"
+#line 18 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiHob.h"
 
 
 
@@ -3773,9 +3773,9 @@ typedef union {
   UINT8                                  *Raw;
 } EFI_PEI_HOB_POINTERS;
 
-#line 513 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiHob.h"
-#line 19 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiDependency.h"
+#line 513 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiHob.h"
+#line 19 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiDependency.h"
 
 
 
@@ -3816,9 +3816,9 @@ typedef union {
 
 
 
-#line 42 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiDependency.h"
-#line 20 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiStatusCode.h"
+#line 42 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiDependency.h"
+#line 20 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiStatusCode.h"
 
 
 
@@ -3838,7 +3838,7 @@ typedef union {
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Protocol/DebugSupport.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Protocol/DebugSupport.h"
 
 
 
@@ -3857,7 +3857,7 @@ typedef union {
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\IndustryStandard/PeImage.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\IndustryStandard/PeImage.h"
 
 
 
@@ -4673,8 +4673,8 @@ typedef union {
   EFI_IMAGE_OPTIONAL_HEADER_UNION    *Union;
 } EFI_IMAGE_OPTIONAL_HEADER_PTR_UNION;
 
-#line 817 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\IndustryStandard/PeImage.h"
-#line 20 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Protocol/DebugSupport.h"
+#line 817 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\IndustryStandard/PeImage.h"
+#line 20 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Protocol/DebugSupport.h"
 
 typedef struct _EFI_DEBUG_SUPPORT_PROTOCOL EFI_DEBUG_SUPPORT_PROTOCOL;
 
@@ -5620,8 +5620,8 @@ struct _EFI_DEBUG_SUPPORT_PROTOCOL {
 
 extern EFI_GUID  gEfiDebugSupportProtocolGuid;
 
-#line 966 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Protocol/DebugSupport.h"
-#line 21 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiStatusCode.h"
+#line 966 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Protocol/DebugSupport.h"
+#line 21 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiStatusCode.h"
 
 
 
@@ -6821,9 +6821,9 @@ typedef struct {
 
 
 
-#line 1221 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiStatusCode.h"
-#line 21 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiS3BootScript.h"
+#line 1221 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiStatusCode.h"
+#line 21 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiS3BootScript.h"
 
 
 
@@ -6876,8 +6876,8 @@ typedef enum {
   EfiBootScriptWidthMaximum
 } EFI_BOOT_SCRIPT_WIDTH;
 
-#line 54 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiS3BootScript.h"
-#line 22 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
+#line 54 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiS3BootScript.h"
+#line 22 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
 
 
 
@@ -7125,8 +7125,8 @@ EFI_STATUS
 
 extern EFI_GUID  gEfiMmCommunicateHeaderV3Guid;
 
-#line 270 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
-#line 17 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
+#line 270 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiMultiPhase.h"
+#line 17 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
 
 
 
@@ -7148,7 +7148,7 @@ typedef struct _EFI_PEI_SERVICES EFI_PEI_SERVICES;
 
 typedef struct _EFI_PEI_NOTIFY_DESCRIPTOR EFI_PEI_NOTIFY_DESCRIPTOR;
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Ppi/CpuIo.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Ppi/CpuIo.h"
 
 
 
@@ -7570,9 +7570,9 @@ struct _EFI_PEI_CPU_IO_PPI {
 
 extern EFI_GUID  gEfiPeiCpuIoPpiInstalledGuid;
 
-#line 423 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Ppi/CpuIo.h"
-#line 39 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Ppi/PciCfg2.h"
+#line 423 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Ppi/CpuIo.h"
+#line 39 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Ppi/PciCfg2.h"
 
 
 
@@ -7590,25 +7590,7 @@ extern EFI_GUID  gEfiPeiCpuIoPpiInstalledGuid;
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
 
 
 
@@ -7628,7 +7610,25 @@ extern EFI_GUID  gEfiPeiCpuIoPpiInstalledGuid;
 
 
 
-#line 39 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 39 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
 
 
 
@@ -7652,7 +7652,7 @@ typedef struct {
 
 
 
-#line 63 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
+#line 63 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
 
 
 
@@ -7668,7 +7668,7 @@ typedef struct {
 
 
 
-#line 79 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
+#line 79 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
 
 
 
@@ -7786,7 +7786,7 @@ typedef struct {
 
 
 
-#line 197 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
+#line 197 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
 
 
 
@@ -7924,7 +7924,7 @@ typedef struct {
 
 
 
-#line 335 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
+#line 335 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
 
 
 
@@ -8168,7 +8168,7 @@ typedef struct {
 
 
 
-#line 579 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
+#line 579 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
 
 
 
@@ -13073,7 +13073,7 @@ AsmRmpAdjust (
         UINT64  Rdx
   );
 
-#line 5484 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
+#line 5484 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
 
 
 
@@ -13318,7 +13318,7 @@ typedef struct {
 
 
 
-#line 5729 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
+#line 5729 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
 
   
 
@@ -13380,7 +13380,7 @@ typedef union {
 } IA32_TSS_DESCRIPTOR;
     #pragma pack ()
 
-  #line 5791 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
+  #line 5791 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
 
 
 
@@ -15725,9 +15725,9 @@ PatchInstructionX86 (
     UINTN                     ValueSize
   );
 
-#line 8136 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
-#line 8137 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
-#line 19 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Ppi/PciCfg2.h"
+#line 8136 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
+#line 8137 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/BaseLib.h"
+#line 19 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Ppi/PciCfg2.h"
 
 
 
@@ -15885,8 +15885,8 @@ struct _EFI_PEI_PCI_CFG2_PPI {
 
 extern EFI_GUID  gEfiPciCfg2PpiGuid;
 
-#line 177 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Ppi/PciCfg2.h"
-#line 40 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
+#line 177 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Ppi/PciCfg2.h"
+#line 40 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
 
 
 
@@ -16903,12 +16903,12 @@ void
    const  EFI_PEI_PPI_DESCRIPTOR  *PpiList
   );
 
-#line 1057 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
-#line 19 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\PiPei.h"
+#line 1057 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Pi/PiPeiCis.h"
+#line 19 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\PiPei.h"
 
-#line 21 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\PiPei.h"
-#line 17 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\EmulatorPkg\\Sec\\Sec\\DEBUG\\AutoGen.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/PcdLib.h"
+#line 21 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\PiPei.h"
+#line 17 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\EmulatorPkg\\Sec\\Sec\\DEBUG\\AutoGen.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/PcdLib.h"
 
 
 
@@ -18584,8 +18584,8 @@ LibPcdGetSku (
   void
   );
 
-#line 1677 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/PcdLib.h"
-#line 18 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\EmulatorPkg\\Sec\\Sec\\DEBUG\\AutoGen.h"
+#line 1677 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/PcdLib.h"
+#line 18 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\EmulatorPkg\\Sec\\Sec\\DEBUG\\AutoGen.h"
 
 extern GUID  gEfiCallerIdGuid;
 extern GUID  gEdkiiDscPlatformGuid;
@@ -18632,8 +18632,8 @@ ProcessLibraryConstructorList (
 
 
 
-#line 65 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\EmulatorPkg\\Sec\\Sec\\DEBUG\\AutoGen.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\EmulatorPkg\\Sec\\X64\\SwitchRam.asm"
+#line 65 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\EmulatorPkg\\Sec\\Sec\\DEBUG\\AutoGen.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\EmulatorPkg\\Sec\\X64\\SwitchRam.asm"
 ;------------------------------------------------------------------------------
 ;
 ; Copyright (c) 2006 - 2012, Intel Corporation. All rights reserved.<BR>

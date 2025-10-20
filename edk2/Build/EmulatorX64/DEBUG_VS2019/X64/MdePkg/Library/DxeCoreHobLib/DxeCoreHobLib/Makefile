@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = DxeCoreHobLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdePkg\Library\DxeCoreHobLib
 PACKAGE_RELATIVE_DIR = Library\DxeCoreHobLib
-MODULE_DIR = D:\develop\EDK2\edk2\MdePkg\Library\DxeCoreHobLib
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\882ee1a3-35b2-412c-b8a2-7a8d34a7c390DxeCoreHobLib
+MODULE_DIR = D:\develop\Self_develop\edk2\MdePkg\Library\DxeCoreHobLib
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\882ee1a3-35b2-412c-b8a2-7a8d34a7c390DxeCoreHobLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -200,7 +200,7 @@ INC =  \
     /I$(WORKSPACE)\MdePkg\Library\MipiSysTLib\mipisyst\library\include \
     /I$(WORKSPACE)\MdePkg\Include\X64
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\OUTPUT\object_files.lst
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\OUTPUT\object_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\HobLib.obj
 
 
@@ -211,7 +211,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\OUTPUT\DxeCoreHobLib.lib \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\OUTPUT\DxeCoreHobLib.lib \
               
 
 #
@@ -290,11 +290,11 @@ $(OBJLIST_0):  \
 	$(MAKE_FILE) \
 	$(WORKSPACE)\MdePkg\Library\DxeCoreHobLib\HobLib.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\DxeCoreHobLib\HobLib.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\DxeCoreHobLib\HobLib.c
 
 $(OUTPUT_DIR)\DxeCoreHobLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\DxeCoreHobLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\OUTPUT\DxeCoreHobLib.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib\OUTPUT\DxeCoreHobLib.lib @$(OBJECT_FILES_LIST)
 
 
 

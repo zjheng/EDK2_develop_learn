@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = PeiMain
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Core\Pei
 PACKAGE_RELATIVE_DIR = Core\Pei
-MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\52C05B14-0B98-496c-BC3B-04B50211D680PeiCore
+MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\52C05B14-0B98-496c-BC3B-04B50211D680PeiCore
 
 MODULE_ENTRY_POINT = PeiCore
 ARCH_ENTRY_POINT = PeiCore
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -256,23 +256,23 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\static_library_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\PeiMain\PeiMain.obj
-OBJLIST_1 = $(OUTPUT_DIR)\Memory\MemoryServices.obj
-OBJLIST_2 = $(OUTPUT_DIR)\BootMode\BootMode.obj
-OBJLIST_3 = $(OUTPUT_DIR)\Ppi\Ppi.obj
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\static_library_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\Dispatcher\Dispatcher.obj
+OBJLIST_1 = $(OUTPUT_DIR)\Image\Image.obj
+OBJLIST_2 = $(OUTPUT_DIR)\Hob\Hob.obj
+OBJLIST_3 = $(OUTPUT_DIR)\Reset\Reset.obj
 OBJLIST_4 = $(OUTPUT_DIR)\Security\Security.obj
-OBJLIST_5 = $(OUTPUT_DIR)\Hob\Hob.obj
-OBJLIST_6 = $(OUTPUT_DIR)\Reset\Reset.obj
-OBJLIST_7 = $(OUTPUT_DIR)\StatusCode\StatusCode.obj
-OBJLIST_8 = $(OUTPUT_DIR)\Dispatcher\Dispatcher.obj
-OBJLIST_9 = $(OUTPUT_DIR)\Image\Image.obj
-OBJLIST_10 = $(OUTPUT_DIR)\CpuIo\CpuIo.obj
-OBJLIST_11 = $(OUTPUT_DIR)\AutoGen.obj
-OBJLIST_12 = $(OUTPUT_DIR)\Dependency\Dependency.obj
-OBJLIST_13 = $(OUTPUT_DIR)\PciCfg2\PciCfg2.obj
-OBJLIST_14 = $(OUTPUT_DIR)\FwVol\FwVol.obj
+OBJLIST_5 = $(OUTPUT_DIR)\Memory\MemoryServices.obj
+OBJLIST_6 = $(OUTPUT_DIR)\AutoGen.obj
+OBJLIST_7 = $(OUTPUT_DIR)\FwVol\FwVol.obj
+OBJLIST_8 = $(OUTPUT_DIR)\PciCfg2\PciCfg2.obj
+OBJLIST_9 = $(OUTPUT_DIR)\Ppi\Ppi.obj
+OBJLIST_10 = $(OUTPUT_DIR)\BootMode\BootMode.obj
+OBJLIST_11 = $(OUTPUT_DIR)\PeiMain\PeiMain.obj
+OBJLIST_12 = $(OUTPUT_DIR)\StatusCode\StatusCode.obj
+OBJLIST_13 = $(OUTPUT_DIR)\Dependency\Dependency.obj
+OBJLIST_14 = $(OUTPUT_DIR)\CpuIo\CpuIo.obj
 
 
 #
@@ -282,7 +282,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiCore.efi \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiCore.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -382,109 +382,109 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\PeiMain\PeiMain.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\Dispatcher\Dispatcher.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiMain\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\PeiMain\PeiMain.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Dispatcher\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\Dispatcher\Dispatcher.c
 
 $(OBJLIST_1):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\Memory\MemoryServices.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\Image\Image.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Memory\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\Memory\MemoryServices.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Image\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\Image\Image.c
 
 $(OBJLIST_2):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\BootMode\BootMode.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\Hob\Hob.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\BootMode\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\BootMode\BootMode.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Hob\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\Hob\Hob.c
 
 $(OBJLIST_3):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\Ppi\Ppi.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\Reset\Reset.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Ppi\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\Ppi\Ppi.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Reset\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\Reset\Reset.c
 
 $(OBJLIST_4):  \
 	$(MAKE_FILE) \
 	$(WORKSPACE)\MdeModulePkg\Core\Pei\Security\Security.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Security\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\Security\Security.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Security\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\Security\Security.c
 
 $(OBJLIST_5):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\Hob\Hob.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\Memory\MemoryServices.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Hob\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\Hob\Hob.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Memory\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\Memory\MemoryServices.c
 
 $(OBJLIST_6):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\Reset\Reset.c \
+	$(DEBUG_DIR)\AutoGen.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Reset\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\Reset\Reset.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG\AutoGen.c
 
 $(OBJLIST_7):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\StatusCode\StatusCode.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\FwVol\FwVol.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\StatusCode\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\StatusCode\StatusCode.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\FwVol\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\FwVol\FwVol.c
 
 $(OBJLIST_8):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\Dispatcher\Dispatcher.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\PciCfg2\PciCfg2.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Dispatcher\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\Dispatcher\Dispatcher.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PciCfg2\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\PciCfg2\PciCfg2.c
 
 $(OBJLIST_9):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\Image\Image.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\Ppi\Ppi.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Image\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\Image\Image.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Ppi\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\Ppi\Ppi.c
 
 $(OBJLIST_10):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\CpuIo\CpuIo.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\BootMode\BootMode.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\CpuIo\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\CpuIo\CpuIo.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\BootMode\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\BootMode\BootMode.c
 
 $(OBJLIST_11):  \
 	$(MAKE_FILE) \
-	$(DEBUG_DIR)\AutoGen.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\PeiMain\PeiMain.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG\AutoGen.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiMain\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\PeiMain\PeiMain.c
 
 $(OBJLIST_12):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\Dependency\Dependency.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\StatusCode\StatusCode.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Dependency\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\Dependency\Dependency.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\StatusCode\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\StatusCode\StatusCode.c
 
 $(OBJLIST_13):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\PciCfg2\PciCfg2.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\Dependency\Dependency.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PciCfg2\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\PciCfg2\PciCfg2.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\Dependency\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\Dependency\Dependency.c
 
 $(OBJLIST_14):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\Pei\FwVol\FwVol.c \
+	$(WORKSPACE)\MdeModulePkg\Core\Pei\CpuIo\CpuIo.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\FwVol\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Core\Pei\FwVol\FwVol.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\CpuIo\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Core\Pei\CpuIo\CpuIo.c
 
 $(OUTPUT_DIR)\PeiCore.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\PeiCore.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiCore.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiCore.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\PeiCore.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\PeiCore.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\PeiCore.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.dll $(DLINK_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.dll $(DLINK_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\PeiCore.efi : $(DEBUG_DIR)\PeiCore.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiCore.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiCore.efi $(DEBUG_DIR)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiCore.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiCore.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiCore.efi $(DEBUG_DIR)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\Pei\PeiMain\OUTPUT\PeiCore.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

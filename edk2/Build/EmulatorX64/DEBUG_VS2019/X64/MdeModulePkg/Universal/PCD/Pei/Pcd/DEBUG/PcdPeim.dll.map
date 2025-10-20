@@ -1,15 +1,15 @@
  PcdPeim.dll
 
- Timestamp is 68f5d080 (Mon Oct 20 14:02:40 2025)
+ Timestamp is 68f5fea3 (Mon Oct 20 17:19:31 2025)
 
  Preferred load address is 0000000000010000
 
  Start         Length     Name                   Class
  0001:00000000 00000ae4H .text                   CODE
  0001:00000ae4 00006c17H .text$mn                CODE
- 0002:00000000 00000fb0H .rdata                  DATA
- 0002:00000fb0 00000018H .rdata$voltmd           DATA
- 0002:00000fc8 00000148H .rdata$zzzdbg           DATA
+ 0002:00000000 00001018H .rdata                  DATA
+ 0002:00001018 00000018H .rdata$voltmd           DATA
+ 0002:00001030 00000150H .rdata$zzzdbg           DATA
  0003:00000000 00000310H .data                   DATA
  0003:00000310 00000010H .bss                    DATA
  0004:00000000 00000534H .pdata                  DATA
@@ -17,28 +17,28 @@
 
   Address         Publics by Value              Rva+Base               Lib:Object
 
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
  0000:00000000       __guard_iat_table          0000000000000000     <absolute>
- 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
  0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
  0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
  0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
  0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
  0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
- 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
- 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
- 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
- 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
- 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
- 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
- 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
  0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
- 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
- 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
- 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
  0000:00000000       __guard_flags              0000000000000000     <absolute>
  0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
- 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
  0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
  0000:00000000       __enclave_config           0000000000000000     <absolute>
  0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
  0001:00000000       AsmVmgExitSvsm             0000000000011000     BaseLib:VmgExitSvsm.obj
@@ -205,8 +205,8 @@
  0001:00004a5c       PeiGetPcdInfoGetInfoEx     0000000000015a5c f   PcdPeim:Pcd.obj
  0001:00004a88       PeiGetPcdInfoGetSku        0000000000015a88 f   PcdPeim:Pcd.obj
  0001:00004a9c       PeiPcdSetSku               0000000000015a9c f   PcdPeim:Pcd.obj
- 0001:00004fec       PeiPcdGetBool              0000000000015fec f   PcdPeim:Pcd.obj
  0001:00004fec       PeiPcdGet8                 0000000000015fec f   PcdPeim:Pcd.obj
+ 0001:00004fec       PeiPcdGetBool              0000000000015fec f   PcdPeim:Pcd.obj
  0001:0000500c       PeiPcdGet16                000000000001600c f   PcdPeim:Pcd.obj
  0001:00005034       PeiPcdGet32                0000000000016034 f   PcdPeim:Pcd.obj
  0001:0000505c       PeiPcdGet64                000000000001605c f   PcdPeim:Pcd.obj
@@ -219,8 +219,8 @@
  0001:000051ec       PeiPcdGet64Ex              00000000000161ec f   PcdPeim:Pcd.obj
  0001:0000521c       PeiPcdGetPtrEx             000000000001621c f   PcdPeim:Pcd.obj
  0001:00005244       PeiPcdGetSizeEx            0000000000016244 f   PcdPeim:Pcd.obj
- 0001:00005270       PeiPcdSetBool              0000000000016270 f   PcdPeim:Pcd.obj
  0001:00005270       PeiPcdSet8                 0000000000016270 f   PcdPeim:Pcd.obj
+ 0001:00005270       PeiPcdSetBool              0000000000016270 f   PcdPeim:Pcd.obj
  0001:00005298       PeiPcdSet16                0000000000016298 f   PcdPeim:Pcd.obj
  0001:000052c0       PeiPcdSet32                00000000000162c0 f   PcdPeim:Pcd.obj
  0001:000052e8       PeiPcdSet64                00000000000162e8 f   PcdPeim:Pcd.obj
@@ -257,98 +257,98 @@
  0001:00007604       GetPcdDatabase             0000000000018604 f   PcdPeim:Service.obj
  0001:0000765c       GetSizeTableIndex          000000000001865c f   PcdPeim:Service.obj
  0002:00000000       ??_C@_0CI@MDPGFIOC@PeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIvo@ 0000000000019000     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
- 0002:00000030       ??_C@_0GH@FIBBPKGC@D?3?2develop?2EDK2?2edk2?2EmulatorPk@ 0000000000019030     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
- 0002:00000098       ??_C@_0CJ@NHFDCOMG@?$CKPeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIv@ 0000000000019098     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
- 0002:000000d0       ??_C@_0FH@CEHMGJKM@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 00000000000190d0     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000128       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019128     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000140       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019140     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000180       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019180     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000001c0       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5to@ 00000000000191c0     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000200       ??_C@_0FB@DKIEPKCC@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000019200     PeiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:00000258       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 0000000000019258     PeiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:00000280       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 0000000000019280     PeiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:000002b8       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000192b8     PeiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:000002d0       ??_C@_0DO@GEEICOOO@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFFFF@ 00000000000192d0     PeiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:00000310       ??_C@_0FE@BEFIIBEL@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000019310     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000368       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 0000000000019368     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000398       ??_C@_01OHGJGJJP@?$FL@     0000000000019398     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:0000039c       ??_C@_02PBFOLPKM@?$FN?5@   000000000001939c     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:000003a0       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ@ 00000000000193a0     BaseLib:X86PatchInstruction.obj
- 0002:000003b8       ??_C@_0DI@MBLLHEOH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000193b8     BaseLib:Unaligned.obj
- 0002:000003f0       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000193f0     BaseLib:String.obj
- 0002:00000408       ??_C@_0DF@EAHDDLM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000019408     BaseLib:String.obj
- 0002:00000440       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0000000000019440     BaseLib:String.obj
- 0002:00000478       ??_C@_0DJ@DNFJNBOO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000019478     BaseLib:SafeString.obj
- 0002:000004b8       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00000000000194b8     BaseLib:SafeString.obj
- 0002:000004e0       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 00000000000194e0     BaseLib:SafeString.obj
- 0002:00000520       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000019520     BaseLib:SafeString.obj
- 0002:00000540       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0000000000019540     BaseLib:SafeString.obj
- 0002:00000550       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0000000000019550     BaseLib:SafeString.obj
- 0002:00000568       ??_C@_0P@BHOOOJPD@?$CICopyLen?5?$CB?$DN?50?$CJ@ 0000000000019568     BaseLib:SafeString.obj
- 0002:00000578       ??_C@_0BG@BPGICNPK@?$CICopyLen?5?$DO?5SourceLen?$CJ@ 0000000000019578     BaseLib:SafeString.obj
- 0002:00000590       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0000000000019590     BaseLib:SafeString.obj
- 0002:000005d0       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 00000000000195d0     BaseLib:SafeString.obj
- 0002:00000630       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 0000000000019630     BaseLib:SafeString.obj
- 0002:00000640       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 0000000000019640     BaseLib:SafeString.obj
- 0002:00000680       ??_C@_0N@MIDJKBI@AsciiStrCatS@ 0000000000019680     BaseLib:SafeString.obj
- 0002:00000690       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 0000000000019690     BaseLib:ARShiftU64.obj
- 0002:000006a0       ??_C@_0DI@FAGDBCDM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000196a0     BaseLib:LShiftU64.obj
- 0002:000006d8       ??_C@_0BL@CPGKAMND@JumpBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000196d8     BaseLib:SetJump.obj
- 0002:000006f8       ??_C@_0DG@HPLDDALP@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000196f8     BaseLib:SetJump.obj
- 0002:00000730       ??_C@_0CD@OEHNCIHG@?$CI?$CIUINTN?$CJJumpBuffer?5?$CG?5?$CI8?5?9?51?$CJ?$CJ?5?$DN@ 0000000000019730     BaseLib:SetJump.obj
- 0002:00000758       ??_C@_0DH@PPNNMDAD@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000019758     PeiHobLib:HobLib.obj
- 0002:00000790       ??_C@_0BI@NCGMODPG@HobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019790     PeiHobLib:HobLib.obj
- 0002:000007a8       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000197a8     PeiHobLib:HobLib.obj
- 0002:000007c8       ??_C@_0BE@PICCCCHF@Hob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000197c8     PeiHobLib:HobLib.obj
- 0002:000007e0       ??_C@_0BF@PEDOPNMP@Guid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000197e0     PeiHobLib:HobLib.obj
- 0002:000007f8       ??_C@_0DE@JLBHCAID@DataLength?5?$DM?$DN?5?$CI0xFFF8?5?9?5sizeof?5@ 00000000000197f8     PeiHobLib:HobLib.obj
- 0002:00000830       ??_C@_0DC@LJGHDAJN@?$CI?$CIUINTN?$CJBuffer?5?$CG?5?$CIsizeof?5?$CIGuid?9@ 0000000000019830     BaseMemoryLib:MemLibGuid.obj
- 0002:00000868       ??_C@_0DP@GGABCOIE@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000019868     BaseMemoryLib:MemLibGuid.obj
- 0002:000008a8       ??_C@_0DG@EEENIGGL@Length?5?$DM?$DN?5?$CI0xFFFFFFFFFFFFFFFFUL@ 00000000000198a8     BaseMemoryLib:MemLibGuid.obj
- 0002:000008e0       ??_C@_0CI@FMMOALAD@?$CILength?5?$CG?5?$CIsizeof?5?$CI?$CKGuidPtr?$CJ?5?9?5@ 00000000000198e0     BaseMemoryLib:MemLibGuid.obj
- 0002:00000910       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000019910     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000960       ??_C@_0ED@JLFCAFGL@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000019960     BaseMemoryLib:CopyMemWrapper.obj
- 0002:000009a8       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 00000000000199a8     BaseMemoryLib:CopyMemWrapper.obj
- 0002:000009f0       ??_C@_0ED@CPPAGEKM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000199f0     BaseMemoryLib:ZeroMemWrapper.obj
- 0002:00000a38       ??_C@_0CP@KCAHKNFK@?$CI?$CKPeiServices?$CJ?9?$DOHdr?4Revision?5?$DO?$DN@ 0000000000019a38     PeimEntryPoint:PeimEntryPoint.obj
- 0002:00000a70       ??_C@_0EE@JMAAPGDI@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000019a70     PeimEntryPoint:PeimEntryPoint.obj
- 0002:00000ab8       _gPcd_FixedAtBuild_PcdPeiServicesTablePage 0000000000019ab8     PcdPeim:AutoGen.obj
- 0002:00000ac0       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0000000000019ac0     PcdPeim:AutoGen.obj
- 0002:00000ac4       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 0000000000019ac4     PcdPeim:AutoGen.obj
- 0002:00000ac8       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 0000000000019ac8     PcdPeim:AutoGen.obj
- 0002:00000acc       _gPcd_FixedAtBuild_PcdDebugPropertyMask 0000000000019acc     PcdPeim:AutoGen.obj
- 0002:00000ad0       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 0000000000019ad0     PcdPeim:AutoGen.obj
- 0002:00000ad4       _gPeimRevision             0000000000019ad4     PcdPeim:AutoGen.obj
- 0002:00000ad4       _gPcd_FixedAtBuild_PcdVpdBaseAddress 0000000000019ad4     PcdPeim:AutoGen.obj
- 0002:00000ad8       ??_C@_07EFHOOFNL@PcdPeim@  0000000000019ad8     PcdPeim:AutoGen.obj
- 0002:00000ae0       _gPcd_FixedAtBuild_PcdPeiFullPcdDatabaseEnable 0000000000019ae0     PcdPeim:AutoGen.obj
- 0002:00000ae4       _gPcd_FixedAtBuild_PcdMaxPeiPcdCallBackNumberPerPcdEntry 0000000000019ae4     PcdPeim:AutoGen.obj
- 0002:00000ae8       _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask 0000000000019ae8     PcdPeim:AutoGen.obj
- 0002:00000af0       ??_C@_0CA@DKNLNDEI@VarStoreHobData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019af0     PcdPeim:Pcd.obj
- 0002:00000b10       ??_C@_0DK@DOKCLJEC@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000019b10     PcdPeim:Pcd.obj
- 0002:00000b50       ??_C@_0CE@BGKMJFAH@PcdPei?5?9?5SkuId?50x?$CFlx?5is?5to?5be?5s@ 0000000000019b50     PcdPeim:Pcd.obj
- 0002:00000b78       ??_C@_0CP@CGLNBAIG@PcdPei?5?9?5SkuId?5is?5same?5to?5curre@ 0000000000019b78     PcdPeim:Pcd.obj
- 0002:00000ba8       ??_C@_0DA@IJDFHNFK@PcdPei?5?9?5The?5SKU?5Id?5could?5be?5ch@ 0000000000019ba8     PcdPeim:Pcd.obj
- 0002:00000be0       ??_C@_0FF@EAOIINIH@PcdPei?5?9?5The?5SKU?5Id?5was?5set?5to?5@ 0000000000019be0     PcdPeim:Pcd.obj
- 0002:00000c38       ??_C@_0CJ@CLJGJPIM@PcdPei?5?9?5SkuId?5is?5found?5in?5SkuI@ 0000000000019c38     PcdPeim:Pcd.obj
- 0002:00000c68       ??_C@_0CH@NAAOOEJP@PcdPei?5?9?5Set?5current?5SKU?5Id?5to?5@ 0000000000019c68     PcdPeim:Pcd.obj
- 0002:00000c90       ??_C@_0EG@MPNMKPHF@PcdPei?5?9?5Invalid?5input?5SkuId?0?5t@ 0000000000019c90     PcdPeim:Pcd.obj
- 0002:00000cd8       ??_C@_0CI@BMBNMDKB@TokenNumber?5?$CL?51?5?$DM?5?$CILocalTokenCo@ 0000000000019cd8     PcdPeim:Pcd.obj
- 0002:00000d00       ??_C@_0HA@NINFNLNG@?$CILocalTokenNumber?5?$CG?5?$CI?$CI0x0U?5?$DM?$DM?52@ 0000000000019d00     PcdPeim:Pcd.obj
- 0002:00000d70       ??_C@_0DO@JLPDLBFI@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000019d70     PcdPeim:Service.obj
- 0002:00000db0       ??_C@_0BF@OGAHIMFI@Name?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019db0     PcdPeim:Service.obj
- 0002:00000dc8       ??_C@_0BI@JPMFKADA@PcdInfo?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019dc8     PcdPeim:Service.obj
- 0002:00000de0       ??_C@_0CK@EDPCKBGO@TokenNumber?5?$CL?51?5?$DM?5?$CIPeiNexTokenN@ 0000000000019de0     PcdPeim:Service.obj
- 0002:00000e10       ??_C@_0CK@EDFCJHK@?$CITokenNumber?5?$CL?51?$CJ?5?$DM?5?$CILocalToken@ 0000000000019e10     PcdPeim:Service.obj
- 0002:00000e40       ??_C@_0CH@PBGGMHHH@?$CILocalTokenNumber?5?$CG?5?$CI0x8U?5?$DM?$DM?528@ 0000000000019e40     PcdPeim:Service.obj
- 0002:00000e68       ??_C@_0CH@FGEEBELP@?$CILocalTokenNumber?5?$CG?5?$CI0x4U?5?$DM?$DM?528@ 0000000000019e68     PcdPeim:Service.obj
- 0002:00000e90       ??_C@_0BI@EDOKPJOP@GuidHob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019e90     PcdPeim:Service.obj
- 0002:00000ea8       ??_C@_0BL@INAOLIJI@FileHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019ea8     PcdPeim:Service.obj
- 0002:00000ec8       ??_C@_0BP@HMHBAFLP@PeiPcdDbBinary?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019ec8     PcdPeim:Service.obj
- 0002:00000ee8       ??_C@_0DP@BOGBALDF@?$CIGetSize?5?$DN?$DN?5PeiPcdGetSize?5?$CIToke@ 0000000000019ee8     PcdPeim:Service.obj
- 0002:00000f28       ??_C@_0BE@JKIEJAMF@VpdBaseAddress?5?$CB?$DN?50@ 0000000000019f28     PcdPeim:Service.obj
- 0002:00000f40       ??_C@_0BK@KMBLOHLH@MatchGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019f40     PcdPeim:Service.obj
- 0002:00000fb0       __volatile_metadata        0000000000019fb0     <linker-defined>
+ 0002:00000030       ??_C@_0GP@IFFCOGDB@D?3?2develop?2Self_develop?2edk2?2Em@ 0000000000019030     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:000000a0       ??_C@_0CJ@NHFDCOMG@?$CKPeiServicesTablePointer?5?$CB?$DN?5?$CI?$CIv@ 00000000000190a0     EmulatorPkgPeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:000000d0       ??_C@_0FP@KNAFGKGF@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000190d0     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000130       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019130     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000148       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019148     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000188       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019188     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000001c8       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5to@ 00000000000191c8     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000200       ??_C@_0FJ@CFLCDELC@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000019200     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000260       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 0000000000019260     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000288       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 0000000000019288     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000002c0       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000192c0     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000002d8       ??_C@_0DO@GEEICOOO@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFFFF@ 00000000000192d8     PeiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000320       ??_C@_0FM@HDIIFGPN@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000019320     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000380       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 0000000000019380     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000003b0       ??_C@_01OHGJGJJP@?$FL@     00000000000193b0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000003b4       ??_C@_02PBFOLPKM@?$FN?5@   00000000000193b4     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000003b8       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ@ 00000000000193b8     BaseLib:X86PatchInstruction.obj
+ 0002:000003d0       ??_C@_0EA@FKBIDDGN@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000193d0     BaseLib:Unaligned.obj
+ 0002:00000410       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019410     BaseLib:String.obj
+ 0002:00000428       ??_C@_0DN@POJBHOAP@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000019428     BaseLib:String.obj
+ 0002:00000468       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0000000000019468     BaseLib:String.obj
+ 0002:000004a0       ??_C@_0EB@DAKPBIJH@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000194a0     BaseLib:SafeString.obj
+ 0002:000004e8       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00000000000194e8     BaseLib:SafeString.obj
+ 0002:00000510       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 0000000000019510     BaseLib:SafeString.obj
+ 0002:00000550       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000019550     BaseLib:SafeString.obj
+ 0002:00000570       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0000000000019570     BaseLib:SafeString.obj
+ 0002:00000580       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0000000000019580     BaseLib:SafeString.obj
+ 0002:00000598       ??_C@_0P@BHOOOJPD@?$CICopyLen?5?$CB?$DN?50?$CJ@ 0000000000019598     BaseLib:SafeString.obj
+ 0002:000005a8       ??_C@_0BG@BPGICNPK@?$CICopyLen?5?$DO?5SourceLen?$CJ@ 00000000000195a8     BaseLib:SafeString.obj
+ 0002:000005c0       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 00000000000195c0     BaseLib:SafeString.obj
+ 0002:00000600       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0000000000019600     BaseLib:SafeString.obj
+ 0002:00000660       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 0000000000019660     BaseLib:SafeString.obj
+ 0002:00000670       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 0000000000019670     BaseLib:SafeString.obj
+ 0002:000006b0       ??_C@_0N@MIDJKBI@AsciiStrCatS@ 00000000000196b0     BaseLib:SafeString.obj
+ 0002:000006c0       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 00000000000196c0     BaseLib:ARShiftU64.obj
+ 0002:000006d0       ??_C@_0EA@MLMAFFLG@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000196d0     BaseLib:LShiftU64.obj
+ 0002:00000710       ??_C@_0BL@CPGKAMND@JumpBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019710     BaseLib:SetJump.obj
+ 0002:00000730       ??_C@_0DO@CNCBEEME@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000019730     BaseLib:SetJump.obj
+ 0002:00000770       ??_C@_0CD@OEHNCIHG@?$CI?$CIUINTN?$CJJumpBuffer?5?$CG?5?$CI8?5?9?51?$CJ?$CJ?5?$DN@ 0000000000019770     BaseLib:SetJump.obj
+ 0002:00000798       ??_C@_0DP@DIFIPJMD@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000019798     PeiHobLib:HobLib.obj
+ 0002:000007d8       ??_C@_0BI@NCGMODPG@HobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000197d8     PeiHobLib:HobLib.obj
+ 0002:000007f0       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000197f0     PeiHobLib:HobLib.obj
+ 0002:00000810       ??_C@_0BE@PICCCCHF@Hob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019810     PeiHobLib:HobLib.obj
+ 0002:00000828       ??_C@_0BF@PEDOPNMP@Guid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019828     PeiHobLib:HobLib.obj
+ 0002:00000840       ??_C@_0DE@JLBHCAID@DataLength?5?$DM?$DN?5?$CI0xFFF8?5?9?5sizeof?5@ 0000000000019840     PeiHobLib:HobLib.obj
+ 0002:00000878       ??_C@_0DC@LJGHDAJN@?$CI?$CIUINTN?$CJBuffer?5?$CG?5?$CIsizeof?5?$CIGuid?9@ 0000000000019878     BaseMemoryLib:MemLibGuid.obj
+ 0002:000008b0       ??_C@_0EH@FPMCCAP@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000198b0     BaseMemoryLib:MemLibGuid.obj
+ 0002:000008f8       ??_C@_0DG@EEENIGGL@Length?5?$DM?$DN?5?$CI0xFFFFFFFFFFFFFFFFUL@ 00000000000198f8     BaseMemoryLib:MemLibGuid.obj
+ 0002:00000930       ??_C@_0CI@FMMOALAD@?$CILength?5?$CG?5?$CIsizeof?5?$CI?$CKGuidPtr?$CJ?5?9?5@ 0000000000019930     BaseMemoryLib:MemLibGuid.obj
+ 0002:00000960       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000019960     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000009b0       ??_C@_0EL@NNLJGCCH@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000199b0     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000a00       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000019a00     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000a40       ??_C@_0EL@GJBLADOA@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000019a40     BaseMemoryLib:ZeroMemWrapper.obj
+ 0002:00000a90       ??_C@_0CP@KCAHKNFK@?$CI?$CKPeiServices?$CJ?9?$DOHdr?4Revision?5?$DO?$DN@ 0000000000019a90     PeimEntryPoint:PeimEntryPoint.obj
+ 0002:00000ac0       ??_C@_0EM@ODCMBAOE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000019ac0     PeimEntryPoint:PeimEntryPoint.obj
+ 0002:00000b10       _gPcd_FixedAtBuild_PcdPeiServicesTablePage 0000000000019b10     PcdPeim:AutoGen.obj
+ 0002:00000b18       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0000000000019b18     PcdPeim:AutoGen.obj
+ 0002:00000b1c       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 0000000000019b1c     PcdPeim:AutoGen.obj
+ 0002:00000b20       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 0000000000019b20     PcdPeim:AutoGen.obj
+ 0002:00000b24       _gPcd_FixedAtBuild_PcdDebugPropertyMask 0000000000019b24     PcdPeim:AutoGen.obj
+ 0002:00000b28       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 0000000000019b28     PcdPeim:AutoGen.obj
+ 0002:00000b2c       _gPeimRevision             0000000000019b2c     PcdPeim:AutoGen.obj
+ 0002:00000b2c       _gPcd_FixedAtBuild_PcdVpdBaseAddress 0000000000019b2c     PcdPeim:AutoGen.obj
+ 0002:00000b30       ??_C@_07EFHOOFNL@PcdPeim@  0000000000019b30     PcdPeim:AutoGen.obj
+ 0002:00000b38       _gPcd_FixedAtBuild_PcdPeiFullPcdDatabaseEnable 0000000000019b38     PcdPeim:AutoGen.obj
+ 0002:00000b3c       _gPcd_FixedAtBuild_PcdMaxPeiPcdCallBackNumberPerPcdEntry 0000000000019b3c     PcdPeim:AutoGen.obj
+ 0002:00000b40       _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask 0000000000019b40     PcdPeim:AutoGen.obj
+ 0002:00000b48       ??_C@_0CA@DKNLNDEI@VarStoreHobData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019b48     PcdPeim:Pcd.obj
+ 0002:00000b70       ??_C@_0EC@BHHGIGBD@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000019b70     PcdPeim:Pcd.obj
+ 0002:00000bb8       ??_C@_0CE@BGKMJFAH@PcdPei?5?9?5SkuId?50x?$CFlx?5is?5to?5be?5s@ 0000000000019bb8     PcdPeim:Pcd.obj
+ 0002:00000be0       ??_C@_0CP@CGLNBAIG@PcdPei?5?9?5SkuId?5is?5same?5to?5curre@ 0000000000019be0     PcdPeim:Pcd.obj
+ 0002:00000c10       ??_C@_0DA@IJDFHNFK@PcdPei?5?9?5The?5SKU?5Id?5could?5be?5ch@ 0000000000019c10     PcdPeim:Pcd.obj
+ 0002:00000c40       ??_C@_0FF@EAOIINIH@PcdPei?5?9?5The?5SKU?5Id?5was?5set?5to?5@ 0000000000019c40     PcdPeim:Pcd.obj
+ 0002:00000c98       ??_C@_0CJ@CLJGJPIM@PcdPei?5?9?5SkuId?5is?5found?5in?5SkuI@ 0000000000019c98     PcdPeim:Pcd.obj
+ 0002:00000cc8       ??_C@_0CH@NAAOOEJP@PcdPei?5?9?5Set?5current?5SKU?5Id?5to?5@ 0000000000019cc8     PcdPeim:Pcd.obj
+ 0002:00000cf0       ??_C@_0EG@MPNMKPHF@PcdPei?5?9?5Invalid?5input?5SkuId?0?5t@ 0000000000019cf0     PcdPeim:Pcd.obj
+ 0002:00000d38       ??_C@_0CI@BMBNMDKB@TokenNumber?5?$CL?51?5?$DM?5?$CILocalTokenCo@ 0000000000019d38     PcdPeim:Pcd.obj
+ 0002:00000d60       ??_C@_0HA@NINFNLNG@?$CILocalTokenNumber?5?$CG?5?$CI?$CI0x0U?5?$DM?$DM?52@ 0000000000019d60     PcdPeim:Pcd.obj
+ 0002:00000dd0       ??_C@_0EG@GAJDODEF@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000019dd0     PcdPeim:Service.obj
+ 0002:00000e18       ??_C@_0BF@OGAHIMFI@Name?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019e18     PcdPeim:Service.obj
+ 0002:00000e30       ??_C@_0BI@JPMFKADA@PcdInfo?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019e30     PcdPeim:Service.obj
+ 0002:00000e48       ??_C@_0CK@EDPCKBGO@TokenNumber?5?$CL?51?5?$DM?5?$CIPeiNexTokenN@ 0000000000019e48     PcdPeim:Service.obj
+ 0002:00000e78       ??_C@_0CK@EDFCJHK@?$CITokenNumber?5?$CL?51?$CJ?5?$DM?5?$CILocalToken@ 0000000000019e78     PcdPeim:Service.obj
+ 0002:00000ea8       ??_C@_0CH@PBGGMHHH@?$CILocalTokenNumber?5?$CG?5?$CI0x8U?5?$DM?$DM?528@ 0000000000019ea8     PcdPeim:Service.obj
+ 0002:00000ed0       ??_C@_0CH@FGEEBELP@?$CILocalTokenNumber?5?$CG?5?$CI0x4U?5?$DM?$DM?528@ 0000000000019ed0     PcdPeim:Service.obj
+ 0002:00000ef8       ??_C@_0BI@EDOKPJOP@GuidHob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019ef8     PcdPeim:Service.obj
+ 0002:00000f10       ??_C@_0BL@INAOLIJI@FileHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019f10     PcdPeim:Service.obj
+ 0002:00000f30       ??_C@_0BP@HMHBAFLP@PeiPcdDbBinary?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019f30     PcdPeim:Service.obj
+ 0002:00000f50       ??_C@_0DP@BOGBALDF@?$CIGetSize?5?$DN?$DN?5PeiPcdGetSize?5?$CIToke@ 0000000000019f50     PcdPeim:Service.obj
+ 0002:00000f90       ??_C@_0BE@JKIEJAMF@VpdBaseAddress?5?$CB?$DN?50@ 0000000000019f90     PcdPeim:Service.obj
+ 0002:00000fa8       ??_C@_0BK@KMBLOHLH@MatchGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000019fa8     PcdPeim:Service.obj
+ 0002:00001018       __volatile_metadata        000000000001a018     <linker-defined>
  0003:00000000       m16Size                    000000000001b000     BaseLib:Thunk16.obj
  0003:00000002       mThunk16Attr               000000000001b002     BaseLib:Thunk16.obj
  0003:00000004       m16Gdt                     000000000001b004     BaseLib:Thunk16.obj

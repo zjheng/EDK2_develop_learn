@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = UefiShellDriver1CommandsLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = ShellPkg\Library\UefiShellDriver1CommandsLib
 PACKAGE_RELATIVE_DIR = Library\UefiShellDriver1CommandsLib
-MODULE_DIR = D:\develop\EDK2\edk2\ShellPkg\Library\UefiShellDriver1CommandsLib
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\313D3674-3ED4-48fd-BF97-7DB35D4190D1UefiShellDriver1CommandsLib
+MODULE_DIR = D:\develop\Self_develop\edk2\ShellPkg\Library\UefiShellDriver1CommandsLib
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\313D3674-3ED4-48fd-BF97-7DB35D4190D1UefiShellDriver1CommandsLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -180,7 +180,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_12 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT\cc_resp_12.txt
+cc_resp_12 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT\cc_resp_12.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -218,8 +218,8 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT\object_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\Dh.obj $(OUTPUT_DIR)\Unload.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\UefiShellDriver1CommandsLib.obj $(OUTPUT_DIR)\Reconnect.obj $(OUTPUT_DIR)\Devices.obj $(OUTPUT_DIR)\Disconnect.obj $(OUTPUT_DIR)\Drivers.obj $(OUTPUT_DIR)\DrvCfg.obj $(OUTPUT_DIR)\OpenInfo.obj $(OUTPUT_DIR)\DrvDiag.obj $(OUTPUT_DIR)\Connect.obj $(OUTPUT_DIR)\DevTree.obj
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT\object_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\Dh.obj $(OUTPUT_DIR)\Unload.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\UefiShellDriver1CommandsLib.obj $(OUTPUT_DIR)\Disconnect.obj $(OUTPUT_DIR)\Reconnect.obj $(OUTPUT_DIR)\Devices.obj $(OUTPUT_DIR)\Drivers.obj $(OUTPUT_DIR)\DrvCfg.obj $(OUTPUT_DIR)\OpenInfo.obj $(OUTPUT_DIR)\DrvDiag.obj $(OUTPUT_DIR)\Connect.obj $(OUTPUT_DIR)\DevTree.obj
 
 
 #
@@ -229,7 +229,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT\UefiShellDriver1CommandsLib.lib \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT\UefiShellDriver1CommandsLib.lib \
               
 
 #
@@ -306,26 +306,26 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\DrvCfg.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Disconnect.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\UefiShellDriver1CommandsLibStrDefs.h \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Devices.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Connect.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Reconnect.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Disconnect.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Unload.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\OpenInfo.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\DrvDiag.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Dh.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Drivers.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\DevTree.c \
 	$(DEBUG_DIR)\AutoGen.c \
-	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\DevTree.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_12)
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Unload.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Connect.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\DrvCfg.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Reconnect.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\OpenInfo.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Dh.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\DrvDiag.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Devices.c \
+	$(WORKSPACE)\ShellPkg\Library\UefiShellDriver1CommandsLib\Drivers.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_12)
 
 $(OUTPUT_DIR)\UefiShellDriver1CommandsLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\UefiShellDriver1CommandsLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT\UefiShellDriver1CommandsLib.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib\OUTPUT\UefiShellDriver1CommandsLib.lib @$(OBJECT_FILES_LIST)
 
 
 

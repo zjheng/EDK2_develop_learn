@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = DriverSampleDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Universal\DriverSampleDxe
 PACKAGE_RELATIVE_DIR = Universal\DriverSampleDxe
-MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Universal\DriverSampleDxe
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\FE3542FE-C1D3-4EF8-657C-8048606FF671DriverSample
+MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Universal\DriverSampleDxe
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\FE3542FE-C1D3-4EF8-657C-8048606FF671DriverSample
 
 MODULE_ENTRY_POINT = DriverSampleInit
 ARCH_ENTRY_POINT = DriverSampleInit
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_3 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\cc_resp_3.txt
+cc_resp_3 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\cc_resp_3.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -228,8 +228,8 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\static_library_files.lst
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\static_library_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\Vfr.obj $(OUTPUT_DIR)\DriverSample.obj $(OUTPUT_DIR)\Inventory.obj $(OUTPUT_DIR)\AutoGen.obj
 
 
@@ -240,7 +240,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\DriverSample.efi \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\DriverSample.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -339,26 +339,26 @@ $(OBJLIST_0):  \
 	$(DEBUG_DIR)\AutoGen.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\DriverSampleStrDefs.h \
+	$(WORKSPACE)\MdeModulePkg\Universal\DriverSampleDxe\DriverSample.c \
 	$(DEBUG_DIR)\Vfr.c \
-	$(DEBUG_DIR)\Inventory.c \
-	$(WORKSPACE)\MdeModulePkg\Universal\DriverSampleDxe\DriverSample.c
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_3)
+	$(DEBUG_DIR)\Inventory.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_3)
 
 $(OUTPUT_DIR)\DriverSample.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\DriverSample.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\DriverSample.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\DriverSample.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\DriverSample.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\DriverSample.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\DriverSample.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\DriverSample.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\DriverSample.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\DriverSample.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\DriverSample.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\DriverSample.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\DriverSample.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\DriverSample.efi : $(DEBUG_DIR)\DriverSample.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\DriverSample.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\DriverSample.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\DriverSample.efi $(DEBUG_DIR)
-	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\DriverSample.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\DriverSample.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\DriverSample.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\DriverSample.efi $(DEBUG_DIR)
+	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\OUTPUT\DriverSample.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 
@@ -372,15 +372,15 @@ $(DEBUG_DIR)\Inventory.c : $(MAKE_FILE)
 $(DEBUG_DIR)\Inventory.c : $(DEBUG_DIR)\AutoGen.h
 $(DEBUG_DIR)\Inventory.c : $(DEBUG_DIR)\DriverSampleStrDefs.h
 $(DEBUG_DIR)\Inventory.c : $(WORKSPACE)\MdeModulePkg\Universal\DriverSampleDxe\Inventory.vfr
-	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Universal\DriverSampleDxe\Inventory.vfr > $(OUTPUT_DIR)\Inventory.i
-	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\. $(OUTPUT_DIR)\Inventory.i
+	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Universal\DriverSampleDxe\Inventory.vfr > $(OUTPUT_DIR)\Inventory.i
+	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\. $(OUTPUT_DIR)\Inventory.i
 
 $(DEBUG_DIR)\Vfr.c : $(MAKE_FILE)
 $(DEBUG_DIR)\Vfr.c : $(DEBUG_DIR)\AutoGen.h
 $(DEBUG_DIR)\Vfr.c : $(DEBUG_DIR)\DriverSampleStrDefs.h
 $(DEBUG_DIR)\Vfr.c : $(WORKSPACE)\MdeModulePkg\Universal\DriverSampleDxe\Vfr.vfr
-	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Universal\DriverSampleDxe\Vfr.vfr > $(OUTPUT_DIR)\Vfr.i
-	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\. $(OUTPUT_DIR)\Vfr.i
+	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Universal\DriverSampleDxe\Vfr.vfr > $(OUTPUT_DIR)\Vfr.i
+	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\. $(OUTPUT_DIR)\Vfr.i
 
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map : $(OUTPUT_DIR)\DriverSample.map
 	if exist $(OUTPUT_DIR)\DriverSample.map $(CP) $(OUTPUT_DIR)\DriverSample.map $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map
@@ -391,7 +391,7 @@ $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC1.1.dpx : $(OUTPUT_DIR)\DriverSample.depex
 $(FFS_OUTPUT_DIR)\DriverSampleOffset.raw : $(FFS_OUTPUT_DIR)\DriverSample.offset
 	if exist $(FFS_OUTPUT_DIR)\DriverSample.offset GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)\DriverSampleOffset.raw $(FFS_OUTPUT_DIR)\DriverSample.offset
 $(FFS_OUTPUT_DIR)\DriverSample.offset : $(DEBUG_DIR)\DriverSample.efi
-	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\DriverSample.offset --ModuleName=DriverSample --DebugDir=D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG 
+	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\DriverSample.offset --ModuleName=DriverSample --DebugDir=D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG 
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com : $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy
 	if exist $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy GenSec -s EFI_SECTION_COMPRESSION -c PI_STD -o $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy : $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.1.guided

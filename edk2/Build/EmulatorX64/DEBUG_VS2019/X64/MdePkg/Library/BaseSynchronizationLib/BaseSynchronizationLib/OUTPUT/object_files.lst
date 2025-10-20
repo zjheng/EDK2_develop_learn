@@ -1,7 +1,7 @@
-D:/develop/EDK2/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/Ia32/InternalGetSpinLockProperties.obj
-D:/develop/EDK2/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange64.obj
-D:/develop/EDK2/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange32.obj
-D:/develop/EDK2/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange16.obj
-D:/develop/EDK2/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/InterlockedIncrementMsc.obj
-D:/develop/EDK2/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/InterlockedDecrementMsc.obj
-D:/develop/EDK2/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/SynchronizationMsc.obj
+D:/develop/Self_develop/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/Ia32/InternalGetSpinLockProperties.obj
+D:/develop/Self_develop/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange64.obj
+D:/develop/Self_develop/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange32.obj
+D:/develop/Self_develop/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange16.obj
+D:/develop/Self_develop/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/InterlockedIncrementMsc.obj
+D:/develop/Self_develop/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/InterlockedDecrementMsc.obj
+D:/develop/Self_develop/edk2/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/SynchronizationMsc.obj

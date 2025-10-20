@@ -1,8 +1,8 @@
-D:\develop\EDK2\edk2\MdePkg\Library\UefiDevicePathLib\DevicePathFromText.c
-D:\develop\EDK2\edk2\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib.h
-D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib\DEBUG\AutoGen.h
-D:\develop\EDK2\edk2\MdePkg\Library\UefiDevicePathLib\DevicePathToText.c
-D:\develop\EDK2\edk2\MdePkg\Library\UefiDevicePathLib\DevicePathUtilities.c
-D:\develop\EDK2\edk2\MdePkg\Library\UefiDevicePathLib\DevicePathUtilitiesDxeSmm.c
-D:\develop\EDK2\edk2\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib.inf
-D:\develop\EDK2\edk2\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib.c
+D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib\DEBUG\AutoGen.h
+D:\develop\Self_develop\edk2\MdePkg\Library\UefiDevicePathLib\DevicePathToText.c
+D:\develop\Self_develop\edk2\MdePkg\Library\UefiDevicePathLib\DevicePathUtilitiesDxeSmm.c
+D:\develop\Self_develop\edk2\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib.c
+D:\develop\Self_develop\edk2\MdePkg\Library\UefiDevicePathLib\DevicePathUtilities.c
+D:\develop\Self_develop\edk2\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib.inf
+D:\develop\Self_develop\edk2\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib.h
+D:\develop\Self_develop\edk2\MdePkg\Library\UefiDevicePathLib\DevicePathFromText.c

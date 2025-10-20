@@ -1,5 +1,5 @@
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Library\\BaseLib\\X64\\ReadMm6.nasm"
-#line 1 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdePkg\\Library\\BaseLib\\BaseLib\\DEBUG\\AutoGen.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Library\\BaseLib\\X64\\ReadMm6.nasm"
+#line 1 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdePkg\\Library\\BaseLib\\BaseLib\\DEBUG\\AutoGen.h"
 
 
 
@@ -15,7 +15,7 @@
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -36,7 +36,7 @@
 
 
 
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -58,7 +58,7 @@
 
 
   #pragma pack()
-#line 23 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 23 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -85,7 +85,7 @@
 
 
 
-#line 50 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 50 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -139,9 +139,9 @@
 
     #pragma warning ( disable : 4703 )
 
-  #line 104 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+  #line 104 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
-#line 106 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 106 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -241,7 +241,7 @@ typedef signed char INT8;
 
 
 
-#line 206 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 206 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -329,7 +329,7 @@ typedef INT64 INTN;
 
 
 
-#line 294 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 294 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -337,7 +337,7 @@ typedef INT64 INTN;
 
 
 
-#line 302 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 302 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
 
 
@@ -353,17 +353,17 @@ typedef INT64 INTN;
 
 
 
-#line 318 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 318 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
 
-#line 320 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
-#line 22 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 320 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\X64\\ProcessorBind.h"
+#line 22 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
 
 
   #pragma warning ( disable : 4200 )
-#line 29 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 29 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -377,45 +377,14 @@ typedef INT64 INTN;
 
 
 
-#line 43 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 43 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
 
 
 
-#line 50 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-#line 71 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
-  
-
-
-
-
-
-  #line 79 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 80 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
+#line 50 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -429,7 +398,24 @@ typedef INT64 INTN;
 
 
 
-#line 95 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+
+
+
+
+
+
+
+#line 71 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+
+  
+
+
+
+
+
+  #line 79 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 80 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+
 
 
 
@@ -443,8 +429,7 @@ typedef INT64 INTN;
 
 
 
-#line 109 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 110 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 95 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -458,19 +443,8 @@ typedef INT64 INTN;
 
 
 
-
-
-
-  
-
-
-
-
-
-  #line 133 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 134 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
-
+#line 109 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 110 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -493,8 +467,10 @@ typedef INT64 INTN;
 
 
 
-  #line 159 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 160 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+  #line 133 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 134 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+
+
 
 
 
@@ -507,30 +483,38 @@ typedef INT64 INTN;
 
 
 
-#line 173 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+
+
+
+
+  
 
 
 
 
 
-  #line 179 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 180 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
-
-
-
-
-
-
-
-
-
+  #line 159 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 160 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
 
 
 
+  
+
+
+
+
+
+#line 173 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+
+
+
+
+
+  #line 179 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 180 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -540,7 +524,23 @@ typedef INT64 INTN;
 
 
 
-#line 206 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 206 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -653,9 +653,9 @@ struct _LIST_ENTRY {
 
 
 
-#line 319 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 319 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
-#line 321 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 321 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -928,7 +928,7 @@ struct _LIST_ENTRY {
 
 
 
-#line 594 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 594 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -973,7 +973,7 @@ struct _LIST_ENTRY {
 
 
 
-#line 639 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 639 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1041,7 +1041,7 @@ typedef CHAR8 *VA_LIST;
 
 
 
-#line 707 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 707 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1090,15 +1090,11 @@ typedef UINTN *BASE_LIST;
 
 
 
-#line 756 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 756 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
-#line 760 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-
-
-
-
+#line 760 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1108,11 +1104,11 @@ typedef UINTN *BASE_LIST;
 
 
 
-#line 774 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
 
+#line 774 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1128,7 +1124,11 @@ typedef UINTN *BASE_LIST;
 
 
 
-#line 794 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+
+
+
+
+#line 794 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1140,11 +1140,11 @@ typedef UINTN *BASE_LIST;
 
 
 
-#line 806 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 806 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
-#line 808 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 808 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
-#line 810 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 810 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1715,7 +1715,7 @@ _ReturnAddress (
 
 
 
-#line 1381 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
+#line 1381 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
 
 
 
@@ -1730,9 +1730,9 @@ _ReturnAddress (
 
 
 
-#line 1396 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Base.h"
-#line 17 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdePkg\\Library\\BaseLib\\BaseLib\\DEBUG\\AutoGen.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/PcdLib.h"
+#line 1396 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Base.h"
+#line 17 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdePkg\\Library\\BaseLib\\BaseLib\\DEBUG\\AutoGen.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/PcdLib.h"
 
 
 
@@ -3408,8 +3408,8 @@ LibPcdGetSku (
   void
   );
 
-#line 1677 "D:\\develop\\EDK2\\edk2\\MdePkg\\Include\\Library/PcdLib.h"
-#line 18 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdePkg\\Library\\BaseLib\\BaseLib\\DEBUG\\AutoGen.h"
+#line 1677 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Include\\Library/PcdLib.h"
+#line 18 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdePkg\\Library\\BaseLib\\BaseLib\\DEBUG\\AutoGen.h"
 
 extern GUID  gEfiCallerIdGuid;
 extern GUID  gEdkiiDscPlatformGuid;
@@ -3469,8 +3469,8 @@ extern const UINT8 _gPcd_FixedAtBuild_PcdSpeculationBarrierType;
 
 
 
-#line 78 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdePkg\\Library\\BaseLib\\BaseLib\\DEBUG\\AutoGen.h"
-#line 1 "D:\\develop\\EDK2\\edk2\\MdePkg\\Library\\BaseLib\\X64\\ReadMm6.nasm"
+#line 78 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdePkg\\Library\\BaseLib\\BaseLib\\DEBUG\\AutoGen.h"
+#line 1 "D:\\develop\\Self_develop\\edk2\\MdePkg\\Library\\BaseLib\\X64\\ReadMm6.nasm"
 ;------------------------------------------------------------------------------
 ;
 ; Copyright (c) 2006 - 2022, Intel Corporation. All rights reserved.<BR>

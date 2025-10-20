@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = DebugAgentLibNull
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Library\DebugAgentLibNull
 PACKAGE_RELATIVE_DIR = Library\DebugAgentLibNull
-MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Library\DebugAgentLibNull
-FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\4904B42F-9FC0-4c2e-BB3F-A2AB35123530DebugAgentLibNull
+MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Library\DebugAgentLibNull
+FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\4904B42F-9FC0-4c2e-BB3F-A2AB35123530DebugAgentLibNull
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull
-OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\OUTPUT
-DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\DEBUG
+MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull
+OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\OUTPUT
+DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -204,7 +204,7 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\OUTPUT\object_files.lst
+OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\OUTPUT\object_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\DebugAgentLibNull.obj
 
 
@@ -215,7 +215,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\OUTPUT\DebugAgentLibNull.lib \
+CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\OUTPUT\DebugAgentLibNull.lib \
               
 
 #
@@ -294,11 +294,11 @@ $(OBJLIST_0):  \
 	$(MAKE_FILE) \
 	$(WORKSPACE)\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull.c
+	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull.c
 
 $(OUTPUT_DIR)\DebugAgentLibNull.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\DebugAgentLibNull.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\OUTPUT\DebugAgentLibNull.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull\OUTPUT\DebugAgentLibNull.lib @$(OBJECT_FILES_LIST)
 
 
 

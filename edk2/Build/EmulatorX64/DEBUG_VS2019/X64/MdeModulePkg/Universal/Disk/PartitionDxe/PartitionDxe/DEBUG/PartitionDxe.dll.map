@@ -1,15 +1,15 @@
  PartitionDxe.dll
 
- Timestamp is 68f5d084 (Mon Oct 20 14:02:44 2025)
+ Timestamp is 68f5fea1 (Mon Oct 20 17:19:29 2025)
 
  Preferred load address is 0000000000010000
 
  Start         Length     Name                   Class
  0001:00000000 00000ae4H .text                   CODE
  0001:00000ae4 0000a3e3H .text$mn                CODE
- 0002:00000000 000014e0H .rdata                  DATA
- 0002:000014e0 00000018H .rdata$voltmd           DATA
- 0002:000014f8 00000160H .rdata$zzzdbg           DATA
+ 0002:00000000 000015a8H .rdata                  DATA
+ 0002:000015a8 00000018H .rdata$voltmd           DATA
+ 0002:000015c0 00000168H .rdata$zzzdbg           DATA
  0003:00000000 000001c0H .data                   DATA
  0003:000001c0 00000048H .bss                    DATA
  0004:00000000 0000054cH .pdata                  DATA
@@ -18,24 +18,24 @@
   Address         Publics by Value              Rva+Base               Lib:Object
 
  0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
- 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
  0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
  0000:00000000       __guard_iat_table          0000000000000000     <absolute>
  0000:00000000       __guard_fids_count         0000000000000000     <absolute>
  0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
  0000:00000000       __guard_iat_count          0000000000000000     <absolute>
  0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
- 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
  0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
  0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
  0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
  0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
- 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
  0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
  0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
  0000:00000000       __guard_flags              0000000000000000     <absolute>
  0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
- 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
  0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
  0000:00000000       __enclave_config           0000000000000000     <absolute>
  0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
@@ -260,134 +260,134 @@
  0002:00000000       ??_C@_0N@FMFANMNL@PartitionDxe@ 000000000001c000     PartitionDxe:AutoGen.obj
  0002:00000010       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 000000000001c010     PartitionDxe:AutoGen.obj
  0002:00000038       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 000000000001c038     PartitionDxe:AutoGen.obj
- 0002:00000070       ??_C@_0HO@GNOOIHGK@D?3?2develop?2EDK2?2edk2?2Build?2Emul@ 000000000001c070     PartitionDxe:AutoGen.obj
- 0002:000000ee       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 000000000001c0ee     PartitionDxe:AutoGen.obj
- 0002:000000f0       _gPcd_FixedAtBuild_PcdMaximumDevicePathNodeCount 000000000001c0f0     PartitionDxe:AutoGen.obj
- 0002:000000f0       _gUefiDriverRevision       000000000001c0f0     PartitionDxe:AutoGen.obj
- 0002:000000f4       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 000000000001c0f4     PartitionDxe:AutoGen.obj
- 0002:000000f8       _gDriverUnloadImageCount   000000000001c0f8     PartitionDxe:AutoGen.obj
- 0002:000000f8       _gPcd_FixedAtBuild_PcdComponentNameDisable 000000000001c0f8     PartitionDxe:AutoGen.obj
- 0002:000000f8       _gPcd_FixedAtBuild_PcdComponentName2Disable 000000000001c0f8     PartitionDxe:AutoGen.obj
- 0002:000000fc       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 000000000001c0fc     PartitionDxe:AutoGen.obj
- 0002:00000100       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 000000000001c100     PartitionDxe:AutoGen.obj
- 0002:00000104       _gPcd_FixedAtBuild_PcdDebugPropertyMask 000000000001c104     PartitionDxe:AutoGen.obj
- 0002:00000108       _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask 000000000001c108     PartitionDxe:AutoGen.obj
- 0002:00000110       ??_C@_0CO@NOHKONOL@PartitionDriverBindingStop?3?5Sti@ 000000000001c110     PartitionDxe:Partition.obj
- 0002:00000140       ??_C@_0BF@NDBIKIKC@CR?5has?5Bad?5Signature@ 000000000001c140     PartitionDxe:Partition.obj
- 0002:00000160       ??_C@_0EK@BPJIOJAG@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001c160     PartitionDxe:Partition.obj
- 0002:000001b0       ??_C@_0DM@PJCOFICK@PartitionDriverBindingStop?3?5Flu@ 000000000001c1b0     PartitionDxe:Partition.obj
- 0002:000001f0       ??_C@_0CI@EJNMPAIJ@Private?9?$DOParentBlockIo2?5?$CB?$DN?5?$CI?$CIvo@ 000000000001c1f0     PartitionDxe:Partition.obj
- 0002:00000218       ??_C@_0CC@LIEAIHJC@FindAnchorVolumeDescriptorPoint@ 000000000001c218     PartitionDxe:Udf.obj
- 0002:00000240       ??_C@_0DD@CCOINKBG@?$CFa?3?5Media?5block?5size?50x?$CFx?5unabl@ 000000000001c240     PartitionDxe:Udf.obj
- 0002:00000278       ??_C@_0BM@ILGGEBHB@?$CFa?3?5found?5AVDP?5at?5block?5?$CFd?6@ 000000000001c278     PartitionDxe:Udf.obj
- 0002:00000298       ??_C@_0BN@PKKJKOJK@?$CFa?3?5found?5AVDP?5at?5block?5?$CFLd?6@ 000000000001c298     PartitionDxe:Udf.obj
- 0002:000002b8       ??_C@_0CL@GEOOBEPC@?$CFa?3?5correcting?5last?5block?5from?5@ 000000000001c2b8     PartitionDxe:Udf.obj
- 0002:000002e4       ??_C@_05FNCAPPHI@BEA01@    000000000001c2e4     PartitionDxe:Udf.obj
- 0002:000002ec       ??_C@_05HIJPMCJE@CD001@    000000000001c2ec     PartitionDxe:Udf.obj
- 0002:000002f4       ??_C@_05KMMDPGJD@NSR02@    000000000001c2f4     PartitionDxe:Udf.obj
- 0002:000002fc       ??_C@_05LFNIMHNC@NSR03@    000000000001c2fc     PartitionDxe:Udf.obj
- 0002:00000304       ??_C@_05IIKPBOPO@TEA01@    000000000001c304     PartitionDxe:Udf.obj
- 0002:00000310       ??_C@_0DI@IDCECCIK@PartitionDxe?3?5El?5Torito?5standar@ 000000000001c310     PartitionDxe:Udf.obj
- 0002:00000348       ??_C@_0BI@EBPPJCHM@EL?5TORITO?5SPECIFICATION@ 000000000001c348     PartitionDxe:ElTorito.obj
- 0002:00000360       ??_C@_0CK@ENIAELCF@EltCheckDevice?3?5error?5reading?5c@ 000000000001c360     PartitionDxe:ElTorito.obj
- 0002:00000390       ??_C@_0EE@BPPOEJPF@EltCheckBootCatalog?3?5El?5Torito?5@ 000000000001c390     PartitionDxe:ElTorito.obj
- 0002:000003e0       ??_C@_0EE@KFPBBLPF@EltCheckBootCatalog?3?5El?5Torito?5@ 000000000001c3e0     PartitionDxe:ElTorito.obj
- 0002:00000428       ??_C@_0DK@BNBMFJDM@EltCheckDevice?3?5unsupported?5El?5@ 000000000001c428     PartitionDxe:ElTorito.obj
- 0002:00000468       ??_C@_0BC@MHGGGIEC@?5BlockSize?5?3?5?$CFd?5?6@ 000000000001c468     PartitionDxe:Gpt.obj
- 0002:00000480       ??_C@_0BD@JLGIBNOD@?5LastBlock?5?3?5?$CFlx?5?6@ 000000000001c480     PartitionDxe:Gpt.obj
- 0002:00000498       ??_C@_0CE@FGCMBGIJ@?5Not?5Valid?5primary?5partition?5ta@ 000000000001c498     PartitionDxe:Gpt.obj
- 0002:000004c0       ??_C@_0CD@DKBPDCBJ@?5Not?5Valid?5backup?5partition?5tab@ 000000000001c4c0     PartitionDxe:Gpt.obj
- 0002:000004e8       ??_C@_0BP@BLJCMBL@?5Valid?5backup?5partition?5table?6@ 000000000001c4e8     PartitionDxe:Gpt.obj
- 0002:00000508       ??_C@_0DA@JPKKDMNK@?5Restore?5primary?5partition?5tabl@ 000000000001c508     PartitionDxe:Gpt.obj
- 0002:00000538       ??_C@_0CI@LKKHAKKB@?5Restore?5primary?5partition?5tabl@ 000000000001c538     PartitionDxe:Gpt.obj
- 0002:00000560       ??_C@_0CJ@GGPBLBHA@?5Restore?5backup?5partition?5table@ 000000000001c560     PartitionDxe:Gpt.obj
- 0002:00000590       ??_C@_0DC@JCGCJFHK@?5Valid?5primary?5and?5?$CBValid?5backu@ 000000000001c590     PartitionDxe:Gpt.obj
- 0002:000005c8       ??_C@_0DA@MACJMAAM@?5Restore?5backup?5partition?5table@ 000000000001c5c8     PartitionDxe:Gpt.obj
- 0002:000005f8       ??_C@_0CH@MICIEIJE@?5Restore?5backup?5partition?5table@ 000000000001c5f8     PartitionDxe:Gpt.obj
- 0002:00000620       ??_C@_0DB@IBBOLNPK@?5Valid?5primary?5and?5Valid?5backup@ 000000000001c620     PartitionDxe:Gpt.obj
- 0002:00000658       ??_C@_0BF@GFHHLJLL@Allocate?5pool?5error?6@ 000000000001c658     PartitionDxe:Gpt.obj
- 0002:00000670       ??_C@_0CB@GPPOFBCA@?5Partition?5Entry?5ReadDisk?5error@ 000000000001c670     PartitionDxe:Gpt.obj
- 0002:00000698       ??_C@_0CH@BMFELJEH@?5Partition?5entries?5read?5block?5s@ 000000000001c698     PartitionDxe:Gpt.obj
- 0002:000006c0       ??_C@_0CC@OHOPAKDE@?5Number?5of?5partition?5entries?3?5?$CF@ 000000000001c6c0     PartitionDxe:Gpt.obj
- 0002:000006e8       ??_C@_0N@NEJAMODK@?5Index?5?3?5?$CFd?6@ 000000000001c6e8     PartitionDxe:Gpt.obj
- 0002:000006f8       ??_C@_0BC@OACBBLDI@?5Start?5LBA?5?3?5?$CFlx?6@ 000000000001c6f8     PartitionDxe:Gpt.obj
- 0002:00000710       ??_C@_0BA@MJNLFEJI@?5End?5LBA?5?3?5?$CFlx?6@ 000000000001c710     PartitionDxe:Gpt.obj
- 0002:00000720       ??_C@_0BG@JLGHNOEA@?5Partition?5size?3?5?$CFlx?6@ 000000000001c720     PartitionDxe:Gpt.obj
- 0002:00000738       ??_C@_0N@BENLOMJH@?5Start?5?3?5?$CFlx@ 000000000001c738     PartitionDxe:Gpt.obj
- 0002:00000748       ??_C@_0M@NPLABHHP@?5End?5?3?5?$CFlx?6@ 000000000001c748     PartitionDxe:Gpt.obj
- 0002:00000758       ??_C@_0BG@HHBDHLID@Prepare?5to?5Free?5Pool?6@ 000000000001c758     PartitionDxe:Gpt.obj
- 0002:00000770       ??_C@_0CE@DBIBNJPC@Invalid?5efi?5partition?5table?5hea@ 000000000001c770     PartitionDxe:Gpt.obj
- 0002:00000798       ??_C@_0CD@CNJOCDAE@?5Valid?5efi?5partition?5table?5head@ 000000000001c798     PartitionDxe:Gpt.obj
- 0002:000007c0       ??_C@_0BG@EMFFPBD@?5Allocate?5pool?5error?6@ 000000000001c7c0     PartitionDxe:Gpt.obj
- 0002:000007d8       ??_C@_0CN@BBPCGEKJ@CheckPEntryArrayCRC?3?5Crc?5calcul@ 000000000001c7d8     PartitionDxe:Gpt.obj
- 0002:00000808       ??_C@_0CA@KAAAEFNI@?5start?5check?5partition?5entries?6@ 000000000001c808     PartitionDxe:Gpt.obj
- 0002:00000828       ??_C@_0BO@CAANDNDK@?5End?5check?5partition?5entries?6@ 000000000001c828     PartitionDxe:Gpt.obj
- 0002:00000848       ??_C@_0BM@ECKAGCLK@CheckCrc32?3?5Size?5?$DO?5MaxSize?6@ 000000000001c848     PartitionDxe:Gpt.obj
- 0002:00000868       ??_C@_0CE@CPKGIKDA@CheckCrc32?3?5Crc?5calculation?5fai@ 000000000001c868     PartitionDxe:Gpt.obj
- 0002:00000890       ??_C@_0BO@GFBPGACG@CheckCrc32?3?5Crc?5check?5failed?6@ 000000000001c890     PartitionDxe:Gpt.obj
- 0002:000008b0       ??_C@_0EJ@KABLDLLD@PartitionValidMbr?3?5Bad?5MBR?5part@ 000000000001c8b0     PartitionDxe:Mbr.obj
- 0002:000008fc       ??_C@_03LKLGDMJI@eng@      000000000001c8fc     PartitionDxe:ComponentName.obj
- 0002:00000900       ??_C@_02LFNMGJAP@en@       000000000001c900     PartitionDxe:ComponentName.obj
- 0002:00000904       ??_C@_06DALJLGPG@eng?$DLen@ 000000000001c904     PartitionDxe:ComponentName.obj
- 0002:00000910       ??_C@_1EI@LABKKDBA@?$AAP?$AAa?$AAr?$AAt?$AAi?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAD?$AAr?$AAi?$AAv?$AAe@ 000000000001c910     PartitionDxe:ComponentName.obj
- 0002:00000958       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001c958     BasePrintLib:PrintLibInternal.obj
- 0002:00000970       ??_C@_0FH@KLOBJBPP@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001c970     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000009c8       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001c9c8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000009e0       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001c9e0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000a20       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001ca20     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000a60       ??_C@_0FE@BEFIIBEL@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 000000000001ca60     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000ab8       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 000000000001cab8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000ae8       ??_C@_01OHGJGJJP@?$FL@     000000000001cae8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000aec       ??_C@_02PBFOLPKM@?$FN?5@   000000000001caec     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000af0       ??_C@_0DI@MBLLHEOH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001caf0     BaseLib:Unaligned.obj
- 0002:00000b28       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001cb28     BaseLib:String.obj
- 0002:00000b40       ??_C@_0DF@EAHDDLM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001cb40     BaseLib:String.obj
- 0002:00000b78       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 000000000001cb78     BaseLib:String.obj
- 0002:00000bb0       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ@ 000000000001cbb0     BaseLib:String.obj
- 0002:00000bd0       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ@ 000000000001cbd0     BaseLib:String.obj
- 0002:00000bf0       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pc@ 000000000001cbf0     BaseLib:String.obj
- 0002:00000c30       ??_C@_0DJ@DNFJNBOO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001cc30     BaseLib:SafeString.obj
- 0002:00000c70       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000000000001cc70     BaseLib:SafeString.obj
- 0002:00000c90       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 000000000001cc90     BaseLib:SafeString.obj
- 0002:00000cd0       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000000000001ccd0     BaseLib:SafeString.obj
- 0002:00000cf0       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 000000000001ccf0     BaseLib:SafeString.obj
- 0002:00000d00       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 000000000001cd00     BaseLib:SafeString.obj
- 0002:00000d18       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 000000000001cd18     BaseLib:SafeString.obj
- 0002:00000d60       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 000000000001cd60     BaseLib:SafeString.obj
- 0002:00000dc0       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 000000000001cdc0     BaseLib:SafeString.obj
- 0002:00000dd0       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 000000000001cdd0     BaseLib:SafeString.obj
- 0002:00000e10       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 000000000001ce10     BaseLib:ARShiftU64.obj
- 0002:00000e20       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50@ 000000000001ce20     BaseLib:DivS64x64Remainder.obj
- 0002:00000e30       ??_C@_0DI@CKFMLFDM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001ce30     BaseLib:DivU64x32.obj
- 0002:00000e70       ??_C@_0EB@NJAKFAEH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001ce70     BaseLib:DivU64x32Remainder.obj
- 0002:00000eb8       ??_C@_0DI@FAGDBCDM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001ceb8     BaseLib:LShiftU64.obj
- 0002:00000ef0       ??_C@_0BL@CPGKAMND@JumpBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001cef0     BaseLib:SetJump.obj
- 0002:00000f10       ??_C@_0DG@HPLDDALP@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001cf10     BaseLib:SetJump.obj
- 0002:00000f48       ??_C@_0CD@OEHNCIHG@?$CI?$CIUINTN?$CJJumpBuffer?5?$CG?5?$CI8?5?9?51?$CJ?$CJ?5?$DN@ 000000000001cf48     BaseLib:SetJump.obj
- 0002:00000f70       ??_C@_0DG@EEENIGGL@Length?5?$DM?$DN?5?$CI0xFFFFFFFFFFFFFFFFUL@ 000000000001cf70     BaseMemoryLib:MemLibGuid.obj
- 0002:00000fb0       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001cfb0     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00001000       ??_C@_0ED@JLFCAFGL@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d000     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00001048       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001d048     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00001088       ??_C@_0CC@JOEHDGKB@DestinationBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 000000000001d088     BaseMemoryLib:CompareMemWrapper.obj
- 0002:000010b0       ??_C@_0EG@DEJIAPDF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d0b0     BaseMemoryLib:CompareMemWrapper.obj
- 0002:000010f8       ??_C@_0BN@MDMCNBCC@SourceBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d0f8     BaseMemoryLib:CompareMemWrapper.obj
- 0002:00001120       ??_C@_0ED@CPPAGEKM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d120     BaseMemoryLib:ZeroMemWrapper.obj
- 0002:00001170       ??_C@_0FC@FCCEPMJI@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d170     UefiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:000011c8       ??_C@_0DO@GEEICOOO@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFFFF@ 000000000001d1c8     UefiMemoryAllocationLib:MemoryAllocationLib.obj
- 0002:00001208       ??_C@_0BF@CBLMFKOC@Node?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d208     UefiDevicePathLib:DevicePathUtilities.obj
- 0002:00001220       ??_C@_0EM@ILCAIIGE@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d220     UefiDevicePathLib:DevicePathUtilities.obj
- 0002:00001270       ??_C@_0EH@ENCEEKKL@?$CILength?5?$DO?$DN?5sizeof?5?$CIEFI_DEVICE_P@ 000000000001d270     UefiDevicePathLib:DevicePathUtilities.obj
- 0002:000012b8       mUefiDevicePathLibEndDevicePath 000000000001d2b8     UefiDevicePathLib:DevicePathUtilities.obj
- 0002:000012c0       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d2c0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:000012e0       ??_C@_0FI@GPPFIFID@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d2e0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00001338       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d338     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00001350       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d350     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00001368       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d368     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:00001380       ??_C@_0FO@FKLKMJDF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d380     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:000013e0       ??_C@_0BO@MHFMIIAE@DriverBinding?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d3e0     UefiLib:UefiDriverModel.obj
- 0002:00001400       ??_C@_0DO@INKAGLBH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d400     UefiLib:UefiDriverModel.obj
- 0002:00001440       ??_C@_0EM@JLGHJKPJ@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 000000000001d440     UefiDriverEntryPoint:DriverEntryPoint.obj
- 0002:000014e0       __volatile_metadata        000000000001d4e0     <linker-defined>
+ 0002:00000070       ??_C@_0IG@NEMHFMMK@D?3?2develop?2Self_develop?2edk2?2Bu@ 000000000001c070     PartitionDxe:AutoGen.obj
+ 0002:000000f6       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 000000000001c0f6     PartitionDxe:AutoGen.obj
+ 0002:000000f8       _gUefiDriverRevision       000000000001c0f8     PartitionDxe:AutoGen.obj
+ 0002:000000f8       _gPcd_FixedAtBuild_PcdMaximumDevicePathNodeCount 000000000001c0f8     PartitionDxe:AutoGen.obj
+ 0002:000000fc       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 000000000001c0fc     PartitionDxe:AutoGen.obj
+ 0002:00000100       _gPcd_FixedAtBuild_PcdComponentName2Disable 000000000001c100     PartitionDxe:AutoGen.obj
+ 0002:00000100       _gDriverUnloadImageCount   000000000001c100     PartitionDxe:AutoGen.obj
+ 0002:00000100       _gPcd_FixedAtBuild_PcdComponentNameDisable 000000000001c100     PartitionDxe:AutoGen.obj
+ 0002:00000104       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 000000000001c104     PartitionDxe:AutoGen.obj
+ 0002:00000108       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 000000000001c108     PartitionDxe:AutoGen.obj
+ 0002:0000010c       _gPcd_FixedAtBuild_PcdDebugPropertyMask 000000000001c10c     PartitionDxe:AutoGen.obj
+ 0002:00000110       _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask 000000000001c110     PartitionDxe:AutoGen.obj
+ 0002:00000118       ??_C@_0CO@NOHKONOL@PartitionDriverBindingStop?3?5Sti@ 000000000001c118     PartitionDxe:Partition.obj
+ 0002:00000148       ??_C@_0BF@NDBIKIKC@CR?5has?5Bad?5Signature@ 000000000001c148     PartitionDxe:Partition.obj
+ 0002:00000160       ??_C@_0FC@GILJDIMG@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001c160     PartitionDxe:Partition.obj
+ 0002:000001b8       ??_C@_0DM@PJCOFICK@PartitionDriverBindingStop?3?5Flu@ 000000000001c1b8     PartitionDxe:Partition.obj
+ 0002:000001f8       ??_C@_0CI@EJNMPAIJ@Private?9?$DOParentBlockIo2?5?$CB?$DN?5?$CI?$CIvo@ 000000000001c1f8     PartitionDxe:Partition.obj
+ 0002:00000220       ??_C@_0CC@LIEAIHJC@FindAnchorVolumeDescriptorPoint@ 000000000001c220     PartitionDxe:Udf.obj
+ 0002:00000248       ??_C@_0DD@CCOINKBG@?$CFa?3?5Media?5block?5size?50x?$CFx?5unabl@ 000000000001c248     PartitionDxe:Udf.obj
+ 0002:00000280       ??_C@_0BM@ILGGEBHB@?$CFa?3?5found?5AVDP?5at?5block?5?$CFd?6@ 000000000001c280     PartitionDxe:Udf.obj
+ 0002:000002a0       ??_C@_0BN@PKKJKOJK@?$CFa?3?5found?5AVDP?5at?5block?5?$CFLd?6@ 000000000001c2a0     PartitionDxe:Udf.obj
+ 0002:000002c0       ??_C@_0CL@GEOOBEPC@?$CFa?3?5correcting?5last?5block?5from?5@ 000000000001c2c0     PartitionDxe:Udf.obj
+ 0002:000002ec       ??_C@_05FNCAPPHI@BEA01@    000000000001c2ec     PartitionDxe:Udf.obj
+ 0002:000002f4       ??_C@_05HIJPMCJE@CD001@    000000000001c2f4     PartitionDxe:Udf.obj
+ 0002:000002fc       ??_C@_05KMMDPGJD@NSR02@    000000000001c2fc     PartitionDxe:Udf.obj
+ 0002:00000304       ??_C@_05LFNIMHNC@NSR03@    000000000001c304     PartitionDxe:Udf.obj
+ 0002:0000030c       ??_C@_05IIKPBOPO@TEA01@    000000000001c30c     PartitionDxe:Udf.obj
+ 0002:00000318       ??_C@_0DI@IDCECCIK@PartitionDxe?3?5El?5Torito?5standar@ 000000000001c318     PartitionDxe:Udf.obj
+ 0002:00000350       ??_C@_0BI@EBPPJCHM@EL?5TORITO?5SPECIFICATION@ 000000000001c350     PartitionDxe:ElTorito.obj
+ 0002:00000368       ??_C@_0CK@ENIAELCF@EltCheckDevice?3?5error?5reading?5c@ 000000000001c368     PartitionDxe:ElTorito.obj
+ 0002:000003a0       ??_C@_0EE@BPPOEJPF@EltCheckBootCatalog?3?5El?5Torito?5@ 000000000001c3a0     PartitionDxe:ElTorito.obj
+ 0002:000003f0       ??_C@_0EE@KFPBBLPF@EltCheckBootCatalog?3?5El?5Torito?5@ 000000000001c3f0     PartitionDxe:ElTorito.obj
+ 0002:00000438       ??_C@_0DK@BNBMFJDM@EltCheckDevice?3?5unsupported?5El?5@ 000000000001c438     PartitionDxe:ElTorito.obj
+ 0002:00000478       ??_C@_0BC@MHGGGIEC@?5BlockSize?5?3?5?$CFd?5?6@ 000000000001c478     PartitionDxe:Gpt.obj
+ 0002:00000490       ??_C@_0BD@JLGIBNOD@?5LastBlock?5?3?5?$CFlx?5?6@ 000000000001c490     PartitionDxe:Gpt.obj
+ 0002:000004a8       ??_C@_0CE@FGCMBGIJ@?5Not?5Valid?5primary?5partition?5ta@ 000000000001c4a8     PartitionDxe:Gpt.obj
+ 0002:000004d0       ??_C@_0CD@DKBPDCBJ@?5Not?5Valid?5backup?5partition?5tab@ 000000000001c4d0     PartitionDxe:Gpt.obj
+ 0002:000004f8       ??_C@_0BP@BLJCMBL@?5Valid?5backup?5partition?5table?6@ 000000000001c4f8     PartitionDxe:Gpt.obj
+ 0002:00000518       ??_C@_0DA@JPKKDMNK@?5Restore?5primary?5partition?5tabl@ 000000000001c518     PartitionDxe:Gpt.obj
+ 0002:00000548       ??_C@_0CI@LKKHAKKB@?5Restore?5primary?5partition?5tabl@ 000000000001c548     PartitionDxe:Gpt.obj
+ 0002:00000570       ??_C@_0CJ@GGPBLBHA@?5Restore?5backup?5partition?5table@ 000000000001c570     PartitionDxe:Gpt.obj
+ 0002:000005a0       ??_C@_0DC@JCGCJFHK@?5Valid?5primary?5and?5?$CBValid?5backu@ 000000000001c5a0     PartitionDxe:Gpt.obj
+ 0002:000005d8       ??_C@_0DA@MACJMAAM@?5Restore?5backup?5partition?5table@ 000000000001c5d8     PartitionDxe:Gpt.obj
+ 0002:00000608       ??_C@_0CH@MICIEIJE@?5Restore?5backup?5partition?5table@ 000000000001c608     PartitionDxe:Gpt.obj
+ 0002:00000630       ??_C@_0DB@IBBOLNPK@?5Valid?5primary?5and?5Valid?5backup@ 000000000001c630     PartitionDxe:Gpt.obj
+ 0002:00000668       ??_C@_0BF@GFHHLJLL@Allocate?5pool?5error?6@ 000000000001c668     PartitionDxe:Gpt.obj
+ 0002:00000680       ??_C@_0CB@GPPOFBCA@?5Partition?5Entry?5ReadDisk?5error@ 000000000001c680     PartitionDxe:Gpt.obj
+ 0002:000006a8       ??_C@_0CH@BMFELJEH@?5Partition?5entries?5read?5block?5s@ 000000000001c6a8     PartitionDxe:Gpt.obj
+ 0002:000006d0       ??_C@_0CC@OHOPAKDE@?5Number?5of?5partition?5entries?3?5?$CF@ 000000000001c6d0     PartitionDxe:Gpt.obj
+ 0002:000006f8       ??_C@_0N@NEJAMODK@?5Index?5?3?5?$CFd?6@ 000000000001c6f8     PartitionDxe:Gpt.obj
+ 0002:00000708       ??_C@_0BC@OACBBLDI@?5Start?5LBA?5?3?5?$CFlx?6@ 000000000001c708     PartitionDxe:Gpt.obj
+ 0002:00000720       ??_C@_0BA@MJNLFEJI@?5End?5LBA?5?3?5?$CFlx?6@ 000000000001c720     PartitionDxe:Gpt.obj
+ 0002:00000730       ??_C@_0BG@JLGHNOEA@?5Partition?5size?3?5?$CFlx?6@ 000000000001c730     PartitionDxe:Gpt.obj
+ 0002:00000748       ??_C@_0N@BENLOMJH@?5Start?5?3?5?$CFlx@ 000000000001c748     PartitionDxe:Gpt.obj
+ 0002:00000758       ??_C@_0M@NPLABHHP@?5End?5?3?5?$CFlx?6@ 000000000001c758     PartitionDxe:Gpt.obj
+ 0002:00000768       ??_C@_0BG@HHBDHLID@Prepare?5to?5Free?5Pool?6@ 000000000001c768     PartitionDxe:Gpt.obj
+ 0002:00000780       ??_C@_0CE@DBIBNJPC@Invalid?5efi?5partition?5table?5hea@ 000000000001c780     PartitionDxe:Gpt.obj
+ 0002:000007a8       ??_C@_0CD@CNJOCDAE@?5Valid?5efi?5partition?5table?5head@ 000000000001c7a8     PartitionDxe:Gpt.obj
+ 0002:000007d0       ??_C@_0BG@EMFFPBD@?5Allocate?5pool?5error?6@ 000000000001c7d0     PartitionDxe:Gpt.obj
+ 0002:000007e8       ??_C@_0CN@BBPCGEKJ@CheckPEntryArrayCRC?3?5Crc?5calcul@ 000000000001c7e8     PartitionDxe:Gpt.obj
+ 0002:00000818       ??_C@_0CA@KAAAEFNI@?5start?5check?5partition?5entries?6@ 000000000001c818     PartitionDxe:Gpt.obj
+ 0002:00000838       ??_C@_0BO@CAANDNDK@?5End?5check?5partition?5entries?6@ 000000000001c838     PartitionDxe:Gpt.obj
+ 0002:00000858       ??_C@_0BM@ECKAGCLK@CheckCrc32?3?5Size?5?$DO?5MaxSize?6@ 000000000001c858     PartitionDxe:Gpt.obj
+ 0002:00000878       ??_C@_0CE@CPKGIKDA@CheckCrc32?3?5Crc?5calculation?5fai@ 000000000001c878     PartitionDxe:Gpt.obj
+ 0002:000008a0       ??_C@_0BO@GFBPGACG@CheckCrc32?3?5Crc?5check?5failed?6@ 000000000001c8a0     PartitionDxe:Gpt.obj
+ 0002:000008c0       ??_C@_0EJ@KABLDLLD@PartitionValidMbr?3?5Bad?5MBR?5part@ 000000000001c8c0     PartitionDxe:Mbr.obj
+ 0002:0000090c       ??_C@_03LKLGDMJI@eng@      000000000001c90c     PartitionDxe:ComponentName.obj
+ 0002:00000910       ??_C@_02LFNMGJAP@en@       000000000001c910     PartitionDxe:ComponentName.obj
+ 0002:00000914       ??_C@_06DALJLGPG@eng?$DLen@ 000000000001c914     PartitionDxe:ComponentName.obj
+ 0002:00000920       ??_C@_1EI@LABKKDBA@?$AAP?$AAa?$AAr?$AAt?$AAi?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAD?$AAr?$AAi?$AAv?$AAe@ 000000000001c920     PartitionDxe:ComponentName.obj
+ 0002:00000968       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001c968     BasePrintLib:PrintLibInternal.obj
+ 0002:00000980       ??_C@_0FP@CCJIJCDG@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001c980     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000009e0       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001c9e0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000009f8       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001c9f8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000a38       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001ca38     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000a80       ??_C@_0FM@HDIIFGPN@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001ca80     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000ae0       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 000000000001cae0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000b10       ??_C@_01OHGJGJJP@?$FL@     000000000001cb10     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000b14       ??_C@_02PBFOLPKM@?$FN?5@   000000000001cb14     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000b20       ??_C@_0EA@FKBIDDGN@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001cb20     BaseLib:Unaligned.obj
+ 0002:00000b60       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001cb60     BaseLib:String.obj
+ 0002:00000b78       ??_C@_0DN@POJBHOAP@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001cb78     BaseLib:String.obj
+ 0002:00000bb8       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 000000000001cbb8     BaseLib:String.obj
+ 0002:00000bf0       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ@ 000000000001cbf0     BaseLib:String.obj
+ 0002:00000c10       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ@ 000000000001cc10     BaseLib:String.obj
+ 0002:00000c30       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pc@ 000000000001cc30     BaseLib:String.obj
+ 0002:00000c70       ??_C@_0EB@DAKPBIJH@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001cc70     BaseLib:SafeString.obj
+ 0002:00000cb8       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000000000001ccb8     BaseLib:SafeString.obj
+ 0002:00000ce0       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 000000000001cce0     BaseLib:SafeString.obj
+ 0002:00000d20       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000000000001cd20     BaseLib:SafeString.obj
+ 0002:00000d40       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 000000000001cd40     BaseLib:SafeString.obj
+ 0002:00000d50       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 000000000001cd50     BaseLib:SafeString.obj
+ 0002:00000d68       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 000000000001cd68     BaseLib:SafeString.obj
+ 0002:00000db0       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 000000000001cdb0     BaseLib:SafeString.obj
+ 0002:00000e10       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 000000000001ce10     BaseLib:SafeString.obj
+ 0002:00000e20       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 000000000001ce20     BaseLib:SafeString.obj
+ 0002:00000e60       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 000000000001ce60     BaseLib:ARShiftU64.obj
+ 0002:00000e70       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50@ 000000000001ce70     BaseLib:DivS64x64Remainder.obj
+ 0002:00000e80       ??_C@_0EA@LBPPPCLG@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001ce80     BaseLib:DivU64x32.obj
+ 0002:00000ec0       ??_C@_0EJ@IMLDOBB@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001cec0     BaseLib:DivU64x32Remainder.obj
+ 0002:00000f10       ??_C@_0EA@MLMAFFLG@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001cf10     BaseLib:LShiftU64.obj
+ 0002:00000f50       ??_C@_0BL@CPGKAMND@JumpBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001cf50     BaseLib:SetJump.obj
+ 0002:00000f70       ??_C@_0DO@CNCBEEME@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001cf70     BaseLib:SetJump.obj
+ 0002:00000fb0       ??_C@_0CD@OEHNCIHG@?$CI?$CIUINTN?$CJJumpBuffer?5?$CG?5?$CI8?5?9?51?$CJ?$CJ?5?$DN@ 000000000001cfb0     BaseLib:SetJump.obj
+ 0002:00000fd8       ??_C@_0DG@EEENIGGL@Length?5?$DM?$DN?5?$CI0xFFFFFFFFFFFFFFFFUL@ 000000000001cfd8     BaseMemoryLib:MemLibGuid.obj
+ 0002:00001010       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001d010     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00001060       ??_C@_0EL@NNLJGCCH@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d060     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000010b0       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 000000000001d0b0     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000010f0       ??_C@_0CC@JOEHDGKB@DestinationBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 000000000001d0f0     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:00001120       ??_C@_0EO@FAHMLNEH@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d120     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:00001170       ??_C@_0BN@MDMCNBCC@SourceBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d170     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:00001190       ??_C@_0EL@GJBLADOA@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d190     BaseMemoryLib:ZeroMemWrapper.obj
+ 0002:000011e0       ??_C@_0FK@KCDEFJBC@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d1e0     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00001240       ??_C@_0DO@GEEICOOO@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFFFF@ 000000000001d240     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00001280       ??_C@_0BF@CBLMFKOC@Node?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d280     UefiDevicePathLib:DevicePathUtilities.obj
+ 0002:000012a0       ??_C@_0FE@LBAOMKEJ@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d2a0     UefiDevicePathLib:DevicePathUtilities.obj
+ 0002:00001300       ??_C@_0EH@ENCEEKKL@?$CILength?5?$DO?$DN?5sizeof?5?$CIEFI_DEVICE_P@ 000000000001d300     UefiDevicePathLib:DevicePathUtilities.obj
+ 0002:00001348       mUefiDevicePathLibEndDevicePath 000000000001d348     UefiDevicePathLib:DevicePathUtilities.obj
+ 0002:00001350       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d350     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001370       ??_C@_0GA@INMEIGJE@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d370     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000013d0       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d3d0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000013e8       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d3e8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001400       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d400     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00001420       ??_C@_0GG@OBDIBKMM@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d420     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00001488       ??_C@_0BO@MHFMIIAE@DriverBinding?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000000000001d488     UefiLib:UefiDriverModel.obj
+ 0002:000014b0       ??_C@_0EG@HGMADJAK@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d4b0     UefiLib:UefiDriverModel.obj
+ 0002:00001500       ??_C@_0FE@KBEJNINE@D?3?2develop?2Self_develop?2edk2?2Md@ 000000000001d500     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:000015a8       __volatile_metadata        000000000001d5a8     <linker-defined>
  0003:00000000       m16Size                    000000000001e000     BaseLib:Thunk16.obj
  0003:00000002       mThunk16Attr               000000000001e002     BaseLib:Thunk16.obj
  0003:00000004       m16Gdt                     000000000001e004     BaseLib:Thunk16.obj
