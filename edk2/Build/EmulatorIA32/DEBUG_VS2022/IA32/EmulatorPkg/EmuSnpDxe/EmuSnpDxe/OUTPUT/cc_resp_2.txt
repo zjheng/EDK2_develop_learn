@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\EmulatorPkg\EmuSnpDxe\ComponentName.c D:\develop\EDK2\edk2\EmulatorPkg\EmuSnpDxe\EmuSnpDxe.c D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\EmuSnpDxe\EmuSnpDxe\DEBUG\AutoGen.c

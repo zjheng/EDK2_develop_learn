@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\EmuBusDriverDxe\EmuBusDriverDxe\DEBUG\AutoGen.c D:\develop\EDK2\edk2\EmulatorPkg\EmuBusDriverDxe\EmuBusDriverDxe.c D:\develop\EDK2\edk2\EmulatorPkg\EmuBusDriverDxe\ComponentName.c

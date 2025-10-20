@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_RAW -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\80CF7257-87AB-47f9-A3FE-D50B76D89541PcdDxe\DXEPcdDataBaseSec.raw D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\PCD\Dxe\Pcd\OUTPUT\DXEPcdDataBase.raw

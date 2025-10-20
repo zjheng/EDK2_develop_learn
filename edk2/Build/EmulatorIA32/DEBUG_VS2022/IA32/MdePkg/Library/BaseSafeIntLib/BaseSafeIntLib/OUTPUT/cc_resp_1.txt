@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\MdePkg\Library\BaseSafeIntLib\SafeIntLib.c D:\develop\EDK2\edk2\MdePkg\Library\BaseSafeIntLib\SafeIntLib32.c

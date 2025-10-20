@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_DXE_DEPEX -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\67FA951E-4FA2-9F4E-A658-4DBD954AC22EPlatformSmbiosDxe\67FA951E-4FA2-9F4E-A658-4DBD954AC22ESEC1.1.dpx D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\PlatformSmbiosDxe\PlatformSmbiosDxe\OUTPUT\PlatformSmbiosDxe.depex

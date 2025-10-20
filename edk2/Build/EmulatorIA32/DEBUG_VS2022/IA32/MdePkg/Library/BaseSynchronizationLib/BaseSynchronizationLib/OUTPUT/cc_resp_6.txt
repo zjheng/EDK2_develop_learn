@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\MdePkg\Library\BaseSynchronizationLib\Ia32\InternalGetSpinLockProperties.c D:\develop\EDK2\edk2\MdePkg\Library\BaseSynchronizationLib\Ia32\InterlockedCompareExchange64.c D:\develop\EDK2\edk2\MdePkg\Library\BaseSynchronizationLib\Ia32\InterlockedCompareExchange16.c D:\develop\EDK2\edk2\MdePkg\Library\BaseSynchronizationLib\Ia32\InterlockedCompareExchange32.c

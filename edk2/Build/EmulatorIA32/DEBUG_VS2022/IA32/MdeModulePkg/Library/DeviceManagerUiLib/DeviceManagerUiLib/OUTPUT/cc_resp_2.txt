@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Library\DeviceManagerUiLib\DeviceManagerUiLib\DEBUG\DeviceManagerVfr.c D:\develop\EDK2\edk2\MdeModulePkg\Library\DeviceManagerUiLib\DeviceManager.c D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Library\DeviceManagerUiLib\DeviceManagerUiLib\DEBUG\AutoGen.c
