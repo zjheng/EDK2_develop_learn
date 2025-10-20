@@ -1,1 +1,1 @@
-  D:\develop\Self_develop\edk2\MdeModulePkg\Universal\DevicePathDxe\DevicePath.c D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DevicePathDxe\DevicePathDxe\DEBUG\AutoGen.c
+  D:\develop\EDK2\edk2\MdeModulePkg\Universal\DevicePathDxe\DevicePath.c D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\DevicePathDxe\DevicePathDxe\DEBUG\AutoGen.c

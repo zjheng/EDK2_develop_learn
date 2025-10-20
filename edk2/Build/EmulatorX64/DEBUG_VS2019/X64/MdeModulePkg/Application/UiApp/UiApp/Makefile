@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = UiApp
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Application\UiApp
 PACKAGE_RELATIVE_DIR = Application\UiApp
-MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Application\UiApp
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\462CAA21-7614-4503-836E-8AB6F4662331UiApp
+MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Application\UiApp
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\462CAA21-7614-4503-836E-8AB6F4662331UiApp
 
 MODULE_ENTRY_POINT = InitializeUserInterface
 ARCH_ENTRY_POINT = InitializeUserInterface
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_5 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\cc_resp_5.txt
+cc_resp_5 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\cc_resp_5.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -242,9 +242,9 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\static_library_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\FrontPageCustomizedUi.obj $(OUTPUT_DIR)\String.obj $(OUTPUT_DIR)\FrontPageCustomizedUiSupport.obj $(OUTPUT_DIR)\FrontPageVfr.obj $(OUTPUT_DIR)\FrontPage.obj
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\static_library_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\FrontPageCustomizedUi.obj $(OUTPUT_DIR)\FrontPageCustomizedUiSupport.obj $(OUTPUT_DIR)\String.obj $(OUTPUT_DIR)\FrontPageVfr.obj $(OUTPUT_DIR)\FrontPage.obj
 
 
 #
@@ -254,7 +254,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\UiApp.efi \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\UiApp.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -364,36 +364,36 @@ $(DEBUG_DIR)\FrontPageVfr.c : $(MAKE_FILE)
 $(DEBUG_DIR)\FrontPageVfr.c : $(DEBUG_DIR)\AutoGen.h
 $(DEBUG_DIR)\FrontPageVfr.c : $(DEBUG_DIR)\UiAppStrDefs.h
 $(DEBUG_DIR)\FrontPageVfr.c : $(WORKSPACE)\MdeModulePkg\Application\UiApp\FrontPageVfr.Vfr
-	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Application\UiApp\FrontPageVfr.Vfr > $(OUTPUT_DIR)\FrontPageVfr.i
-	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG\. $(OUTPUT_DIR)\FrontPageVfr.i
+	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Application\UiApp\FrontPageVfr.Vfr > $(OUTPUT_DIR)\FrontPageVfr.i
+	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG\. $(OUTPUT_DIR)\FrontPageVfr.i
 
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Application\UiApp\String.c \
+	$(DEBUG_DIR)\AutoGen.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\UiAppStrDefs.h \
 	$(WORKSPACE)\MdeModulePkg\Application\UiApp\FrontPageCustomizedUiSupport.c \
-	$(WORKSPACE)\MdeModulePkg\Application\UiApp\FrontPageCustomizedUi.c \
 	$(DEBUG_DIR)\FrontPageVfr.c \
+	$(WORKSPACE)\MdeModulePkg\Application\UiApp\FrontPageCustomizedUi.c \
 	$(WORKSPACE)\MdeModulePkg\Application\UiApp\FrontPage.c \
-	$(DEBUG_DIR)\AutoGen.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_5)
+	$(WORKSPACE)\MdeModulePkg\Application\UiApp\String.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_5)
 
 $(OUTPUT_DIR)\UiApp.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\UiApp.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\UiApp.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\UiApp.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\UiApp.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\UiApp.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\UiApp.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG\UiApp.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG\UiApp.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG\UiApp.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG\UiApp.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG\UiApp.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG\UiApp.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\UiApp.efi : $(DEBUG_DIR)\UiApp.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\UiApp.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG\UiApp.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\UiApp.efi $(DEBUG_DIR)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\UiApp.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\UiApp.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG\UiApp.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\UiApp.efi $(DEBUG_DIR)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\OUTPUT\UiApp.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 
@@ -412,7 +412,7 @@ $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC1.1.pe32 : $(OUTPUT_DIR)\UiApp.efi
 $(FFS_OUTPUT_DIR)\UiAppOffset.raw : $(FFS_OUTPUT_DIR)\UiApp.offset
 	if exist $(FFS_OUTPUT_DIR)\UiApp.offset GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)\UiAppOffset.raw $(FFS_OUTPUT_DIR)\UiApp.offset
 $(FFS_OUTPUT_DIR)\UiApp.offset : $(DEBUG_DIR)\UiApp.efi
-	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\UiApp.offset --ModuleName=UiApp --DebugDir=D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG 
+	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\UiApp.offset --ModuleName=UiApp --DebugDir=D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\UiApp\UiApp\DEBUG 
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.ui : $(MODULE_DIR)\$(MODULE_FILE)
 	GenSec -s EFI_SECTION_USER_INTERFACE -n "Enter Setup" -o $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.ui
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC3.ver : $(MODULE_DIR)\$(MODULE_FILE)

@@ -1,15 +1,15 @@
  EmuReset.dll
 
- Timestamp is 68f5fe9c (Mon Oct 20 17:19:24 2025)
+ Timestamp is 68f5d082 (Mon Oct 20 14:02:42 2025)
 
  Preferred load address is 0000000000010000
 
  Start         Length     Name                   Class
  0001:00000000 00000ae4H .text                   CODE
  0001:00000ae4 00002b8fH .text$mn                CODE
- 0002:00000000 00000ab8H .rdata                  DATA
- 0002:00000ab8 00000018H .rdata$voltmd           DATA
- 0002:00000ad0 00000150H .rdata$zzzdbg           DATA
+ 0002:00000000 00000a10H .rdata                  DATA
+ 0002:00000a10 00000018H .rdata$voltmd           DATA
+ 0002:00000a28 00000148H .rdata$zzzdbg           DATA
  0003:00000000 00000098H .data                   DATA
  0003:00000098 00000048H .bss                    DATA
  0004:00000000 000001ecH .pdata                  DATA
@@ -17,7 +17,7 @@
 
   Address         Publics by Value              Rva+Base               Lib:Object
 
- 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
  0000:00000000       __guard_fids_count         0000000000000000     <absolute>
  0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
  0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
@@ -25,7 +25,7 @@
  0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
  0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
  0000:00000000       __guard_iat_table          0000000000000000     <absolute>
- 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
  0000:00000000       __guard_iat_count          0000000000000000     <absolute>
  0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
  0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
@@ -184,63 +184,63 @@
  0002:00000000       ??_C@_08BEBMAMHF@EmuReset@ 0000000000015000     EmuReset:AutoGen.obj
  0002:00000010       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 0000000000015010     EmuReset:AutoGen.obj
  0002:00000038       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 0000000000015038     EmuReset:AutoGen.obj
- 0002:00000070       ??_C@_0HC@KNOHPDOM@D?3?2develop?2Self_develop?2edk2?2Bu@ 0000000000015070     EmuReset:AutoGen.obj
- 0002:000000e2       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 00000000000150e2     EmuReset:AutoGen.obj
- 0002:000000e4       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 00000000000150e4     EmuReset:AutoGen.obj
- 0002:000000e8       _gDriverUnloadImageCount   00000000000150e8     EmuReset:AutoGen.obj
- 0002:000000ec       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 00000000000150ec     EmuReset:AutoGen.obj
- 0002:000000f0       _gUefiDriverRevision       00000000000150f0     EmuReset:AutoGen.obj
- 0002:000000f4       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 00000000000150f4     EmuReset:AutoGen.obj
- 0002:000000f8       _gPcd_FixedAtBuild_PcdDebugPropertyMask 00000000000150f8     EmuReset:AutoGen.obj
- 0002:000000fc       _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask 00000000000150fc     EmuReset:AutoGen.obj
- 0002:00000100       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ@ 0000000000015100     EmuReset:Reset.obj
- 0002:00000120       ??_C@_0EB@DIJGGPLB@D?3?2develop?2Self_develop?2edk2?2Em@ 0000000000015120     EmuReset:Reset.obj
- 0002:00000168       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015168     BasePrintLib:PrintLibInternal.obj
- 0002:00000180       ??_C@_0FP@CCJIJCDG@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015180     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000001e0       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000151e0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000001f8       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000151f8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000238       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015238     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000280       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000015280     BaseMemoryLib:CopyMemWrapper.obj
- 0002:000002d0       ??_C@_0EL@NNLJGCCH@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000152d0     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000320       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000015320     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000360       ??_C@_0EA@FKBIDDGN@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015360     BaseLib:Unaligned.obj
- 0002:000003a0       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000153a0     BaseLib:String.obj
- 0002:000003b8       ??_C@_0DN@POJBHOAP@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000153b8     BaseLib:String.obj
- 0002:000003f8       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 00000000000153f8     BaseLib:String.obj
- 0002:00000430       ??_C@_0EB@DAKPBIJH@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015430     BaseLib:SafeString.obj
- 0002:00000478       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000015478     BaseLib:SafeString.obj
- 0002:000004a0       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 00000000000154a0     BaseLib:SafeString.obj
- 0002:000004e0       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00000000000154e0     BaseLib:SafeString.obj
- 0002:00000500       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0000000000015500     BaseLib:SafeString.obj
- 0002:00000510       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0000000000015510     BaseLib:SafeString.obj
- 0002:00000528       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0000000000015528     BaseLib:SafeString.obj
- 0002:00000570       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0000000000015570     BaseLib:SafeString.obj
- 0002:000005d0       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 00000000000155d0     BaseLib:SafeString.obj
- 0002:000005e0       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 00000000000155e0     BaseLib:SafeString.obj
- 0002:00000620       ??_C@_0BL@CPGKAMND@JumpBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015620     BaseLib:SetJump.obj
- 0002:00000640       ??_C@_0DO@CNCBEEME@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015640     BaseLib:SetJump.obj
- 0002:00000680       ??_C@_0CD@OEHNCIHG@?$CI?$CIUINTN?$CJJumpBuffer?5?$CG?5?$CI8?5?9?51?$CJ?$CJ?5?$DN@ 0000000000015680     BaseLib:SetJump.obj
- 0002:000006b0       ??_C@_0FM@HDIIFGPN@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000156b0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000710       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 0000000000015710     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000740       ??_C@_01OHGJGJJP@?$FL@     0000000000015740     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000744       ??_C@_02PBFOLPKM@?$FN?5@   0000000000015744     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000748       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015748     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000770       ??_C@_0GA@INMEIGJE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015770     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:000007d0       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000157d0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:000007e8       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000157e8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000800       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015800     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:00000820       ??_C@_0GG@OBDIBKMM@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015820     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:00000888       ??_C@_0BK@PPOBBAMB@TableGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015888     UefiLib:UefiLib.obj
- 0002:000008a8       ??_C@_0DO@KJBPHFLK@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000158a8     UefiLib:UefiLib.obj
- 0002:000008e8       ??_C@_0BG@JDKEGFNB@Table?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000158e8     UefiLib:UefiLib.obj
- 0002:00000900       ??_C@_0DP@IKGCDEIJ@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015900     DxeHobLib:HobLib.obj
- 0002:00000940       ??_C@_0BJ@OBFMLLDO@mHobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015940     DxeHobLib:HobLib.obj
- 0002:00000960       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015960     DxeHobLib:HobLib.obj
- 0002:00000980       ??_C@_0BI@EDOKPJOP@GuidHob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015980     DxeEmuLib:DxeEmuLib.obj
- 0002:000009a0       ??_C@_0EH@KBCCEBL@D?3?2develop?2Self_develop?2edk2?2Em@ 00000000000159a0     DxeEmuLib:DxeEmuLib.obj
- 0002:000009e8       ??_C@_0BK@ELNDAPDH@gEmuThunk?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000159e8     DxeEmuLib:DxeEmuLib.obj
- 0002:00000a10       ??_C@_0FE@KBEJNINE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015a10     UefiDriverEntryPoint:DriverEntryPoint.obj
- 0002:00000ab8       __volatile_metadata        0000000000015ab8     <linker-defined>
+ 0002:00000070       ??_C@_0GK@MKLPCOKP@D?3?2develop?2EDK2?2edk2?2Build?2Emul@ 0000000000015070     EmuReset:AutoGen.obj
+ 0002:000000da       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 00000000000150da     EmuReset:AutoGen.obj
+ 0002:000000dc       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 00000000000150dc     EmuReset:AutoGen.obj
+ 0002:000000e0       _gDriverUnloadImageCount   00000000000150e0     EmuReset:AutoGen.obj
+ 0002:000000e4       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 00000000000150e4     EmuReset:AutoGen.obj
+ 0002:000000e8       _gUefiDriverRevision       00000000000150e8     EmuReset:AutoGen.obj
+ 0002:000000ec       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 00000000000150ec     EmuReset:AutoGen.obj
+ 0002:000000f0       _gPcd_FixedAtBuild_PcdDebugPropertyMask 00000000000150f0     EmuReset:AutoGen.obj
+ 0002:000000f4       _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask 00000000000150f4     EmuReset:AutoGen.obj
+ 0002:000000f8       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ@ 00000000000150f8     EmuReset:Reset.obj
+ 0002:00000110       ??_C@_0DJ@DFGAKGMI@D?3?2develop?2EDK2?2edk2?2EmulatorPk@ 0000000000015110     EmuReset:Reset.obj
+ 0002:00000150       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015150     BasePrintLib:PrintLibInternal.obj
+ 0002:00000170       ??_C@_0FH@KLOBJBPP@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000015170     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000001c8       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000151c8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000001e0       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000151e0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000220       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015220     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000260       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000015260     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000002b0       ??_C@_0ED@JLFCAFGL@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000152b0     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000002f8       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 00000000000152f8     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000338       ??_C@_0DI@MBLLHEOH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015338     BaseLib:Unaligned.obj
+ 0002:00000370       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015370     BaseLib:String.obj
+ 0002:00000388       ??_C@_0DF@EAHDDLM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015388     BaseLib:String.obj
+ 0002:000003c0       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 00000000000153c0     BaseLib:String.obj
+ 0002:000003f8       ??_C@_0DJ@DNFJNBOO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000153f8     BaseLib:SafeString.obj
+ 0002:00000438       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000015438     BaseLib:SafeString.obj
+ 0002:00000460       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 0000000000015460     BaseLib:SafeString.obj
+ 0002:000004a0       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00000000000154a0     BaseLib:SafeString.obj
+ 0002:000004c0       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 00000000000154c0     BaseLib:SafeString.obj
+ 0002:000004d0       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 00000000000154d0     BaseLib:SafeString.obj
+ 0002:000004e8       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 00000000000154e8     BaseLib:SafeString.obj
+ 0002:00000530       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0000000000015530     BaseLib:SafeString.obj
+ 0002:00000590       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 0000000000015590     BaseLib:SafeString.obj
+ 0002:000005a0       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 00000000000155a0     BaseLib:SafeString.obj
+ 0002:000005e0       ??_C@_0BL@CPGKAMND@JumpBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000155e0     BaseLib:SetJump.obj
+ 0002:00000600       ??_C@_0DG@HPLDDALP@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015600     BaseLib:SetJump.obj
+ 0002:00000638       ??_C@_0CD@OEHNCIHG@?$CI?$CIUINTN?$CJJumpBuffer?5?$CG?5?$CI8?5?9?51?$CJ?$CJ?5?$DN@ 0000000000015638     BaseLib:SetJump.obj
+ 0002:00000660       ??_C@_0FE@BEFIIBEL@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000015660     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000006b8       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 00000000000156b8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000006e8       ??_C@_01OHGJGJJP@?$FL@     00000000000156e8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000006ec       ??_C@_02PBFOLPKM@?$FN?5@   00000000000156ec     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000006f0       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000156f0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000710       ??_C@_0FI@GPPFIFID@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015710     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000768       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015768     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000780       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015780     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000798       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015798     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000007b0       ??_C@_0FO@FKLKMJDF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000157b0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000810       ??_C@_0BK@PPOBBAMB@TableGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015810     UefiLib:UefiLib.obj
+ 0002:00000830       ??_C@_0DG@PLINABMB@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015830     UefiLib:UefiLib.obj
+ 0002:00000868       ??_C@_0BG@JDKEGFNB@Table?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015868     UefiLib:UefiLib.obj
+ 0002:00000880       ??_C@_0DH@ENOHAOEJ@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015880     DxeHobLib:HobLib.obj
+ 0002:000008b8       ??_C@_0BJ@OBFMLLDO@mHobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000158b8     DxeHobLib:HobLib.obj
+ 0002:000008d8       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000158d8     DxeHobLib:HobLib.obj
+ 0002:000008f8       ??_C@_0BI@EDOKPJOP@GuidHob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000158f8     DxeEmuLib:DxeEmuLib.obj
+ 0002:00000910       ??_C@_0DP@GJOPCIJA@D?3?2develop?2EDK2?2edk2?2EmulatorPk@ 0000000000015910     DxeEmuLib:DxeEmuLib.obj
+ 0002:00000950       ??_C@_0BK@ELNDAPDH@gEmuThunk?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015950     DxeEmuLib:DxeEmuLib.obj
+ 0002:00000970       ??_C@_0EM@JLGHJKPJ@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015970     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000a10       __volatile_metadata        0000000000015a10     <linker-defined>
  0003:00000000       m16Size                    0000000000016000     BaseLib:Thunk16.obj
  0003:00000002       mThunk16Attr               0000000000016002     BaseLib:Thunk16.obj
  0003:00000004       m16Gdt                     0000000000016004     BaseLib:Thunk16.obj

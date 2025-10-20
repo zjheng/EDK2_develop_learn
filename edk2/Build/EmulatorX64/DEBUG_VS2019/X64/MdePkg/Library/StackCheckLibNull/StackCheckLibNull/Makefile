@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = StackCheckLibNull
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdePkg\Library\StackCheckLibNull
 PACKAGE_RELATIVE_DIR = Library\StackCheckLibNull
-MODULE_DIR = D:\develop\Self_develop\edk2\MdePkg\Library\StackCheckLibNull
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\f6ef2763-ca3b-4c6f-a931-2a48de3ce352StackCheckLibNull
+MODULE_DIR = D:\develop\EDK2\edk2\MdePkg\Library\StackCheckLibNull
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\f6ef2763-ca3b-4c6f-a931-2a48de3ce352StackCheckLibNull
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -212,8 +212,8 @@ NASM_INC =  \
     -I$(WORKSPACE)\MdePkg\Library\MipiSysTLib\mipisyst\library\include\ \
     -I$(WORKSPACE)\MdePkg\Include\X64^\
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\object_files.lst
-INC_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\inc.lst
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\object_files.lst
+INC_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\inc.lst
 OBJLIST_0 = $(OUTPUT_DIR)\StackCheckLibNullMsvc.obj
 
 
@@ -224,7 +224,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\StackCheckLibNull.lib \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\StackCheckLibNull.lib \
               
 
 #
@@ -303,19 +303,19 @@ $(OBJLIST_0):  \
 	$(MAKE_FILE) \
 	$(WORKSPACE)\MdePkg\Library\StackCheckLibNull\StackCheckLibNullMsvc.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\StackCheckLibNull\StackCheckLibNullMsvc.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\StackCheckLibNull\StackCheckLibNullMsvc.c
 
 $(OUTPUT_DIR)\StackCheckLibNull.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\StackCheckLibNull.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\StackCheckLibNull.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\StackCheckLibNull.lib @$(OBJECT_FILES_LIST)
 
 $(OUTPUT_DIR)\X64\StackCheckFunctionsMsvc.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)\X64\StackCheckFunctionsMsvc.obj : $(DEBUG_DIR)\AutoGen.h
 $(OUTPUT_DIR)\X64\StackCheckFunctionsMsvc.obj : $(WORKSPACE)\MdePkg\Library\StackCheckLibNull\X64\StackCheckFunctionsMsvc.nasm
-	Trim --asm-file -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.i -i $(INC_LIST) D:\develop\Self_develop\edk2\MdePkg\Library\StackCheckLibNull\X64\StackCheckFunctionsMsvc.nasm
-	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdePkg\Library\StackCheckLibNull\X64\StackCheckFunctionsMsvc.nasm > D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.ii
-	Trim --trim-long --source-code -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.iii D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.ii
-	"$(NASM)" -ID:\develop\Self_develop\edk2\MdePkg\Library\StackCheckLibNull\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.obj D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.iii
+	Trim --asm-file -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.i -i $(INC_LIST) D:\develop\EDK2\edk2\MdePkg\Library\StackCheckLibNull\X64\StackCheckFunctionsMsvc.nasm
+	"$(PP)" $(DEPS_FLAGS) $(PP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdePkg\Library\StackCheckLibNull\X64\StackCheckFunctionsMsvc.nasm > D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.ii
+	Trim --trim-long --source-code -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.iii D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.ii
+	"$(NASM)" -ID:\develop\EDK2\edk2\MdePkg\Library\StackCheckLibNull\X64\ $(NASM_INC) $(NASM_FLAGS) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.obj D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\OUTPUT\X64\StackCheckFunctionsMsvc.iii
 
 
 

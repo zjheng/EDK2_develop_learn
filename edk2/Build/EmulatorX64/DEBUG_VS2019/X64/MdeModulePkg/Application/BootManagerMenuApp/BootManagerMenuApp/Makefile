@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = BootManagerMenuApp
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Application\BootManagerMenuApp
 PACKAGE_RELATIVE_DIR = Application\BootManagerMenuApp
-MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Application\BootManagerMenuApp
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp
+MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Application\BootManagerMenuApp
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp
 
 MODULE_ENTRY_POINT = BootManagerMenuEntry
 ARCH_ENTRY_POINT = BootManagerMenuEntry
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_1 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\cc_resp_1.txt
+cc_resp_1 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\cc_resp_1.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -234,8 +234,8 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\static_library_files.lst
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\static_library_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\BootManagerMenu.obj $(OUTPUT_DIR)\AutoGen.obj
 
 
@@ -246,7 +246,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\BootManagerMenuApp.efi \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\BootManagerMenuApp.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -354,23 +354,23 @@ $(OBJLIST_0):  \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\BootManagerMenuAppStrDefs.h \
 	$(WORKSPACE)\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenu.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_1)
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_1)
 
 $(OUTPUT_DIR)\BootManagerMenuApp.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\BootManagerMenuApp.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\BootManagerMenuApp.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\BootManagerMenuApp.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\BootManagerMenuApp.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\BootManagerMenuApp.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\BootManagerMenuApp.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG\BootManagerMenuApp.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG\BootManagerMenuApp.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG\BootManagerMenuApp.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG\BootManagerMenuApp.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG\BootManagerMenuApp.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG\BootManagerMenuApp.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\BootManagerMenuApp.efi : $(DEBUG_DIR)\BootManagerMenuApp.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\BootManagerMenuApp.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG\BootManagerMenuApp.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\BootManagerMenuApp.efi $(DEBUG_DIR)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\BootManagerMenuApp.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\BootManagerMenuApp.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG\BootManagerMenuApp.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\BootManagerMenuApp.efi $(DEBUG_DIR)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\OUTPUT\BootManagerMenuApp.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 
@@ -399,7 +399,7 @@ $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC1.1.3.ver : $(MODULE_DIR)\$(MODULE_FILE)
 $(FFS_OUTPUT_DIR)\BootManagerMenuAppOffset.raw : $(FFS_OUTPUT_DIR)\BootManagerMenuApp.offset
 	if exist $(FFS_OUTPUT_DIR)\BootManagerMenuApp.offset GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)\BootManagerMenuAppOffset.raw $(FFS_OUTPUT_DIR)\BootManagerMenuApp.offset
 $(FFS_OUTPUT_DIR)\BootManagerMenuApp.offset : $(DEBUG_DIR)\BootManagerMenuApp.efi
-	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\BootManagerMenuApp.offset --ModuleName=BootManagerMenuApp --DebugDir=D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG 
+	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\BootManagerMenuApp.offset --ModuleName=BootManagerMenuApp --DebugDir=D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp\DEBUG 
 
 
 #

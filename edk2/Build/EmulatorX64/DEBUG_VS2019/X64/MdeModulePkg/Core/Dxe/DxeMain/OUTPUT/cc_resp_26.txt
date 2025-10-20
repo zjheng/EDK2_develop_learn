@@ -1,1 +1,1 @@
-  D:\develop\Self_develop\edk2\MdeModulePkg\Core\Dxe\Hand\Handle.c D:\develop\Self_develop\edk2\MdeModulePkg\Core\Dxe\Hand\DriverSupport.c D:\develop\Self_develop\edk2\MdeModulePkg\Core\Dxe\Hand\Locate.c D:\develop\Self_develop\edk2\MdeModulePkg\Core\Dxe\Hand\Notify.c
+  D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\Event\Tpl.c D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\Event\Event.c D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\Event\Timer.c

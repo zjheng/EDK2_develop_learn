@@ -1,15 +1,15 @@
  WatchdogTimer
 
- Timestamp is 68f5fe9f (Mon Oct 20 17:19:27 2025)
+ Timestamp is 68f5d07d (Mon Oct 20 14:02:37 2025)
 
  Preferred load address is 0000000000010000
 
  Start         Length     Name                   Class
  0001:00000000 00000014H .text                   CODE
  0001:00000014 000027a1H .text$mn                CODE
- 0002:00000000 000009a4H .rdata                  DATA
- 0002:000009a4 00000018H .rdata$voltmd           DATA
- 0002:000009bc 00000164H .rdata$zzzdbg           DATA
+ 0002:00000000 0000094cH .rdata                  DATA
+ 0002:0000094c 00000018H .rdata$voltmd           DATA
+ 0002:00000964 0000015cH .rdata$zzzdbg           DATA
  0003:00000000 00000080H .data                   DATA
  0003:00000080 00000058H .bss                    DATA
  0004:00000000 00000198H .pdata                  DATA
@@ -27,6 +27,7 @@
  0000:00000000       __guard_iat_table          0000000000000000     <absolute>
  0000:00000000       __guard_flags              0000000000000000     <absolute>
  0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
  0000:00000000       __guard_iat_count          0000000000000000     <absolute>
  0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
  0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
@@ -35,12 +36,11 @@
  0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
  0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
  0000:00000000       __guard_fids_table         0000000000000000     <absolute>
- 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
  0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
  0000:00000000       __enclave_config           0000000000000000     <absolute>
  0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
  0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
- 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
  0001:00000000       __report_rangecheckfailure 0000000000011000     StackCheckLibNull:StackCheckFunctionsMsvc.obj
  0001:00000001       __GSHandlerCheck           0000000000011001     StackCheckLibNull:StackCheckFunctionsMsvc.obj
  0001:00000002       __security_check_cookie    0000000000011002     StackCheckLibNull:StackCheckFunctionsMsvc.obj
@@ -88,54 +88,54 @@
  0001:000021dc       InternalMemCopyMem         00000000000131dc f   BaseMemoryLib:CopyMem.obj
  0002:00000000       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 0000000000014000     UefiDriverEntryPoint:DriverEntryPoint.obj
  0002:00000028       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 0000000000014028     UefiDriverEntryPoint:DriverEntryPoint.obj
- 0002:00000060       ??_C@_0FE@KBEJNINE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014060     UefiDriverEntryPoint:DriverEntryPoint.obj
- 0002:000000b4       _gDriverUnloadImageCount   00000000000140b4     WatchdogTimer:AutoGen.obj
- 0002:000000b8       _gUefiDriverRevision       00000000000140b8     WatchdogTimer:AutoGen.obj
- 0002:000000c0       ??_C@_0O@EMJMJIOA@WatchdogTimer@ 00000000000140c0     WatchdogTimer:AutoGen.obj
- 0002:000000d0       ??_C@_0IG@OIDFADB@D?3?2develop?2Self_develop?2edk2?2Bu@ 00000000000140d0     WatchdogTimer:AutoGen.obj
- 0002:00000156       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 0000000000014156     WatchdogTimer:AutoGen.obj
- 0002:00000158       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0000000000014158     WatchdogTimer:AutoGen.obj
- 0002:0000015c       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 000000000001415c     WatchdogTimer:AutoGen.obj
- 0002:00000160       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 0000000000014160     WatchdogTimer:AutoGen.obj
- 0002:00000164       _gPcd_FixedAtBuild_PcdDebugPropertyMask 0000000000014164     WatchdogTimer:AutoGen.obj
- 0002:00000168       ??_C@_0CB@FDBNJGBB@Watchdog?5Timer?5resetting?5system@ 0000000000014168     WatchdogTimer:WatchdogTimer.obj
- 0002:00000190       ??_C@_0DD@FGAEEJCH@?$CGgEfiWatchdogTimerArchProtocolG@ 0000000000014190     WatchdogTimer:WatchdogTimer.obj
- 0002:000001d0       ??_C@_0FF@JCCHGECA@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000141d0     WatchdogTimer:WatchdogTimer.obj
- 0002:00000230       ??_C@_0EB@HHDLFNIF@?$CGgEfiWatchdogTimerArchProtocolG@ 0000000000014230     WatchdogTimer:WatchdogTimer.obj
- 0002:00000280       ??_C@_0EF@PJLBPGPA@?$CGgEfiWatchdogTimerArchProtocolG@ 0000000000014280     WatchdogTimer:WatchdogTimer.obj
- 0002:000002c8       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000142c8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:000002e0       ??_C@_0FM@HDIIFGPN@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000142e0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000340       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 0000000000014340     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000370       ??_C@_01OHGJGJJP@?$FL@     0000000000014370     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000374       ??_C@_02PBFOLPKM@?$FN?5@   0000000000014374     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000378       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014378     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:00000390       ??_C@_0FP@CCJIJCDG@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014390     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000003f0       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000143f0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000430       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014430     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000470       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014470     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000490       ??_C@_0GA@INMEIGJE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014490     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:000004f0       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000144f0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000508       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014508     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000520       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014520     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:00000540       ??_C@_0GG@OBDIBKMM@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014540     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:000005a8       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000145a8     BaseLib:String.obj
- 0002:000005c0       ??_C@_0DN@POJBHOAP@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000145c0     BaseLib:String.obj
- 0002:00000600       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0000000000014600     BaseLib:String.obj
- 0002:00000640       ??_C@_0EB@DAKPBIJH@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014640     BaseLib:SafeString.obj
- 0002:00000688       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000014688     BaseLib:SafeString.obj
- 0002:000006b0       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 00000000000146b0     BaseLib:SafeString.obj
- 0002:000006f0       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00000000000146f0     BaseLib:SafeString.obj
- 0002:00000710       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0000000000014710     BaseLib:SafeString.obj
- 0002:00000720       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0000000000014720     BaseLib:SafeString.obj
- 0002:00000738       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0000000000014738     BaseLib:SafeString.obj
- 0002:00000780       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0000000000014780     BaseLib:SafeString.obj
- 0002:000007e0       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 00000000000147e0     BaseLib:SafeString.obj
- 0002:000007f0       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 00000000000147f0     BaseLib:SafeString.obj
- 0002:00000830       ??_C@_0EA@FKBIDDGN@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000014830     BaseLib:Unaligned.obj
- 0002:00000870       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000014870     BaseMemoryLib:CopyMemWrapper.obj
- 0002:000008c0       ??_C@_0EL@NNLJGCCH@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000148c0     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000910       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000014910     BaseMemoryLib:CopyMemWrapper.obj
- 0002:000009a4       __volatile_metadata        00000000000149a4     <linker-defined>
+ 0002:00000060       ??_C@_0EM@JLGHJKPJ@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014060     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:000000ac       _gDriverUnloadImageCount   00000000000140ac     WatchdogTimer:AutoGen.obj
+ 0002:000000b0       _gUefiDriverRevision       00000000000140b0     WatchdogTimer:AutoGen.obj
+ 0002:000000b8       ??_C@_0O@EMJMJIOA@WatchdogTimer@ 00000000000140b8     WatchdogTimer:AutoGen.obj
+ 0002:000000d0       ??_C@_0HO@LHKKILJB@D?3?2develop?2EDK2?2edk2?2Build?2Emul@ 00000000000140d0     WatchdogTimer:AutoGen.obj
+ 0002:0000014e       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 000000000001414e     WatchdogTimer:AutoGen.obj
+ 0002:00000150       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0000000000014150     WatchdogTimer:AutoGen.obj
+ 0002:00000154       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 0000000000014154     WatchdogTimer:AutoGen.obj
+ 0002:00000158       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 0000000000014158     WatchdogTimer:AutoGen.obj
+ 0002:0000015c       _gPcd_FixedAtBuild_PcdDebugPropertyMask 000000000001415c     WatchdogTimer:AutoGen.obj
+ 0002:00000160       ??_C@_0CB@FDBNJGBB@Watchdog?5Timer?5resetting?5system@ 0000000000014160     WatchdogTimer:WatchdogTimer.obj
+ 0002:00000188       ??_C@_0DD@FGAEEJCH@?$CGgEfiWatchdogTimerArchProtocolG@ 0000000000014188     WatchdogTimer:WatchdogTimer.obj
+ 0002:000001c0       ??_C@_0EN@NHMCBGBH@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 00000000000141c0     WatchdogTimer:WatchdogTimer.obj
+ 0002:00000210       ??_C@_0EB@HHDLFNIF@?$CGgEfiWatchdogTimerArchProtocolG@ 0000000000014210     WatchdogTimer:WatchdogTimer.obj
+ 0002:00000260       ??_C@_0EF@PJLBPGPA@?$CGgEfiWatchdogTimerArchProtocolG@ 0000000000014260     WatchdogTimer:WatchdogTimer.obj
+ 0002:000002a8       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000142a8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000002c0       ??_C@_0FE@BEFIIBEL@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 00000000000142c0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000318       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 0000000000014318     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000348       ??_C@_01OHGJGJJP@?$FL@     0000000000014348     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:0000034c       ??_C@_02PBFOLPKM@?$FN?5@   000000000001434c     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000350       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014350     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000370       ??_C@_0FH@KLOBJBPP@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000014370     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000003c8       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000143c8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000408       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014408     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000448       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014448     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000470       ??_C@_0FI@GPPFIFID@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014470     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000004c8       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000144c8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000004e0       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000144e0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000004f8       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000144f8     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000510       ??_C@_0FO@FKLKMJDF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014510     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000570       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014570     BaseLib:String.obj
+ 0002:00000588       ??_C@_0DF@EAHDDLM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014588     BaseLib:String.obj
+ 0002:000005c0       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 00000000000145c0     BaseLib:String.obj
+ 0002:000005f8       ??_C@_0DJ@DNFJNBOO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000145f8     BaseLib:SafeString.obj
+ 0002:00000638       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000014638     BaseLib:SafeString.obj
+ 0002:00000660       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 0000000000014660     BaseLib:SafeString.obj
+ 0002:000006a0       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00000000000146a0     BaseLib:SafeString.obj
+ 0002:000006c0       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 00000000000146c0     BaseLib:SafeString.obj
+ 0002:000006d0       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 00000000000146d0     BaseLib:SafeString.obj
+ 0002:000006e8       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 00000000000146e8     BaseLib:SafeString.obj
+ 0002:00000730       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0000000000014730     BaseLib:SafeString.obj
+ 0002:00000790       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 0000000000014790     BaseLib:SafeString.obj
+ 0002:000007a0       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 00000000000147a0     BaseLib:SafeString.obj
+ 0002:000007e0       ??_C@_0DI@MBLLHEOH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000147e0     BaseLib:Unaligned.obj
+ 0002:00000820       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000014820     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000870       ??_C@_0ED@JLFCAFGL@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000014870     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000008b8       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 00000000000148b8     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:0000094c       __volatile_metadata        000000000001494c     <linker-defined>
  0003:00000000       gEfiLoadedImageProtocolGuid 0000000000015000     WatchdogTimer:AutoGen.obj
  0003:00000010       gEfiStatusCodeSpecificDataGuid 0000000000015010     WatchdogTimer:AutoGen.obj
  0003:00000020       gEfiStatusCodeRuntimeProtocolGuid 0000000000015020     WatchdogTimer:AutoGen.obj

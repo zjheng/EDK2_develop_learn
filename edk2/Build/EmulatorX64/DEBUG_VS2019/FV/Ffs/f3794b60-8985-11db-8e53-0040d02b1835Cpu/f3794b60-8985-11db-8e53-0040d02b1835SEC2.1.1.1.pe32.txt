@@ -1,1 +1,1 @@
-GenSec -s EFI_SECTION_PE32 -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\f3794b60-8985-11db-8e53-0040d02b1835Cpu\f3794b60-8985-11db-8e53-0040d02b1835SEC2.1.1.1.pe32 D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\CpuRuntimeDxe\Cpu\OUTPUT\Cpu.efi
+GenSec -s EFI_SECTION_PE32 -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\f3794b60-8985-11db-8e53-0040d02b1835Cpu\f3794b60-8985-11db-8e53-0040d02b1835SEC2.1.1.1.pe32 D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\CpuRuntimeDxe\Cpu\OUTPUT\Cpu.efi

@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = BaseCryptLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = CryptoPkg\Library\BaseCryptLib
 PACKAGE_RELATIVE_DIR = Library\BaseCryptLib
-MODULE_DIR = D:\develop\Self_develop\edk2\CryptoPkg\Library\BaseCryptLib
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\be3bb803-91b6-4da0-bd91-a8b21c18ca5dBaseCryptLib
+MODULE_DIR = D:\develop\EDK2\edk2\CryptoPkg\Library\BaseCryptLib
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\be3bb803-91b6-4da0-bd91-a8b21c18ca5dBaseCryptLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,10 +181,10 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_14 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\cc_resp_14.txt
-cc_resp_32 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\cc_resp_32.txt
-cc_resp_33 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\cc_resp_33.txt
-cc_resp_34 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\cc_resp_34.txt
+cc_resp_29 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\cc_resp_29.txt
+cc_resp_31 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\cc_resp_31.txt
+cc_resp_33 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\cc_resp_33.txt
+cc_resp_34 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\cc_resp_34.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -262,16 +262,16 @@ INC =  \
     /I$(WORKSPACE)\CryptoPkg\Library\MbedTlsLib\mbedtls\include\mbedtls \
     /I$(WORKSPACE)\CryptoPkg\Library\MbedTlsLib\mbedtls\library
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\object_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\Hash\CryptCShake256.obj $(OUTPUT_DIR)\Hash\CryptSha256.obj $(OUTPUT_DIR)\Hash\CryptMd5.obj $(OUTPUT_DIR)\Hash\CryptXkcp.obj $(OUTPUT_DIR)\Hash\CryptSha1.obj $(OUTPUT_DIR)\Hash\CryptParallelHash.obj $(OUTPUT_DIR)\Hash\CryptDispatchApDxe.obj $(OUTPUT_DIR)\Hash\CryptSm3.obj $(OUTPUT_DIR)\Hash\CryptSha3.obj $(OUTPUT_DIR)\Hash\CryptSha512.obj
-OBJLIST_1 = $(OUTPUT_DIR)\Cipher\CryptAes.obj $(OUTPUT_DIR)\Cipher\CryptAeadAesGcm.obj
-OBJLIST_2 = $(OUTPUT_DIR)\Pk\CryptRsaExt.obj $(OUTPUT_DIR)\Pk\CryptRsaPss.obj $(OUTPUT_DIR)\Pk\CryptPkcs1Oaep.obj $(OUTPUT_DIR)\Pk\CryptPkcs7VerifyCommon.obj $(OUTPUT_DIR)\Pk\CryptRsaPssSign.obj $(OUTPUT_DIR)\Pk\CryptPkcs7VerifyEku.obj $(OUTPUT_DIR)\Pk\CryptDh.obj $(OUTPUT_DIR)\Pk\CryptX509.obj $(OUTPUT_DIR)\Pk\CryptPkcs7Sign.obj $(OUTPUT_DIR)\Pk\CryptRsaBasic.obj $(OUTPUT_DIR)\Pk\CryptPkcs5Pbkdf2.obj $(OUTPUT_DIR)\Pk\CryptEc.obj $(OUTPUT_DIR)\Pk\CryptPkcs7VerifyBase.obj $(OUTPUT_DIR)\Pk\CryptAuthenticode.obj $(OUTPUT_DIR)\Pk\CryptTs.obj
-OBJLIST_3 = $(OUTPUT_DIR)\SysCall\TimerWrapper.obj $(OUTPUT_DIR)\SysCall\CrtWrapper.obj $(OUTPUT_DIR)\SysCall\BaseMemAllocation.obj
-OBJLIST_4 = $(OUTPUT_DIR)\Bn\CryptBn.obj
-OBJLIST_5 = $(OUTPUT_DIR)\Kdf\CryptHkdf.obj
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\object_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\Pk\CryptRsaPss.obj $(OUTPUT_DIR)\Pk\CryptRsaExt.obj $(OUTPUT_DIR)\Pk\CryptPkcs1Oaep.obj $(OUTPUT_DIR)\Pk\CryptPkcs7VerifyCommon.obj $(OUTPUT_DIR)\Pk\CryptRsaPssSign.obj $(OUTPUT_DIR)\Pk\CryptDh.obj $(OUTPUT_DIR)\Pk\CryptPkcs7VerifyEku.obj $(OUTPUT_DIR)\Pk\CryptX509.obj $(OUTPUT_DIR)\Pk\CryptPkcs7Sign.obj $(OUTPUT_DIR)\Pk\CryptRsaBasic.obj $(OUTPUT_DIR)\Pk\CryptPkcs5Pbkdf2.obj $(OUTPUT_DIR)\Pk\CryptEc.obj $(OUTPUT_DIR)\Pk\CryptPkcs7VerifyBase.obj $(OUTPUT_DIR)\Pk\CryptAuthenticode.obj $(OUTPUT_DIR)\Pk\CryptTs.obj
+OBJLIST_1 = $(OUTPUT_DIR)\Hash\CryptCShake256.obj $(OUTPUT_DIR)\Hash\CryptSha256.obj $(OUTPUT_DIR)\Hash\CryptMd5.obj $(OUTPUT_DIR)\Hash\CryptXkcp.obj $(OUTPUT_DIR)\Hash\CryptSha1.obj $(OUTPUT_DIR)\Hash\CryptParallelHash.obj $(OUTPUT_DIR)\Hash\CryptDispatchApDxe.obj $(OUTPUT_DIR)\Hash\CryptSm3.obj $(OUTPUT_DIR)\Hash\CryptSha3.obj $(OUTPUT_DIR)\Hash\CryptSha512.obj
+OBJLIST_2 = $(OUTPUT_DIR)\SysCall\TimerWrapper.obj $(OUTPUT_DIR)\SysCall\CrtWrapper.obj $(OUTPUT_DIR)\SysCall\BaseMemAllocation.obj
+OBJLIST_3 = $(OUTPUT_DIR)\Kdf\CryptHkdf.obj
+OBJLIST_4 = $(OUTPUT_DIR)\Hmac\CryptHmac.obj
+OBJLIST_5 = $(OUTPUT_DIR)\Cipher\CryptAes.obj $(OUTPUT_DIR)\Cipher\CryptAeadAesGcm.obj
 OBJLIST_6 = $(OUTPUT_DIR)\Rand\CryptRandTsc.obj
-OBJLIST_7 = $(OUTPUT_DIR)\Pem\CryptPem.obj
-OBJLIST_8 = $(OUTPUT_DIR)\Hmac\CryptHmac.obj
+OBJLIST_7 = $(OUTPUT_DIR)\Bn\CryptBn.obj
+OBJLIST_8 = $(OUTPUT_DIR)\Pem\CryptPem.obj
 
 
 #
@@ -281,7 +281,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\BaseCryptLib.lib \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\BaseCryptLib.lib \
               
 
 #
@@ -356,89 +356,89 @@ gen_fds:
 #
 # Individual Object Build Targets
 #
-$(OBJLIST_4):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Bn\CryptBn.c \
-	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Bn\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\CryptoPkg\Library\BaseCryptLib\Bn\CryptBn.c
-
-$(OBJLIST_1):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Cipher\CryptAes.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Cipher\CryptAeadAesGcm.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Cipher\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_14)
-
-$(OBJLIST_5):  \
+$(OBJLIST_3):  \
 	$(MAKE_FILE) \
 	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Kdf\CryptHkdf.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Kdf\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\CryptoPkg\Library\BaseCryptLib\Kdf\CryptHkdf.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Kdf\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\CryptoPkg\Library\BaseCryptLib\Kdf\CryptHkdf.c
+
+$(OBJLIST_4):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hmac\CryptHmac.c \
+	$(DEBUG_DIR)\AutoGen.h
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Hmac\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\CryptoPkg\Library\BaseCryptLib\Hmac\CryptHmac.c
 
 $(OBJLIST_6):  \
 	$(MAKE_FILE) \
 	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Rand\CryptRandTsc.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Rand\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\CryptoPkg\Library\BaseCryptLib\Rand\CryptRandTsc.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Rand\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\CryptoPkg\Library\BaseCryptLib\Rand\CryptRandTsc.c
 
 $(OBJLIST_7):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pem\CryptPem.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Bn\CryptBn.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Pem\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\CryptoPkg\Library\BaseCryptLib\Pem\CryptPem.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Bn\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\CryptoPkg\Library\BaseCryptLib\Bn\CryptBn.c
+
+$(OBJLIST_5):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Cipher\CryptAeadAesGcm.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Cipher\CryptAes.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Cipher\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_29)
 
 $(OBJLIST_8):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hmac\CryptHmac.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pem\CryptPem.c \
 	$(DEBUG_DIR)\AutoGen.h
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Hmac\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\Self_develop\edk2\CryptoPkg\Library\BaseCryptLib\Hmac\CryptHmac.c
-
-$(OBJLIST_3):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\SysCall\BaseMemAllocation.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\SysCall\CrtWrapper.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\SysCall\TimerWrapper.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\SysCall\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_32)
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Pem\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) D:\develop\EDK2\edk2\CryptoPkg\Library\BaseCryptLib\Pem\CryptPem.c
 
 $(OBJLIST_2):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs5Pbkdf2.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\SysCall\CrtWrapper.c \
 	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7VerifyBase.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptAuthenticode.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptRsaPssSign.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptRsaExt.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs1Oaep.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptRsaBasic.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7VerifyEku.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptEc.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptRsaPss.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptDh.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7VerifyCommon.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptTs.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7Sign.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptX509.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Pk\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_33)
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\SysCall\BaseMemAllocation.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\SysCall\TimerWrapper.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\SysCall\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_31)
+
+$(OBJLIST_1):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptCShake256.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptDispatchApDxe.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptXkcp.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptSha1.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptSha3.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptSha256.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptSm3.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptMd5.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptSha512.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptParallelHash.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Hash\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_33)
 
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptParallelHash.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptEc.c \
 	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptSha256.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptXkcp.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptSha1.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptDispatchApDxe.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptMd5.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptSha3.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptSm3.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptSha512.c \
-	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Hash\CryptCShake256.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Hash\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_34)
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptAuthenticode.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptRsaPss.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptRsaBasic.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptX509.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs5Pbkdf2.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptTs.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptRsaPssSign.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7VerifyCommon.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptDh.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7VerifyBase.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs1Oaep.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7Sign.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptRsaExt.c \
+	$(WORKSPACE)\CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7VerifyEku.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\Pk\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_34)
 
 $(OUTPUT_DIR)\BaseCryptLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\BaseCryptLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\BaseCryptLib.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\CryptoPkg\Library\BaseCryptLib\BaseCryptLib\OUTPUT\BaseCryptLib.lib @$(OBJECT_FILES_LIST)
 
 
 

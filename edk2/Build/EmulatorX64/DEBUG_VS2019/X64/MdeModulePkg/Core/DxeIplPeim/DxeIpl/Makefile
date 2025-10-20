@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = DxeIpl
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Core\DxeIplPeim
 PACKAGE_RELATIVE_DIR = Core\DxeIplPeim
-MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Core\DxeIplPeim
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\86D70125-BAA3-4296-A62F-602BEBBB9081DxeIpl
+MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Core\DxeIplPeim
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\86D70125-BAA3-4296-A62F-602BEBBB9081DxeIpl
 
 MODULE_ENTRY_POINT = PeimInitializeDxeIpl
 ARCH_ENTRY_POINT = PeimInitializeDxeIpl
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,8 +181,8 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_2 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\cc_resp_2.txt
-cc_resp_3 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\cc_resp_3.txt
+cc_resp_2 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\cc_resp_2.txt
+cc_resp_3 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\cc_resp_3.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -231,8 +231,8 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\static_library_files.lst
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\static_library_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\DxeLoad.obj $(OUTPUT_DIR)\AutoGen.obj
 OBJLIST_1 = $(OUTPUT_DIR)\X64\DxeLoadFunc.obj $(OUTPUT_DIR)\X64\VirtualMemory.obj
 
@@ -244,7 +244,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\DxeIpl.efi \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\DxeIpl.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -339,35 +339,35 @@ gen_fds:
 #
 # Individual Object Build Targets
 #
-$(OBJLIST_1):  \
-	$(MAKE_FILE) \
-	$(WORKSPACE)\MdeModulePkg\Core\DxeIplPeim\X64\DxeLoadFunc.c \
-	$(DEBUG_DIR)\AutoGen.h \
-	$(WORKSPACE)\MdeModulePkg\Core\DxeIplPeim\X64\VirtualMemory.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\X64\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_2)
-
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
 	$(WORKSPACE)\MdeModulePkg\Core\DxeIplPeim\DxeLoad.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\AutoGen.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_3)
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_2)
+
+$(OBJLIST_1):  \
+	$(MAKE_FILE) \
+	$(WORKSPACE)\MdeModulePkg\Core\DxeIplPeim\X64\DxeLoadFunc.c \
+	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\MdeModulePkg\Core\DxeIplPeim\X64\VirtualMemory.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\X64\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_3)
 
 $(OUTPUT_DIR)\DxeIpl.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\DxeIpl.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\DxeIpl.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\DxeIpl.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\DxeIpl.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\DxeIpl.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\DxeIpl.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG\DxeIpl.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG\DxeIpl.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG\DxeIpl.dll $(DLINK_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG\DxeIpl.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG\DxeIpl.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG\DxeIpl.dll $(DLINK_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\DxeIpl.efi : $(DEBUG_DIR)\DxeIpl.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\DxeIpl.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG\DxeIpl.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\DxeIpl.efi $(DEBUG_DIR)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\DxeIpl.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\DxeIpl.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG\DxeIpl.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\DxeIpl.efi $(DEBUG_DIR)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\OUTPUT\DxeIpl.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

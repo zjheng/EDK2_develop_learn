@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = FirmwareVolumePei
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = EmulatorPkg\FirmwareVolumePei
 PACKAGE_RELATIVE_DIR = FirmwareVolumePei
-MODULE_DIR = D:\develop\Self_develop\edk2\EmulatorPkg\FirmwareVolumePei
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\6DB075DE-449E-2644-96D0-CC5A1B4C3B2AFirmwareVolumePei
+MODULE_DIR = D:\develop\EDK2\edk2\EmulatorPkg\FirmwareVolumePei
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\6DB075DE-449E-2644-96D0-CC5A1B4C3B2AFirmwareVolumePei
 
 MODULE_ENTRY_POINT = PeimInitializeFirmwareVolumePei
 ARCH_ENTRY_POINT = PeimInitializeFirmwareVolumePei
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -180,7 +180,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_1 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\cc_resp_1.txt
+cc_resp_1 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\cc_resp_1.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -223,8 +223,8 @@ INC =  \
     /I$(WORKSPACE)\EmulatorPkg \
     /I$(WORKSPACE)\EmulatorPkg\Include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\static_library_files.lst
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\static_library_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\FirmwareVolumePei.obj $(OUTPUT_DIR)\AutoGen.obj
 
 
@@ -235,7 +235,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\FirmwareVolumePei.efi \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\FirmwareVolumePei.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -331,23 +331,23 @@ $(OBJLIST_0):  \
 	$(WORKSPACE)\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\AutoGen.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_1)
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_1)
 
 $(OUTPUT_DIR)\FirmwareVolumePei.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\FirmwareVolumePei.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\FirmwareVolumePei.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\FirmwareVolumePei.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\FirmwareVolumePei.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\FirmwareVolumePei.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\FirmwareVolumePei.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG\FirmwareVolumePei.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG\FirmwareVolumePei.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG\FirmwareVolumePei.dll $(DLINK_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG\FirmwareVolumePei.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG\FirmwareVolumePei.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG\FirmwareVolumePei.dll $(DLINK_FLAGS) $(DLINK_XIPFLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\FirmwareVolumePei.efi : $(DEBUG_DIR)\FirmwareVolumePei.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\FirmwareVolumePei.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG\FirmwareVolumePei.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\FirmwareVolumePei.efi $(DEBUG_DIR)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\FirmwareVolumePei.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\FirmwareVolumePei.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG\FirmwareVolumePei.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\FirmwareVolumePei.efi $(DEBUG_DIR)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\OUTPUT\FirmwareVolumePei.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = FileExplorerLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg\Library\FileExplorerLib
 PACKAGE_RELATIVE_DIR = Library\FileExplorerLib
-MODULE_DIR = D:\develop\Self_develop\edk2\MdeModulePkg\Library\FileExplorerLib
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\4FC9C630-0F90-4053-8F13-264CBD22FC58FileExplorerLib
+MODULE_DIR = D:\develop\EDK2\edk2\MdeModulePkg\Library\FileExplorerLib
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\4FC9C630-0F90-4053-8F13-264CBD22FC58FileExplorerLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_2 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT\cc_resp_2.txt
+cc_resp_2 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT\cc_resp_2.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -207,7 +207,7 @@ INC =  \
     /I$(WORKSPACE)\MdeModulePkg\Test\Mock\Include \
     /I$(WORKSPACE)\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT\object_files.lst
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT\object_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\FileExplorer.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\FileExplorerVfr.obj
 
 
@@ -218,7 +218,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT\FileExplorerLib.lib \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT\FileExplorerLib.lib \
               
 
 #
@@ -297,21 +297,21 @@ $(DEBUG_DIR)\FileExplorerVfr.c : $(MAKE_FILE)
 $(DEBUG_DIR)\FileExplorerVfr.c : $(DEBUG_DIR)\AutoGen.h
 $(DEBUG_DIR)\FileExplorerVfr.c : $(DEBUG_DIR)\FileExplorerLibStrDefs.h
 $(DEBUG_DIR)\FileExplorerVfr.c : $(WORKSPACE)\MdeModulePkg\Library\FileExplorerLib\FileExplorerVfr.vfr
-	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\Self_develop\edk2\MdeModulePkg\Library\FileExplorerLib\FileExplorerVfr.vfr > $(OUTPUT_DIR)\FileExplorerVfr.i
-	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\DEBUG\. $(OUTPUT_DIR)\FileExplorerVfr.i
+	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\EDK2\edk2\MdeModulePkg\Library\FileExplorerLib\FileExplorerVfr.vfr > $(OUTPUT_DIR)\FileExplorerVfr.i
+	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\DEBUG\. $(OUTPUT_DIR)\FileExplorerVfr.i
 
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(DEBUG_DIR)\FileExplorerVfr.c \
 	$(WORKSPACE)\MdeModulePkg\Library\FileExplorerLib\FileExplorer.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\FileExplorerLibStrDefs.h \
+	$(DEBUG_DIR)\FileExplorerVfr.c \
 	$(DEBUG_DIR)\AutoGen.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_2)
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_2)
 
 $(OUTPUT_DIR)\FileExplorerLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\FileExplorerLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT\FileExplorerLib.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\OUTPUT\FileExplorerLib.lib @$(OBJECT_FILES_LIST)
 
 
 

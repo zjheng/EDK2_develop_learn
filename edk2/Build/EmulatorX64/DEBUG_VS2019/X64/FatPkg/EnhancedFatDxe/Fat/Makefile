@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = Fat
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = FatPkg\EnhancedFatDxe
 PACKAGE_RELATIVE_DIR = EnhancedFatDxe
-MODULE_DIR = D:\develop\Self_develop\edk2\FatPkg\EnhancedFatDxe
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\961578FE-B6B7-44c3-AF35-6BC705CD2B1FFat
+MODULE_DIR = D:\develop\EDK2\edk2\FatPkg\EnhancedFatDxe
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\961578FE-B6B7-44c3-AF35-6BC705CD2B1FFat
 
 MODULE_ENTRY_POINT = FatEntryPoint
 ARCH_ENTRY_POINT = FatEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_18 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\cc_resp_18.txt
+cc_resp_18 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\cc_resp_18.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -237,9 +237,9 @@ INC =  \
     /I$(WORKSPACE)\MdePkg\Library\MipiSysTLib\mipisyst\library\include \
     /I$(WORKSPACE)\MdePkg\Include\X64
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\static_library_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\Open.obj $(OUTPUT_DIR)\Misc.obj $(OUTPUT_DIR)\FileSpace.obj $(OUTPUT_DIR)\DirectoryManage.obj $(OUTPUT_DIR)\Init.obj $(OUTPUT_DIR)\Fat.obj $(OUTPUT_DIR)\Hash.obj $(OUTPUT_DIR)\UnicodeCollation.obj $(OUTPUT_DIR)\ComponentName.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\ReadWrite.obj $(OUTPUT_DIR)\Delete.obj $(OUTPUT_DIR)\Info.obj $(OUTPUT_DIR)\DiskCache.obj $(OUTPUT_DIR)\Flush.obj $(OUTPUT_DIR)\OpenVolume.obj $(OUTPUT_DIR)\FileName.obj $(OUTPUT_DIR)\DirectoryCache.obj $(OUTPUT_DIR)\Data.obj
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\static_library_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\Open.obj $(OUTPUT_DIR)\Misc.obj $(OUTPUT_DIR)\FileSpace.obj $(OUTPUT_DIR)\DirectoryManage.obj $(OUTPUT_DIR)\Init.obj $(OUTPUT_DIR)\Fat.obj $(OUTPUT_DIR)\Hash.obj $(OUTPUT_DIR)\UnicodeCollation.obj $(OUTPUT_DIR)\ComponentName.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\ReadWrite.obj $(OUTPUT_DIR)\Delete.obj $(OUTPUT_DIR)\Info.obj $(OUTPUT_DIR)\DiskCache.obj $(OUTPUT_DIR)\Flush.obj $(OUTPUT_DIR)\FileName.obj $(OUTPUT_DIR)\OpenVolume.obj $(OUTPUT_DIR)\DirectoryCache.obj $(OUTPUT_DIR)\Data.obj
 
 
 #
@@ -249,7 +249,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\Fat.efi \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\Fat.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -343,43 +343,43 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Init.c \
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Misc.c \
 	$(DEBUG_DIR)\AutoGen.h \
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Info.c \
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\DiskCache.c \
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Data.c \
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\FileName.c \
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Open.c \
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\ComponentName.c \
 	$(WORKSPACE)\FatPkg\EnhancedFatDxe\FileSpace.c \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Fat.c \
 	$(WORKSPACE)\FatPkg\EnhancedFatDxe\ReadWrite.c \
 	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Flush.c \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\ComponentName.c \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\DiskCache.c \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\OpenVolume.c \
-	$(DEBUG_DIR)\AutoGen.c \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\FileName.c \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Hash.c \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Data.c \
 	$(WORKSPACE)\FatPkg\EnhancedFatDxe\DirectoryManage.c \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Info.c \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Open.c \
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Init.c \
 	$(WORKSPACE)\FatPkg\EnhancedFatDxe\UnicodeCollation.c \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Misc.c \
+	$(DEBUG_DIR)\AutoGen.c \
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Fat.c \
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\DirectoryCache.c \
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\OpenVolume.c \
 	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Delete.c \
-	$(WORKSPACE)\FatPkg\EnhancedFatDxe\DirectoryCache.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_18)
+	$(WORKSPACE)\FatPkg\EnhancedFatDxe\Hash.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_18)
 
 $(OUTPUT_DIR)\Fat.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\Fat.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\Fat.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\Fat.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\Fat.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\Fat.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\Fat.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\Fat.efi : $(DEBUG_DIR)\Fat.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\Fat.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\Fat.efi $(DEBUG_DIR)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\Fat.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\Fat.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\Fat.efi $(DEBUG_DIR)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\FatPkg\EnhancedFatDxe\Fat\OUTPUT\Fat.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 

@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = Ip4Dxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = NetworkPkg\Ip4Dxe
 PACKAGE_RELATIVE_DIR = Ip4Dxe
-MODULE_DIR = D:\develop\Self_develop\edk2\NetworkPkg\Ip4Dxe
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe
+MODULE_DIR = D:\develop\EDK2\edk2\NetworkPkg\Ip4Dxe
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe
 
 MODULE_ENTRY_POINT = Ip4DriverEntryPoint
 ARCH_ENTRY_POINT = Ip4DriverEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_14 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\cc_resp_14.txt
+cc_resp_14 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\cc_resp_14.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -242,9 +242,9 @@ INC =  \
     /I$(WORKSPACE)\NetworkPkg \
     /I$(WORKSPACE)\NetworkPkg\Include
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\object_files.lst
-STATIC_LIBRARY_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\static_library_files.lst
-OBJLIST_0 = $(OUTPUT_DIR)\Ip4Common.obj $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\Ip4Igmp.obj $(OUTPUT_DIR)\Ip4Input.obj $(OUTPUT_DIR)\Ip4Icmp.obj $(OUTPUT_DIR)\Ip4Driver.obj $(OUTPUT_DIR)\Ip4Output.obj $(OUTPUT_DIR)\Ip4If.obj $(OUTPUT_DIR)\Ip4Config2Nv.obj $(OUTPUT_DIR)\Ip4Config2Impl.obj $(OUTPUT_DIR)\Ip4Config2.obj $(OUTPUT_DIR)\Ip4Route.obj $(OUTPUT_DIR)\Ip4Option.obj $(OUTPUT_DIR)\Ip4Impl.obj $(OUTPUT_DIR)\ComponentName.obj
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\object_files.lst
+STATIC_LIBRARY_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\static_library_files.lst
+OBJLIST_0 = $(OUTPUT_DIR)\AutoGen.obj $(OUTPUT_DIR)\Ip4Igmp.obj $(OUTPUT_DIR)\Ip4Driver.obj $(OUTPUT_DIR)\Ip4Icmp.obj $(OUTPUT_DIR)\Ip4Input.obj $(OUTPUT_DIR)\Ip4Output.obj $(OUTPUT_DIR)\Ip4If.obj $(OUTPUT_DIR)\Ip4Config2Nv.obj $(OUTPUT_DIR)\Ip4Config2Impl.obj $(OUTPUT_DIR)\Ip4Route.obj $(OUTPUT_DIR)\Ip4Config2.obj $(OUTPUT_DIR)\Ip4Common.obj $(OUTPUT_DIR)\Ip4Impl.obj $(OUTPUT_DIR)\Ip4Option.obj $(OUTPUT_DIR)\ComponentName.obj
 
 
 #
@@ -254,7 +254,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\Ip4Dxe.efi \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\Ip4Dxe.efi \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map \
               $(FFS_OUTPUT_DIR)\$(MODULE_GUID).ffs \
               
@@ -352,40 +352,40 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Output.c \
+	$(DEBUG_DIR)\Ip4Config2.c \
+	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Igmp.c \
 	$(DEBUG_DIR)\AutoGen.h \
 	$(DEBUG_DIR)\Ip4DxeStrDefs.h \
-	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Igmp.c \
+	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Route.c \
+	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Common.c \
+	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4If.c \
+	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Config2Nv.c \
+	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Icmp.c \
+	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Impl.c \
+	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Output.c \
+	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Config2Impl.c \
 	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Option.c \
 	$(DEBUG_DIR)\AutoGen.c \
-	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Common.c \
-	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Input.c \
-	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Icmp.c \
-	$(DEBUG_DIR)\Ip4Config2.c \
-	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Route.c \
-	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Config2Nv.c \
-	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Impl.c \
-	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Config2Impl.c \
-	$(WORKSPACE)\NetworkPkg\Ip4Dxe\ComponentName.c \
 	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Driver.c \
-	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4If.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_14)
+	$(WORKSPACE)\NetworkPkg\Ip4Dxe\ComponentName.c \
+	$(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Input.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_14)
 
 $(OUTPUT_DIR)\Ip4Dxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\Ip4Dxe.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\Ip4Dxe.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\Ip4Dxe.lib @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)\Ip4Dxe.dll : $(MAKE_FILE)
 $(DEBUG_DIR)\Ip4Dxe.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)\Ip4Dxe.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\Ip4Dxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
-	$(RM) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\Ip4Dxe.dll.wtemp
-	"$(DLINK)" /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\Ip4Dxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\Ip4Dxe.dll.wtemp $(DLINK_FLAGS) $(DLINK2_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
+	$(RM) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\Ip4Dxe.dll.wtemp
+	"$(DLINK)" /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\Ip4Dxe.dll $(DLINK_FLAGS) $(DLINK_SPATH) @$(STATIC_LIBRARY_FILES_LIST)
 
 $(OUTPUT_DIR)\Ip4Dxe.efi : $(DEBUG_DIR)\Ip4Dxe.dll
-	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\Ip4Dxe.efi D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\Ip4Dxe.dll $(GENFW_FLAGS)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\Ip4Dxe.efi $(DEBUG_DIR)
-	$(CP) D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\Ip4Dxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\Ip4Dxe.efi D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\Ip4Dxe.dll $(GENFW_FLAGS)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\Ip4Dxe.efi $(DEBUG_DIR)
+	$(CP) D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\OUTPUT\Ip4Dxe.efi $(BIN_DIR)\$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)\*.map $(OUTPUT_DIR)
 	-$(CP) $(DEBUG_DIR)\*.pdb $(OUTPUT_DIR)
 
@@ -399,8 +399,8 @@ $(DEBUG_DIR)\Ip4Config2.c : $(MAKE_FILE)
 $(DEBUG_DIR)\Ip4Config2.c : $(DEBUG_DIR)\AutoGen.h
 $(DEBUG_DIR)\Ip4Config2.c : $(DEBUG_DIR)\Ip4DxeStrDefs.h
 $(DEBUG_DIR)\Ip4Config2.c : $(WORKSPACE)\NetworkPkg\Ip4Dxe\Ip4Config2.vfr
-	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\Self_develop\edk2\NetworkPkg\Ip4Dxe\Ip4Config2.vfr > $(OUTPUT_DIR)\Ip4Config2.i
-	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\. $(OUTPUT_DIR)\Ip4Config2.i
+	"$(VFRPP)" $(DEPS_FLAGS) $(VFRPP_FLAGS) $(INC) D:\develop\EDK2\edk2\NetworkPkg\Ip4Dxe\Ip4Config2.vfr > $(OUTPUT_DIR)\Ip4Config2.i
+	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)\$(MODULE_NAME)StrDefs.hpk --output-directory D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\. $(OUTPUT_DIR)\Ip4Config2.i
 
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map : $(OUTPUT_DIR)\Ip4Dxe.map
 	if exist $(OUTPUT_DIR)\Ip4Dxe.map $(CP) $(OUTPUT_DIR)\Ip4Dxe.map $(FFS_OUTPUT_DIR)\$(MODULE_GUID).map
@@ -411,7 +411,7 @@ $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC1.1.dpx : $(OUTPUT_DIR)\Ip4Dxe.depex
 $(FFS_OUTPUT_DIR)\Ip4DxeOffset.raw : $(FFS_OUTPUT_DIR)\Ip4Dxe.offset
 	if exist $(FFS_OUTPUT_DIR)\Ip4Dxe.offset GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)\Ip4DxeOffset.raw $(FFS_OUTPUT_DIR)\Ip4Dxe.offset
 $(FFS_OUTPUT_DIR)\Ip4Dxe.offset : $(DEBUG_DIR)\Ip4Dxe.efi
-	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\Ip4Dxe.offset --ModuleName=Ip4Dxe --DebugDir=D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG 
+	Trim --Vfr-Uni-Offset -o $(FFS_OUTPUT_DIR)\Ip4Dxe.offset --ModuleName=Ip4Dxe --DebugDir=D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG 
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com : $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy
 	if exist $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy GenSec -s EFI_SECTION_COMPRESSION -c PI_STD -o $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy
 $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.com.dummy : $(FFS_OUTPUT_DIR)\$(MODULE_GUID)SEC2.1.guided

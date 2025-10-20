@@ -19,7 +19,7 @@ PLATFORM_NAME = EmulatorPkg
 PLATFORM_GUID = 05FD064D-1073-E844-936C-A0E16317107D
 PLATFORM_VERSION = 0.3
 PLATFORM_RELATIVE_DIR = EmulatorPkg
-PLATFORM_DIR = D:\develop\Self_develop\edk2\EmulatorPkg
+PLATFORM_DIR = D:\develop\EDK2\edk2\EmulatorPkg
 PLATFORM_OUTPUT_DIR = Build\EmulatorX64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = BaseIoLibIntrinsic
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdePkg\Library\BaseIoLibIntrinsic
 PACKAGE_RELATIVE_DIR = Library\BaseIoLibIntrinsic
-MODULE_DIR = D:\develop\Self_develop\edk2\MdePkg\Library\BaseIoLibIntrinsic
-FFS_OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\926c9cd0-4bb8-479b-9ac4-8a2a23f85307BaseIoLibIntrinsic
+MODULE_DIR = D:\develop\EDK2\edk2\MdePkg\Library\BaseIoLibIntrinsic
+FFS_OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\926c9cd0-4bb8-479b-9ac4-8a2a23f85307BaseIoLibIntrinsic
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
-BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019
+# PLATFORM_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
+BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019
 BIN_DIR = $(BUILD_DIR)\X64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic
-OUTPUT_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT
-DEBUG_DIR = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\DEBUG
+MODULE_BUILD_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic
+OUTPUT_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT
+DEBUG_DIR = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -181,7 +181,7 @@ VFRPP = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\M
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
-cc_resp_5 = @D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT\cc_resp_5.txt
+cc_resp_5 = @D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT\cc_resp_5.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)\Makefile
 
@@ -206,7 +206,7 @@ INC =  \
     /I$(WORKSPACE)\MdePkg\Library\MipiSysTLib\mipisyst\library\include \
     /I$(WORKSPACE)\MdePkg\Include\X64
 
-OBJECT_FILES_LIST = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT\object_files.lst
+OBJECT_FILES_LIST = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT\object_files.lst
 OBJLIST_0 = $(OUTPUT_DIR)\IoLibFifo.obj $(OUTPUT_DIR)\IoLibInternalTdxNull.obj $(OUTPUT_DIR)\IoLibMmioBuffer.obj $(OUTPUT_DIR)\IoHighLevel.obj $(OUTPUT_DIR)\IoLibMsc.obj $(OUTPUT_DIR)\IoLib.obj
 
 
@@ -217,7 +217,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT\BaseIoLibIntrinsic.lib \
+CODA_TARGET = D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT\BaseIoLibIntrinsic.lib \
               
 
 #
@@ -294,18 +294,18 @@ gen_fds:
 #
 $(OBJLIST_0):  \
 	$(MAKE_FILE) \
-	$(WORKSPACE)\MdePkg\Library\BaseIoLibIntrinsic\IoLibFifo.c \
-	$(DEBUG_DIR)\AutoGen.h \
 	$(WORKSPACE)\MdePkg\Library\BaseIoLibIntrinsic\IoLibMsc.c \
-	$(WORKSPACE)\MdePkg\Library\BaseIoLibIntrinsic\IoLib.c \
-	$(WORKSPACE)\MdePkg\Library\BaseIoLibIntrinsic\IoHighLevel.c \
+	$(DEBUG_DIR)\AutoGen.h \
 	$(WORKSPACE)\MdePkg\Library\BaseIoLibIntrinsic\IoLibInternalTdxNull.c \
-	$(WORKSPACE)\MdePkg\Library\BaseIoLibIntrinsic\IoLibMmioBuffer.c
-	"$(CC)" /FoD:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_5)
+	$(WORKSPACE)\MdePkg\Library\BaseIoLibIntrinsic\IoHighLevel.c \
+	$(WORKSPACE)\MdePkg\Library\BaseIoLibIntrinsic\IoLibMmioBuffer.c \
+	$(WORKSPACE)\MdePkg\Library\BaseIoLibIntrinsic\IoLibFifo.c \
+	$(WORKSPACE)\MdePkg\Library\BaseIoLibIntrinsic\IoLib.c
+	"$(CC)" /FoD:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT\.\ $(DEPS_FLAGS) $(CC_FLAGS) $(INC) $(cc_resp_5)
 
 $(OUTPUT_DIR)\BaseIoLibIntrinsic.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)\BaseIoLibIntrinsic.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT\BaseIoLibIntrinsic.lib @$(OBJECT_FILES_LIST)
+	"$(SLINK)" $(SLINK_FLAGS) /OUT:D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\OUTPUT\BaseIoLibIntrinsic.lib @$(OBJECT_FILES_LIST)
 
 
 

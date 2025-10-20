@@ -1,1 +1,1 @@
-  D:\develop\Self_develop\edk2\MdeModulePkg\Core\DxeIplPeim\DxeLoad.c D:\develop\Self_develop\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG\AutoGen.c
+  D:\develop\EDK2\edk2\MdeModulePkg\Core\DxeIplPeim\X64\DxeLoadFunc.c D:\develop\EDK2\edk2\MdeModulePkg\Core\DxeIplPeim\X64\VirtualMemory.c

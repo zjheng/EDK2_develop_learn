@@ -1,15 +1,15 @@
  MonotonicCounterRuntimeDxe.dll
 
- Timestamp is 68f5fe9c (Mon Oct 20 17:19:24 2025)
+ Timestamp is 68f5d07e (Mon Oct 20 14:02:38 2025)
 
  Preferred load address is 0000000000010000
 
  Start         Length     Name                   Class
  0001:00000000 00000ae4H .text                   CODE
  0001:00000ae4 00002e83H .text$mn                CODE
- 0002:00000000 00000b38H .rdata                  DATA
- 0002:00000b38 00000018H .rdata$voltmd           DATA
- 0002:00000b50 0000018cH .rdata$zzzdbg           DATA
+ 0002:00000000 00000a90H .rdata                  DATA
+ 0002:00000a90 00000018H .rdata$voltmd           DATA
+ 0002:00000aa8 00000184H .rdata$zzzdbg           DATA
  0003:00000000 00000088H .data                   DATA
  0003:00000088 00000070H .bss                    DATA
  0004:00000000 00000210H .pdata                  DATA
@@ -22,19 +22,19 @@
  0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
  0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
  0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
- 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
  0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
  0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
- 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
  0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
  0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
  0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
  0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
  0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
  0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
  0000:00000000       __guard_flags              0000000000000000     <absolute>
- 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
  0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
  0000:00000000       __guard_fids_table         0000000000000000     <absolute>
  0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
  0000:00000000       __enclave_config           0000000000000000     <absolute>
@@ -189,61 +189,61 @@
  0002:00000000       ??_C@_0BL@OKHPCBIJ@MonotonicCounterRuntimeDxe@ 0000000000015000     MonotonicCounterRuntimeDxe:AutoGen.obj
  0002:00000020       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 0000000000015020     MonotonicCounterRuntimeDxe:AutoGen.obj
  0002:00000048       ??_C@_0DG@FLPEIDFK@?$CB?$CI?$CI?$CIRETURN_STATUS?$CJ?$CIStatus?$CJ?$CJ?5?$DO?$DN?5@ 0000000000015048     MonotonicCounterRuntimeDxe:AutoGen.obj
- 0002:00000080       ??_C@_0JN@FIBKOEKA@D?3?2develop?2Self_develop?2edk2?2Bu@ 0000000000015080     MonotonicCounterRuntimeDxe:AutoGen.obj
- 0002:0000011d       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 000000000001511d     MonotonicCounterRuntimeDxe:AutoGen.obj
- 0002:00000120       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0000000000015120     MonotonicCounterRuntimeDxe:AutoGen.obj
- 0002:00000124       _gDriverUnloadImageCount   0000000000015124     MonotonicCounterRuntimeDxe:AutoGen.obj
- 0002:00000128       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 0000000000015128     MonotonicCounterRuntimeDxe:AutoGen.obj
- 0002:0000012c       _gUefiDriverRevision       000000000001512c     MonotonicCounterRuntimeDxe:AutoGen.obj
- 0002:00000130       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 0000000000015130     MonotonicCounterRuntimeDxe:AutoGen.obj
- 0002:00000134       _gPcd_FixedAtBuild_PcdDebugPropertyMask 0000000000015134     MonotonicCounterRuntimeDxe:AutoGen.obj
- 0002:00000138       _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask 0000000000015138     MonotonicCounterRuntimeDxe:AutoGen.obj
- 0002:00000140       ??_C@_17DGPLEKJI@?$AAM?$AAT?$AAC@ 0000000000015140     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
- 0002:00000148       ??_C@_0DG@NBLKNKIB@?$CGgEfiMonotonicCounterArchProtoc@ 0000000000015148     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
- 0002:00000180       ??_C@_0GC@EHEGOJNG@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015180     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
- 0002:000001f0       ??_C@_0EE@KLEMMEOM@?$CGgEfiMonotonicCounterArchProtoc@ 00000000000151f0     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
- 0002:00000240       ??_C@_0EI@KCEGLMMI@?$CGgEfiMonotonicCounterArchProtoc@ 0000000000015240     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
- 0002:00000288       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015288     BasePrintLib:PrintLibInternal.obj
- 0002:000002a0       ??_C@_0FP@CCJIJCDG@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000152a0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000300       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015300     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000318       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015318     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:00000358       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015358     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
- 0002:000003a0       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 00000000000153a0     BaseMemoryLib:CopyMemWrapper.obj
- 0002:000003f0       ??_C@_0EL@NNLJGCCH@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000153f0     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000440       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000015440     BaseMemoryLib:CopyMemWrapper.obj
- 0002:00000480       ??_C@_0EA@FKBIDDGN@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015480     BaseLib:Unaligned.obj
- 0002:000004c0       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000154c0     BaseLib:String.obj
- 0002:000004d8       ??_C@_0DN@POJBHOAP@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000154d8     BaseLib:String.obj
- 0002:00000518       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0000000000015518     BaseLib:String.obj
- 0002:00000550       ??_C@_0EB@DAKPBIJH@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015550     BaseLib:SafeString.obj
- 0002:00000598       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000015598     BaseLib:SafeString.obj
- 0002:000005c0       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 00000000000155c0     BaseLib:SafeString.obj
- 0002:00000600       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000015600     BaseLib:SafeString.obj
- 0002:00000620       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0000000000015620     BaseLib:SafeString.obj
- 0002:00000630       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0000000000015630     BaseLib:SafeString.obj
- 0002:00000648       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0000000000015648     BaseLib:SafeString.obj
- 0002:00000690       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0000000000015690     BaseLib:SafeString.obj
- 0002:000006f0       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 00000000000156f0     BaseLib:SafeString.obj
- 0002:00000700       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 0000000000015700     BaseLib:SafeString.obj
- 0002:00000740       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 0000000000015740     BaseLib:ARShiftU64.obj
- 0002:00000750       ??_C@_0EA@MLMAFFLG@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015750     BaseLib:LShiftU64.obj
- 0002:00000790       ??_C@_0EA@COOJGLFE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015790     BaseLib:RShiftU64.obj
- 0002:000007d0       ??_C@_0BL@CPGKAMND@JumpBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000157d0     BaseLib:SetJump.obj
- 0002:000007f0       ??_C@_0DO@CNCBEEME@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000157f0     BaseLib:SetJump.obj
- 0002:00000830       ??_C@_0CD@OEHNCIHG@?$CI?$CIUINTN?$CJJumpBuffer?5?$CG?5?$CI8?5?9?51?$CJ?$CJ?5?$DN@ 0000000000015830     BaseLib:SetJump.obj
- 0002:00000860       ??_C@_0FM@HDIIFGPN@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015860     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:000008c0       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 00000000000158c0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:000008f0       ??_C@_01OHGJGJJP@?$FL@     00000000000158f0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:000008f4       ??_C@_02PBFOLPKM@?$FN?5@   00000000000158f4     PeiDxeDebugLibReportStatusCode:DebugLib.obj
- 0002:000008f8       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000158f8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000920       ??_C@_0GA@INMEIGJE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015920     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000980       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015980     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:00000998       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015998     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
- 0002:000009b0       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000159b0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:000009d0       ??_C@_0GG@OBDIBKMM@D?3?2develop?2Self_develop?2edk2?2Md@ 00000000000159d0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
- 0002:00000a40       ??_C@_0EI@IBPKEKGE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015a40     UefiRuntimeLib:RuntimeLib.obj
- 0002:00000a90       ??_C@_0FE@KBEJNINE@D?3?2develop?2Self_develop?2edk2?2Md@ 0000000000015a90     UefiDriverEntryPoint:DriverEntryPoint.obj
- 0002:00000b38       __volatile_metadata        0000000000015b38     <linker-defined>
+ 0002:00000080       ??_C@_0JF@LJJDIAJH@D?3?2develop?2EDK2?2edk2?2Build?2Emul@ 0000000000015080     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000115       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 0000000000015115     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000118       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0000000000015118     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:0000011c       _gDriverUnloadImageCount   000000000001511c     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000120       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 0000000000015120     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000124       _gUefiDriverRevision       0000000000015124     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000128       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 0000000000015128     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:0000012c       _gPcd_FixedAtBuild_PcdDebugPropertyMask 000000000001512c     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000130       _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask 0000000000015130     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000138       ??_C@_17DGPLEKJI@?$AAM?$AAT?$AAC@ 0000000000015138     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0002:00000140       ??_C@_0DG@NBLKNKIB@?$CGgEfiMonotonicCounterArchProtoc@ 0000000000015140     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0002:00000180       ??_C@_0FK@NLMMNOML@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000015180     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0002:000001e0       ??_C@_0EE@KLEMMEOM@?$CGgEfiMonotonicCounterArchProtoc@ 00000000000151e0     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0002:00000230       ??_C@_0EI@KCEGLMMI@?$CGgEfiMonotonicCounterArchProtoc@ 0000000000015230     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0002:00000278       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015278     BasePrintLib:PrintLibInternal.obj
+ 0002:00000290       ??_C@_0FH@KLOBJBPP@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000015290     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000002e8       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000152e8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000300       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015300     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000340       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015340     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000380       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000015380     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000003d0       ??_C@_0ED@JLFCAFGL@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000153d0     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000418       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000015418     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000458       ??_C@_0DI@MBLLHEOH@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015458     BaseLib:Unaligned.obj
+ 0002:00000490       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015490     BaseLib:String.obj
+ 0002:000004a8       ??_C@_0DF@EAHDDLM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000154a8     BaseLib:String.obj
+ 0002:000004e0       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 00000000000154e0     BaseLib:String.obj
+ 0002:00000518       ??_C@_0DJ@DNFJNBOO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015518     BaseLib:SafeString.obj
+ 0002:00000558       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000015558     BaseLib:SafeString.obj
+ 0002:00000580       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 0000000000015580     BaseLib:SafeString.obj
+ 0002:000005c0       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00000000000155c0     BaseLib:SafeString.obj
+ 0002:000005e0       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 00000000000155e0     BaseLib:SafeString.obj
+ 0002:000005f0       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 00000000000155f0     BaseLib:SafeString.obj
+ 0002:00000608       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0000000000015608     BaseLib:SafeString.obj
+ 0002:00000650       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0000000000015650     BaseLib:SafeString.obj
+ 0002:000006b0       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 00000000000156b0     BaseLib:SafeString.obj
+ 0002:000006c0       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 00000000000156c0     BaseLib:SafeString.obj
+ 0002:00000700       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 0000000000015700     BaseLib:ARShiftU64.obj
+ 0002:00000710       ??_C@_0DI@FAGDBCDM@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015710     BaseLib:LShiftU64.obj
+ 0002:00000748       ??_C@_0DI@LFEKCMNO@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015748     BaseLib:RShiftU64.obj
+ 0002:00000780       ??_C@_0BL@CPGKAMND@JumpBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015780     BaseLib:SetJump.obj
+ 0002:000007a0       ??_C@_0DG@HPLDDALP@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000157a0     BaseLib:SetJump.obj
+ 0002:000007d8       ??_C@_0CD@OEHNCIHG@?$CI?$CIUINTN?$CJJumpBuffer?5?$CG?5?$CI8?5?9?51?$CJ?$CJ?5?$DN@ 00000000000157d8     BaseLib:SetJump.obj
+ 0002:00000800       ??_C@_0FE@BEFIIBEL@D?3?2develop?2EDK2?2edk2?2MdeModuleP@ 0000000000015800     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000858       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 0000000000015858     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000888       ??_C@_01OHGJGJJP@?$FL@     0000000000015888     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:0000088c       ??_C@_02PBFOLPKM@?$FN?5@   000000000001588c     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000890       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015890     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000008b0       ??_C@_0FI@GPPFIFID@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000158b0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000908       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015908     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000920       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015920     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000938       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000015938     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000950       ??_C@_0FO@FKLKMJDF@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 0000000000015950     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000009b0       ??_C@_0EA@PLPDONMA@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000159b0     UefiRuntimeLib:RuntimeLib.obj
+ 0002:000009f0       ??_C@_0EM@JLGHJKPJ@D?3?2develop?2EDK2?2edk2?2MdePkg?2Lib@ 00000000000159f0     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000a90       __volatile_metadata        0000000000015a90     <linker-defined>
  0003:00000000       m16Size                    0000000000016000     BaseLib:Thunk16.obj
  0003:00000002       mThunk16Attr               0000000000016002     BaseLib:Thunk16.obj
  0003:00000004       m16Gdt                     0000000000016004     BaseLib:Thunk16.obj

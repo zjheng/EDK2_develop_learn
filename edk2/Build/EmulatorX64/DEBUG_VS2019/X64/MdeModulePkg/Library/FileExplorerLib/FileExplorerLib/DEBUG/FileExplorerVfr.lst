@@ -1,8 +1,8 @@
 //
 //  VFR compiler version  2.01 (UEFI 2.4) Developer Build based on Revision: Unknown
 //
-#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerVfr.vfr"
-#line 1 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerLib\\DEBUG\\FileExplorerLibStrDefs.h"
+#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerVfr.vfr"
+#line 1 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerLib\\DEBUG\\FileExplorerLibStrDefs.h"
 
 
 
@@ -49,12 +49,10 @@ extern unsigned char FileExplorerLibStrings[];
 
 
 
-#line 48 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerLib\\DEBUG\\FileExplorerLibStrDefs.h"
+#line 48 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerLib\\DEBUG\\FileExplorerLibStrDefs.h"
 
-#line 50 "D:\\develop\\Self_develop\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerLib\\DEBUG\\FileExplorerLibStrDefs.h"
-#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerVfr.vfr"
-
-
+#line 50 "D:\\develop\\EDK2\\edk2\\Build\\EmulatorX64\\DEBUG_VS2019\\X64\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerLib\\DEBUG\\FileExplorerLibStrDefs.h"
+#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerVfr.vfr"
 
 
 
@@ -62,9 +60,9 @@ extern unsigned char FileExplorerLibStrings[];
 
 
 
-#line 1 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\FileExplorerLib\\FormGuid.h"
 
 
+#line 1 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\FileExplorerLib\\FormGuid.h"
 
 
 
@@ -91,8 +89,10 @@ extern unsigned char FileExplorerLibStrings[];
 
 
 
-#line 30 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\FileExplorerLib\\FormGuid.h"
-#line 11 "D:\\develop\\Self_develop\\edk2\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerVfr.vfr"
+
+
+#line 30 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\FileExplorerLib\\FormGuid.h"
+#line 11 "D:\\develop\\EDK2\\edk2\\MdeModulePkg\\Library\\FileExplorerLib\\FileExplorerVfr.vfr"
 
 formset
 >00000000: 0E A7 96 15 56 FE BF E6 A6 41 83 76 C7 2B 71 98 74 D0 03 00 02 00 01 96 15 56 FE BF E6 A6 41 83 76 C7 2B 71 98 74 D0 
