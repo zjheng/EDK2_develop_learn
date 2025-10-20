@@ -1,1 +1,0 @@
-D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\NetworkPkg\Udp4Dxe\Udp4Dxe\Makefile

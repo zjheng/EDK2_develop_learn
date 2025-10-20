@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Bus\Scsi\ScsiBusDxe\ScsiBusDxe\DEBUG\AutoGen.c D:\develop\EDK2\edk2\MdeModulePkg\Bus\Scsi\ScsiBusDxe\ScsiBus.c D:\develop\EDK2\edk2\MdeModulePkg\Bus\Scsi\ScsiBusDxe\ComponentName.c

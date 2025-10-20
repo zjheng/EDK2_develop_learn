@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\CryptoPkg\Library\OpensslLib\openssl\crypto\http\http_lib.c D:\develop\EDK2\edk2\CryptoPkg\Library\OpensslLib\openssl\crypto\http\http_err.c D:\develop\EDK2\edk2\CryptoPkg\Library\OpensslLib\openssl\crypto\http\http_client.c

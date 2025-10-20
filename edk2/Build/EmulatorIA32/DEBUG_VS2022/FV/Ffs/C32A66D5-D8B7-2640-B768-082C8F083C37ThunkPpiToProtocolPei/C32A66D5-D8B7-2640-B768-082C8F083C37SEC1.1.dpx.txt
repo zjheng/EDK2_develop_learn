@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PEI_DEPEX -o D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\FV\Ffs\C32A66D5-D8B7-2640-B768-082C8F083C37ThunkPpiToProtocolPei\C32A66D5-D8B7-2640-B768-082C8F083C37SEC1.1.dpx D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\OUTPUT\ThunkPpiToProtocolPei.depex

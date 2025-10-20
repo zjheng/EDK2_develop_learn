@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\EmulatorPkg\EmuBlockIoDxe\DriverConfiguration.c D:\develop\EDK2\edk2\EmulatorPkg\EmuBlockIoDxe\ComponentName.c D:\develop\EDK2\edk2\EmulatorPkg\EmuBlockIoDxe\DriverDiagnostics.c D:\develop\EDK2\edk2\EmulatorPkg\EmuBlockIoDxe\EmuBlockIo.c D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\EmuBlockIoDxe\EmuBlockIoDxe\DEBUG\AutoGen.c

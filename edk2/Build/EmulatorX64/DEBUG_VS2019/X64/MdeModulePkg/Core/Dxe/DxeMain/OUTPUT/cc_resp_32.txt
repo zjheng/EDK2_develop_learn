@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\DxeMain\DxeMain.c D:\develop\EDK2\edk2\MdeModulePkg\Core\Dxe\DxeMain\DxeProtocolNotify.c

@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\FV\Ffs\9842073D-95D9-9F49-BD3F-2E29525125DFEmuBusDriver\9842073D-95D9-9F49-BD3F-2E29525125DFSEC2.1.1.1.pe32 D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\EmuBusDriverDxe\EmuBusDriverDxe\OUTPUT\EmuBusDriver.efi

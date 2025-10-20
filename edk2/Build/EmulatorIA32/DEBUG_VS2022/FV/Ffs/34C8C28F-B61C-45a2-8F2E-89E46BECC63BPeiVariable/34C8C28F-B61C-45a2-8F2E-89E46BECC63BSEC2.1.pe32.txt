@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\FV\Ffs\34C8C28F-B61C-45a2-8F2E-89E46BECC63BPeiVariable\34C8C28F-B61C-45a2-8F2E-89E46BECC63BSEC2.1.pe32 D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\Variable\Pei\VariablePei\OUTPUT\PeiVariable.efi

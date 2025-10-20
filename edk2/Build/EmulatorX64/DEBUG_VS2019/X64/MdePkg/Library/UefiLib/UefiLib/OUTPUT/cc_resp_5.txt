@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\MdePkg\Library\UefiLib\UefiNotTiano.c D:\develop\EDK2\edk2\MdePkg\Library\UefiLib\UefiDriverModel.c D:\develop\EDK2\edk2\MdePkg\Library\UefiLib\UefiLib.c D:\develop\EDK2\edk2\MdePkg\Library\UefiLib\Acpi.c D:\develop\EDK2\edk2\MdePkg\Library\UefiLib\Console.c D:\develop\EDK2\edk2\MdePkg\Library\UefiLib\UefiLibPrint.c

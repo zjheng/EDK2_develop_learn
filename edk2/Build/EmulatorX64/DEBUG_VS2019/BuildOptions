@@ -1,4 +1,0 @@
-gCommandLineDefines: {'ARCH': 'X64'}
-BuildOptionPcd: []
-Active Platform: D:\develop\EDK2\edk2\EmulatorPkg\EmulatorPkg.dsc
-Flash Image Definition: D:\develop\EDK2\edk2\EmulatorPkg\EmulatorPkg.fdf

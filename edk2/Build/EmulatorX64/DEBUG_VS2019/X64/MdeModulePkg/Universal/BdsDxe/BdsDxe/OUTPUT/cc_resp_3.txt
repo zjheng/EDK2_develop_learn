@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Universal\BdsDxe\BdsDxe\DEBUG\AutoGen.c D:\develop\EDK2\edk2\MdeModulePkg\Universal\BdsDxe\Language.c D:\develop\EDK2\edk2\MdeModulePkg\Universal\BdsDxe\BdsEntry.c D:\develop\EDK2\edk2\MdeModulePkg\Universal\BdsDxe\HwErrRecSupport.c

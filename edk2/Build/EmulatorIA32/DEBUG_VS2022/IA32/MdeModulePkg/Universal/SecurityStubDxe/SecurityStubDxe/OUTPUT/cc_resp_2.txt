@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\MdeModulePkg\Universal\SecurityStubDxe\Defer3rdPartyImageLoad.c D:\develop\EDK2\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\SecurityStubDxe\SecurityStubDxe\DEBUG\AutoGen.c D:\develop\EDK2\edk2\MdeModulePkg\Universal\SecurityStubDxe\SecurityStub.c

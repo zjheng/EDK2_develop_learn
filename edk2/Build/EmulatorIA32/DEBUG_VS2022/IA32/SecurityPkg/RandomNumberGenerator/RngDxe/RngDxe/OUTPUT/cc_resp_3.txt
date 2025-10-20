@@ -1,1 +1,0 @@
-  D:\develop\EDK2\edk2\SecurityPkg\RandomNumberGenerator\RngDxe\Rand\RdRand.c D:\develop\EDK2\edk2\SecurityPkg\RandomNumberGenerator\RngDxe\Rand\RngDxe.c D:\develop\EDK2\edk2\SecurityPkg\RandomNumberGenerator\RngDxe\Rand\AesCore.c
