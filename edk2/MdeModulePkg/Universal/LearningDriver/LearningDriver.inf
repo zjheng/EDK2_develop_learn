@@ -1,0 +1,49 @@
+## @file
+# The DXE driver produces FORM DISPLAY ENGIEN protocol.
+#
+# Copyright (c) 2007 - 2018, Intel Corporation. All rights reserved.<BR>
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = LearningDriver
+  FILE_GUID                      = DB54F385-3CAF-4D33-B83E-369D3C05BBB1
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = LearningDriverEntryPoint
+#
+# The following information is for reference only and not required by the build tools.
+#
+#  VALID_ARCHITECTURES           = IA32 X64 EBC
+#
+
+[Sources]
+  LearningDriver.c
+  LearningDriver.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  UefiBootServicesTableLib
+  DebugLib
+  BaseMemoryLib
+  BaseLib
+  PrintLib
+  HiiLib
+  MemoryAllocationLib
+  CustomizedDisplayLib
+
+[Protocols]
+    gEfiGraphicsOutputProtocolGuid
+    gEfiFormBrowser2ProtocolGuid
+
+[Depex]
+    gEfiSimpleTextOutProtocolGuid
+#  TRUE

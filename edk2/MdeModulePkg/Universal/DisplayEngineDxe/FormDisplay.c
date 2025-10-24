@@ -8,6 +8,8 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 **/
 
 #include "FormDisplay.h"
+#include <Library/DebugLib.h>
+#include <Library/UefiRuntimeServicesTableLib.h>
 
 //
 // Search table for UiDisplayMenu()
@@ -4303,6 +4305,18 @@ InitializeDisplayEngine (
     FormBrowserEx2->RegisterHotKey (&HotKey, BROWSER_ACTION_DEFAULT, EFI_HII_DEFAULT_CLASS_STANDARD, NewString);
     FreePool (NewString);
   }
+
+  DEBUG ((DEBUG_ERROR, "zjdbg %a() Line:%d\n",__func__,__LINE__));
+  BOOLEAN SetupEntered = TRUE;
+  EFI_GUID gSetupEnteredGuid = { 0x706a87f1, 0x9d6d, 0x4927, { 0x9d, 0xa, 0xf3, 0x2f, 0xbb, 0xf2, 0xa9, 0xac } };
+  Status = gRT->SetVariable(
+    L"SetupEntered",
+    &gSetupEnteredGuid,
+    EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS,
+    sizeof(BOOLEAN),
+    &SetupEntered
+  );
+  DEBUG ((DEBUG_ERROR, "zjdbg %a() Line:%d status:%r\n",__func__,__LINE__, Status));
 
   return EFI_SUCCESS;
 }

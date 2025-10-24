@@ -478,6 +478,7 @@
     <LibraryClasses>
       PcdLib|MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf
   }
+  # MdeModulePkg/Universal/LearningDriver/LearningDriver.inf
 
   FatPkg/EnhancedFatDxe/Fat.inf
 
