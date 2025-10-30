@@ -16,6 +16,13 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 #include "Language.h"
 #include "HwErrRecSupport.h"
 #include <Library/VariablePolicyHelperLib.h>
+#include <Library/DebugLib.h>
+#include "../DriverSampleDxe/NVDataStruc.h"
+#include <Guid/DriverSampleHii.h>
+#include <Library/TimerLib.h>
+#include <Library/BaseLib.h>
+#include <Library/PcdLib.h>
+#include <Guid/MdePkgTokenSpace.h>
 
 #define SET_BOOT_OPTION_SUPPORT_KEY_COUNT(a, c)  { \
       (a) = ((a) & ~EFI_BOOT_OPTION_SUPPORT_COUNT) | (((c) << LowBitSet32 (EFI_BOOT_OPTION_SUPPORT_COUNT)) & EFI_BOOT_OPTION_SUPPORT_COUNT); \
@@ -50,6 +57,25 @@ CHAR16  *mBdsLoadOptionName[] = {
   L"Boot",
   L"PlatformRecovery"
 };
+
+STATIC UINT64 gBootStart = 0;
+
+VOID EFIAPI PrintBootTime(CONST CHAR8 *Stage)
+{
+  UINT64 Now = GetPerformanceCounter();
+  UINT64 Freq = GetPerformanceCounterProperties(NULL, NULL);
+
+  if (gBootStart == 0) {
+    gBootStart = Now;
+    DEBUG((DEBUG_ERROR, "[BOOT TIME] Start\n"));
+    return;
+  }
+
+  UINT64 Us = (Now - gBootStart) * 1000000 / Freq;
+  DEBUG((DEBUG_ERROR, "[BOOT TIME] %a: %ld us (%ld.%03ld s)\n",
+         Stage, Us, Us / 1000000, (Us % 1000000) / 1000));
+  gBootStart = Now;
+}
 
 /**
   Event to Connect ConIn.
@@ -1086,6 +1112,35 @@ BdsEntry (
           // Exception: Do not boot again when the BootNext points to Boot Manager Menu.
           //
           EfiBootManagerBoot (&BootManagerMenu);
+        }
+      }
+    }
+
+    PrintBootTime("Start Read Setup");
+    UINTN                       BufferSize;
+    MY_EFI_BITS_VARSTORE_DATA   SetupData;
+    BufferSize = sizeof (MY_EFI_BITS_VARSTORE_DATA);
+    EFI_GUID                  mSystemSetupNvDataGuid = DRIVER_SAMPLE_FORMSET_GUID;
+    Status = gRT->GetVariable(
+                  L"MyEfiBitVar",
+                  &mSystemSetupNvDataGuid,
+                  NULL,
+                  &BufferSize,
+                  &SetupData
+                  );
+    DEBUG ((DEBUG_ERROR, "zjdbg status:%r data:%d\n",Status,SetupData.BitsData.FastBoot));
+
+    if (SetupData.BitsData.FastBoot == 1) {
+      UINTN i,count;
+      LoadOptions = EfiBootManagerGetLoadOptions (&count, LoadOptionTypeBoot);
+      DEBUG ((DEBUG_ERROR, "zjdbg enter FastBoot mode, count=%d\n",count)); 
+      for (i=0; i<count; i++) {
+        DEBUG ((DEBUG_ERROR, "zjdbg no:%d boot description:%s\n",i, LoadOptions[i].Description)); 
+        DEBUG ((DEBUG_ERROR, "zjdbg Attributes:0x%x LOAD_OPTION_ACTIVE:0x%x\n",LoadOptions[i].Attributes, LOAD_OPTION_ACTIVE)); 
+        if (LoadOptions[i].Attributes & LOAD_OPTION_ACTIVE) {
+          PrintBootTime("Setup Done");
+          EfiBootManagerBoot(&LoadOptions[i]);
+          // CpuDeadLoop();
         }
       }
     }

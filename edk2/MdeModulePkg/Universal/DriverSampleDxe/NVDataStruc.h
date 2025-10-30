@@ -45,6 +45,7 @@ typedef struct {
   UINT8     NestBitOneof    : 2;
   UINT8                     : 0; // Special width 0 can be used to force alignment at the next word boundary
   UINT8     NestBitNumeric  : 4;
+  UINT8          FastBoot;
 } MY_BITS_DATA;
 
 typedef union {
