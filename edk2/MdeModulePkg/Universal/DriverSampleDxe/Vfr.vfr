@@ -834,6 +834,13 @@ formset
 
     subtitle text = STRING_TOKEN(STR_NEST_BIT_EFI_VARSTORE);
 
+    oneof varid  = MyEfiBitVar.BitsData.FastBoot,
+      prompt      = STRING_TOKEN(STR_FAST_BOOT_PROMPT),
+      help        = STRING_TOKEN(STR_FAST_BOOT_HELP),
+      option text = STRING_TOKEN(STR_FAST_BOOT_ENABLE), value = 1, flags = MANUFACTURING;
+      option text = STRING_TOKEN(STR_FAST_BOOT_DISABLE), value = 0, flags = DEFAULT;
+    endoneof;
+
     checkbox varid   = MyEfiBitVar.BitsData.NestBitCheckbox,
              prompt   = STRING_TOKEN(STR_BIT_NEST_CHECK_BOX_PROMPT),
              help     = STRING_TOKEN(STR_BIT_NEST_CHECK_BOX_HELP),
